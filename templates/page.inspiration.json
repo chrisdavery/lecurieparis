@@ -58,7 +58,6 @@
         "link_qT676c",
         "link_bDmVhL"
       ],
-      "disabled": true,
       "settings": {
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only"
@@ -70,7 +69,7 @@
         "text_YGNaag": {
           "type": "text",
           "settings": {
-            "text": "<p>French design often embraces a timeless, chic style. <br\/>This can be seen in the use of classic colors, refined materials, and meticulous attention to detail.<\/p><p>Art, fashion, and cuisine profoundly influence French design, leading to a fusion of styles that reflect contemporary trends while honoring tradition.<\/p>",
+            "text": "<p>French design often embraces a timeless, chic style. <br/>This can be seen in the use of classic colors, refined materials, and meticulous attention to detail.</p><p>Art, fashion, and cuisine profoundly influence French design, leading to a fusion of styles that reflect contemporary trends while honoring tradition.</p>",
             "text_font_class": "fs-body-75"
           }
         }
@@ -96,8 +95,8 @@
             "width": "50",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/gainsbourg.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/gainsbourg.jpg",
+            "image": "shopify://shop_images/gainsbourg.jpg",
+            "mobile_image": "shopify://shop_images/gainsbourg.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -129,7 +128,7 @@
             "width": "25",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/boat.jpg",
+            "image": "shopify://shop_images/boat.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -147,10 +146,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -179,7 +178,7 @@
         "text_YKhiP8": {
           "type": "text",
           "settings": {
-            "text": "<p>Horses have had a significant influence on French fashion, reflecting the country’s rich equestrian culture and historical ties to nobility.<br\/>Horses represent freedom and empowerment, qualities that resonate deeply in women's fashion.<\/p>",
+            "text": "<p>Horses have had a significant influence on French fashion, reflecting the country’s rich equestrian culture and historical ties to nobility.<br/>Horses represent freedom and empowerment, qualities that resonate deeply in women's fashion.</p>",
             "text_font_class": "fs-body-75"
           }
         }
@@ -205,8 +204,8 @@
             "width": "33",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/IMG_1444.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/IMG_1444.jpg",
+            "image": "shopify://shop_images/IMG_1444.jpg",
+            "mobile_image": "shopify://shop_images/IMG_1444.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -224,10 +223,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -238,8 +237,8 @@
             "width": "50",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/IMG_1433.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/IMG_1433.jpg",
+            "image": "shopify://shop_images/IMG_1433.jpg",
+            "mobile_image": "shopify://shop_images/IMG_1433.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -257,10 +256,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -289,7 +288,7 @@
         "text_pekaTp": {
           "type": "text",
           "settings": {
-            "text": "<p>How not to admire the parisian streets and monument.<br\/>Paris has long been regarded as the fashion capital of the world, influencing global trends and setting the standard for style.<\/p>",
+            "text": "<p>How not to admire the parisian streets and monument.<br/>Paris has long been regarded as the fashion capital of the world, influencing global trends and setting the standard for style.</p>",
             "text_font_class": "fs-body-75"
           }
         }
@@ -315,8 +314,8 @@
             "width": "66",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/paris2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/paris2.jpg",
+            "image": "shopify://shop_images/paris2.jpg",
+            "mobile_image": "shopify://shop_images/paris2.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -334,10 +333,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 11
           }
@@ -365,7 +364,7 @@
         "text_iAK7FL": {
           "type": "text",
           "settings": {
-            "text": "<p>Classic cars, much like high fashion and equestrian style, embody a sense of timeless elegance.<br\/>The curves and lines of vintage vehicles often mirror the silhouettes found in classic fashion and riding attire.<\/p>",
+            "text": "<p>Classic cars, much like high fashion and equestrian style, embody a sense of timeless elegance.<br/>The curves and lines of vintage vehicles often mirror the silhouettes found in classic fashion and riding attire.</p>",
             "text_font_class": "fs-body-75"
           }
         }
@@ -391,8 +390,8 @@
             "width": "33",
             "height": 800,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/new-L_Ecurie-2010.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-2010.jpg",
+            "image": "shopify://shop_images/new-L_Ecurie-2010.jpg",
+            "mobile_image": "shopify://shop_images/new-L_Ecurie-2010.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -410,10 +409,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -424,8 +423,8 @@
             "width": "33",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/new-L_Ecurie-1840.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-1840.jpg",
+            "image": "shopify://shop_images/new-L_Ecurie-1840.jpg",
+            "mobile_image": "shopify://shop_images/new-L_Ecurie-1840.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -443,10 +442,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
