@@ -13,6 +13,10 @@
         line-height: 1.2em;
         display: block;
     }
+
+    .page-nav a.active {
+        font-weight: bold;
+    }
 {% endstyle %}
 
 <div
@@ -27,7 +31,7 @@
         {% for block in section.blocks %}
             {% if block.settings.text != blank %}
                 <li>
-                    <a href="{{ block.settings.link }}">{{ block.settings.text }}</a>
+                    <a href="{{ block.settings.link }}" {% if page.url == block.settings.link %}class="active"{% endif %}>{{ block.settings.text }}</a>
                 </li>
             {% endif %}
         {% endfor %}
