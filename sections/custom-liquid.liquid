@@ -6,9 +6,6 @@
       section--divider-{{ section.settings.divider_style }}
       {{ section.settings.section_padding }}
     "
-    {% if section.settings.section_id != blank %}
-      id="{{ section.settings.section_id }}"
-    {% endif %}
   >
     {{ section.settings.custom_liquid }}
   </div>
@@ -22,11 +19,6 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
-    {
-      "type": "text",
-      "id": "section_id",
-      "label": "Section ID"
-    },
     {
       "type": "checkbox",
       "id": "black_header",

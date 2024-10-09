@@ -37,9 +37,6 @@
     --grid-gap-row-mobile: {{ section.settings.row_spacing_mobile }}px;
     {% render 'overlay-button-vars', color_button_text: section.settings.button_text_color, color_button_background: section.settings.button_background_color %}
   "
-  {% if section.settings.section_id != blank %}
-    id="{{ section.settings.section_id }}"
-  {% endif %}
 >
   <div
     class="
@@ -123,11 +120,6 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
-    {
-      "type": "text",
-      "id": "section_id",
-      "label": "Section ID"
-    },
     {
       "type": "checkbox",
       "id": "black_header",
