@@ -20,7 +20,7 @@
         {% for block in section.blocks %}
             {% if block.settings.text != blank %}
                 <li>
-                    <a href="{{ block.settings.link }}" target="_blank">{{ block.settings.text }}</a>
+                    <a href="{{ block.settings.link }}">{{ block.settings.text }}</a>
                 </li>
             {% endif %}
         {% endfor %}
