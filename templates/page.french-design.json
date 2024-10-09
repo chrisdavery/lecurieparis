@@ -26,7 +26,7 @@
         "link_bDmVhL": {
           "type": "link",
           "settings": {
-            "text": "LA MAISON L'ÉCURIE PARIS",
+            "text": "LA MAISON",
             "link": "shopify://pages/la-maison-lecurie-paris"
           }
         },
@@ -50,13 +50,21 @@
             "text": "INSPIRATION",
             "link": "shopify://pages/inspiration"
           }
+        },
+        "link_G73Jnz": {
+          "type": "link",
+          "settings": {
+            "text": "CRAFTSMANSHIP",
+            "link": "shopify://pages/craftmanship"
+          }
         }
       },
       "block_order": [
         "link_bDmVhL",
         "link_X8bCYN",
         "link_X63kAL",
-        "link_qT676c"
+        "link_qT676c",
+        "link_G73Jnz"
       ],
       "settings": {
         "divider_style": "none",
