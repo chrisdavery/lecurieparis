@@ -27,7 +27,7 @@
           "type": "link",
           "settings": {
             "text": "THE STORY",
-            "link": "https://lecurieparis.com/pages/a-design-story"
+            "link": "shopify://pages/a-design-story"
           }
         },
         "link_X63kAL": {
@@ -79,7 +79,6 @@
         "text_cgxQGh"
       ],
       "settings": {
-        "section_id": "",
         "black_header": false,
         "alignment": "center_center",
         "enable_animation": false,
@@ -126,7 +125,6 @@
         "text_BCdexH"
       ],
       "settings": {
-        "section_id": "lorem1",
         "black_header": false,
         "alignment": "center_center",
         "enable_animation": false,
@@ -190,7 +188,6 @@
         "image_column_hGUQy6"
       ],
       "settings": {
-        "section_id": "lorem2",
         "black_header": false,
         "title": "",
         "heading_tag": "h2",
@@ -274,7 +271,6 @@
         "image_column_GXGWnx"
       ],
       "settings": {
-        "section_id": "",
         "black_header": false,
         "title": "",
         "heading_tag": "h2",
