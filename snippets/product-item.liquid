@@ -184,7 +184,6 @@
       {%- if show_multiple_images %} product-item__media--multiple-images {%- endif %}
       {%- if show_as_slider %} product-item__media--slider {%- endif %}
       ">
-      <a class="product-item__image-link" href="{{ prod.url | within: collection }}" aria-label="{{ prod.title }}">
         {%- liquid
           assign image_wrapper_class = 'product-item__image'
 
@@ -200,64 +199,83 @@
 
         
         {% unless show_as_slider %}
-          {% render 'image',
-            image: prod.featured_media,
-            wrapper_class: image_wrapper_class,
-            aspect_ratio: settings.product_listing_aspect_ratio,
-            object_fit: settings.product_listing_media_fit,
-            include_placeholder: true,
-            sizes: sizes,
-            src_set_type: 'grid'
-          %}
-          {%- if show_multiple_images -%}
-            {% render 'image',
-              image: second_image,
-              wrapper_class: 'product-item__image product-item__image--two',
-              aspect_ratio: settings.product_listing_aspect_ratio,
-              object_fit: settings.product_listing_media_fit,
-              include_placeholder: true,
-              sizes: sizes,
-              no_lazy_load: true,
-              src_set_type: 'grid'
-            %}
-          {%- endif -%}
+          <a class="product-item__image-link" href="{{ prod.url | within: collection }}" aria-label="{{ prod.title }}">
+              {% render 'image',
+                image: prod.featured_media,
+                wrapper_class: image_wrapper_class,
+                aspect_ratio: settings.product_listing_aspect_ratio,
+                object_fit: settings.product_listing_media_fit,
+                include_placeholder: true,
+                sizes: sizes,
+                src_set_type: 'grid'
+              %}
+              {%- if show_multiple_images -%}
+                {% render 'image',
+                  image: second_image,
+                  wrapper_class: 'product-item__image product-item__image--two',
+                  aspect_ratio: settings.product_listing_aspect_ratio,
+                  object_fit: settings.product_listing_media_fit,
+                  include_placeholder: true,
+                  sizes: sizes,
+                  no_lazy_load: true,
+                  src_set_type: 'grid'
+                %}
+              {%- endif -%}
+          </a>
         {% endunless %}
 
         {% if show_as_slider %}
           <slider-collection-item
             class="
               product-item__slider__content
-              carousel
-              carousel--mobile-per-view-1
-              carousel--per-view-1
-              swiper
             "  
             data-products-per-view="1"
             data-mobile-products-per-view="1"
           > 
-            <div class="product-item__slider carousel__wrapper swiper-wrapper">
-              {% for media in prod.media %}
-                <div class="product-list-slider__collection carousel__slide swiper-slide">
-                  {% case media.media_type %}
-                    {% when 'image' %}
-                      <div class="product-item--media">
-                        {% render 'image',
-                          image: media.preview_image,
-                          wrapper_class: image_wrapper_class,
-                          aspect_ratio: settings.product_listing_aspect_ratio,
-                          object_fit: settings.product_listing_media_fit,
-                          include_placeholder: true,
-                          sizes: sizes,
-                          src_set_type: 'grid'
-                        %}
-                      </div>
-                  {% endcase %}
-                </div>
-              {% endfor %}
+            <div class="product-item__slider__inner swiper">
+              <div class="product-item__slider carousel__wrapper swiper-wrapper">
+                {% for media in prod.media %}
+                  <div class="product-list-slider__collection carousel__slide swiper-slide">
+                    <a class="product-item__image-link" href="{{ prod.url | within: collection }}" aria-label="{{ prod.title }}">
+                      {% case media.media_type %}
+                        {% when 'image' %}
+                          <div class="product-item--media">
+                            {% render 'image',
+                              image: media.preview_image,
+                              wrapper_class: image_wrapper_class,
+                              aspect_ratio: settings.product_listing_aspect_ratio,
+                              object_fit: settings.product_listing_media_fit,
+                              include_placeholder: true,
+                              sizes: sizes,
+                              src_set_type: 'grid'
+                            %}
+                          </div>
+                      {% endcase %}
+                    </a>
+                  </div>
+                {% endfor %}
+              </div>
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
             </div>
+              <button
+                type="button"
+                class="carousel__navigation-button carousel__navigation-button--back"
+                data-prev
+                aria-label="{{ 'general.accessibility.carousel_previous' | t }}"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="false"><path stroke="currentColor" d="m15 18-6-6 6-6"></path></svg>
+              </button>
+              <button
+                type="button"
+                class="carousel__navigation-button carousel__navigation-button--forward"
+                data-next
+                aria-label="{{ 'general.accessibility.carousel_next' | t }}"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="false"><path stroke="currentColor" d="m9 6 6 6-6 6"></path></svg>
+              </button>
           </slider-collection-item>
         {% endif %}
-      </a>
       {% unless placeholder %}
         {%- render 'product-badges',
           prod: prod,
