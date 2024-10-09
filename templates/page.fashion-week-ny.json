@@ -29,6 +29,38 @@
         "custom_content_width": 700
       }
     },
+    "1e9b27a5-4825-4006-88fe-a58b14bbb7b6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-0": {
+          "type": "heading",
+          "settings": {
+            "title": "NEW YORK FASHION WEEK  2023 SHOW",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L'ÉCURIE PARIS on the runway on selected Fashion Designer.<br/>Sharing the beauty of LP Eyewear with the beauty of Fashion models.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-0",
+        "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-1"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "7c2b5064-22e0-4b2c-9ea8-0d555fdfde17": {
       "type": "video",
       "blocks": {
@@ -79,45 +111,6 @@
         "overlay_opacity": 0,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "1e9b27a5-4825-4006-88fe-a58b14bbb7b6": {
-      "type": "rich-text",
-      "blocks": {
-        "57b9ebfb-5042-4ef7-b4a2-7060b2b60d75": {
-          "type": "accent",
-          "settings": {
-            "accent": "March 2023"
-          }
-        },
-        "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-0": {
-          "type": "heading",
-          "settings": {
-            "title": "<h1>NEW YORK FASHION WEEK  2023 SHOW</h1>",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base"
-          }
-        },
-        "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>L'ÉCURIE PARIS on the runway on selected Fashion Designer.<br/>Sharing the beauty of LP Eyewear with the beauty of Fashion models.</p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "57b9ebfb-5042-4ef7-b4a2-7060b2b60d75",
-        "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-0",
-        "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-1"
-      ],
-      "settings": {
-        "black_header": false,
-        "alignment": "left_left",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
       }
     },
     "ad47842f-1c01-4c84-8271-6a74e8980d0b": {
@@ -337,12 +330,12 @@
         "row_spacing_mobile": 20,
         "column_alignment_mobile": "left",
         "background_behind_columns": false,
-        "background_color": "",
-        "text_color": "#000000",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "enable_animation": true,
-        "divider_style": "solid",
+        "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
@@ -400,7 +393,7 @@
         "link_text": "",
         "button_style": "btn--callout",
         "enable_animation": true,
-        "divider_style": "solid",
+        "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_position_desktop": "inside"
       }
@@ -429,8 +422,8 @@
         "link": "",
         "link_text": "",
         "button_style": "btn--secondary",
-        "enable_animation": true,
-        "divider_style": "solid",
+        "enable_animation": false,
+        "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     }
@@ -438,8 +431,8 @@
   "order": [
     "custom_liquid_igTgD7",
     "main",
-    "7c2b5064-22e0-4b2c-9ea8-0d555fdfde17",
     "1e9b27a5-4825-4006-88fe-a58b14bbb7b6",
+    "7c2b5064-22e0-4b2c-9ea8-0d555fdfde17",
     "ad47842f-1c01-4c84-8271-6a74e8980d0b",
     "71a3d918-7fd5-469d-8539-85a7e9f115ed",
     "38aac0a7-8b34-4fd0-aa4c-f9d5bb9b7d19"
