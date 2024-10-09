@@ -1,12 +1,30 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "custom_liquid_3fqUDw": {
+      "type": "custom-liquid",
+      "settings": {
+        "black_header": false,
+        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: var(--color-text);\n}\n.header {\n--color-background-header:var(--color-text);\n--color-text-header: var(--color-background);\n}\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "rich_text_NQxijt": {
       "type": "rich-text",
       "blocks": {
         "text_CRAE9F": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"\/pages\/lp-campaign-2\" title=\"LP Campaign 2\">LP CAMPAIGN<\/a>   , <a href=\"\/blogs\/news\" title=\"LUXURY STORIES\">LUXURIE STORIES<\/a><\/p>",
+            "text": "<p><a href=\"/pages/lp-campaign-2\" title=\"LP Campaign 2\">LP CAMPAIGN</a>   , <a href=\"/blogs/news\" title=\"LUXURY STORIES\">LUXURIE STORIES</a></p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -83,9 +101,9 @@
       ],
       "settings": {
         "video_source": "shopify",
-        "video": "shopify:\/\/files\/videos\/Lecurie Film 7compressed.mp4",
+        "video": "shopify://files/videos/Lecurie Film 7compressed.mp4",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
+        "image": "shopify://shop_images/new-1R9A1791.jpg",
         "loop": false,
         "media_aspect_ratio": "landscape_wide_alt",
         "focal_point": "image_presentation",
@@ -106,7 +124,7 @@
         "text_f9rxcr": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Eyewear Design<\/strong><br\/>Lionel Moroy<br\/><strong>Creative director <\/strong><br\/>Jean-Baptiste Rougeot<br\/><strong>Fashion Models<br\/><\/strong>Danika Pienaar<br\/>Nalu Odigwe<br\/>Mike Boorn<br\/><strong>Stylist<\/strong> <br\/>Albright Fashion Library<br\/><strong>Hair<\/strong><br\/>Ric Pipino<br\/><strong>Makeup<\/strong><br\/>Uzo Aduba<br\/><strong>video<\/strong><br\/>Fletcher Cowan<br\/><strong>Photo<\/strong><br\/>Daniel Sachon<br\/><strong>Producer<\/strong><br\/>Dan Cingary<br\/><\/p>",
+            "text": "<p><strong>Eyewear Design</strong><br/>Lionel Moroy<br/><strong>Creative director </strong><br/>Jean-Baptiste Rougeot<br/><strong>Fashion Models<br/></strong>Danika Pienaar<br/>Nalu Odigwe<br/>Mike Boorn<br/><strong>Stylist</strong> <br/>Albright Fashion Library<br/><strong>Hair</strong><br/>Ric Pipino<br/><strong>Makeup</strong><br/>Uzo Aduba<br/><strong>video</strong><br/>Fletcher Cowan<br/><strong>Photo</strong><br/>Daniel Sachon<br/><strong>Producer</strong><br/>Dan Cingary<br/></p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -132,8 +150,8 @@
             "width": "25",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/new-1R9A0167.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-741.jpg",
+            "image": "shopify://shop_images/new-1R9A0167.jpg",
+            "mobile_image": "shopify://shop_images/new-L_Ecurie-741.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -165,8 +183,8 @@
             "width": "25",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/new-L_Ecurie-472.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-472.jpg",
+            "image": "shopify://shop_images/new-L_Ecurie-472.jpg",
+            "mobile_image": "shopify://shop_images/new-L_Ecurie-472.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -198,8 +216,8 @@
             "width": "25",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/new-1R9A0274.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/new-1R9A0274.jpg",
+            "image": "shopify://shop_images/new-1R9A0274.jpg",
+            "mobile_image": "shopify://shop_images/new-1R9A0274.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -231,8 +249,8 @@
             "width": "50",
             "height": 300,
             "mobile_height": 300,
-            "image": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
+            "image": "shopify://shop_images/new-1R9A1791.jpg",
+            "mobile_image": "shopify://shop_images/new-1R9A1791.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -264,8 +282,8 @@
             "width": "50",
             "height": 300,
             "mobile_height": 300,
-            "image": "shopify:\/\/shop_images\/new-1R9A1190.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/new-1R9A1466.jpg",
+            "image": "shopify://shop_images/new-1R9A1190.jpg",
+            "mobile_image": "shopify://shop_images/new-1R9A1466.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -297,8 +315,8 @@
             "width": "33",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/new-L_Ecurie-162.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-162.jpg",
+            "image": "shopify://shop_images/new-L_Ecurie-162.jpg",
+            "mobile_image": "shopify://shop_images/new-L_Ecurie-162.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -330,7 +348,7 @@
             "width": "33",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/new-L_Ecurie-2010.jpg",
+            "image": "shopify://shop_images/new-L_Ecurie-2010.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -397,8 +415,8 @@
       "settings": {
         "video_position": "right",
         "video_position_mobile": "above-content",
-        "video": "shopify:\/\/files\/videos\/Lecurie Film 1compressed.mp4",
-        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 1compressed.mp4",
+        "video": "shopify://files/videos/Lecurie Film 1compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 1compressed.mp4",
         "aspect_ratio": "natural",
         "aspect_ratio_mobile": "natural",
         "focal_point": "center",
@@ -431,8 +449,8 @@
       "settings": {
         "video_position": "right",
         "video_position_mobile": "above-content",
-        "video": "shopify:\/\/files\/videos\/Lecurie Film 2compressed.mp4",
-        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 2compressed.mp4",
+        "video": "shopify://files/videos/Lecurie Film 2compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 2compressed.mp4",
         "aspect_ratio": "natural",
         "aspect_ratio_mobile": "natural",
         "focal_point": "center",
@@ -465,8 +483,8 @@
       "settings": {
         "video_position": "right",
         "video_position_mobile": "above-content",
-        "video": "shopify:\/\/files\/videos\/Lecurie Film 3compressed.mp4",
-        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 3compressed.mp4",
+        "video": "shopify://files/videos/Lecurie Film 3compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 3compressed.mp4",
         "aspect_ratio": "natural",
         "aspect_ratio_mobile": "natural",
         "focal_point": "center",
@@ -499,8 +517,8 @@
       "settings": {
         "video_position": "right",
         "video_position_mobile": "above-content",
-        "video": "shopify:\/\/files\/videos\/Lecurie Film 4compressed.mp4",
-        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 4compressed.mp4",
+        "video": "shopify://files/videos/Lecurie Film 4compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 4compressed.mp4",
         "aspect_ratio": "natural",
         "aspect_ratio_mobile": "natural",
         "focal_point": "center",
@@ -521,7 +539,7 @@
         "subheading_qntwJU": {
           "type": "subheading",
           "settings": {
-            "subheading": "Soirée au château \/ Evening at the castle",
+            "subheading": "Soirée au château / Evening at the castle",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-5-base"
           }
@@ -533,8 +551,8 @@
       "settings": {
         "video_position": "right",
         "video_position_mobile": "above-content",
-        "video": "shopify:\/\/files\/videos\/Lecurie Film 5compressed.mp4",
-        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 5compressed.mp4",
+        "video": "shopify://files/videos/Lecurie Film 5compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 5compressed.mp4",
         "aspect_ratio": "natural",
         "aspect_ratio_mobile": "natural",
         "focal_point": "center",
@@ -567,8 +585,8 @@
       "settings": {
         "video_position": "right",
         "video_position_mobile": "above-content",
-        "video": "shopify:\/\/files\/videos\/Lecurie Film 6compressed.mp4",
-        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 6compressed.mp4",
+        "video": "shopify://files/videos/Lecurie Film 6compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 6compressed.mp4",
         "aspect_ratio": "natural",
         "aspect_ratio_mobile": "natural",
         "focal_point": "center",
@@ -585,6 +603,7 @@
     }
   },
   "order": [
+    "custom_liquid_3fqUDw",
     "rich_text_NQxijt",
     "main",
     "rich_text_KDnTin",
