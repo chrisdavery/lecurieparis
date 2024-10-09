@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_hero_4HhBk8": {
@@ -5,18 +14,18 @@
       "settings": {
         "image_aspect": "custom",
         "desktop_height": 70,
-        "mobile_height": 100,
-        "image": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
+        "mobile_height": 50,
+        "image": "shopify://shop_images/new-1R9A1791.jpg",
+        "image_mobile": "shopify://shop_images/new-1R9A1791.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
         "media_link": "",
         "text_position": "center_center",
         "text_position_mobile": "center_center",
-        "text_color": "#FFFFFF",
-        "button_background_color": "#FFFFFF",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
         "button_text_color": "#000000",
-        "color_overlay": "#000",
+        "color_overlay": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 33,
         "enable_animation": false,
@@ -56,7 +65,7 @@
         "block-2": {
           "type": "text",
           "settings": {
-            "text": "<p>We are here to help provide information and advice on your purchases.<\/p><p>You can also submit your request to become part of our exclusive ambassadors team.<\/p><p>Email us at <a href=\"https:\/\/online-store-web.shopifyapps.com\/admin\/online-store\/pages\/experience@lecurieparis.com\">experience@lecurieparis.com<\/a><\/p><p>Email Lionel Moroy, Designer <a href=\"mailto:lionel@lecurieparis.com\" target=\"_blank\" title=\"mailto:lionel@lecurieparis.com\">Lionel@lecurieparis.com<\/a><\/p>",
+            "text": "<p>We are here to help provide information and advice on your purchases.</p><p>You can also submit your request to become part of our exclusive ambassadors team.</p><p>Email us at <a href=\"https://online-store-web.shopifyapps.com/admin/online-store/pages/experience@lecurieparis.com\">experience@lecurieparis.com</a></p><p>Email Lionel Moroy, Designer <a href=\"mailto:lionel@lecurieparis.com\" target=\"_blank\" title=\"mailto:lionel@lecurieparis.com\">Lionel@lecurieparis.com</a></p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -151,7 +160,7 @@
         "heading": "Contact us",
         "heading_tag": "h2",
         "heading_font_class": "fs-heading-3-base",
-        "text": "<p>We are here to help provide information and advice on your purchases.<br\/>You can also submit your request to become part of our exclusive ambassadors team.<br\/><br\/>Email us at <a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:experience@lecurieparis.com\">experience@lecurieparis.com<\/a><br\/><\/p>",
+        "text": "<p>We are here to help provide information and advice on your purchases.<br/>You can also submit your request to become part of our exclusive ambassadors team.<br/><br/>Email us at <a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:experience@lecurieparis.com\">experience@lecurieparis.com</a><br/></p>",
         "show_recaptcha_terms": true,
         "enable_animation": false,
         "divider_style": "none",
