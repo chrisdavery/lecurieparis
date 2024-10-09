@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "settings": {
         "black_header": false,
-        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: var(--color-text);\n}\n.header {\n--color-background-header:var(--color-text);\n--color-text-header: var(--color-background);\n}\n</style>",
+        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: var(--color-text);\n}\n.header {\n--color-background-header:var(--color-text);\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       }
