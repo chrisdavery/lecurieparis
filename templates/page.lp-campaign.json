@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -9,6 +18,15 @@
         "enable_animation": false,
         "content_width": "full",
         "custom_content_width": 700
+      }
+    },
+    "custom_liquid_R6iTxj": {
+      "type": "custom-liquid",
+      "settings": {
+        "black_header": true,
+        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: var(--color-text);\n}\n.header {\n--color-background-header:var(--color-text);\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "rich_text_mLJE4n": {
@@ -29,7 +47,7 @@
         "text_UmqngE": {
           "type": "text",
           "settings": {
-            "text": "<p>A LONG WAY HOME.<br\/>Stunning campaign with the L'Écurie Paris eyewear collection <br\/>and a Porsche 911S of 1967.<\/p>",
+            "text": "<p>A LONG WAY HOME.<br/>Stunning campaign with the L'Écurie Paris eyewear collection <br/>and a Porsche 911S of 1967.</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -73,7 +91,7 @@
       ],
       "settings": {
         "video_source": "shopify",
-        "video": "shopify:\/\/files\/videos\/LP-2023.mov",
+        "video": "shopify://files/videos/LP-2023.mov",
         "video_url": "",
         "loop": false,
         "media_aspect_ratio": "landscape_wide_alt",
@@ -95,7 +113,7 @@
         "text_77UPVy": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Eyewear Design<br\/><\/strong>Lionel Moroy<br\/><strong>Creative director<br\/><\/strong>Tamara LeeCarroll<br\/><strong>Fashion Models<br\/><\/strong>Camille Balsamo<br\/>Jed Bernard<br\/><strong>Video<\/strong><br\/>Keenan Reed<br\/><strong>Photo<\/strong><br\/>Tamara LeeCarroll<\/p>",
+            "text": "<p><strong>Eyewear Design<br/></strong>Lionel Moroy<br/><strong>Creative director<br/></strong>Tamara LeeCarroll<br/><strong>Fashion Models<br/></strong>Camille Balsamo<br/>Jed Bernard<br/><strong>Video</strong><br/>Keenan Reed<br/><strong>Photo</strong><br/>Tamara LeeCarroll</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -121,8 +139,8 @@
             "width": "50",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/LECURIEPARIS070.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/LECURIEPARIS070.jpg",
+            "image": "shopify://shop_images/LECURIEPARIS070.jpg",
+            "mobile_image": "shopify://shop_images/LECURIEPARIS070.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -140,10 +158,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -154,8 +172,8 @@
             "width": "50",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/LECURIEPARIS001_5e8d3d93-edf5-43b2-8d25-b9d5d8e4ddd9.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/LECURIEPARIS001_5e8d3d93-edf5-43b2-8d25-b9d5d8e4ddd9.jpg",
+            "image": "shopify://shop_images/LECURIEPARIS001_5e8d3d93-edf5-43b2-8d25-b9d5d8e4ddd9.jpg",
+            "mobile_image": "shopify://shop_images/LECURIEPARIS001_5e8d3d93-edf5-43b2-8d25-b9d5d8e4ddd9.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -173,10 +191,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -187,8 +205,8 @@
             "width": "100",
             "height": 660,
             "mobile_height": 500,
-            "image": "shopify:\/\/shop_images\/LECURIEPARIS004.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/LECURIEPARIS004.jpg",
+            "image": "shopify://shop_images/LECURIEPARIS004.jpg",
+            "mobile_image": "shopify://shop_images/LECURIEPARIS004.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -206,10 +224,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -236,6 +254,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_R6iTxj",
     "rich_text_mLJE4n",
     "video_cpkd9Y",
     "rich_text_b9bJdC",
