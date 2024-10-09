@@ -777,6 +777,12 @@
         "default": true
       },
       {
+        "id": "product_listing_show_slider",
+        "type": "checkbox",
+        "label": "Show as slider",
+        "default": false
+      },
+      {
         "type": "select",
         "id": "product_listing_aspect_ratio",
         "label": "t:settings_schema.product_listing.settings.product_listing_aspect_ratio.label",
