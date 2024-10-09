@@ -11,37 +11,48 @@
         "custom_content_width": 700
       }
     },
-    "rich_text_Dw6Vw6": {
-      "type": "rich-text",
+    "page_navigation_PDz7cq": {
+      "type": "page-navigation",
       "blocks": {
-        "heading_3c3XRy": {
-          "type": "heading",
-          "disabled": true,
+        "link_X8bCYN": {
+          "type": "link",
           "settings": {
-            "title": "Rich text",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base"
+            "text": "THE STORY",
+            "link": "shopify://pages/a-design-story"
           }
         },
-        "text_f9frnR": {
-          "type": "text",
+        "link_X63kAL": {
+          "type": "link",
           "settings": {
-            "text": "<p>         <a href=\"\/pages\/a-design-story\" title=\"A Design Story\">The story<\/a>      ,     <a href=\"\/pages\/french-design\" title=\"French Design\">French Design<\/a>, <a href=\"\/pages\/inspiration\" title=\"Inspiration\">inspiration<\/a> ,  <a href=\"\/pages\/la-maison-lecurie-paris\" title=\"La maison L'Écurie Paris\">la Maison L'Écurie Paris<\/a><\/p>",
-            "text_font_class": "fs-body-100"
+            "text": "FRENCH DESIGN",
+            "link": "shopify://pages/french-design"
+          }
+        },
+        "link_qT676c": {
+          "type": "link",
+          "settings": {
+            "text": "INSPIRATION",
+            "link": "shopify://pages/inspiration"
+          }
+        },
+        "link_bDmVhL": {
+          "type": "link",
+          "settings": {
+            "text": "LA MAISON L'ÉCURIE PARIS",
+            "link": "shopify://pages/la-maison-lecurie-paris"
           }
         }
       },
       "block_order": [
-        "heading_3c3XRy",
-        "text_f9frnR"
+        "link_X8bCYN",
+        "link_X63kAL",
+        "link_qT676c",
+        "link_bDmVhL"
       ],
+      "disabled": true,
       "settings": {
-        "black_header": false,
-        "alignment": "center_center",
-        "enable_animation": false,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-only",
-        "content_width": "custom"
+        "section_padding": "section--vertical-padding-top-only"
       }
     },
     "34e57fcd-392a-4878-9386-12f0e1caef09": {
@@ -164,7 +175,7 @@
   },
   "order": [
     "main",
-    "rich_text_Dw6Vw6",
+    "page_navigation_PDz7cq",
     "34e57fcd-392a-4878-9386-12f0e1caef09",
     "quote",
     "35eb5364-1c17-4a2d-9a76-0003039a07e4"

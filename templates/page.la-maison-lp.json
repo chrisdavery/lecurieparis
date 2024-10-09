@@ -64,29 +64,6 @@
         "section_padding": "section--vertical-padding-top-only"
       }
     },
-    "rich_text_CRUGTL": {
-      "type": "rich-text",
-      "blocks": {
-        "text_cgxQGh": {
-          "type": "text",
-          "settings": {
-            "text": "<p>         <a href=\"/pages/a-design-story\" title=\"A Design Story\">The story</a>      ,     <a href=\"/pages/french-design\" title=\"French Design\">French Design</a>, <a href=\"/pages/inspiration\" title=\"Inspiration\">inspiration</a> ,  <a href=\"/pages/la-maison-lecurie-paris\" title=\"La maison L'Écurie Paris\">la Maison L'Écurie Paris</a></p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "text_cgxQGh"
-      ],
-      "settings": {
-        "black_header": false,
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "rich_text_mzW6x6": {
       "type": "rich-text",
       "blocks": {
@@ -302,7 +279,6 @@
   "order": [
     "main",
     "page_navigation_PDz7cq",
-    "rich_text_CRUGTL",
     "rich_text_mzW6x6",
     "multi_column_38GGpP",
     "multi_column_k3Y4aL"
