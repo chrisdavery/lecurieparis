@@ -59,13 +59,21 @@
             "text": "INSPIRATION",
             "link": "shopify://pages/inspiration"
           }
+        },
+        "link_TfBnAa": {
+          "type": "link",
+          "settings": {
+            "text": "CRAFTSMANSHIP",
+            "link": "shopify://pages/craftmanship"
+          }
         }
       },
       "block_order": [
         "link_bDmVhL",
         "link_X8bCYN",
         "link_X63kAL",
-        "link_qT676c"
+        "link_qT676c",
+        "link_TfBnAa"
       ],
       "settings": {
         "divider_style": "none",
