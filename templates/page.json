@@ -40,7 +40,7 @@
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
         "content_color": "rgba(0,0,0,0)",
-        "enable_animation": true,
+        "enable_animation": false,
         "content_width": "full",
         "custom_content_width": 1000
       }
