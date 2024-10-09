@@ -34,21 +34,21 @@
           "type": "link",
           "settings": {
             "text": "FRENCH DESIGN",
-            "link": "https://lecurieparis.com/pages/french-design"
+            "link": "shopify://pages/french-design"
           }
         },
         "link_qT676c": {
           "type": "link",
           "settings": {
             "text": "INSPIRATION",
-            "link": "https://lecurieparis.com/pages/inspiration"
+            "link": "shopify://pages/inspiration"
           }
         },
         "link_bDmVhL": {
           "type": "link",
           "settings": {
             "text": "LA MAISON L'ÉCURIE PARIS",
-            "link": "https://lecurieparis.com/pages/la-maison-lecurie-paris"
+            "link": "shopify://pages/la-maison-lecurie-paris"
           }
         }
       },
