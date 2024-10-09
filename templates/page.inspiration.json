@@ -23,6 +23,13 @@
     "page_navigation_PDz7cq": {
       "type": "page-navigation",
       "blocks": {
+        "link_bDmVhL": {
+          "type": "link",
+          "settings": {
+            "text": "LA MAISON L'ÉCURIE PARIS",
+            "link": "shopify://pages/la-maison-lecurie-paris"
+          }
+        },
         "link_X8bCYN": {
           "type": "link",
           "settings": {
@@ -43,20 +50,13 @@
             "text": "INSPIRATION",
             "link": "shopify://pages/inspiration"
           }
-        },
-        "link_bDmVhL": {
-          "type": "link",
-          "settings": {
-            "text": "LA MAISON L'ÉCURIE PARIS",
-            "link": "shopify://pages/la-maison-lecurie-paris"
-          }
         }
       },
       "block_order": [
+        "link_bDmVhL",
         "link_X8bCYN",
         "link_X63kAL",
-        "link_qT676c",
-        "link_bDmVhL"
+        "link_qT676c"
       ],
       "settings": {
         "divider_style": "none",
