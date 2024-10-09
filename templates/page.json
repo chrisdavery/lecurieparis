@@ -9,6 +9,29 @@
 */
 {
   "sections": {
+    "rich_text_BLyt9B": {
+      "type": "rich-text",
+      "blocks": {
+        "text_dmqqV7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A curated boutique selection to find L'Écurie Paris eyewear.<br/>To open an account email us : <a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:experience@lecurieparis.com\">experience@lecurieparis.com</a></p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_dmqqV7"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom"
+      }
+    },
     "main": {
       "type": "main-page",
       "custom_css": [
@@ -21,19 +44,10 @@
         "content_width": "custom",
         "custom_content_width": 700
       }
-    },
-    "custom_liquid_QbT9Xp": {
-      "type": "custom-liquid",
-      "settings": {
-        "black_header": false,
-        "custom_liquid": "<div id='progus-store-locator-dealer-form'></div><script>(function (p, r, o, g, u) {g = p.createElement(r); u = '?shop=lecuriesport.myshopify.com&lang='+(typeof Shopify!==`undefined`?Shopify.locale:``); g.src = o + u; g.allowfullscreen = true; g.frameborder = 0; g.setAttribute('frameBorder', '0'); g.width = '100%'; g.height = '400px'; p.querySelector('#progus-store-locator-dealer-form').appendChild(g); window.addEventListener('message',(e) => { if(e.data.pslFormHeight) {g.style.height = e.data.pslFormHeight }});})(document, 'iframe', 'https://sl-form.proguscommerce.com/main');</script>",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
     }
   },
   "order": [
-    "main",
-    "custom_liquid_QbT9Xp"
+    "rich_text_BLyt9B",
+    "main"
   ]
 }
