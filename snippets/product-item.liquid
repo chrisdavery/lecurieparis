@@ -10,6 +10,10 @@
     assign show_multiple_images = true
   endif
 
+  if settings.product_listing_show_slider and prod.media.size > 1
+    assign show_as_slider = true
+  endif
+
   assign current_variant = prod.selected_or_first_available_variant
 
   assign mobile_column_count = 2
@@ -176,7 +180,10 @@
   style="--z-index-item: {{ forloop.index }};"
 >
   <div class="product-item__inner">
-    <div class="product-item__media {%- if show_multiple_images %} product-item__media--multiple-images {%- endif %}">
+    <div class="product-item__media 
+      {%- if show_multiple_images %} product-item__media--multiple-images {%- endif %}
+      {%- if show_as_slider %} product-item__media--slider {%- endif %}
+      ">
       <a class="product-item__image-link" href="{{ prod.url | within: collection }}" aria-label="{{ prod.title }}">
         {%- liquid
           assign image_wrapper_class = 'product-item__image'
@@ -191,28 +198,65 @@
           endif
         -%}
 
-        {% render 'image',
-          image: prod.featured_media,
-          wrapper_class: image_wrapper_class,
-          aspect_ratio: settings.product_listing_aspect_ratio,
-          object_fit: settings.product_listing_media_fit,
-          include_placeholder: true,
-          sizes: sizes,
-          src_set_type: 'grid'
-        %}
-
-        {%- if show_multiple_images -%}
+        
+        {% unless show_as_slider %}
           {% render 'image',
-            image: second_image,
-            wrapper_class: 'product-item__image product-item__image--two',
+            image: prod.featured_media,
+            wrapper_class: image_wrapper_class,
             aspect_ratio: settings.product_listing_aspect_ratio,
             object_fit: settings.product_listing_media_fit,
             include_placeholder: true,
             sizes: sizes,
-            no_lazy_load: true,
             src_set_type: 'grid'
           %}
-        {%- endif -%}
+          {%- if show_multiple_images -%}
+            {% render 'image',
+              image: second_image,
+              wrapper_class: 'product-item__image product-item__image--two',
+              aspect_ratio: settings.product_listing_aspect_ratio,
+              object_fit: settings.product_listing_media_fit,
+              include_placeholder: true,
+              sizes: sizes,
+              no_lazy_load: true,
+              src_set_type: 'grid'
+            %}
+          {%- endif -%}
+        {% endunless %}
+
+        {% if show_as_slider %}
+          <slider-collection-item
+            class="
+              product-item__slider__content
+              carousel
+              carousel--mobile-per-view-1
+              carousel--per-view-1
+              swiper
+            "  
+            data-products-per-view="1"
+            data-mobile-products-per-view="1"
+          > 
+            <div class="product-item__slider carousel__wrapper swiper-wrapper">
+              {% for media in prod.media %}
+                <div class="product-list-slider__collection carousel__slide swiper-slide">
+                  {% case media.media_type %}
+                    {% when 'image' %}
+                      <div class="product-item--media">
+                        {% render 'image',
+                          image: media.preview_image,
+                          wrapper_class: image_wrapper_class,
+                          aspect_ratio: settings.product_listing_aspect_ratio,
+                          object_fit: settings.product_listing_media_fit,
+                          include_placeholder: true,
+                          sizes: sizes,
+                          src_set_type: 'grid'
+                        %}
+                      </div>
+                  {% endcase %}
+                </div>
+              {% endfor %}
+            </div>
+          </slider-collection-item>
+        {% endif %}
       </a>
       {% unless placeholder %}
         {%- render 'product-badges',
