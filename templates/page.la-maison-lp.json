@@ -11,6 +11,34 @@
         "custom_content_width": 700
       }
     },
+    "page_navigation_PDz7cq": {
+      "type": "page-navigation",
+      "blocks": {
+        "link_X8bCYN": {
+          "type": "link",
+          "settings": {
+            "text": "Lorem 1",
+            "link": "lorem1"
+          }
+        },
+        "link_X63kAL": {
+          "type": "link",
+          "settings": {
+            "text": "Lorem 2",
+            "link": "lorem2"
+          }
+        }
+      },
+      "block_order": [
+        "link_X8bCYN",
+        "link_X63kAL"
+      ],
+      "disabled": true,
+      "settings": {
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "rich_text_CRUGTL": {
       "type": "rich-text",
       "blocks": {
@@ -26,6 +54,7 @@
         "text_cgxQGh"
       ],
       "settings": {
+        "section_id": "",
         "black_header": false,
         "alignment": "center_center",
         "enable_animation": false,
@@ -72,6 +101,7 @@
         "text_BCdexH"
       ],
       "settings": {
+        "section_id": "lorem1",
         "black_header": false,
         "alignment": "center_center",
         "enable_animation": false,
@@ -135,6 +165,7 @@
         "image_column_hGUQy6"
       ],
       "settings": {
+        "section_id": "lorem2",
         "black_header": false,
         "title": "",
         "heading_tag": "h2",
@@ -218,6 +249,7 @@
         "image_column_GXGWnx"
       ],
       "settings": {
+        "section_id": "",
         "black_header": false,
         "title": "",
         "heading_tag": "h2",
@@ -239,7 +271,7 @@
         "background_color": "#000000",
         "text_color": "#ffffff",
         "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
+        "button_text_color": "#ffffff",
         "enable_animation": false,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
@@ -248,6 +280,7 @@
   },
   "order": [
     "main",
+    "page_navigation_PDz7cq",
     "rich_text_CRUGTL",
     "rich_text_mzW6x6",
     "multi_column_38GGpP",

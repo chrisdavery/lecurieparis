@@ -25,6 +25,10 @@
     --content-alignment: {{ content_alignment }};
     --heading-alignment: {{ heading_alignment }};
   "
+
+  {% if section.settings.section_id != blank %}
+    id="{{ section.settings.section_id }}"
+  {% endif %}
 >
   <div class="rich-text__inner section-blocks animation--section-blocks">
     {%- for block in section.blocks -%}
@@ -106,6 +110,11 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section ID"
+    },
     {
       "type": "checkbox",
       "id": "black_header",

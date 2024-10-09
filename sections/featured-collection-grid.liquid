@@ -22,6 +22,9 @@
   data-layout-type="grid"
   data-products-per-view="{{ section.settings.columns }}"
   data-mobile-products-per-view="{{ section.settings.mobile_columns }}"
+  {% if section.settings.section_id != blank %}
+    id="{{ section.settings.section_id }}"
+  {% endif %}
 >
   <div class="featured-collection-grid__inner">
     <div class="section-introduction animation--section-introduction">
@@ -111,6 +114,11 @@
     "templates": ["password"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section ID"
+    },
     {
       "type": "checkbox",
       "id": "black_header",

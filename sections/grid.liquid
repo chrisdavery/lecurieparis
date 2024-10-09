@@ -19,6 +19,9 @@
   "
   data-section-id="{{ section.id }}"
   data-section-type="grid"
+  {% if section.settings.section_id != blank %}
+    id="{{ section.settings.section_id }}"
+  {% endif %}
 >
   {%- if section.settings.heading != blank or section.settings.subheading != blank -%}
     <div class="grid__header">
@@ -52,6 +55,11 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section ID"
+    },
     {
       "type": "checkbox",
       "id": "black_header",

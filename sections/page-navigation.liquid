@@ -1,0 +1,107 @@
+{% style %}
+    .page-nav {
+        margin: 0;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 1rem;
+    }
+{% endstyle %}
+
+<div
+    class="
+    {% if section.settings.black_header == true %}black-header{% endif %}
+    section
+    section--divider-{{ section.settings.divider_style }}
+    {{ section.settings.section_padding }}
+    "
+>
+    <ul class="page-nav">
+        {% for block in section.blocks %}
+            {% if block.settings.text != blank %}
+                <li>
+                    <a href="#{{ block.settings.link }}">{{ block.settings.text }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+  
+{% schema %}
+  {
+    "name": "Page navigation",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["header", "custom.overlay"]
+    },
+    "settings": [
+        {
+            "type": "header",
+            "content": "t:shared.settings.section_style.header_style.content"
+        },
+        {
+            "type": "select",
+            "id": "divider_style",
+            "label": "t:shared.settings.section_style.divider_style.label",
+            "default": "none",
+            "options": [
+            {
+                "label": "t:shared.settings.section_style.divider_style.option_none",
+                "value": "none"
+            },
+            {
+                "label": "t:shared.settings.section_style.divider_style.option_solid",
+                "value": "solid"
+            }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "section_padding",
+            "label": "t:shared.settings.section_style.section_padding.label",
+            "default": "section--vertical-padding-top-bottom",
+            "options": [
+            {
+                "label": "t:shared.settings.section_style.section_padding.option_none",
+                "value": "section--vertical-padding-none"
+            },
+            {
+                "label": "t:shared.settings.section_style.section_padding.option_both",
+                "value": "section--vertical-padding-top-bottom"
+            },
+            {
+                "label": "t:shared.settings.section_style.section_padding.option_top",
+                "value": "section--vertical-padding-top-only"
+            },
+            {
+                "label": "t:shared.settings.section_style.section_padding.option_bottom",
+                "value": "section--vertical-padding-bottom-only"
+            }
+            ]
+        }
+    ],
+    "blocks": [
+        {
+            "type": "link",
+            "name": "Link",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "link",
+                    "label": "Link"
+                }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Page navigation"
+      }
+    ]
+  }
+{% endschema %}
