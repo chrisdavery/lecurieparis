@@ -12019,7 +12019,8 @@ html.sticky-header-enabled[data-enable-sticky-announcement-bar*="mobile"]
 .meganav__nav ul[depth="0"] > li{
     page-break-inside:avoid;
     -moz-column-break-inside:avoid;
-         break-inside:avoid;
+    break-inside:avoid;
+    -webkit-column-break-inside: avoid; 
   }
 .meganav__nav h4{
     color:var(--color-text);
