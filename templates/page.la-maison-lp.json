@@ -1,0 +1,256 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "bg_color": "rgba(0,0,0,0)",
+        "content_color": "rgba(0,0,0,0)",
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_CRUGTL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cgxQGh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>         <a href=\"\/pages\/a-design-story\" title=\"A Design Story\">The story<\/a>      ,     <a href=\"\/pages\/french-design\" title=\"French Design\">French Design<\/a>, <a href=\"\/pages\/inspiration\" title=\"Inspiration\">inspiration<\/a> ,  <a href=\"\/pages\/la-maison-lecurie-paris\" title=\"La maison L'Écurie Paris\">la Maison L'Écurie Paris<\/a><\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_cgxQGh"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "rich_text_mzW6x6": {
+      "type": "rich-text",
+      "blocks": {
+        "accent_8mNmtL": {
+          "type": "accent",
+          "settings": {
+            "accent": "La Maison l'Écurie Paris"
+          }
+        },
+        "spacer_F8M8Ug": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "heading_VP4iAB": {
+          "type": "heading",
+          "settings": {
+            "title": "Meaning of the word L'Écurie",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_BCdexH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L'Écurie is is a very old French word that comes from Écuyer, a brave squire that travel the world on his horse. Time when the life of a horse was more important than a human.<br\/><br\/>The term \"écurie,\" rooted in the French language, evokes an image of elegance and refinement, traditionally referring to a stable designed for the care and housing of horses. In the world of luxury, the concept of an écurie has transcended its equestrian origins to symbolize a lifestyle characterized by sophistication and exclusivity.<\/p><p>L'Écurie is associated with the meticulous attention to detail found in high-end accessories. The idea of an écurie conjures visions of artisanal goods, and bespoke items, each embodying the same care and precision as a well-tended horse.<br\/>A narrative of heritage, elegance, and the seamless blend of functionality with artistry. <br\/>This connection not only honors the traditional craftsmanship associated with equestrian life but also elevates to those who appreciate the finer things in life.<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "accent_8mNmtL",
+        "spacer_F8M8Ug",
+        "heading_VP4iAB",
+        "text_BCdexH"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "multi_column_38GGpP": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_gx7Rwi": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "image_width": 64,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "Lionel Moroy, Founder Designer",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><em> “<\/em>My French heritage instilled in me a deep passion for beauty, and my ultimate aim is to create and share a product that embodies both soul and meaning<em>”<\/em><\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 68,
+            "link": "https:\/\/www.instagram.com\/lionelmoroy\/",
+            "link_text": "@lionelmoroy",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_hGUQy6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
+            "image_width": 64,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "Jean-Baptiste Rougeot , Creative Director",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Jean-Baptiste is a french internationally, recognized creative strategist who specializes in the realms of luxury, fashion, cosmetics, lifestyle and entertainment. <br\/>His inventive and meticulous approach to image-building is based on his ability to create effective bridges between marketing and creative concepts.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 82,
+            "link": "https:\/\/www.instagram.com\/jbrougeot",
+            "link_text": "@jbrougeot",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_gx7Rwi",
+        "image_column_hGUQy6"
+      ],
+      "settings": {
+        "black_header": false,
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "2",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_k3Y4aL": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_3kpyJp": {
+          "type": "image_column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan1-1.jpg",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>At L'Écurie Paris, the design and craftsmanship excellence are taken to new heights.<br\/>We elevate the art of eyewear by ensuring each detail is thoughtfully considered and meticulously executed. <\/p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "shopify:\/\/pages\/craftmanship",
+            "link_text": "read more",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_GXGWnx": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/new-L_Ecurie-2294.jpg",
+            "image_width": 50,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_3kpyJp",
+        "image_column_GXGWnx"
+      ],
+      "settings": {
+        "black_header": false,
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 4,
+        "row_spacing": 48,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 8,
+        "row_spacing_mobile": 16,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_CRUGTL",
+    "rich_text_mzW6x6",
+    "multi_column_38GGpP",
+    "multi_column_k3Y4aL"
+  ]
+}

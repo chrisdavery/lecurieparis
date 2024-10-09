@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "custom_liquid_UnLPFF": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/publuu.com\/flip-book\/25868\/1278169\/page\/1?embed\" width=\"100%\" height=\"500\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"\" allow=\"clipboard-write\" class=\"publuuflip\"><\/iframe>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_UnLPFF"
+  ]
+}

@@ -1,0 +1,19 @@
+<div class="section-custom_popup">
+    <div class="custom_popup-title fs-body-75">{{ heading }}</div>
+    <div class="custom_popup-content hidden">
+      {{ content }}
+      {% liquid
+      if block_settings.page_content
+        assign content_page = pages[block_settings.page_content]
+    
+        if content_page and content_page != blank
+          assign page_content = content_page.content
+        endif
+      endif
+       %}
+       {{ page_content }}
+       {% if block.settings.image != blank %}
+        <img src="{{ block.settings.image | img_url: "master" }}">
+      {% endif %}
+    </div>
+  </div>

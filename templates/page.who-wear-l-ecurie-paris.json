@@ -1,0 +1,1282 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "content_color": "",
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_CNxkeR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WDHVEr": {
+          "type": "heading",
+          "settings": {
+            "title": "Who wears L'Écurie Paris Eyewear",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_aXYyDT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Successful and talented people around the world, fashion models, fashion stylists, celebrities and artists.<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WDHVEr",
+        "text_aXYyDT"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "multi-column-2": {
+      "type": "multi-column",
+      "blocks": {
+        "block-0": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._003.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "a7cfd941-570a-4fcd-b440-1b6d7708f278": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO-WEAR-LP._037.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "56945c84-46cc-4a60-9f42-105f23110a37": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._006.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "ec1f2907-573c-447e-a620-9f78153590cb": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._005.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "71e86ac0-1228-4ccd-b01e-f63f88f515a0": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._033.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "daa34098-8add-41cf-bb7e-8bb93b28b639": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._034.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "58ce9397-de01-427b-887a-2d2d0fc6f32e": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._031.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "2c0c2a11-0d0a-4d34-8936-3b1a7401c6c1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._034.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "a6b77820-1bf4-40f1-b078-07db49112603": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._036.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "c67e4b77-c595-4a7c-96f6-258c3226c6c2": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._035.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "92919420-b938-4714-b565-234b16eec1f9": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._032.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "bf9d6e3a-0935-4385-987f-fa981fdac35e": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._030.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "c29a0ac7-9bdb-4aca-952a-71310415a973": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._029.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "b435c8c0-c891-454b-b063-7ca48934ccdb": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._026.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "6d31515d-e40a-4393-9308-8cced894b205": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._025.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "c39c6ca6-9ecd-4be8-a7d9-aaf3876d70f6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._028.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "a6e474ec-fb9a-4d5d-96c0-e6c53b3367b4": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._027.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "7bcaedc1-bf69-4934-a9f2-0bd992d19f34": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._012.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "50d186fd-2b7d-423f-be71-df834e742f0c": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._018.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "fe5d7c45-5db6-4232-a6c7-bb3ed56ba63d": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._007.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "f7593aad-1022-4bd8-8e92-af4882ed8b3b": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._024.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "aba37d55-6e41-403d-89c0-c41f4dd423d1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._021.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "be35dbb9-3ecb-48c5-9bd2-ec3526afb342": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._019.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "d6a76589-2759-46ae-bf68-9559090e3c2e": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._020.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "a49d065a-1f4a-4d2c-a229-3df0ca0e2c34": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._009.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "dbfd86f8-49d7-45ea-896d-a801bd07677a": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._014.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "9c1896c7-38a0-47c5-ae90-7cacb38fb6b0": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._023.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "76310a92-d574-4f66-8afa-d9145e270425": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._008.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "bcdb7478-0aba-4475-b15f-eb6ac32afa70": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._010.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "61750bdf-4687-4fc2-a07a-219698d5a08c": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._013.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "f5fc2b13-5a68-4892-a513-f245b4de0229": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._016.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "806ee374-1130-475a-9a90-e7c7076d6e33": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._017.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "4e802302-3b27-4db7-b394-d5f711846d9e": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._015.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "81f76b73-c84d-40fe-ada7-14bec8c1b78c": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._022.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "c9cc4d20-f437-4a1c-b5cd-843d249a2e8e": {
+          "type": "image_column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._016.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "3ffe3e07-2ce4-43e5-8121-1d06d850fd87": {
+          "type": "image_column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._016.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "e4c6ee18-1fe4-4cea-87a9-1eebe9e8380f": {
+          "type": "image_column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._016.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "f82c308e-73e7-4ba9-bffc-565135d52be7": {
+          "type": "image_column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHO_WEAR_LP._016.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "a7cfd941-570a-4fcd-b440-1b6d7708f278",
+        "56945c84-46cc-4a60-9f42-105f23110a37",
+        "ec1f2907-573c-447e-a620-9f78153590cb",
+        "71e86ac0-1228-4ccd-b01e-f63f88f515a0",
+        "daa34098-8add-41cf-bb7e-8bb93b28b639",
+        "58ce9397-de01-427b-887a-2d2d0fc6f32e",
+        "2c0c2a11-0d0a-4d34-8936-3b1a7401c6c1",
+        "a6b77820-1bf4-40f1-b078-07db49112603",
+        "c67e4b77-c595-4a7c-96f6-258c3226c6c2",
+        "92919420-b938-4714-b565-234b16eec1f9",
+        "bf9d6e3a-0935-4385-987f-fa981fdac35e",
+        "c29a0ac7-9bdb-4aca-952a-71310415a973",
+        "b435c8c0-c891-454b-b063-7ca48934ccdb",
+        "6d31515d-e40a-4393-9308-8cced894b205",
+        "c39c6ca6-9ecd-4be8-a7d9-aaf3876d70f6",
+        "a6e474ec-fb9a-4d5d-96c0-e6c53b3367b4",
+        "7bcaedc1-bf69-4934-a9f2-0bd992d19f34",
+        "50d186fd-2b7d-423f-be71-df834e742f0c",
+        "fe5d7c45-5db6-4232-a6c7-bb3ed56ba63d",
+        "f7593aad-1022-4bd8-8e92-af4882ed8b3b",
+        "aba37d55-6e41-403d-89c0-c41f4dd423d1",
+        "be35dbb9-3ecb-48c5-9bd2-ec3526afb342",
+        "d6a76589-2759-46ae-bf68-9559090e3c2e",
+        "a49d065a-1f4a-4d2c-a229-3df0ca0e2c34",
+        "dbfd86f8-49d7-45ea-896d-a801bd07677a",
+        "9c1896c7-38a0-47c5-ae90-7cacb38fb6b0",
+        "76310a92-d574-4f66-8afa-d9145e270425",
+        "bcdb7478-0aba-4475-b15f-eb6ac32afa70",
+        "61750bdf-4687-4fc2-a07a-219698d5a08c",
+        "f5fc2b13-5a68-4892-a513-f245b4de0229",
+        "806ee374-1130-475a-9a90-e7c7076d6e33",
+        "4e802302-3b27-4db7-b394-d5f711846d9e",
+        "81f76b73-c84d-40fe-ada7-14bec8c1b78c",
+        "c9cc4d20-f437-4a1c-b5cd-843d249a2e8e",
+        "3ffe3e07-2ce4-43e5-8121-1d06d850fd87",
+        "e4c6ee18-1fe4-4cea-87a9-1eebe9e8380f",
+        "f82c308e-73e7-4ba9-bffc-565135d52be7"
+      ],
+      "settings": {
+        "black_header": false,
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "2",
+        "column_spacing": 8,
+        "row_spacing": 48,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 12,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "shoppable-image": {
+      "type": "shoppable-image",
+      "blocks": {
+        "block-0": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "",
+            "horizontal_position": 34,
+            "vertical_position": 72
+          }
+        },
+        "block-1": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "",
+            "horizontal_position": 73,
+            "vertical_position": 77
+          }
+        },
+        "block-2": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "",
+            "horizontal_position": 57,
+            "vertical_position": 30
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "aspect_ratio": "landscape",
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "<p>Use this section to highlight different products within a large image<\/p>",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Elevate your Unique style",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "block-1": {
+          "type": "spacer",
+          "settings": {
+            "space": 8
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The most fashionable luxury eyewear brand<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "grid-1": {
+      "type": "grid",
+      "blocks": {
+        "block-0": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 640,
+            "mobile_height": 500,
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "flex-start_flex-end",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--callout",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 720,
+            "mobile_height": 500,
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "flex-start_flex-end",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--callout",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "black_header": false,
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 24,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "complete-the-look": {
+      "type": "complete-the-look",
+      "blocks": {
+        "block-0": {
+          "type": "product",
+          "settings": {
+            "product_item": ""
+          }
+        },
+        "block-1": {
+          "type": "product",
+          "settings": {
+            "product_item": ""
+          }
+        },
+        "block-2": {
+          "type": "product",
+          "settings": {
+            "product_item": ""
+          }
+        },
+        "block-3": {
+          "type": "product",
+          "settings": {
+            "product_item": ""
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_loop": true,
+        "video_controls": false,
+        "image_position": "right",
+        "aspect_ratio": "portrait_alt",
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--callout",
+        "product_image_size": "medium",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-hero-split": {
+      "type": "image-hero-split",
+      "blocks": {
+        "block-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_00053.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/IMG_00053.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "title": "",
+            "heading_tag": "h2",
+            "text": "",
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_00001_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/IMG_00001_2.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "title": "",
+            "heading_tag": "h2",
+            "text": "",
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 60,
+        "mobile_height": 50,
+        "text_position": "center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_CNxkeR",
+    "multi-column-2",
+    "shoppable-image",
+    "rich-text-1",
+    "grid-1",
+    "complete-the-look",
+    "image-hero-split"
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "content_color": "",
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_X4TJmg": {
+      "type": "rich-text",
+      "blocks": {
+        "accent_9aaKhd": {
+          "type": "accent",
+          "settings": {
+            "accent": "JAPANESE MANUFACTURING"
+          }
+        },
+        "heading_G9cYdq": {
+          "type": "heading",
+          "settings": {
+            "title": "The heritage of a \"savoir faire\"",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "spacer_DwXmqg": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_hUjDgn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At L'Écurie Paris, the design and craftsmanship excellence are taken to new heights. <br\/>We elevate the art of eyewear by ensuring each detail is thoughtfully considered and meticulously executed. <br\/><\/p><p>Our sunglasses are crafted as expressions of artistry, blending tradition with innovation. <\/p><p>We are dedicated to offering a luxurious experience that embodies sophistication, <br\/>precision, and timeless elegance.<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "image_cdCe6x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
+            "content_width": "custom",
+            "image_size": 590,
+            "image_size_mobile": 320
+          }
+        }
+      },
+      "block_order": [
+        "accent_9aaKhd",
+        "heading_G9cYdq",
+        "spacer_DwXmqg",
+        "text_hUjDgn",
+        "image_cdCe6x"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "rich_text_KgwNgz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fa3rgi": {
+          "type": "heading",
+          "settings": {
+            "title": "The Legacy of Japanese Craftsmanship",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "spacer_AyjTjB": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_hNYd4m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Craftsmanship is more than a tradition, <br\/>It is a revered art in Sabae, Japan, where our sunglasses are meticulously handcrafted. <\/p><p>In these world-renowned workshops, <br\/>artisans apply extraordinary skills passed down through generations to create each pair. <\/p><p>By merging ancient techniques with modern advancements, <br\/>they achieve a level of precision and artistry that defines Japanese craftsmanship. <\/p><p>The care invested in every detail ensures that our eyewear is not only aesthetically exceptional <br\/>but also built to last, embodying the renowned quality of Japanese craftsmanship.<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_KFzTUU": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        },
+        "image_Tn3E9X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan2-2_57847d44-2eaa-4811-a860-ecefa1c653e4.jpg",
+            "content_width": "custom",
+            "image_size": 590,
+            "image_size_mobile": 320
+          }
+        }
+      },
+      "block_order": [
+        "heading_fa3rgi",
+        "spacer_AyjTjB",
+        "text_hNYd4m",
+        "spacer_KFzTUU",
+        "image_Tn3E9X"
+      ],
+      "settings": {
+        "black_header": true,
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "image_with_text_t7WmFr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7e3mkE": {
+          "type": "heading",
+          "settings": {
+            "title": "Only the Finest Materials",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "spacer_JHdhCc": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_3YJxfL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At L’Écurie Paris, we are committed to using only the finest materials for our eyewear in the world.<\/p><p>We partner with renowned Japanese experts from Fukui to Sabae, <br\/>regions synonymous with the highest standards of eyewear creation. <\/p><p>Collaborating with masters like Hamamoto, we source the highest quality Takiron Acetate and Titanium materials celebrated for their stunning strength and luminous finish. <\/p><p>Each frame is meticulously adorned with 18K or 14K gold, imbuing it with a subtle yet distinctive luxury. Combined with the precision of Japanese craftsmanship, these materials ensure that every pair of our eyewear is as enduring as it is elegant.<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7e3mkE",
+        "spacer_JHdhCc",
+        "text_3YJxfL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan4.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "portrait",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_hWgTgp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GneW76": {
+          "type": "heading",
+          "settings": {
+            "title": "Only the Finest Materials",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_f9VY3a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At L’Écurie Paris, we are committed to using only the finest materials for our eyewear in the world.<\/p><p>We partner with renowned Japanese experts from Fukui to Sabae,<br\/>regions synonymous with the highest standards of eyewear creation.<\/p><p>Collaborating with masters like Hamamoto, <br\/>we source the highest quality Takiron Acetate and Titanium materials <br\/>celebrated for their stunning strength and luminous finish.<\/p><p>Each frame is meticulously adorned with 18K or 14K gold, <br\/>imbuing it with a subtle yet distinctive luxury. <br\/>Combined with the precision of Japanese craftsmanship, <br\/>these materials ensure that every pair of our eyewear is as enduring as it is elegant.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_NfUa7i": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "image_fEirdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan4.jpg",
+            "content_width": "custom",
+            "image_size": 770,
+            "image_size_mobile": 350
+          }
+        },
+        "spacer_F8YCU4": {
+          "type": "spacer",
+          "settings": {
+            "space": 44
+          }
+        },
+        "heading_7KfQx7": {
+          "type": "heading",
+          "settings": {
+            "title": "A Commitment to Perfection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "spacer_gdNnCG": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_Uwk7Kj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L’Écurie Paris is committed to uncompromising quality. <\/p><p>Each pair of glasses is carefully crafted in limited quantities,<br\/>ensuring every piece reflects the highest level of craftsmanship and attention to detail. <\/p><p>This dedication to perfection is evident in every aspect of our eyewear, <br\/>from the finest materials to the final touches. <\/p><p>Wearing L’Écurie Paris is more than just eyewear, it’s an immersion into luxury, where style, comfort,<br\/> and durability are seamlessly integrated. <br\/>Discover the unmatched craftsmanship of L’Écurie Paris and experience true elegance.<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GneW76",
+        "text_f9VY3a",
+        "spacer_NfUa7i",
+        "image_fEirdA",
+        "spacer_F8YCU4",
+        "heading_7KfQx7",
+        "spacer_gdNnCG",
+        "text_Uwk7Kj"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "rich_text_pj8X7Y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Gr3qnJ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_49jJRG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Luxury Designer Eyewear<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "image_QU4fdB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LP-GOLD.jpg",
+            "content_width": "custom",
+            "image_size": 120,
+            "image_size_mobile": 90
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gr3qnJ",
+        "text_49jJRG",
+        "image_QU4fdB"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_X4TJmg",
+    "rich_text_KgwNgz",
+    "image_with_text_t7WmFr",
+    "rich_text_hWgTgp",
+    "rich_text_pj8X7Y"
+  ]
+}

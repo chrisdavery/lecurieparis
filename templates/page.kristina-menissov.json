@@ -1,0 +1,288 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<H1>L'ÉCURIE PARIS CRAFTSMANSHIP<\/h1>",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "block-0": {
+          "type": "spacer",
+          "settings": {
+            "space": 20
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A detailed design vision executed with an eye for precision is leveraged in partnership with the highest level of craftsmen to meet the brand’s standards.<\/p><p>L’Écurie Paris products represent decades of expertise and passion.<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-0",
+        "block-2"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "SUNGLASS SPECIFICATIONS",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• French design<br\/>• Ultra-lightweight titanium<br\/>• Finished in 18K gold or 14K white gold<br\/>• Engraved LP nose pads<br\/>• Zeiss sun lenses with interior anti-reflection treatment<br\/>• Premium cellulose acetate<br\/>• Made in Japan: Papillon, Morgane, Panam, Leo, Paul<br\/>• Made in Italy: Barbara<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "block-3": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/collections\/luxury-eyewear",
+            "link_text": "Shop the collection",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify:\/\/shop_images\/LP-PAPILLON-PK-8668.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "center",
+        "background_color": "#fafafa",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich-text-2": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "spacer",
+          "settings": {
+            "space": 48
+          }
+        },
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "JAPANESE MANUFACTURING",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "4ce02445-6801-4cdd-8e66-cec6f8a27afc": {
+          "type": "accent",
+          "settings": {
+            "accent": "SABAE - JAPAN"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The L’Écurie Paris metal sunglass frames are handmade of ultra-lightweight Titanium from the Sabae region in Japan and then finished in 18K Gold or 14K White Gold.<\/p><p>Combining high technology with fine-tuned craftsmanship, each frame is assembled with expertise and extreme care. The finished sunglasses are adjusted by hand for perfection.<\/p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "14f3daf4-a1c8-429a-b359-03dc8d76efb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LP-LEO-BR-7260-1_5e8dd325-345b-4829-86dc-d5459a126b3b.jpg",
+            "content_width": "full",
+            "image_size": 200,
+            "image_size_mobile": 200
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "4ce02445-6801-4cdd-8e66-cec6f8a27afc",
+        "block-2",
+        "14f3daf4-a1c8-429a-b359-03dc8d76efb4"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "rich-text-4": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "a6879971-41b6-4b60-a1f6-84bef209a182": {
+          "type": "heading",
+          "settings": {
+            "title": "ITALIAN MANUFACTURING",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "3157ca25-17f1-47fa-8e3a-18c4b48385db": {
+          "type": "accent",
+          "settings": {
+            "accent": "VARESE - ITALY"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Partnering with the worldwide market leader in the production of acetate, the L’Écurie Paris Cellulose Acetate frames are handcrafted in Italy.<\/p><p>Cellulose Acetate, from the renowned the Mazzucchelli House founded in 1849, is derived from cotton and known for its flexible durability. The process involves nearly 70 steps to complete the L’Écurie Paris designed custom mold frames.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-3": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "40d29775-75be-4cac-a8b1-2bd10b15792c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BARBARA.jpg",
+            "content_width": "full",
+            "image_size": 200,
+            "image_size_mobile": 200
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "a6879971-41b6-4b60-a1f6-84bef209a182",
+        "3157ca25-17f1-47fa-8e3a-18c4b48385db",
+        "block-1",
+        "block-2",
+        "block-3",
+        "40d29775-75be-4cac-a8b1-2bd10b15792c"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "72067c94-0568-41a6-a4b3-fae735b8e889": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15163675344939__72067c94-0568-41a6-a4b3-fae735b8e889-1687415983db3b6686-0": {
+          "type": "heading",
+          "settings": {
+            "title": "PERU CRAFTSMANSHIP",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "4bd0b624-03f2-4d81-beaf-6902309e02f5": {
+          "type": "accent",
+          "settings": {
+            "accent": "LIMA - PERU"
+          }
+        },
+        "template--15163675344939__72067c94-0568-41a6-a4b3-fae735b8e889-1687415983db3b6686-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The L’Écurie Paris sunglass pouch is made in partnership with a multi-generational family manufacturer of artisan leather accessories.<\/p><p>Dedicated to leather tanning, saddlery and exclusive goods, their craftsmen’s skills lead to beautifully finished products.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "0a5eaf59-81bb-4f39-a637-749605c4b532": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunglass-pouch1.jpg",
+            "content_width": "full",
+            "image_size": 200,
+            "image_size_mobile": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--15163675344939__72067c94-0568-41a6-a4b3-fae735b8e889-1687415983db3b6686-0",
+        "4bd0b624-03f2-4d81-beaf-6902309e02f5",
+        "template--15163675344939__72067c94-0568-41a6-a4b3-fae735b8e889-1687415983db3b6686-1",
+        "0a5eaf59-81bb-4f39-a637-749605c4b532"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text-1",
+    "image-with-text-1",
+    "rich-text-2",
+    "rich-text-4",
+    "72067c94-0568-41a6-a4b3-fae735b8e889"
+  ]
+}

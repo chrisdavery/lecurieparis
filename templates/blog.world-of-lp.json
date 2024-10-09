@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "rich_text_y68i8t": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ARYHgf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/lp-campaign-2\" title=\"LP Campaign 2\">LP CAMPAIGN<\/a>   , <a href=\"\/blogs\/news\" title=\"LUXURY STORIES\">LUXURIE STORIES<\/a><\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_ARYHgf"
+      ],
+      "disabled": true,
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "rich_text_3ArGjg": {
+      "type": "rich-text",
+      "blocks": {
+        "accent_efjinR": {
+          "type": "accent",
+          "settings": {
+            "accent": "LUXURY STORIES, Event, campaign, new products"
+          }
+        },
+        "text_9RVrRi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore the artistry, craftsmanship, and innovation behind L’Écurie Paris. <br\/>Dive into stories of inspiration, the meticulous process of creating each pair of sunglasses, <br\/>and the latest updates from our luxury eyewear maison. <br\/>Immerse yourself in the world of sophisticated design and timeless elegance.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "image_jM7nPR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LP-GOLD.jpg",
+            "content_width": "custom",
+            "image_size": 50,
+            "image_size_mobile": 50
+          }
+        }
+      },
+      "block_order": [
+        "accent_efjinR",
+        "text_9RVrRi",
+        "image_jM7nPR"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom"
+      }
+    },
+    "blog_posts_3mdbDF": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_a3PqWx": {
+          "type": "article",
+          "settings": {
+            "article": "news\/discover-the-essence-of-french-elegance-with-papillon-designer-eyewear"
+          }
+        }
+      },
+      "block_order": [
+        "article_a3PqWx"
+      ],
+      "settings": {
+        "heading": "Latest news",
+        "subheading": "",
+        "button_link": "",
+        "link_text": "",
+        "display_type": "all",
+        "blog": "news",
+        "max_articles": 2,
+        "show_tags": true,
+        "show_author": false,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "square",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_tag_nav": true,
+        "article_per_page": 12,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": false,
+        "show_excerpt": false,
+        "show_featured_image": true,
+        "aspect_ratio": "square",
+        "enable_animation": false
+      }
+    },
+    "newsletter_iq3en9": {
+      "type": "newsletter",
+      "blocks": {
+        "spacer_JKarER": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_aWb7Tx": {
+          "type": "heading",
+          "settings": {
+            "title": "Subscribe to our newsletter",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_MzdqXF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_iyhYNL": {
+          "type": "spacer",
+          "settings": {
+            "space": 4
+          }
+        },
+        "newsletter_signup_7JdFH9": {
+          "type": "newsletter_signup",
+          "settings": {
+            "signup_link_text": "Sign up"
+          }
+        },
+        "spacer_xggw7K": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        }
+      },
+      "block_order": [
+        "spacer_JKarER",
+        "heading_aWb7Tx",
+        "text_MzdqXF",
+        "spacer_iyhYNL",
+        "newsletter_signup_7JdFH9",
+        "spacer_xggw7K"
+      ],
+      "settings": {
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "rich_text_y68i8t",
+    "rich_text_3ArGjg",
+    "blog_posts_3mdbDF",
+    "main",
+    "newsletter_iq3en9"
+  ]
+}

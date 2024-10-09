@@ -1,0 +1,601 @@
+{
+  "sections": {
+    "rich_text_NQxijt": {
+      "type": "rich-text",
+      "blocks": {
+        "text_CRAE9F": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/lp-campaign-2\" title=\"LP Campaign 2\">LP CAMPAIGN<\/a>   , <a href=\"\/blogs\/news\" title=\"LUXURY STORIES\">LUXURIE STORIES<\/a><\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_CRAE9F"
+      ],
+      "disabled": true,
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#000000",
+        "content_color": "",
+        "enable_animation": false,
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_KDnTin": {
+      "type": "rich-text",
+      "blocks": {
+        "accent_gAP7ya": {
+          "type": "accent",
+          "settings": {
+            "accent": "A take of Luxury fashion."
+          }
+        }
+      },
+      "block_order": [
+        "accent_gAP7ya"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "video_cpkd9Y": {
+      "type": "video",
+      "blocks": {
+        "subheading_rMReBa": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "L' Armée du soleil, the sun army",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "play_button_9z3QLR": {
+          "type": "play-button",
+          "settings": {
+            "text": "Watch now",
+            "button_layout": "full",
+            "icon_style": "light"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rMReBa",
+        "play_button_9z3QLR"
+      ],
+      "settings": {
+        "video_source": "shopify",
+        "video": "shopify:\/\/files\/videos\/Lecurie Film 7compressed.mp4",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
+        "loop": false,
+        "media_aspect_ratio": "landscape_wide_alt",
+        "focal_point": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center",
+        "button_background_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_text": "#ffffff",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_kRMHeV": {
+      "type": "rich-text",
+      "blocks": {
+        "text_f9rxcr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Eyewear Design<\/strong><br\/>Lionel Moroy<br\/><strong>Creative director <\/strong><br\/>Jean-Baptiste Rougeot<br\/><strong>Fashion Models<br\/><\/strong>Danika Pienaar<br\/>Nalu Odigwe<br\/>Mike Boorn<br\/><strong>Stylist<\/strong> <br\/>Albright Fashion Library<br\/><strong>Hair<\/strong><br\/>Ric Pipino<br\/><strong>Makeup<\/strong><br\/>Uzo Aduba<br\/><strong>video<\/strong><br\/>Fletcher Cowan<br\/><strong>Photo<\/strong><br\/>Daniel Sachon<br\/><strong>Producer<\/strong><br\/>Dan Cingary<br\/><\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_f9rxcr"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "grid_GxDzJz": {
+      "type": "grid",
+      "blocks": {
+        "item_gkMCma": {
+          "type": "item",
+          "settings": {
+            "width": "25",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/new-1R9A0167.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-741.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_DRV6xy": {
+          "type": "item",
+          "settings": {
+            "width": "25",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/new-L_Ecurie-472.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-472.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_EKn4AH": {
+          "type": "item",
+          "settings": {
+            "width": "25",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/new-1R9A0274.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/new-1R9A0274.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_khf7AG": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 300,
+            "mobile_height": 300,
+            "image": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_qCTz6Y": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 300,
+            "mobile_height": 300,
+            "image": "shopify:\/\/shop_images\/new-1R9A1190.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/new-1R9A1466.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_gkrQ8N": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/new-L_Ecurie-162.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-162.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_bdxnbD": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/new-L_Ecurie-2010.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_gkMCma",
+        "item_DRV6xy",
+        "item_EKn4AH",
+        "item_khf7AG",
+        "item_qCTz6Y",
+        "item_gkrQ8N",
+        "item_bdxnbD"
+      ],
+      "settings": {
+        "black_header": false,
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "content_alignment": "center",
+        "enable_animation": false,
+        "full_width": false,
+        "spacing": 7,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_xpWfpC": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_Af3zBT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Ménage a trois - Spring Summer 2024",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Af3zBT"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify:\/\/files\/videos\/Lecurie Film 1compressed.mp4",
+        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 1compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_AhUc3X": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_BAhMfK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Paris - Hollywood,",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BAhMfK"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify:\/\/files\/videos\/Lecurie Film 2compressed.mp4",
+        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 2compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_3xCCUR": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_nYRP46": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "L' Armée du soleil, the sun army",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nYRP46"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify:\/\/files\/videos\/Lecurie Film 3compressed.mp4",
+        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 3compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_DpTBjm": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_PmTeXa": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Nuit noire, Black Night",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PmTeXa"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify:\/\/files\/videos\/Lecurie Film 4compressed.mp4",
+        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 4compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_qqt9QE": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_qntwJU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Soirée au château \/ Evening at the castle",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qntwJU"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify:\/\/files\/videos\/Lecurie Film 5compressed.mp4",
+        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 5compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_3ymePc": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_wC9FyK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Course Folle, Crazy ride",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wC9FyK"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify:\/\/files\/videos\/Lecurie Film 6compressed.mp4",
+        "video_mobile": "shopify:\/\/files\/videos\/Lecurie Film 6compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "rich_text_NQxijt",
+    "main",
+    "rich_text_KDnTin",
+    "video_cpkd9Y",
+    "rich_text_kRMHeV",
+    "grid_GxDzJz",
+    "video_with_text_xpWfpC",
+    "video_with_text_AhUc3X",
+    "video_with_text_3xCCUR",
+    "video_with_text_DpTBjm",
+    "video_with_text_qqt9QE",
+    "video_with_text_3ymePc"
+  ]
+}

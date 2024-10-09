@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_breadcrumbs": false,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "image": "shopify:\/\/shop_images\/collection.jpg",
+        "image_aspect": "original",
+        "desktop_height": 50,
+        "mobile_height": 100,
+        "focal_point": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "linear-gradient(228deg, rgba(0, 0, 0, 1) 14%, rgba(255, 255, 255, 1) 83%)",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "69ecfcc5-92b9-46b3-a14b-5914949c93ea": {
+      "type": "rich-text",
+      "blocks": {
+        "f0f04736-9482-42d1-8814-f093972b3e62": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "https:\/\/lecurieparis.com\/pages\/try-on",
+            "link_text": "VIRTUAL TRY ON",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "f0f04736-9482-42d1-8814-f093972b3e62"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "content_width": "custom"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "3",
+        "columns_mobile": "2",
+        "rows": "4",
+        "show_item_count": false,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "3col",
+        "pagination": "infinite",
+        "enable_animation": false,
+        "divider_style": "none"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "69ecfcc5-92b9-46b3-a14b-5914949c93ea",
+    "product-grid"
+  ]
+}

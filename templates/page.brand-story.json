@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "content_color": "",
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_Dw6Vw6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3c3XRy": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_f9frnR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>         <a href=\"\/pages\/a-design-story\" title=\"A Design Story\">The story<\/a>      ,     <a href=\"\/pages\/french-design\" title=\"French Design\">French Design<\/a>, <a href=\"\/pages\/inspiration\" title=\"Inspiration\">inspiration<\/a> ,  <a href=\"\/pages\/la-maison-lecurie-paris\" title=\"La maison L'Écurie Paris\">la Maison L'Écurie Paris<\/a><\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3c3XRy",
+        "text_f9frnR"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom"
+      }
+    },
+    "34e57fcd-392a-4878-9386-12f0e1caef09": {
+      "type": "multi-column",
+      "blocks": {
+        "fb0f851a-3122-4368-af8b-8a7c99a19e46": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lionelmoroy-kristinamessinov_1eb90ee4-689d-426f-9111-0be86025d3fb.jpg",
+            "image_width": 50,
+            "aspect_ratio": "landscape",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "Lionel Moroy & Fashion Model Kristina Menissov",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><\/p><p>\"I grew up a few miles from Paris and moved to Los Angeles in 2010.<\/p><p>Design has been in my blood my whole life. At 6 years old, girls from my classroom where asking me for drawings of a wolf I loved to draw..<br\/>I always felt a deep emotional connection to beauty since a young age, and used it as an escape.<br\/><br\/>I went to art school in the 18th district of Paris, and this has been a revelation. It opened my eyes about life and art, and allowed me to be around other artists.<br\/>I admired Yves Saint Laurent creations, and grew up immersed in Parisian architecture, art, fashion, and decorative motifs.<br\/><\/p><p>I started my professional career at 23 years old, designing for companies in the apparel and lifestyle industry.<\/p><p>But creating and designing is not a job for me, it's a fantastic life long experience.<\/p><p>I love this quote from Leonard Cohen who dedicated his entire life to his art:<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "fb0f851a-3122-4368-af8b-8a7c99a19e46"
+      ],
+      "settings": {
+        "black_header": false,
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "<h1>The story<\/h1>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 44,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "quote": {
+      "type": "quote",
+      "blocks": {
+        "block-0": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>“It’s a self respect you are looking for in your work, you just keep uncovering your own heart until you can find something in which you can locate yourself respect, has to satisfied the heart, the mind and the gut”<\/p>",
+            "title": "Leonard Cohen",
+            "quote_tag": "h2",
+            "font_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "block-0"
+      ],
+      "settings": {
+        "autoplay_enabled": true,
+        "autoplay_delay": 6,
+        "pagination_style": "dots",
+        "font_choice": "heading",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "35eb5364-1c17-4a2d-9a76-0003039a07e4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15163675213867__35eb5364-1c17-4a2d-9a76-0003039a07e4-16875639031269da69-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "template--15163675213867__35eb5364-1c17-4a2d-9a76-0003039a07e4-16875639031269da69-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"In 2018 I decided to look back at my French heritage, and celebrate beauty, pure elegance through design.<br\/>My ultimate desire was to create and deliver a product that has a soul and meaning.<br\/>I love when people feel an emotion when they touch and wear our products, when it gives them a real experience.<br\/>I wanted to design eyewear, as this is one of the most personal items. The one we choose to represent ourselves.<br\/>We can either hide behind our glasses, or proudly own their style, blending with our personality.<br\/>It’s a way to reaffirm our own self-confidence.\"<\/p><p><\/p><p>Lionel Moroy.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--15163675213867__35eb5364-1c17-4a2d-9a76-0003039a07e4-16875639031269da69-0",
+        "template--15163675213867__35eb5364-1c17-4a2d-9a76-0003039a07e4-16875639031269da69-1"
+      ],
+      "settings": {
+        "black_header": false,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Dw6Vw6",
+    "34e57fcd-392a-4878-9386-12f0e1caef09",
+    "quote",
+    "35eb5364-1c17-4a2d-9a76-0003039a07e4"
+  ]
+}

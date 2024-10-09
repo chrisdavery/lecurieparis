@@ -1,0 +1,170 @@
+{
+  "sections": {
+    "image_hero_4HhBk8": {
+      "type": "image-hero",
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 100,
+        "image": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/new-1R9A1791.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#FFFFFF",
+        "button_background_color": "#FFFFFF",
+        "button_text_color": "#000000",
+        "color_overlay": "#000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 33,
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "content_color": "",
+        "enable_animation": false,
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Contact us",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "block-1": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space": 12
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are here to help provide information and advice on your purchases.<\/p><p>You can also submit your request to become part of our exclusive ambassadors team.<\/p><p>Email us at <a href=\"https:\/\/online-store-web.shopifyapps.com\/admin\/online-store\/pages\/experience@lecurieparis.com\">experience@lecurieparis.com<\/a><\/p><p>Email Lionel Moroy, Designer <a href=\"mailto:lionel@lecurieparis.com\" target=\"_blank\" title=\"mailto:lionel@lecurieparis.com\">Lionel@lecurieparis.com<\/a><\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "black_header": true,
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "block-0": {
+          "type": "text",
+          "settings": {
+            "title": "Name",
+            "required": true,
+            "width": "half"
+          }
+        },
+        "block-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "width": "half"
+          }
+        },
+        "block-2": {
+          "type": "select",
+          "settings": {
+            "title": "Subject",
+            "width": "full",
+            "option_1": "General Informations",
+            "option_2": "Order tracking",
+            "option_3": "",
+            "option_4": "",
+            "option_5": "",
+            "option_6": "",
+            "option_7": "",
+            "option_8": "",
+            "option_9": "",
+            "option_10": ""
+          }
+        },
+        "block-3": {
+          "type": "text",
+          "settings": {
+            "title": "Phone number",
+            "required": false,
+            "width": "full"
+          }
+        },
+        "block-4": {
+          "type": "text_area",
+          "settings": {
+            "title": "Message",
+            "placeholder": "Your message",
+            "required": true,
+            "height": 180,
+            "width": "full"
+          }
+        },
+        "block-5": {
+          "type": "submit",
+          "settings": {
+            "title": "Submit",
+            "size": "large",
+            "full_width": true
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "heading": "Contact us",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "text": "<p>We are here to help provide information and advice on your purchases.<br\/>You can also submit your request to become part of our exclusive ambassadors team.<br\/><br\/>Email us at <a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:experience@lecurieparis.com\">experience@lecurieparis.com<\/a><br\/><\/p>",
+        "show_recaptcha_terms": true,
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 500
+      }
+    }
+  },
+  "order": [
+    "image_hero_4HhBk8",
+    "main",
+    "rich-text-1",
+    "contact-form"
+  ]
+}
