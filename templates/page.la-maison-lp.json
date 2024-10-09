@@ -26,26 +26,41 @@
         "link_X8bCYN": {
           "type": "link",
           "settings": {
-            "text": "The Story",
+            "text": "THE STORY",
             "link": "https://lecurieparis.com/pages/a-design-story"
           }
         },
         "link_X63kAL": {
           "type": "link",
           "settings": {
-            "text": "Lorem 2",
-            "link": "lorem2"
+            "text": "FRENCH DESIGN",
+            "link": "https://lecurieparis.com/pages/french-design"
+          }
+        },
+        "link_qT676c": {
+          "type": "link",
+          "settings": {
+            "text": "INSPIRATION",
+            "link": "https://lecurieparis.com/pages/inspiration"
+          }
+        },
+        "link_bDmVhL": {
+          "type": "link",
+          "settings": {
+            "text": "LA MAISON L'ÉCURIE PARIS",
+            "link": "https://lecurieparis.com/pages/la-maison-lecurie-paris"
           }
         }
       },
       "block_order": [
         "link_X8bCYN",
-        "link_X63kAL"
+        "link_X63kAL",
+        "link_qT676c",
+        "link_bDmVhL"
       ],
-      "disabled": true,
       "settings": {
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-top-only"
       }
     },
     "rich_text_CRUGTL": {
@@ -62,6 +77,7 @@
       "block_order": [
         "text_cgxQGh"
       ],
+      "disabled": true,
       "settings": {
         "section_id": "",
         "black_header": false,
