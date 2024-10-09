@@ -155,22 +155,3 @@ document.querySelector('.popup_bg')?.addEventListener('click', function() {
   document.querySelector('.custom-popup').classList.remove('active');
   document.body.classList.remove('overhidden');
 });
-
-document.querySelectorAll('.page-nav a').forEach(anchor => {
-  anchor.addEventListener('click', function (event) {
-    // Prevent default anchor behavior
-    event.preventDefault();
-
-    // Get the href hash (e.g., #section1)
-    const targetId = this.getAttribute('href').substring(1);
-    const targetElement = document.getElementById(targetId);
-
-    if (targetElement) {
-      // Scroll the target element into view
-      targetElement.scrollIntoView({
-        behavior: 'smooth', // Smooth scrolling
-        block: 'start' // Align to the start of the target element
-      });
-    }
-  });
-});
