@@ -112,7 +112,7 @@
           "type": "popup",
           "settings": {
             "title": "Payment",
-            "content": "<p>Payments are accepted via credit card, debit card, Apple Pay, or PayPal with a valid billing address and United States shipping address. Accepted credit cards are Visa, American Express, and Mastercard.</p><p>When placing an order, your billing address must correspond to the address of your credit card, or we will not be able to process your order.</p><p>All transactions are secured. The L'Écurie Paris website is provided with an SSL encryption system to protect personal and payment data.</p>",
+            "content": "<p>Payments are accepted via credit card, debit card, Apple Pay, or PayPal with a valid billing address and United States shipping address. Accepted credit cards are Visa, American Express, and Mastercard.</p><p></p><p>When placing an order, your billing address must correspond to the address of your credit card, or we will not be able to process your order.</p><p></p><p>All transactions are secured. The L'Écurie Paris website is provided with an SSL encryption system to protect personal and payment data.</p>",
             "page_content": ""
           }
         },
