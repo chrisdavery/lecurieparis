@@ -9,38 +9,6 @@
 */
 {
   "sections": {
-    "rich_text_BLyt9B": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_tDPiXi": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "LIFETIME WARRANTY WORLDWIDE AGAINST MANUFACTURING DEFECTS",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
-          }
-        },
-        "text_dmqqV7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>L'Écurie Paris products purchased from an authorized retailer is guaranteed by L’Écurie Paris against manufacturing defects for the lifetime of the product, subject to verification by our technical service department. If a manufacturing defect is verified, the frame or part of the frame deemed defective will be replaced free of charge. This does not include ophthalmic lenses, which will not be replaced under any circumstances.<br/><br/>This warranty does not cover damage caused by accidents (impact, crushing, scratching, etc.), improper or unauthorized use of the frame, unauthorized alterations, repairs or tampering. Any damage not covered under warranty can be repaired for a charge after verification.</p><p>Should a defect occur, please send your frame(s) and include your name, phone number, mailing address, email address, to: </p><p>L’Écurie Paris distribution<br/>1065 La Mirada Ct, Vista, CA 92081<br/>United States<br/>Email: experience@lecurieparis.com</p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_tDPiXi",
-        "text_dmqqV7"
-      ],
-      "settings": {
-        "black_header": false,
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-only",
-        "content_width": "custom"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -54,10 +22,60 @@
         "content_width": "full",
         "custom_content_width": 1000
       }
+    },
+    "multi_column_iw3de7": {
+      "type": "multi-column",
+      "blocks": {
+        "column_PtBiM4": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>L'Écurie Paris products purchased from an authorized retailer is guaranteed by L’Écurie Paris against manufacturing defects for the lifetime of the product, subject to verification by our technical service department. If a manufacturing defect is verified, the frame or part of the frame deemed defective will be replaced free of charge. This does not include ophthalmic lenses, which will not be replaced under any circumstances.<br/><br/>This warranty does not cover damage caused by accidents (impact, crushing, scratching, etc.), improper or unauthorized use of the frame, unauthorized alterations, repairs or tampering. Any damage not covered under warranty can be repaired for a charge after verification.</p><p>Should a defect occur, please send your frame(s) and include your name, phone number, mailing address, email address, to: </p><p>L’Écurie Paris distribution<br/>1065 La Mirada Ct, Vista, CA 92081<br/>United States<br/>Email: experience@lecurieparis.com</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 62,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_PtBiM4"
+      ],
+      "settings": {
+        "black_header": false,
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "<h3>LIFETIME WARRANTY WORLDWIDE </h3>",
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
-    "rich_text_BLyt9B",
-    "main"
+    "main",
+    "multi_column_iw3de7"
   ]
 }
