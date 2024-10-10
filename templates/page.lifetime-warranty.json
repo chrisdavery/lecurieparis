@@ -12,28 +12,38 @@
     "rich_text_BLyt9B": {
       "type": "rich-text",
       "blocks": {
+        "subheading_tDPiXi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "LIFETIME WARRANTY WORLDWIDE AGAINST MANUFACTURING DEFECTS",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
         "text_dmqqV7": {
           "type": "text",
           "settings": {
-            "text": "<p>A curated boutique selection to find L'Écurie Paris eyewear<br/>To open an account email us : <a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:experience@lecurieparis.com\">experience@lecurieparis.com</a></p>",
+            "text": "<p>L'Écurie Paris products purchased from an authorized retailer is guaranteed by L’Écurie Paris against manufacturing defects for the lifetime of the product, subject to verification by our technical service department. If a manufacturing defect is verified, the frame or part of the frame deemed defective will be replaced free of charge. This does not include ophthalmic lenses, which will not be replaced under any circumstances.<br/><br/>This warranty does not cover damage caused by accidents (impact, crushing, scratching, etc.), improper or unauthorized use of the frame, unauthorized alterations, repairs or tampering. Any damage not covered under warranty can be repaired for a charge after verification.</p><p>Should a defect occur, please send your frame(s) and include your name, phone number, mailing address, email address, to: </p><p>L’Écurie Paris distribution<br/>1065 La Mirada Ct, Vista, CA 92081<br/>United States<br/>Email: experience@lecurieparis.com</p>",
             "text_font_class": "fs-body-100"
           }
         }
       },
       "block_order": [
+        "subheading_tDPiXi",
         "text_dmqqV7"
       ],
       "settings": {
         "black_header": false,
         "alignment": "center_center",
-        "enable_animation": true,
+        "enable_animation": false,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only",
-        "content_width": "full"
+        "content_width": "custom"
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
