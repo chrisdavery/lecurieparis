@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -64,11 +73,11 @@
             "add_box": false,
             "add_dividers": false,
             "icon_1": "envelope",
-            "text_1": "<p>Complimentary Express Free shipping & 30 days to return*<\/p>",
+            "text_1": "<p>Complimentary Express Free shipping & 30 days to return*</p>",
             "icon_2": "none",
             "text_2": "",
             "icon_3": "chat",
-            "text_3": "<p>Need help? <a href=\"\/pages\/contact\">Contact us<\/a><\/p>",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
             "icon_4": "none",
             "text_4": "",
             "icon_5": "none",
@@ -124,9 +133,32 @@
           "type": "popup",
           "settings": {
             "title": "Additional Info",
-            "content": "<p>L'Écurie Paris has developed its own packaging. It was inspired by vintage elegance to honor Parisian accessories designs.<\/p><p>Elegantly display your French style sunglasses.<\/p>",
+            "content": "<p>L'Écurie Paris has developed its own packaging. It was inspired by vintage elegance to honor Parisian accessories designs.</p><p>Elegantly display your French style sunglasses.</p><p>Includes:<br/>- LP Box<br/>- 1 cleaning cloth<br/>- 1 Foldable hard case Black<br/>- 1 soft pouch faux leather brown<br/>- 1 LP Eyewear<br/>- 1 Certificates of authenticity</p>",
             "page_content": "",
-            "image": "shopify:\/\/shop_images\/In-the-pack_a52a23c4-d446-4f59-9df5-b6acbf01f39f.jpg"
+            "image": "shopify://shop_images/LookBook-LP-Europe-Revised.001.jpg"
+          }
+        },
+        "product_callouts_AYyTHy": {
+          "type": "product_callouts",
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": false,
+            "add_dividers": false,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free Express shipping Worldwide</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges ( USA )</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
           }
         }
       },
@@ -141,7 +173,8 @@
         "popup_mn4HFX",
         "popup_88UyyB",
         "accordion-1",
-        "popup_hrezap"
+        "popup_hrezap",
+        "product_callouts_AYyTHy"
       ],
       "settings": {
         "enable_sticky_product_details": true,
@@ -173,7 +206,7 @@
             "heading": "Column",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -188,7 +221,7 @@
             "heading": "Column",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -203,7 +236,7 @@
             "heading": "Column",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -222,7 +255,7 @@
         "black_header": false,
         "title": "",
         "heading_tag": "h2",
-        "subheading": "<p>Use a multi-column section to organize detailed information about your products:<\/p>",
+        "subheading": "<p>Use a multi-column section to organize detailed information about your products:</p>",
         "heading_font_class": "fs-heading-3-base",
         "heading_alignment": "center",
         "content_vertical_alignment": "top",
@@ -266,7 +299,7 @@
         "block-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -310,7 +343,7 @@
         "block-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text": "<p>Use these sections to promote a particular feature with editorial photography</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -352,7 +385,7 @@
         "block-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text": "<p>Use these sections to promote a particular feature with editorial photography</p>",
             "text_font_class": "fs-body-100"
           }
         }
