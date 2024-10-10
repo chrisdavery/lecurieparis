@@ -116,6 +116,14 @@
             "page_content": ""
           }
         },
+        "popup_4fyDHa": {
+          "type": "popup",
+          "settings": {
+            "title": "Lifetime warranty",
+            "content": "<p>L’Écurie Paris products purchased from an authorized retailer is guaranteed by L’Écurie Paris against manufacturing defects for the lifetime of the product, subject to verification by our technical service department. <br/>If a manufacturing defect is verified, the frame or part of the frame deemed defective will be replaced free of charge. <br/>This does not include ophthalmic lenses, which will not be replaced under any circumstances.<br/><br/>This warranty does not cover damage caused by accidents (impact, crushing, scratching, etc.), improper or unauthorized use of the frame, unauthorized alterations, repairs or tampering. Any damage not covered under warranty can be repaired for a charge after verification.</p><p>Should a defect occur, please send your frame(s) and include your name, phone number, mailing address, email address, and a check for USD $25.00 (shipping and handling fee) or USD $50 (expedited service) to: </p><p>L’Écurie Paris<br/><br/>1065 La Mirada ct, Vista , CA 92081, United States<br/><br/>Email: experience@lecurieparis.com</p>",
+            "page_content": ""
+          }
+        },
         "accordion-1": {
           "type": "accordion",
           "disabled": true,
@@ -172,6 +180,7 @@
         "description",
         "popup_mn4HFX",
         "popup_88UyyB",
+        "popup_4fyDHa",
         "accordion-1",
         "popup_hrezap",
         "product_callouts_AYyTHy"
