@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -21,9 +22,60 @@
         "content_width": "full",
         "custom_content_width": 1000
       }
+    },
+    "multi_column_dqLcY9": {
+      "type": "multi-column",
+      "blocks": {
+        "column_XQMkrp": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "ACCESSIBILITY",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><strong>L'Écurie Paris  ACCESSIBILITY STATEMENT </strong></p><p>L'Écurie Paris  is committed to accessibility and believe that all of our consumers should be able to fully and completely access and use L'Écurie Paris ’s online content, including websites, mobile sites and all digital offerings. This is an ongoing commitment, and L'Écurie Paris  will continue its efforts to effectively communicate with its consumers and to ensure its website is accessible to, and usable by, all persons including those with disabilities. <br/><br/> <br/><br/>L'Écurie Paris  endeavors to design, create and update digital content that conforms to applicable accessibility laws and regulation and the most current version of the World Wide Web Consortium’s Web Content Accessibility Guidelines.  To accomplish this, L'Écurie Paris  has built a diverse team of individuals who are trained in digital accessibility and are committed to providing the best digital experience to our consumers. <br/><br/><br/>As part of its commitment to accessibility, L'Écurie Paris  has incorporated usability features on our sites that make it easy for persons using assistive technologies, including screen reader technologies, and also keyboard-only users, users with low/impaired vision, users who are deaf or hard of hearing, users with cognitive disabilities and users who are color blind.  <br/><br/> <br/><br/>Additionally, L'Écurie Paris  provides free of charge to consumers the assistive technology application provided by eSSENTIAL Accessibility Inc. for consumers who have trouble typing, gesturing, moving a mouse, or reading. This auxiliary aid and service is free to download and incorporates tools such as mouse and keyboard replacements, voice recognition, speech enablement, hands-free/touch-free navigation, and more. <br/><br/> <br/><br/>Our values inspire our commitment to operate responsibly and motivate us to build a business based on uncompromising ethics, integrity, fairness, diversity and trust.  In partnership with our suppliers, our retailers, our consumers and everyone L'Écurie Paris  touches, L'Écurie Paris  aspires to foster our heritage of respect for people and the environment and be a positive influence in every community L'Écurie Paris serves. <br/><br/> <br/><br/>L'Écurie Paris  welcomes feedback on your experience on this site. If you have any accessibility comments or concerns, or if you would like to request any modifications, please let us know: <br/><br/> <br/><br/><br/><br/> <br/><br/>E-mail:experience@lecurieparis.com</p><p><br/></p><p><br/></p><p><strong>L'Écurie Paris  and the eSSENTIAL Accessibility Assistive Technology APP </strong></p><p>L'Écurie Paris  is committed to creating an inclusive experience for people with disabilities by offering a free assistive technology application for you to download from eSSENTIAL Accessibility. </p><p>eSSENTIAL Accessibility’s innovative assistive technology application (“App”) enhances the customer experience for people who have trouble typing, moving a mouse, gesturing or reading a screen. </p><p>This icon serves as a link to download the App, at no cost. </p><p><strong>WHAT IS IT? <br/><br/></strong>The technology is a suite of keyboard, mouse and touch replacement solutions designed to make the digital world accessible to people with physical disabilities. <br/><br/>The App features tools such as: </p><p>Hands-free mouse </p><p>Voice commands </p><p>Visual click assist </p><p>On-screen keyboard </p><p>Text-to-speech </p><p>The App is easy-to-use and can be activated quickly. </p><p><strong>WHO IS IT FOR? </strong><br/><br/>The App is primarily to assist people who have trouble typing, moving a mouse, or reading due to a variety of conditions, such as: </p><p>Age related factors </p><p>Stroke/paralysis </p><p>Arthritis </p><p>Multiple Sclerosis </p><p>Parkinson’s disease </p><p>Cerebral Palsy </p><p>Dyslexia </p><p>Mild visual impairment </p><p>Limited proficiency in English </p><p>Literacy deficiencies </p><p>Other learning or reading issues </p><p><strong>HOW CAN YOU DOWNLOAD IT? </strong><br/><br/><a href=\"https://www.levelaccess.com/download-app/\">Click to download</a> the App for Windows, Mac and Android. This page also provides more detailed information including system requirements and user guides. <br/><br/> <br/><br/><strong>WHAT IF YOU HAVE QUESTIONS? </strong><br/><br/>For customer service and support for the App, please contact eSSENTIAL Accessibility by email at <a href=\"mailto:support@essentialaccessibility.com\">support@essentialaccessibility.com</a> or by phone at 1 (866) 333-3909. </p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 67,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_XQMkrp"
+      ],
+      "settings": {
+        "black_header": false,
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multi_column_dqLcY9"
   ]
 }
