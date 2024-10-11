@@ -30,12 +30,12 @@
           "type": "column",
           "settings": {
             "accent": "",
-            "heading": "Hassle Free Exchange, Return & Lifetime warranty against manufacturing defects",
+            "heading": "",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<h2><strong>Policy</strong></h2><p>Complimentary exchanges & returns within 30 days (USA ONLY).</p><p>Item new in perfect & sellable condition.</p><p>Original packaging.</p><p>Original invoice, leaflets and certificates.</p><p>No exchanges and returns for personalized items, engraved products, Made-to-Order items.</p><h2> <strong>Returns ( USA ONLY )</strong></h2><p>Contact us to receive a return label within 30 days of purchase.</p><p>Product must be new, unused.</p><p>Prepare your free exchange package: Place your item in its original packaging and with the original receipt.</p><p>Put the pre-paid label, on your package: Cover old address labels with the new pre-paid label and securely seal your package using the adhesive strip on the inside of the box.</p><p>Deliver your package to UPS: Drop your package off at any UPS store or pick-up location.</p><p>Return your product within 30 days from the purchase date.</p><h2> <strong>Returns ( worldwide except USA )</strong></h2><p>Product must be new, unused.</p><p>Place your item in its original packaging and with the original receipt.</p><p>Ship to :<br/>L’Écurie Paris distribution<br/>1065 La Mirada Ct, Vista, CA 92081<br/>United States<br/>Email: experience@lecurieparis.com.</p><p>Return your product within 30 days from the purchase date.</p><h2> <strong>LIFETIME WARRANTY WORLDWIDE AGAINST MANUFACTURING DEFECTS</strong></h2><p>L'Écurie Paris products purchased from an authorized retailer is guaranteed by L’Écurie Paris against manufacturing defects for the lifetime of the product, subject to verification by our technical service department. If a manufacturing defect is verified, the frame or part of the frame deemed defective will be replaced free of charge. This does not include ophthalmic lenses, which will not be replaced under any circumstances.<br/><br/>This warranty does not cover damage caused by accidents (impact, crushing, scratching, etc.), improper or unauthorized use of the frame, unauthorized alterations, repairs or tampering. Any damage not covered under warranty can be repaired for a charge after verification.</p><p>Should a defect occur, please send your frame(s) and include your name, phone number, mailing address, email address, to: </p><p>L’Écurie Paris distribution<br/>1065 La Mirada Ct, Vista, CA 92081<br/>United States<br/>Email: experience@lecurieparis.com</p>",
+            "text": "<h4><strong>Policy</strong></h4><p><br/>Complimentary exchanges & returns within 30 days (USA ONLY).<br/>Item new in perfect & sellable condition.<br/>Original packaging.<br/>Original invoice, leaflets and certificates.<br/>No exchanges and returns for personalized items, engraved products, Made-to-Order items.<br/> Returns ( USA ONLY )<br/>Contact us to receive a return label within 30 days of purchase.<br/>Product must be new, unused.<br/>Prepare your free exchange package: Place your item in its original packaging and with the original receipt.<br/>Put the pre-paid label, on your package: Cover old address labels with the new pre-paid label and securely seal your package using the adhesive strip on the inside of the box.<br/>Deliver your package to UPS: Drop your package off at any UPS store or pick-up location.<br/>Return your product within 30 days from the purchase date.<br/> Returns ( worldwide except USA )<br/>Product must be new, unused.<br/>Place your item in its original packaging and with the original receipt.<br/>Ship to : L’Écurie Paris distribution 1065 La Mirada Ct, Vista, CA 92081 United States Email: experience@lecurieparis.com.<br/>Return your product within 30 days from the purchase date.</p>",
             "text_font_class": "fs-body-100",
-            "text_max_width": 50,
+            "text_max_width": 67,
             "link": "",
             "link_text": "",
             "button_style": "btn--primary"
@@ -49,7 +49,7 @@
         "black_header": false,
         "title": "",
         "heading_tag": "h2",
-        "subheading": "<h3>LIFETIME WARRANTY WORLDWIDE </h3>",
+        "subheading": "<h3>Hassle Free Exchange & Return</h3>",
         "heading_font_class": "fs-heading-2-base",
         "heading_alignment": "center",
         "content_vertical_alignment": "center",
