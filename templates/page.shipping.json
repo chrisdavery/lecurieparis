@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "bg_color": "",
         "content_color": "",
@@ -19,49 +20,59 @@
         "custom_content_width": 500
       }
     },
-    "rich-text-1": {
-      "type": "rich-text",
+    "multi_column_76pnYQ": {
+      "type": "multi-column",
       "blocks": {
-        "block-1": {
-          "type": "heading",
+        "column_d8ekMh": {
+          "type": "column",
           "settings": {
-            "title": "Shipping & Delivery",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-3-base"
-          }
-        },
-        "block-0": {
-          "type": "spacer",
-          "settings": {
-            "space": 20
-          }
-        },
-        "block-2": {
-          "type": "text",
-          "settings": {
-            "text": "<h2><strong>QUICK FACTS</strong></h2><ul><li>Orders may take 24 to 36 hours to process, once your order has been processed you will receive an email confirming your order has shipped.</li><li>Shipping & Timing begin when you receive the shipping confirmation email.</li><li>Additional validation may be required for some orders and can delay delivery.</li><li>Signature is required on all shipments above $50.</li><li>To track your order, visit your account or shipping confirmation email.</li><li><a href=\"https://lecurieparis.com/pages/hassle-free-exchange-returns\" title=\"Hassle Free Exchange\"><span style=\"text-decoration:underline\">Hassle-Free Exchange, Returns</span> & Lifetime warranty are available for all our products</a></li></ul><h2><strong>SHIPPING FEES & TIMING</strong></h2><ul><li><span style=\"text-decoration:underline\">Fee:</span> Complimentary express shipping for all orders worldwide.</li><li><span style=\"text-decoration:underline\">Delivery Timing:</span> L'Écurie Paris ship 2nd day air signature required (For USA), and express delivery for the rest of the world.<br/>Time to receive your order within USA territory is 2-3 business days from the time you receive shipping confirmation email.</li><li>Alaska and Hawaii: Allow 5-7 business days from the time you receive shipping confirmation email.</li></ul><h2><strong>SIGNATURE REQUIRED</strong></h2><p>Due to the high value of our products there will be a signature required on all shipments above $50 regardless of service type.</p><h2><strong>LIFETIME WARRANTY WORLDWIDE AGAINST MANUFACTURING DEFECTS</strong></h2><p>L'Écurie Paris products purchased from an authorized retailer is guaranteed by L’Écurie Paris against manufacturing defects for the lifetime of the product, subject to verification by our technical service department. If a manufacturing defect is verified, the frame or part of the frame deemed defective will be replaced free of charge. This does not include ophthalmic lenses, which will not be replaced under any circumstances.<br/><br/>This warranty does not cover damage caused by accidents (impact, crushing, scratching, etc.), improper or unauthorized use of the frame, unauthorized alterations, repairs or tampering. Any damage not covered under warranty can be repaired for a charge after verification.</p><p>Should a defect occur, please send your frame(s) and include your name, phone number, mailing address, email address, to: </p><p>L’Écurie Paris distribution<br/>1065 La Mirada Ct, Vista, CA 92081<br/>United States<br/>Email: experience@lecurieparis.com</p>",
-            "text_font_class": "fs-body-75"
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<h3>QUICK FACTS</h3><p><br/>Orders may take 24 to 36 hours to process, once your order has been processed you will receive an email confirming your order has shipped.<br/>Shipping & Timing begin when you receive the shipping confirmation email.<br/>Additional validation may be required for some orders and can delay delivery.<br/>Signature is required on all shipments above $50.<br/>To track your order, visit your account or shipping confirmation email.<br/>Hassle-Free Exchange, Returns & Lifetime warranty are available for all our products.</p><h3>SHIPPING FEES & TIMING </h3><p>Complimentary express shipping for all orders worldwide.<br/>Delivery Timing: L'Écurie Paris ship 2nd day air signature required (For USA), and express delivery for the rest of the world.<br/>Time to receive your order within USA territory is 2-3 business days from the time you receive shipping confirmation email.<br/>Alaska and Hawaii: Allow 5-7 business days from the time you receive shipping confirmation email.<br/>SIGNATURE REQUIRED<br/>Due to the high value of our products there will be a signature required on all shipments above $50 regardless of service type.<br/><br/></p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 68,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
           }
         }
       },
       "block_order": [
-        "block-1",
-        "block-0",
-        "block-2"
+        "column_d8ekMh"
       ],
-      "disabled": true,
       "settings": {
         "black_header": false,
-        "alignment": "center_center",
-        "enable_animation": true,
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "<h3>SHIPPING & DELIVERY </h3>",
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": false,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     }
   },
   "order": [
     "main",
-    "rich-text-1"
+    "multi_column_76pnYQ"
   ]
 }
