@@ -45,10 +45,20 @@
         "content_width": "full",
         "custom_content_width": 1000
       }
+    },
+    "custom_liquid_DnCVVP": {
+      "type": "custom-liquid",
+      "settings": {
+        "black_header": false,
+        "custom_liquid": "<div id=\"sitemapper-embed\"></div>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
     "rich_text_BLyt9B",
-    "main"
+    "main",
+    "custom_liquid_DnCVVP"
   ]
 }
