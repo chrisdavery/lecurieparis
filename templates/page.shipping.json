@@ -49,6 +49,7 @@
         "block-0",
         "block-2"
       ],
+      "disabled": true,
       "settings": {
         "black_header": false,
         "alignment": "center_center",
