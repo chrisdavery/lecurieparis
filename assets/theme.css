@@ -4902,26 +4902,32 @@ html:not(.no-js) .collection-list-slider__content:not(.swiper-initialized) .coll
     }
       }
 @media (min-width: 960px){
-.featured-collection-grid.featured-collection-grid--per-view-3 .featured-collection-grid__products{
-        grid-template-columns:repeat(3, 1fr)
+  .featured-collection-grid.featured-collection-grid--per-view-3 .featured-collection-grid__products > .featured-collection-grid__product {
+    /* grid-template-columns:repeat(3, 1fr) */
+    width: calc(33.3% - calc(var(--spacing-4) + 1px) * 2/3);
+    max-width: calc(33.3% - calc(var(--spacing-4) + 1px) * 2/3);
+}
+      }
+@media (min-width: 960px){
+.featured-collection-grid.featured-collection-grid--per-view-4 .featured-collection-grid__products > .featured-collection-grid__product {
+        /* grid-template-columns:repeat(4, 1fr) */
+        width: calc(25% - calc(var(--spacing-4) + 1px) * 3/4);
+        max-width: calc(25% - calc(var(--spacing-4) + 1px) * 3/4);
     }
       }
 @media (min-width: 960px){
-.featured-collection-grid.featured-collection-grid--per-view-4 .featured-collection-grid__products{
-        grid-template-columns:repeat(4, 1fr)
-    }
-      }
-@media (min-width: 960px){
-.featured-collection-grid.featured-collection-grid--per-view-5 .featured-collection-grid__products{
-        grid-template-columns:repeat(5, 1fr)
-    }
+  .featured-collection-grid.featured-collection-grid--per-view-5 .featured-collection-grid__products > .featured-collection-grid__product {
+    /* grid-template-columns:repeat(5, 1fr) */
+    width: calc(20% - calc(var(--spacing-4) + 1px) * 4/5);
+    max-width: calc(20% - calc(var(--spacing-4) + 1px) * 4/5);
+}
       }
 .featured-collection-grid .carousel__navigation-buttons{
     display:none;
   }
 @media (min-width: 960px){
 .featured-collection-grid__products{
-    display:grid;
+    display:flex;
     grid-column-gap:calc((4px * 4) + 1px);
     grid-column-gap:calc(calc(4px * 4) + 1px);
     grid-column-gap:calc(var(--spacing-4) + 1px);
@@ -4940,17 +4946,34 @@ html:not(.no-js) .collection-list-slider__content:not(.swiper-initialized) .coll
 }
   }
 @media (min-width: 1200px){
-.featured-collection-grid__products{
-    -moz-column-gap:calc((4px * 6) + 1px);
-         column-gap:calc((4px * 6) + 1px);
-    -moz-column-gap:calc(calc(4px * 6) + 1px);
-         column-gap:calc(calc(4px * 6) + 1px);
-    -moz-column-gap:calc(var(--spacing-6) + 1px);
-         column-gap:calc(var(--spacing-6) + 1px);
-    row-gap:calc((4px * 6) + 1px);
-    row-gap:calc(calc(4px * 6) + 1px);
-    row-gap:calc(var(--spacing-6) + 1px)
-}
+  .featured-collection-grid__products{
+      -moz-column-gap:calc((4px * 6) + 1px);
+          column-gap:calc((4px * 6) + 1px);
+      -moz-column-gap:calc(calc(4px * 6) + 1px);
+          column-gap:calc(calc(4px * 6) + 1px);
+      -moz-column-gap:calc(var(--spacing-6) + 1px);
+          column-gap:calc(var(--spacing-6) + 1px);
+      row-gap:calc((4px * 6) + 1px);
+      row-gap:calc(calc(4px * 6) + 1px);
+      row-gap:calc(var(--spacing-6) + 1px)
+  }
+
+  .featured-collection-grid.featured-collection-grid--per-view-3 .featured-collection-grid__products > .featured-collection-grid__product {
+    /* grid-template-columns:repeat(3, 1fr) */
+    width: calc(33.3% - calc(var(--spacing-6) + 1px) * 2/3);
+    max-width: calc(33.3% - calc(var(--spacing-6) + 1px) * 2/3);
+  }
+  .featured-collection-grid.featured-collection-grid--per-view-4 .featured-collection-grid__products > .featured-collection-grid__product {
+    /* grid-template-columns:repeat(4, 1fr) */
+    width: calc(25% - calc(var(--spacing-6) + 1px) * 3/4);
+    max-width: calc(25% - calc(var(--spacing-6) + 1px) * 3/4);
+  }
+  .featured-collection-grid.featured-collection-grid--per-view-5 .featured-collection-grid__products > .featured-collection-grid__product {
+    /* grid-template-columns:repeat(5, 1fr) */
+    width: calc(20% - calc(var(--spacing-6) + 1px) * 4/5);
+    max-width: calc(20% - calc(var(--spacing-6) + 1px) * 4/5);
+  }
+
   }
 @media (max-width: 959px){
 .no-js .featured-collection-grid__products{
