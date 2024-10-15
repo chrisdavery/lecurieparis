@@ -289,15 +289,7 @@ html:not(.no-js) .navigation__submenu,.meganav {
     height: 1px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.product-item__slider__content .carousel__navigation-button,.product-item__slider__content .swiper-scrollbar {
-    opacity: 0;
-    transition: all ease-in-out .3s;
-}
-
-.product-item__slider__content:hover .carousel__navigation-button,.product-item__slider__content:hover .swiper-scrollbar {
-    opacity: 1;
+    background: #fff;
 }
 
 @media (min-width: 960px) {
