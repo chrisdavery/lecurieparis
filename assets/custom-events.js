@@ -155,3 +155,75 @@ document.querySelector('.popup_bg')?.addEventListener('click', function() {
   document.querySelector('.custom-popup').classList.remove('active');
   document.body.classList.remove('overhidden');
 });
+
+class SliderCollectionItem extends HTMLElement {
+  constructor() {
+    super();
+      const _this = this
+
+      this._initCarousel()
+  }
+
+  _initCarousel() {
+
+    const {
+      productsPerView,
+      mobileProductsPerView
+    } = this.dataset;
+
+    this.carousel = this.querySelector('.product-item__slider__inner')
+    this.perView = parseInt(productsPerView, 10);
+    this.mobilePerView = parseInt(mobileProductsPerView, 10) * 1.05;
+
+    const nextButton = this.querySelector("[data-next]");
+    const prevButton = this.querySelector("[data-prev]");
+    const useNav = nextButton && prevButton;
+    const scrollbarSwiper = this.querySelector(".swiper-scrollbar");
+
+    import(flu.chunks.swiper).then(_ref => {
+      let {
+        Swiper,
+        Navigation,
+        Scrollbar
+      } = _ref;
+
+      const defaultSwiperOptions = {
+        slidesPerView: this.perView,
+        grabCursor: true,
+        draggable: true
+      };
+
+      let swiperOptions = defaultSwiperOptions;
+
+      // nextEl and prevEl can be passed in check if they are before
+      // using the defaults
+
+      if ("navigation" in swiperOptions) {
+        swiperOptions = Object.assign(swiperOptions, {
+          modules: [Navigation,Scrollbar]
+        });
+      } else if (useNav) {
+        swiperOptions = Object.assign(swiperOptions, {
+          modules: [Navigation,Scrollbar],
+          navigation: {
+            nextEl: nextButton,
+            prevEl: prevButton
+          }
+        });
+      }
+
+      if (scrollbarSwiper) {
+        swiperOptions = Object.assign(swiperOptions, {
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          }
+        });
+      }
+
+      var carousel = new Swiper(this.carousel, swiperOptions);
+    });
+  }
+}
+
+// Register the custom element
+customElements.define('slider-collection-item', SliderCollectionItem);

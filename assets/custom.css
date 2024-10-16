@@ -261,7 +261,48 @@ html:not(.no-js) .navigation__submenu,.meganav {
     overflow: hidden;
 }
 
+.product-item__slider__content {
+    position: relative;
+    display: block;
+}
+
+.product-item__slider__content .carousel__navigation-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    z-index: 2;
+}
+
+.product-item__slider__content .carousel__navigation-button--forward {
+    right: 1rem;
+}
+
+.product-item__slider__content .carousel__navigation-button--back {
+    left: 1rem;
+}
+
+.product-item__slider__content .swiper-scrollbar {
+    position: absolute;
+    bottom: 2rem;
+    max-width: 4rem;
+    height: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+
 @media (min-width: 960px) {
+    .product-item__slider__content .carousel__navigation-button,.product-item__slider__content .swiper-scrollbar {
+        opacity: 0;
+        transition: all ease-in-out .3s;
+    }
+
+    .product-item__slider__content:hover .carousel__navigation-button,.product-item__slider__content:hover .swiper-scrollbar {
+        opacity: 1;
+    }
+
+
     .product[data-gallery-size=large] .product__primary {
         grid-template-columns: 50fr 50fr !important;
     }
