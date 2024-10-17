@@ -10,6 +10,7 @@
     assign filter_bar_enabled = true
   endif
 
+  assign filter_bar_enabled = false 
   assign swatch_options = settings.swatch_options | downcase | split: ', '
   assign chip_options = settings.chip_options | downcase | split: ', '
 -%}
@@ -76,14 +77,18 @@
               chip_options: chip_options,
               enable_sticky_filter_bar: section.settings.enable_sticky_filter_bar,
               collapse_filter_bar: section.settings.collapse_filter_bar,
-              chip_layout: section.settings.chip_layout
+              chip_layout: section.settings.chip_layout,
+              category_menu: section.settings.category_menu,
+              slide_drawer: section.settings.slide_drawer
             %}
 
             {% render 'mobile-filters',
               results: collection,
               show_sort: section.settings.show_sort,
               show_filters: section.settings.show_filters,
-              enable_sticky_filter_bar: section.settings.enable_sticky_filter_bar
+              enable_sticky_filter_bar: section.settings.enable_sticky_filter_bar,
+              category_menu: section.settings.category_menu,
+              slide_drawer: section.settings.slide_drawer
             %}
 
             <div class="collection__main-area">
@@ -338,6 +343,17 @@
       "type": "checkbox",
       "id": "collapse_filter_bar",
       "label": "t:shared.settings.collapse_filter_bar.label",
+      "default": true
+    },
+    {
+      "type": "link_list",
+      "id": "category_menu", 
+      "label": "Category Menu"
+    },
+    {
+      "type": "checkbox",
+      "id": "slide_drawer",
+      "label": "Slide Drawer",
       "default": true
     },
     {

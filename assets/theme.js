@@ -13043,6 +13043,7 @@ register("collection", {
       this.partial = n$2(selectors$1.partial, this.container);
       this.filterDrawer = filterDrawer(this.container);
       this.filterBar = filterBar(this.container);
+
       this.filterSidebar = filterSidebar(this.container);
       this.filterHandler = filterHandler({
         container: this.container,

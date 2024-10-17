@@ -144,11 +144,27 @@ document.querySelectorAll('.custom_popup-title').forEach(function(element) {
   });
 });
 
+document.querySelectorAll('[data-link-popup]').forEach(function(element) {
+  element.addEventListener('click', function(evt) {
+      evt.preventDefault()
+
+      // Add 'active' class to .custom-popup and 'overhidden' to the body
+      document.querySelector(`.custom-popup[data-popup-id="${element.dataset.linkPopup}"]`)?.classList.add('active');
+      document.body.classList.add('overhidden');
+  });
+}); 
+
+document.querySelectorAll('.custom-popup[data-popup-id]').forEach(popup => {
+  document.body.appendChild(popup)
+})
+
 // When a .popup-close element is clicked
-document.querySelector('.popup-close')?.addEventListener('click', function() {
-  document.querySelector('.custom-popup').classList.remove('active');
-  document.body.classList.remove('overhidden');
-});
+document.querySelectorAll('.popup-close').forEach(close => {
+  close.addEventListener('click', function() {
+    this.closest('.custom-popup').classList.remove('active');
+    document.body.classList.remove('overhidden');
+  });
+})
 
 // When the .popup_bg element is clicked
 document.querySelector('.popup_bg')?.addEventListener('click', function() {
