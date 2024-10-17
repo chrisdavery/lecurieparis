@@ -27,19 +27,52 @@
   "
   data-mobile-filters
 >
+  {% if category_menu != blank %}
+    <div class="mobile-filters__group" data-group="category">
+      <button
+        class="filter-bar__link fs-body-75 filter-bar__link--filters"
+        data-link-popup="category"
+      >
+        <span class="filter-bar__button-text text-uppercase fs-body-75">
+            {{ collection.title }}
+        </span>
+        {% render 'icon' with icon: 'chevron-small' %}
+      </button>
+
+      <div class="custom-popup left--sidebar" data-popup-id="category">
+        <div class="popup_bg"></div>
+        <div class="popup_content">
+          <div class="popup-close no-icon">
+            {% render 'icon-button' with small: true, icon: 'close' %}
+          </div>
+          <div class="popup-title fs-body-75"></div>
+          <div class="popup-main fs-body-75">
+            <ul class="filter-drawer__list">
+              {% for link in category_menu.links %}
+                <li class="filter-item">
+                  <a href="{{ link.url }}" class="{% if link.url == collection.url %}active{% endif %} text-uppercase">{{ link.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
   {%- if filters_valid -%}
     <div class="mobile-filters__group" data-group="{{ 'filters.title' | t }}">
       <button
         type="button"
-        class="mobile-filters__button"
+        class="mobile-filters__button filter-bar__link fs-body-75 filter-bar__link--filters"
         data-mobile-filters-toggle
         data-filter-drawer-target="__tags"
         data-tags-dropdown
       >
-        {% render 'icon' with icon: 'filter' %}
-
-        {{ 'filters.title' | t }}
-
+        <span class="filter-bar__button-text text-uppercase fs-body-75">
+          {{ 'filters.title' | t }}
+        </span>
+        {% render 'icon' with icon: 'chevron-small' %}
         {%- if filters_active -%}
           <span class="mobile-filters__button-count">{{ active_filter_count }}</span>
         {%- endif -%}
@@ -47,7 +80,7 @@
     </div>
   {%- endif -%}
 
-  {%- if show_sort -%}
+  {% comment %} {%- if show_sort -%}
     <div class="mobile-filters__group" data-group="{{ heading }}">
       <button type="button" class="mobile-filters__button" data-filter-drawer-target="__sort" data-sort-dropdown>
         {% render 'icon' with icon: 'sort' %}
@@ -55,5 +88,5 @@
         {{ 'filters.sort_title' | t }}
       </button>
     </div>
-  {%- endif -%}
+  {%- endif -%} {% endcomment %}
 </div>

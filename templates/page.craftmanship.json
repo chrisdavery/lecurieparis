@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -27,35 +18,35 @@
           "type": "link",
           "settings": {
             "text": "LA MAISON",
-            "link": "shopify://pages/la-maison-lecurie-paris"
+            "link": "shopify:\/\/pages\/la-maison-lecurie-paris"
           }
         },
         "link_Uw4HyH": {
           "type": "link",
           "settings": {
             "text": "THE STORY",
-            "link": "shopify://pages/a-design-story"
+            "link": "shopify:\/\/pages\/a-design-story"
           }
         },
         "link_NMEFK8": {
           "type": "link",
           "settings": {
             "text": "FRENCH DESIGN",
-            "link": "shopify://pages/french-design"
+            "link": "shopify:\/\/pages\/french-design"
           }
         },
         "link_78wrdL": {
           "type": "link",
           "settings": {
             "text": "INSPIRATION",
-            "link": "shopify://pages/inspiration"
+            "link": "shopify:\/\/pages\/inspiration"
           }
         },
         "link_WQwAMN": {
           "type": "link",
           "settings": {
             "text": "CRAFTSMANSHIP",
-            "link": "shopify://pages/craftmanship"
+            "link": "shopify:\/\/pages\/craftmanship"
           }
         }
       },
@@ -97,14 +88,14 @@
         "text_hUjDgn": {
           "type": "text",
           "settings": {
-            "text": "<p>At L'Écurie Paris, the design and craftsmanship excellence are taken to new heights. <br/>We elevate the art of eyewear by ensuring each detail is thoughtfully considered and meticulously executed. <br/></p><p>Our sunglasses are crafted as expressions of artistry, blending tradition with innovation. </p><p>We are dedicated to offering a luxurious experience that embodies sophistication, <br/>precision, and timeless elegance.</p>",
+            "text": "<p>At L'Écurie Paris, the design and craftsmanship excellence are taken to new heights. <br\/>We elevate the art of eyewear by ensuring each detail is thoughtfully considered and meticulously executed. <br\/><\/p><p>Our sunglasses are crafted as expressions of artistry, blending tradition with innovation. <\/p><p>We are dedicated to offering a luxurious experience that embodies sophistication, <br\/>precision, and timeless elegance.<\/p>",
             "text_font_class": "fs-body-75"
           }
         },
         "image_cdCe6x": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
             "content_width": "custom",
             "image_size": 590,
             "image_size_mobile": 320
@@ -147,7 +138,7 @@
         "text_hNYd4m": {
           "type": "text",
           "settings": {
-            "text": "<p>Craftsmanship is more than a tradition, <br/>It is a revered art in Sabae, Japan, where our sunglasses are meticulously handcrafted. </p><p>In these world-renowned workshops, <br/>artisans apply extraordinary skills passed down through generations to create each pair. </p><p>By merging ancient techniques with modern advancements, <br/>they achieve a level of precision and artistry that defines Japanese craftsmanship. </p><p>The care invested in every detail ensures that our eyewear is not only aesthetically exceptional <br/>but also built to last, embodying the renowned quality of Japanese craftsmanship.</p>",
+            "text": "<p>Craftsmanship is more than a tradition, <br\/>It is a revered art in Sabae, Japan, where our sunglasses are meticulously handcrafted. <\/p><p>In these world-renowned workshops, <br\/>artisans apply extraordinary skills passed down through generations to create each pair. <\/p><p>By merging ancient techniques with modern advancements, <br\/>they achieve a level of precision and artistry that defines Japanese craftsmanship. <\/p><p>The care invested in every detail ensures that our eyewear is not only aesthetically exceptional <br\/>but also built to last, embodying the renowned quality of Japanese craftsmanship.<\/p>",
             "text_font_class": "fs-body-75"
           }
         },
@@ -160,7 +151,7 @@
         "image_Tn3E9X": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan2-2_57847d44-2eaa-4811-a860-ecefa1c653e4.jpg",
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan2-2_57847d44-2eaa-4811-a860-ecefa1c653e4.jpg",
             "content_width": "custom",
             "image_size": 590,
             "image_size_mobile": 320
@@ -203,7 +194,7 @@
         "text_3YJxfL": {
           "type": "text",
           "settings": {
-            "text": "<p>At L’Écurie Paris, we are committed to using only the finest materials for our eyewear in the world.</p><p>We partner with renowned Japanese experts from Fukui to Sabae, <br/>regions synonymous with the highest standards of eyewear creation. </p><p>Collaborating with masters like Hamamoto, we source the highest quality Takiron Acetate and Titanium materials celebrated for their stunning strength and luminous finish. </p><p>Each frame is meticulously adorned with 18K or 14K gold, imbuing it with a subtle yet distinctive luxury. Combined with the precision of Japanese craftsmanship, these materials ensure that every pair of our eyewear is as enduring as it is elegant.</p>",
+            "text": "<p>At L’Écurie Paris, we are committed to using only the finest materials for our eyewear in the world.<\/p><p>We partner with renowned Japanese experts from Fukui to Sabae, <br\/>regions synonymous with the highest standards of eyewear creation. <\/p><p>Collaborating with masters like Hamamoto, we source the highest quality Takiron Acetate and Titanium materials celebrated for their stunning strength and luminous finish. <\/p><p>Each frame is meticulously adorned with 18K or 14K gold, imbuing it with a subtle yet distinctive luxury. Combined with the precision of Japanese craftsmanship, these materials ensure that every pair of our eyewear is as enduring as it is elegant.<\/p>",
             "text_font_class": "fs-body-75"
           }
         }
@@ -217,7 +208,7 @@
       "settings": {
         "image_position": "right",
         "text_alignment": "center",
-        "image": "shopify://shop_images/lecurieparis-manufacturing-japan4.jpg",
+        "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan4.jpg",
         "aspect_ratio": "square",
         "focal_point": "image_presentation",
         "image_caption": "",
@@ -247,7 +238,7 @@
         "text_f9VY3a": {
           "type": "text",
           "settings": {
-            "text": "<p>At L’Écurie Paris, we are committed to using only the finest materials for our eyewear in the world.</p><p>We partner with renowned Japanese experts from Fukui to Sabae,<br/>regions synonymous with the highest standards of eyewear creation.</p><p>Collaborating with masters like Hamamoto, <br/>we source the highest quality Takiron Acetate and Titanium materials <br/>celebrated for their stunning strength and luminous finish.</p><p>Each frame is meticulously adorned with 18K or 14K gold, <br/>imbuing it with a subtle yet distinctive luxury. <br/>Combined with the precision of Japanese craftsmanship, <br/>these materials ensure that every pair of our eyewear is as enduring as it is elegant.</p>",
+            "text": "<p>At L’Écurie Paris, we are committed to using only the finest materials for our eyewear in the world.<\/p><p>We partner with renowned Japanese experts from Fukui to Sabae,<br\/>regions synonymous with the highest standards of eyewear creation.<\/p><p>Collaborating with masters like Hamamoto, <br\/>we source the highest quality Takiron Acetate and Titanium materials <br\/>celebrated for their stunning strength and luminous finish.<\/p><p>Each frame is meticulously adorned with 18K or 14K gold, <br\/>imbuing it with a subtle yet distinctive luxury. <br\/>Combined with the precision of Japanese craftsmanship, <br\/>these materials ensure that every pair of our eyewear is as enduring as it is elegant.<\/p>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -260,7 +251,7 @@
         "image_fEirdA": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan4.jpg",
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan4.jpg",
             "content_width": "custom",
             "image_size": 770,
             "image_size_mobile": 350
@@ -289,7 +280,7 @@
         "text_Uwk7Kj": {
           "type": "text",
           "settings": {
-            "text": "<p>L’Écurie Paris is committed to uncompromising quality. </p><p>Each pair of glasses is carefully crafted in limited quantities,<br/>ensuring every piece reflects the highest level of craftsmanship and attention to detail. </p><p>This dedication to perfection is evident in every aspect of our eyewear, <br/>from the finest materials to the final touches. </p><p>Wearing L’Écurie Paris is more than just eyewear, it’s an immersion into luxury, where style, comfort,<br/> and durability are seamlessly integrated. <br/>Discover the unmatched craftsmanship of L’Écurie Paris and experience true elegance.</p>",
+            "text": "<p>L’Écurie Paris is committed to uncompromising quality. <\/p><p>Each pair of glasses is carefully crafted in limited quantities,<br\/>ensuring every piece reflects the highest level of craftsmanship and attention to detail. <\/p><p>This dedication to perfection is evident in every aspect of our eyewear, <br\/>from the finest materials to the final touches. <\/p><p>Wearing L’Écurie Paris is more than just eyewear, it’s an immersion into luxury, where style, comfort,<br\/> and durability are seamlessly integrated. <br\/>Discover the unmatched craftsmanship of L’Écurie Paris and experience true elegance.<\/p>",
             "text_font_class": "fs-body-75"
           }
         }
@@ -328,14 +319,14 @@
         "text_49jJRG": {
           "type": "text",
           "settings": {
-            "text": "<p>Luxury Designer Eyewear</p>",
+            "text": "<p>Luxury Designer Eyewear<\/p>",
             "text_font_class": "fs-body-100"
           }
         },
         "image_QU4fdB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LP-GOLD.jpg",
+            "image": "shopify:\/\/shop_images\/LP-GOLD.jpg",
             "content_width": "custom",
             "image_size": 120,
             "image_size_mobile": 90

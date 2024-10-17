@@ -66,13 +66,13 @@
           <div class="filter-drawer__heading">
             <h2
               id="modal-{{ 'filters.title' | t }}"
-              class="filter-drawer__title ff-heading fs-heading-4-base"
+              class="filter-drawer__title ff-heading text-center text-uppercase fs-body-75"
               data-filter-drawer-title
             >
               {{ 'filters.title' | t }}
 
               {%- if filters_active -%}
-                <span class="filter-drawer__title-count ff-body fs-body-100">{{ active_filter_count }}</span>
+                <span class="filter-drawer__title-count ff-body fs-body-75">{{ active_filter_count }}</span>
               {%- endif -%}
             </h2>
 

@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -24,7 +15,7 @@
       "type": "custom-liquid",
       "settings": {
         "black_header": true,
-        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: var(--color-text);\n}\n.header {\n--color-background-header:var(--color-text);\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
+        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: var(--color-text);\n}\n.header {\n--color-background-header:var(--color-text);\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n<\/style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
@@ -36,35 +27,35 @@
           "type": "link",
           "settings": {
             "text": "LA MAISON",
-            "link": "shopify://pages/la-maison-lecurie-paris"
+            "link": "shopify:\/\/pages\/la-maison-lecurie-paris"
           }
         },
         "link_X8bCYN": {
           "type": "link",
           "settings": {
             "text": "THE STORY",
-            "link": "shopify://pages/a-design-story"
+            "link": "shopify:\/\/pages\/a-design-story"
           }
         },
         "link_X63kAL": {
           "type": "link",
           "settings": {
             "text": "FRENCH DESIGN",
-            "link": "shopify://pages/french-design"
+            "link": "shopify:\/\/pages\/french-design"
           }
         },
         "link_qT676c": {
           "type": "link",
           "settings": {
             "text": "INSPIRATION",
-            "link": "shopify://pages/inspiration"
+            "link": "shopify:\/\/pages\/inspiration"
           }
         },
         "link_TfBnAa": {
           "type": "link",
           "settings": {
             "text": "CRAFTSMANSHIP",
-            "link": "shopify://pages/craftmanship"
+            "link": "shopify:\/\/pages\/craftmanship"
           }
         }
       },
@@ -106,7 +97,7 @@
         "text_BCdexH": {
           "type": "text",
           "settings": {
-            "text": "<p>L'Écurie is is a very old French word that comes from Écuyer, a brave squire that travel the world on his horse. Time when the life of a horse was more important than a human.<br/><br/>The term \"écurie,\" rooted in the French language, evokes an image of elegance and refinement, traditionally referring to a stable designed for the care and housing of horses. In the world of luxury, the concept of an écurie has transcended its equestrian origins to symbolize a lifestyle characterized by sophistication and exclusivity.</p><p>L'Écurie is associated with the meticulous attention to detail found in high-end accessories. The idea of an écurie conjures visions of artisanal goods, and bespoke items, each embodying the same care and precision as a well-tended horse.<br/>A narrative of heritage, elegance, and the seamless blend of functionality with artistry. <br/>This connection not only honors the traditional craftsmanship associated with equestrian life but also elevates to those who appreciate the finer things in life.</p>",
+            "text": "<p>L'Écurie is is a very old French word that comes from Écuyer, a brave squire that travel the world on his horse. Time when the life of a horse was more important than a human.<br\/><br\/>The term \"écurie,\" rooted in the French language, evokes an image of elegance and refinement, traditionally referring to a stable designed for the care and housing of horses. In the world of luxury, the concept of an écurie has transcended its equestrian origins to symbolize a lifestyle characterized by sophistication and exclusivity.<\/p><p>L'Écurie is associated with the meticulous attention to detail found in high-end accessories. The idea of an écurie conjures visions of artisanal goods, and bespoke items, each embodying the same care and precision as a well-tended horse.<br\/>A narrative of heritage, elegance, and the seamless blend of functionality with artistry. <br\/>This connection not only honors the traditional craftsmanship associated with equestrian life but also elevates to those who appreciate the finer things in life.<\/p>",
             "text_font_class": "fs-body-75"
           }
         }
@@ -132,7 +123,7 @@
         "image_column_gx7Rwi": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "image": "shopify:\/\/shop_images\/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
             "image_width": 64,
             "aspect_ratio": "natural",
             "enable_image_crop_circle": false,
@@ -144,10 +135,10 @@
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><em> “</em>My French heritage instilled in me a deep passion for beauty, and my ultimate aim is to create and share a product that embodies both soul and meaning<em>”</em></p>",
+            "text": "<p><em> “<\/em>My French heritage instilled in me a deep passion for beauty, and my ultimate aim is to create and share a product that embodies both soul and meaning<em>”<\/em><\/p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 68,
-            "link": "https://www.instagram.com/lionelmoroy/",
+            "link": "https:\/\/www.instagram.com\/lionelmoroy\/",
             "link_text": "@lionelmoroy",
             "button_style": "btn--primary"
           }
@@ -155,7 +146,7 @@
         "image_column_hGUQy6": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
+            "image": "shopify:\/\/shop_images\/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
             "image_width": 64,
             "aspect_ratio": "natural",
             "enable_image_crop_circle": false,
@@ -167,10 +158,10 @@
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Jean-Baptiste is a french internationally, recognized creative strategist who specializes in the realms of luxury, fashion, cosmetics, lifestyle and entertainment. <br/>His inventive and meticulous approach to image-building is based on his ability to create effective bridges between marketing and creative concepts.</p>",
+            "text": "<p>Jean-Baptiste is a french internationally, recognized creative strategist who specializes in the realms of luxury, fashion, cosmetics, lifestyle and entertainment. <br\/>His inventive and meticulous approach to image-building is based on his ability to create effective bridges between marketing and creative concepts.<\/p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 82,
-            "link": "https://www.instagram.com/jbrougeot",
+            "link": "https:\/\/www.instagram.com\/jbrougeot",
             "link_text": "@jbrougeot",
             "button_style": "btn--primary"
           }
@@ -215,7 +206,7 @@
           "type": "image_column",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-1.jpg",
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan1-1.jpg",
             "image_width": 50,
             "aspect_ratio": "square",
             "enable_image_crop_circle": false,
@@ -227,10 +218,10 @@
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>At L'Écurie Paris, the design and craftsmanship excellence are taken to new heights.<br/>We elevate the art of eyewear by ensuring each detail is thoughtfully considered and meticulously executed. </p>",
+            "text": "<p>At L'Écurie Paris, the design and craftsmanship excellence are taken to new heights.<br\/>We elevate the art of eyewear by ensuring each detail is thoughtfully considered and meticulously executed. <\/p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
-            "link": "shopify://pages/craftmanship",
+            "link": "shopify:\/\/pages\/craftmanship",
             "link_text": "read more",
             "button_style": "btn--primary"
           }
@@ -238,7 +229,7 @@
         "image_column_GXGWnx": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/new-L_Ecurie-2294.jpg",
+            "image": "shopify:\/\/shop_images\/new-L_Ecurie-2294.jpg",
             "image_width": 50,
             "aspect_ratio": "natural",
             "enable_image_crop_circle": false,
