@@ -596,7 +596,7 @@
         "content_alignment": "center",
         "enable_animation": false,
         "full_width": false,
-        "spacing": 18,
+        "spacing": 8,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
