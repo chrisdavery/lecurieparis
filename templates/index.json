@@ -319,6 +319,7 @@
       "block_order": [
         "collection_JkBfrQ"
       ],
+      "disabled": true,
       "custom_css": [
         ".featured-collection-grid__heading {margin: 0;}",
         "@media (min-width: 720px) {.image__img {--aspect-ratio-square: 1.4; }}"
@@ -481,6 +482,65 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "grid_iWz6U8": {
+      "type": "grid",
+      "blocks": {
+        "item_6ea7LQ": {
+          "type": "item",
+          "settings": {
+            "width": "100",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/LP-Studio-Session-081.jpg",
+            "mobile_image": "shopify://shop_images/LP-Studio-Session-081.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "LEO",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "<p>Classic, minimalist, designer eyewear</p>",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://products/leo-white-gold",
+            "link_text": "SEE MORE",
+            "button_style": "btn--callout",
+            "background_color": "",
+            "text_color": "#000000",
+            "button_background_color": "#111111",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_6ea7LQ"
+      ],
+      "custom_css": [
+        "[data-section-type] {padding-top: 0 !important;}",
+        ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
+        ".grid-item {min-height: 100vh;}",
+        "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
+      ],
+      "settings": {
+        "black_header": false,
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "content_alignment": "center",
+        "enable_animation": false,
+        "full_width": true,
+        "spacing": 0,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "multi_column_homepage_xLpeMW": {
       "type": "multi-column-homepage",
       "blocks": {
@@ -606,6 +666,7 @@
     "video_hero_Yw6Wbw",
     "rich_text_c3ibwm",
     "grid_xJU9aG",
+    "grid_iWz6U8",
     "multi_column_HdPrj6",
     "custom_liquid_x7XatE",
     "503d3a6d-84ce-492a-bc70-773a9883fa65",
