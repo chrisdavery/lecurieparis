@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_liquid_3fqUDw": {
@@ -139,6 +139,210 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
+      }
+    },
+    "video_with_text_xpWfpC": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_Af3zBT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Ménage a trois - Spring Summer 2024",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Af3zBT"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/Lecurie Film 1compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 1compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_AhUc3X": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_BAhMfK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Paris - Hollywood,",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BAhMfK"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/Lecurie Film 2compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 2compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_3xCCUR": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_nYRP46": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "L' Armée du soleil, the sun army",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nYRP46"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/Lecurie Film 3compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 3compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_DpTBjm": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_PmTeXa": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Nuit noire, Black Night",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PmTeXa"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/Lecurie Film 4compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 4compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_qqt9QE": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_qntwJU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Soirée au château / Evening at the castle",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qntwJU"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/Lecurie Film 5compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 5compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_3ymePc": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_wC9FyK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Course Folle, Crazy ride",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wC9FyK"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/Lecurie Film 6compressed.mp4",
+        "video_mobile": "shopify://files/videos/Lecurie Film 6compressed.mp4",
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "grid_GxDzJz": {
@@ -392,213 +596,34 @@
         "content_alignment": "center",
         "enable_animation": false,
         "full_width": false,
-        "spacing": 7,
+        "spacing": 18,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "video_with_text_xpWfpC": {
-      "type": "video-with-text",
+    "rich_text_EYpxFF": {
+      "type": "rich-text",
       "blocks": {
-        "subheading_Af3zBT": {
-          "type": "subheading",
+        "image_QeUfpX": {
+          "type": "image",
           "settings": {
-            "subheading": "Ménage a trois - Spring Summer 2024",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
+            "image": "shopify://shop_images/LP-GOLD-SQUARE-Black.jpg",
+            "content_width": "custom",
+            "image_size": 90,
+            "image_size_mobile": 90
           }
         }
       },
       "block_order": [
-        "subheading_Af3zBT"
+        "image_QeUfpX"
       ],
       "settings": {
-        "video_position": "right",
-        "video_position_mobile": "above-content",
-        "video": "shopify://files/videos/Lecurie Film 1compressed.mp4",
-        "video_mobile": "shopify://files/videos/Lecurie Film 1compressed.mp4",
-        "aspect_ratio": "natural",
-        "aspect_ratio_mobile": "natural",
-        "focal_point": "center",
-        "focal_point_mobile": "center",
-        "content_alignment": "center",
-        "background_color": "#000000",
-        "text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "full_width": false,
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "video_with_text_AhUc3X": {
-      "type": "video-with-text",
-      "blocks": {
-        "subheading_BAhMfK": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Paris - Hollywood,",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_BAhMfK"
-      ],
-      "settings": {
-        "video_position": "right",
-        "video_position_mobile": "above-content",
-        "video": "shopify://files/videos/Lecurie Film 2compressed.mp4",
-        "video_mobile": "shopify://files/videos/Lecurie Film 2compressed.mp4",
-        "aspect_ratio": "natural",
-        "aspect_ratio_mobile": "natural",
-        "focal_point": "center",
-        "focal_point_mobile": "center",
-        "content_alignment": "center",
-        "background_color": "#000000",
-        "text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "full_width": false,
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "video_with_text_3xCCUR": {
-      "type": "video-with-text",
-      "blocks": {
-        "subheading_nYRP46": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "L' Armée du soleil, the sun army",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_nYRP46"
-      ],
-      "settings": {
-        "video_position": "right",
-        "video_position_mobile": "above-content",
-        "video": "shopify://files/videos/Lecurie Film 3compressed.mp4",
-        "video_mobile": "shopify://files/videos/Lecurie Film 3compressed.mp4",
-        "aspect_ratio": "natural",
-        "aspect_ratio_mobile": "natural",
-        "focal_point": "center",
-        "focal_point_mobile": "center",
-        "content_alignment": "center",
-        "background_color": "#000000",
-        "text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
+        "black_header": false,
+        "alignment": "center_center",
         "enable_animation": true,
-        "full_width": false,
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "video_with_text_DpTBjm": {
-      "type": "video-with-text",
-      "blocks": {
-        "subheading_PmTeXa": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Nuit noire, Black Night",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_PmTeXa"
-      ],
-      "settings": {
-        "video_position": "right",
-        "video_position_mobile": "above-content",
-        "video": "shopify://files/videos/Lecurie Film 4compressed.mp4",
-        "video_mobile": "shopify://files/videos/Lecurie Film 4compressed.mp4",
-        "aspect_ratio": "natural",
-        "aspect_ratio_mobile": "natural",
-        "focal_point": "center",
-        "focal_point_mobile": "center",
-        "content_alignment": "center",
-        "background_color": "#000000",
-        "text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "full_width": false,
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "video_with_text_qqt9QE": {
-      "type": "video-with-text",
-      "blocks": {
-        "subheading_qntwJU": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Soirée au château / Evening at the castle",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_qntwJU"
-      ],
-      "settings": {
-        "video_position": "right",
-        "video_position_mobile": "above-content",
-        "video": "shopify://files/videos/Lecurie Film 5compressed.mp4",
-        "video_mobile": "shopify://files/videos/Lecurie Film 5compressed.mp4",
-        "aspect_ratio": "natural",
-        "aspect_ratio_mobile": "natural",
-        "focal_point": "center",
-        "focal_point_mobile": "center",
-        "content_alignment": "center",
-        "background_color": "#000000",
-        "text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "full_width": false,
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "video_with_text_3ymePc": {
-      "type": "video-with-text",
-      "blocks": {
-        "subheading_wC9FyK": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Course Folle, Crazy ride",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_wC9FyK"
-      ],
-      "settings": {
-        "video_position": "right",
-        "video_position_mobile": "above-content",
-        "video": "shopify://files/videos/Lecurie Film 6compressed.mp4",
-        "video_mobile": "shopify://files/videos/Lecurie Film 6compressed.mp4",
-        "aspect_ratio": "natural",
-        "aspect_ratio_mobile": "natural",
-        "focal_point": "center",
-        "focal_point_mobile": "center",
-        "content_alignment": "center",
-        "background_color": "#000000",
-        "text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "full_width": false,
-        "section_padding": "section--vertical-padding-top-bottom"
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
       }
     }
   },
@@ -609,12 +634,13 @@
     "rich_text_KDnTin",
     "video_cpkd9Y",
     "rich_text_kRMHeV",
-    "grid_GxDzJz",
     "video_with_text_xpWfpC",
     "video_with_text_AhUc3X",
     "video_with_text_3xCCUR",
     "video_with_text_DpTBjm",
     "video_with_text_qqt9QE",
-    "video_with_text_3ymePc"
+    "video_with_text_3ymePc",
+    "grid_GxDzJz",
+    "rich_text_EYpxFF"
   ]
 }
