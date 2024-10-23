@@ -267,6 +267,38 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "503d3a6d-84ce-492a-bc70-773a9883fa65": {
+      "type": "featured-collection-grid",
+      "blocks": {
+        "collection_JkBfrQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "designer-sunglasses"
+          }
+        }
+      },
+      "block_order": [
+        "collection_JkBfrQ"
+      ],
+      "custom_css": [
+        ".featured-collection-grid__heading {margin: 0;}",
+        "@media (min-width: 720px) {.image__img {--aspect-ratio-square: 1.4; }}"
+      ],
+      "settings": {
+        "black_header": true,
+        "heading": "DESIGNER EYEGLASSES FRAMES",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections/designer-sunglasses",
+        "link_text": "DISCOVER MORE",
+        "maximum_collections": 12,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
     "multi_column_HdPrj6": {
       "type": "multi-column",
       "blocks": {
@@ -365,38 +397,6 @@
         "section_padding": "section--vertical-padding-top-only"
       }
     },
-    "503d3a6d-84ce-492a-bc70-773a9883fa65": {
-      "type": "featured-collection-grid",
-      "blocks": {
-        "collection_JkBfrQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "designer-sunglasses"
-          }
-        }
-      },
-      "block_order": [
-        "collection_JkBfrQ"
-      ],
-      "custom_css": [
-        ".featured-collection-grid__heading {margin: 0;}",
-        "@media (min-width: 720px) {.image__img {--aspect-ratio-square: 1.4; }}"
-      ],
-      "settings": {
-        "black_header": true,
-        "heading": "DESIGNER EYEGLASSES FRAMES",
-        "heading_tag": "h2",
-        "subheading": "",
-        "link": "shopify://collections/designer-sunglasses",
-        "link_text": "DISCOVER MORE",
-        "maximum_collections": 12,
-        "columns": "4",
-        "mobile_columns": "2",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only"
-      }
-    },
     "rich_text_mPRnVk": {
       "type": "rich-text",
       "blocks": {
@@ -478,65 +478,6 @@
         "full_width": true,
         "spacing": 0,
         "divider_style": "solid",
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "grid_WfkNXY": {
-      "type": "grid",
-      "blocks": {
-        "item_gqYm8m": {
-          "type": "item",
-          "settings": {
-            "width": "100",
-            "height": 500,
-            "mobile_height": 500,
-            "image": "shopify://shop_images/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
-            "mobile_image": "shopify://shop_images/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_flex-start",
-            "accent": "",
-            "title": "A classic elegance",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-3-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary",
-            "background_color": "#ffffff",
-            "text_color": "#000000",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_gqYm8m"
-      ],
-      "custom_css": [
-        "[data-section-type] {padding-top: 0 !important;}",
-        ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
-        ".grid-item {min-height: 100vh;}",
-        "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
-      ],
-      "settings": {
-        "black_header": false,
-        "heading": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "content_alignment": "left",
-        "enable_animation": false,
-        "full_width": true,
-        "spacing": 0,
-        "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       }
     },
@@ -717,6 +658,65 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
+    },
+    "grid_WfkNXY": {
+      "type": "grid",
+      "blocks": {
+        "item_gqYm8m": {
+          "type": "item",
+          "settings": {
+            "width": "100",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
+            "mobile_image": "shopify://shop_images/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-start",
+            "accent": "",
+            "title": "A classic elegance",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "#ffffff",
+            "text_color": "#000000",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_gqYm8m"
+      ],
+      "custom_css": [
+        "[data-section-type] {padding-top: 0 !important;}",
+        ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
+        ".grid-item {min-height: 100vh;}",
+        "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
+      ],
+      "settings": {
+        "black_header": false,
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": false,
+        "full_width": true,
+        "spacing": 0,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
     }
   },
   "order": [
@@ -729,8 +729,8 @@
     "custom_liquid_x7XatE",
     "rich_text_mPRnVk",
     "grid_Ya97wD",
-    "grid_WfkNXY",
     "multi_column_homepage_xLpeMW",
-    "grid_baBxcm"
+    "grid_baBxcm",
+    "grid_WfkNXY"
   ]
 }
