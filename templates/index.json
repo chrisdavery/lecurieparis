@@ -279,6 +279,7 @@
       "block_order": [
         "collection_JkBfrQ"
       ],
+      "disabled": true,
       "custom_css": [
         ".featured-collection-grid__heading {margin: 0;}",
         "@media (min-width: 720px) {.image__img {--aspect-ratio-square: 1.4; }}"
