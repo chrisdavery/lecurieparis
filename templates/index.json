@@ -691,7 +691,7 @@
         "full_width": true,
         "spacing": 19,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "grid_WfkNXY": {
