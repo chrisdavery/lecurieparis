@@ -607,22 +607,23 @@
         "item_BDXaVm": {
           "type": "item",
           "settings": {
-            "width": "100",
+            "width": "50",
             "height": 500,
             "mobile_height": 300,
-            "image": "shopify://shop_images/02_0fef4be3-e678-4903-a0a0-b3fcb1183302.jpg",
+            "image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
+            "mobile_image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "text_position": "center_flex-end",
-            "accent": "",
+            "accent": "JEAN-BAPTISTE ROUGEOT",
             "title": "",
             "heading_tag": "h3",
-            "heading_font_class": "fs-heading-2-base",
+            "heading_font_class": "fs-heading-3-base",
             "subheading": "",
             "subheading_tag": "h4",
             "subheading_font_class": "fs-heading-5-base",
-            "text": "",
+            "text": "<p>CREATIVE DIRECTOR</p>",
             "text_font_class": "fs-body-100",
             "link": "shopify://pages/la-maison-lecurie-paris",
             "link_text": "Read More",
@@ -635,10 +636,44 @@
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
+        },
+        "item_96J9Ym": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 500,
+            "mobile_height": 300,
+            "image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "mobile_image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "LIONEL MOROY",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "<p>FOUNDER, DESIGNER</p>",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://pages/la-maison-lecurie-paris",
+            "link_text": "Read More",
+            "button_style": "btn--callout",
+            "background_color": "#000000",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "item_BDXaVm"
+        "item_BDXaVm",
+        "item_96J9Ym"
       ],
       "custom_css": [
         "[data-section-type] {padding-top: 0 !important;}",
@@ -651,12 +686,12 @@
         "heading": "",
         "heading_tag": "h2",
         "subheading": "",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "enable_animation": false,
         "full_width": true,
-        "spacing": 0,
+        "spacing": 19,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "grid_WfkNXY": {
