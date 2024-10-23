@@ -49,8 +49,8 @@
         "button_ehdneN": {
           "type": "button",
           "settings": {
-            "link": "shopify://pages/lp-campaign-beverly-hills",
-            "link_text": "DISCOVER MORE",
+            "link": "shopify://collections/designer-sunglasses",
+            "link_text": "DISCOVER THE COLLECTION",
             "button_style": "btn--callout"
           }
         }
