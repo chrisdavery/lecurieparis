@@ -32,7 +32,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>EXPLORE THE COLLECTION</p>",
+            "text": "<p>DISCOVER MORE</p>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -50,8 +50,8 @@
         "button_ehdneN": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/designer-sunglasses",
-            "link_text": "EXPLORE THE COLLECTION",
+            "link": "shopify://pages/lp-campaign-beverly-hills",
+            "link_text": "DISCOVER MORE",
             "button_style": "btn--callout"
           }
         }
