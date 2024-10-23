@@ -30,9 +30,8 @@
         },
         "text_VXxVKk": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>DISCOVER MORE</p>",
+            "text": "<p>THE CAMPAIGNS</p>",
             "text_font_class": "fs-body-100"
           }
         },
