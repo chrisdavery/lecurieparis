@@ -295,7 +295,7 @@
         "mobile_columns": "2",
         "enable_animation": false,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "multi_column_HdPrj6": {
