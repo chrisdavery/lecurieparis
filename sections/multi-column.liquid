@@ -11,11 +11,11 @@
   data-slider-on-mobile="{{ section.settings.enable_slider_mobile }}"
   data-mobile-columns-per-view="{{ section.settings.columns_mobile }}"
   class="
+    {{ section.settings.css_class }}
     multi-column
     {% if section.settings.background_behind_columns and background_exists %}
       multi-column--background-behind-column
     {% endif %}
-    {% if section.settings.black_header == true %}black-header{% endif %}
     multi-column--intro-alignment-{{ section.settings.heading_alignment }}
     multi-column--column-content-alignment-desktop-{{ section.settings.column_alignment }}
     multi-column--column-content-alignment-mobile-{{ section.settings.column_alignment_mobile }}
@@ -77,12 +77,6 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
-    {
-      "type": "checkbox",
-      "id": "black_header",
-      "label": "Black Header",
-      "default": false
-    },
     {
       "type": "text",
       "id": "title",
@@ -432,6 +426,11 @@
           "value": "section--vertical-padding-bottom-only"
         }
       ]
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
     }
   ],
   "blocks": [

@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "video_hero_Yw6Wbw": {
@@ -49,7 +40,7 @@
         "button_ehdneN": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/designer-sunglasses",
+            "link": "shopify:\/\/collections\/designer-sunglasses",
             "link_text": "DISCOVER THE COLLECTION",
             "button_style": "btn--callout"
           }
@@ -67,11 +58,10 @@
         "@media (max-width: 719px) {.video-hero__text-container {margin-bottom: 4rem; }}"
       ],
       "settings": {
-        "black_header": false,
         "image_aspect": "custom",
         "desktop_height": 100,
         "mobile_height": 100,
-        "video": "shopify://files/videos/lecurieparis-video.mp4",
+        "video": "shopify:\/\/files\/videos\/lecurieparis-video.mp4",
         "media_link": "",
         "focal_point": "image_presentation",
         "focal_point_mobile": "image_presentation",
@@ -94,7 +84,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>L’Écurie Paris is a luxury eyewear maison, an expression of revisited timeless designs, blended with the best materials and craftsmanship in the world.</p>",
+            "text": "<p>L’Écurie Paris is a luxury eyewear maison, an expression of revisited timeless designs, blended with the best materials and craftsmanship in the world.<\/p>",
             "text_font_class": "fs-body-200"
           }
         }
@@ -107,7 +97,6 @@
 
       ],
       "settings": {
-        "black_header": false,
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -124,8 +113,8 @@
             "width": "50",
             "height": 700,
             "mobile_height": 300,
-            "image": "shopify://shop_images/DESKTOP_WOMEN_LP.jpg",
-            "mobile_image": "shopify://shop_images/DESKTOP_WOMEN_LP.jpg",
+            "image": "shopify:\/\/shop_images\/DESKTOP_WOMEN_LP.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/DESKTOP_WOMEN_LP.jpg",
             "media_fit": "cover",
             "focal_point": "top",
             "mobile_focal_point": "top",
@@ -139,7 +128,7 @@
             "subheading_font_class": "fs-heading-5-base",
             "text": "",
             "text_font_class": "fs-body-100",
-            "link": "shopify://collections/ladies",
+            "link": "shopify:\/\/collections\/ladies",
             "link_text": "DISCOVER THE COLLECTION",
             "button_style": "btn--secondary",
             "background_color": "",
@@ -157,8 +146,8 @@
             "width": "50",
             "height": 700,
             "mobile_height": 300,
-            "image": "shopify://shop_images/new-L_Ecurie-058.jpg",
-            "mobile_image": "shopify://shop_images/new-L_Ecurie-058.jpg",
+            "image": "shopify:\/\/shop_images\/new-L_Ecurie-058.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/new-L_Ecurie-058.jpg",
             "media_fit": "cover",
             "focal_point": "top",
             "mobile_focal_point": "image_presentation",
@@ -172,7 +161,7 @@
             "subheading_font_class": "fs-heading-5-base",
             "text": "",
             "text_font_class": "fs-body-100",
-            "link": "shopify://collections/men",
+            "link": "shopify:\/\/collections\/men",
             "link_text": "DISCOVER THE COLLECTION",
             "button_style": "btn--secondary",
             "background_color": "",
@@ -195,7 +184,6 @@
         "@media (max-width: 959px) {[data-section-type] {justify-content: flex-start; } .grid-item {--mobile-height: 40vh !important; }}"
       ],
       "settings": {
-        "black_header": true,
         "heading": "",
         "heading_tag": "h2",
         "subheading": "",
@@ -216,8 +204,8 @@
             "width": "100",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify://shop_images/LP-Studio-Session-081.jpg",
-            "mobile_image": "shopify://shop_images/LP-Studio-Session-081.jpg",
+            "image": "shopify:\/\/shop_images\/LP-Studio-Session-081.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LP-Studio-Session-081.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -226,12 +214,12 @@
             "title": "LEO",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-2-base",
-            "subheading": "<p>Classic, minimalist, designer eyewear</p>",
+            "subheading": "<p>Classic, minimalist, designer eyewear<\/p>",
             "subheading_tag": "h4",
             "subheading_font_class": "fs-heading-5-base",
             "text": "",
             "text_font_class": "fs-body-100",
-            "link": "shopify://products/leo-white-gold",
+            "link": "shopify:\/\/products\/leo-white-gold",
             "link_text": "SEE MORE",
             "button_style": "btn--callout",
             "background_color": "",
@@ -254,7 +242,6 @@
         "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
       ],
       "settings": {
-        "black_header": false,
         "heading": "",
         "heading_tag": "h2",
         "subheading": "",
@@ -281,16 +268,18 @@
       ],
       "custom_css": [
         ".featured-collection-grid__heading {margin: 0;}",
-        "@media (min-width: 720px) {.image__img {--aspect-ratio-square: 1.4; }}"
+        ".grid-type {row-gap: 0;}",
+        "@media (min-width: 720px) {.image__img {--aspect-ratio-square: 1.4; }}",
+        "@media (max-width: 719px) {.featured-collection-grid__product:nth-child(n + 5) {display: none; }}"
       ],
       "settings": {
-        "black_header": true,
+        "layout": "grid",
         "heading": "DESIGNER EYEGLASSES FRAMES",
         "heading_tag": "h2",
         "subheading": "",
-        "link": "shopify://collections/designer-sunglasses",
+        "link": "shopify:\/\/collections\/designer-sunglasses",
         "link_text": "DISCOVER MORE",
-        "maximum_collections": 12,
+        "maximum_collections": 8,
         "columns": "4",
         "mobile_columns": "2",
         "enable_animation": false,
@@ -304,21 +293,21 @@
         "image_column_UQAcKC": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/papillon2_a87a8321-bde3-488e-8827-c47c65a29185.jpg",
+            "image": "shopify:\/\/shop_images\/papillon2_a87a8321-bde3-488e-8827-c47c65a29185.jpg",
             "image_width": 64,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
             "image_position": "above_text",
-            "image_link": "shopify://collections/designer-sunglasses-women",
+            "image_link": "shopify:\/\/collections\/designer-sunglasses-women",
             "small_caption": "",
             "accent": "",
             "heading": "",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><strong>WOMEN</strong><br/><a href=\"/collections/designer-eyeglasses-women\" title=\"Designer Eyeglasses Women\">EXPLORE</a></p>",
+            "text": "<p><strong>WOMEN<\/strong><br\/><a href=\"\/collections\/designer-eyeglasses-women\" title=\"Designer Eyeglasses Women\">EXPLORE<\/a><\/p>",
             "text_font_class": "fs-body-100",
-            "text_max_width": 100,
+            "text_max_width": 64,
             "link": "",
             "link_text": "",
             "button_style": "btn--primary"
@@ -327,21 +316,21 @@
         "image_column_Xt9LdA": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/DESKTOP_MEN_LP_5946f26f-314d-4aed-a124-174eefff4693.jpg",
+            "image": "shopify:\/\/shop_images\/DESKTOP_MEN_LP_5946f26f-314d-4aed-a124-174eefff4693.jpg",
             "image_width": 64,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
             "image_position": "above_text",
-            "image_link": "shopify://collections/designer-sunglasses-men",
+            "image_link": "shopify:\/\/collections\/designer-sunglasses-men",
             "small_caption": "",
             "accent": "",
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><strong>MEN</strong><a href=\"/collections/designer-eyeglasses-men\" title=\"Designer Eyeglasses Men\"><br/>EXPLORE</a></p>",
+            "text": "<p><strong>MEN<\/strong><a href=\"\/collections\/designer-eyeglasses-men\" title=\"Designer Eyeglasses Men\"><br\/>EXPLORE<\/a><\/p>",
             "text_font_class": "fs-body-100",
-            "text_max_width": 100,
+            "text_max_width": 64,
             "link": "",
             "link_text": "",
             "button_style": "btn--primary"
@@ -356,7 +345,6 @@
         "@media (max-width: 959px) {{padding-top: 0; padding-bottom: 0; min-height: unset; } .multi-column__grid {gap: 0; } .multi-column__grid-item {min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; } .multi-column__inner {padding: 0; }}"
       ],
       "settings": {
-        "black_header": false,
         "title": "",
         "heading_tag": "h2",
         "subheading": "",
@@ -380,7 +368,8 @@
         "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none",
+        "css_class": "multi-home"
       }
     },
     "custom_liquid_x7XatE": {
@@ -390,8 +379,7 @@
         "h1 {text-align: center;}"
       ],
       "settings": {
-        "black_header": true,
-        "custom_liquid": "<h1>Designer Eyeglasses Frames</h1>",
+        "custom_liquid": "<h1>Designer Eyeglasses Frames<\/h1>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only"
       }
@@ -402,7 +390,7 @@
         "button_WQdEEB": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/designer-sunglasses",
+            "link": "shopify:\/\/collections\/designer-sunglasses",
             "link_text": "DISCOVER MORE",
             "button_style": "btn--callout"
           }
@@ -413,7 +401,6 @@
       ],
       "disabled": true,
       "settings": {
-        "black_header": true,
         "alignment": "center_center",
         "enable_animation": false,
         "divider_style": "none",
@@ -430,8 +417,8 @@
             "width": "100",
             "height": 800,
             "mobile_height": 500,
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-1.jpg",
-            "mobile_image": "shopify://shop_images/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
+            "image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan1-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -445,7 +432,7 @@
             "subheading_font_class": "fs-heading-5-base",
             "text": "",
             "text_font_class": "fs-body-100",
-            "link": "shopify://pages/craftmanship",
+            "link": "shopify:\/\/pages\/craftmanship",
             "link_text": "DISCOVER MORE",
             "button_style": "btn--callout",
             "background_color": "",
@@ -469,7 +456,6 @@
         "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
       ],
       "settings": {
-        "black_header": false,
         "heading": "",
         "heading_tag": "h2",
         "subheading": "",
@@ -494,7 +480,7 @@
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Free express delivery</p>",
+            "text": "<p>Free express delivery<\/p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "",
@@ -512,7 +498,7 @@
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Free returns within 30 days</p>",
+            "text": "<p>Free returns within 30 days<\/p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "",
@@ -530,7 +516,7 @@
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Monday to Friday, from 10am to 6pm, PST</p>",
+            "text": "<p>Monday to Friday, from 10am to 6pm, PST<\/p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "",
@@ -548,7 +534,7 @@
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Visa, Mastercard, Amex, PayPal, Apple Pay</p>",
+            "text": "<p>Visa, Mastercard, Amex, PayPal, Apple Pay<\/p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "",
@@ -568,7 +554,6 @@
         "@media (max-width: 959px) {.multi-column__inner {padding: 0 var(--space-outer) var(--spacing-2); } .rich-text {padding: var(--spacing-2) var(--space-outer); }}"
       ],
       "settings": {
-        "black_header": true,
         "title": "",
         "heading_tag": "h2",
         "subheading": "",
@@ -593,9 +578,9 @@
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
-        "bottom_text": "<p>Luxury Designer Eyewear</p>",
+        "bottom_text": "<p>Luxury Designer Eyewear<\/p>",
         "bottom_text_font_class": "fs-body-100",
-        "bottom_image": "shopify://shop_images/LP-GOLD.jpg",
+        "bottom_image": "shopify:\/\/shop_images\/LP-GOLD.jpg",
         "bottom_content_width": "custom",
         "bottom_image_size": 110,
         "bottom_image_size_mobile": 110
@@ -610,8 +595,8 @@
             "width": "50",
             "height": 500,
             "mobile_height": 300,
-            "image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
-            "mobile_image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
+            "image": "shopify:\/\/shop_images\/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -623,12 +608,12 @@
             "subheading": "",
             "subheading_tag": "h4",
             "subheading_font_class": "fs-heading-5-base",
-            "text": "<p>CREATIVE DIRECTOR</p>",
+            "text": "<p>CREATIVE DIRECTOR<\/p>",
             "text_font_class": "fs-body-100",
-            "link": "shopify://pages/la-maison-lecurie-paris",
+            "link": "shopify:\/\/pages\/la-maison-lecurie-paris",
             "link_text": "Read More",
             "button_style": "btn--callout",
-            "background_color": "",
+            "background_color": "#000000",
             "text_color": "#ffffff",
             "button_background_color": "#ffffff",
             "button_text_color": "#000000",
@@ -643,8 +628,8 @@
             "width": "50",
             "height": 500,
             "mobile_height": 300,
-            "image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
-            "mobile_image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "image": "shopify:\/\/shop_images\/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -656,9 +641,9 @@
             "subheading": "",
             "subheading_tag": "h4",
             "subheading_font_class": "fs-heading-6-base",
-            "text": "<p>FOUNDER, DESIGNER</p>",
+            "text": "<p>FOUNDER, DESIGNER<\/p>",
             "text_font_class": "fs-body-100",
-            "link": "shopify://pages/la-maison-lecurie-paris",
+            "link": "shopify:\/\/pages\/la-maison-lecurie-paris",
             "link_text": "Read More",
             "button_style": "btn--callout",
             "background_color": "#000000",
@@ -676,13 +661,13 @@
         "item_96J9Ym"
       ],
       "custom_css": [
-        "[data-section-type] {padding-top: 0 !important;}",
+        "[data-section-type] {padding: 0; background: var(--color-text);}",
         ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
+        ".grid__inner {margin: 0;}",
         ".grid-item {min-height: 100vh;}",
         "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
       ],
       "settings": {
-        "black_header": false,
         "heading": "",
         "heading_tag": "h2",
         "subheading": "",
@@ -691,7 +676,7 @@
         "full_width": true,
         "spacing": 19,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "grid_WfkNXY": {
@@ -703,8 +688,8 @@
             "width": "100",
             "height": 500,
             "mobile_height": 500,
-            "image": "shopify://shop_images/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
-            "mobile_image": "shopify://shop_images/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
+            "image": "shopify:\/\/shop_images\/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
@@ -741,7 +726,6 @@
         "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
       ],
       "settings": {
-        "black_header": false,
         "heading": "",
         "heading_tag": "h2",
         "subheading": "",

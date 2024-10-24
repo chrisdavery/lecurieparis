@@ -1,7 +1,6 @@
 {%- if section.settings.custom_liquid != blank -%}
   <div
     class="
-      {% if section.settings.black_header == true %}black-header{% endif %}
       section
       section--divider-{{ section.settings.divider_style }}
       {{ section.settings.section_padding }}
@@ -19,12 +18,6 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
-    {
-      "type": "checkbox",
-      "id": "black_header",
-      "label": "Black Header",
-      "default": false
-    },
     {
       "type": "liquid",
       "id": "custom_liquid",

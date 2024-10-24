@@ -4,7 +4,6 @@
 
 <div
   class="
-  {% if section.settings.black_header == true %}black-header{% endif %}
     featured-collection-grid
     featured-collection-grid--rows-{{ section.settings.rows }}
     featured-collection-grid--per-view-{{ section.settings.columns }}
@@ -41,20 +40,29 @@
     <div
       class="
         featured-collection-grid__content
-        carousel
-        carousel--mobile-per-view-{{ section.settings.mobile_columns }}
-        carousel--per-view-{{ section.settings.columns }}
-        swiper
+        {% unless section.settings.layout == 'grid' %}
+          carousel
+          carousel--mobile-per-view-{{ section.settings.mobile_columns }}
+          carousel--per-view-{{ section.settings.columns }}
+          swiper
+        {% endunless %}
       "
     >
-      <div class="featured-collection-grid__products carousel__wrapper swiper-wrapper">
+      <div class="
+        {% if section.settings.layout == 'grid' %}
+          grid-type 
+          grid-type--mobile-per-view-{{ section.settings.mobile_columns }}
+          grid-type--per-view-{{ section.settings.columns }}
+        {% endif %}  
+        {% unless section.settings.layout == 'grid' %} featured-collection-grid__products carousel__wrapper swiper-wrapper{% endunless %}">
+
         {%- for block in section.blocks -%}
           {%- assign featured_collection_products = block.settings.collection.products
             | default: block.settings.product_list
           -%}
 
           {%- for product in featured_collection_products limit: max_collections -%}
-            <div class="featured-collection-grid__product carousel_slide swiper-slide">
+            <div class="featured-collection-grid__product {% unless section.settings.layout == 'grid' %}carousel_slide swiper-slide{% endunless %}">
               {% render 'product-item',
                 prod: product,
                 collection: block.settings.collection,
@@ -112,10 +120,20 @@
   },
   "settings": [
     {
-      "type": "checkbox",
-      "id": "black_header",
-      "label": "Black Header",
-      "default": false
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "grid",
+          "label": "Grid"
+        },
+        {
+          "value": "slider",
+          "label": "Slider"
+        }
+      ],
+      "default": "grid"
     },
     {
       "type": "text",
