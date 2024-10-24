@@ -22,9 +22,7 @@
 -%}
 
 <div
-  class="
-  {% if section.settings.black_header == true %}black-header{% endif %}
-  footer section"
+  class="footer section"
   data-section-id="{{ section.id }}"
   data-section-type="footer"
   style="
@@ -200,12 +198,6 @@
   "tag": "footer",
   "class": "footer__parent",
   "settings": [
-    {
-      "type": "checkbox",
-      "id": "black_header",
-      "label": "Black Header",
-      "default": false
-    },
     {
       "type": "header",
       "content": "t:shared.settings.disclosure.header__language.content",

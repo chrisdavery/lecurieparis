@@ -403,9 +403,75 @@ h2#modal-Filter {
 .filter-drawer__heading {    
     margin-bottom: 6rem;
 }
+.sticky-header-active .header-transparent .header {
+    background: transparent;
+    backdrop-filter: unset;
+}
+
+.sticky-header-active .header-transparent .header:hover {
+    background-color: rgb(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+}
+
+.splitted-nav .header__links-primary[data-navigation] {
+    justify-content: flex-start !important;
+}
+
+.splitted-nav .header__links-primary[data-navigation-right] {
+    justify-content: flex-end !important;
+}
+
+.multi-column__grid-item-text-container {
+    margin-top: var(--spacing-4) !important;
+}
+
+.multi-home .multi-column__grid-item-inner {
+    width: auto;
+}
+
+.grid-type {
+    display:flex;
+    flex-wrap: wrap;
+    grid-column-gap:calc((4px * 4) + 1px);
+    grid-column-gap:calc(calc(4px * 4) + 1px);
+    grid-column-gap:calc(var(--spacing-4) + 1px);
+    -moz-column-gap:calc((4px * 4) + 1px);
+         column-gap:calc((4px * 4) + 1px);
+    -moz-column-gap:calc(calc(4px * 4) + 1px);
+         column-gap:calc(calc(4px * 4) + 1px);
+    -moz-column-gap:calc(var(--spacing-4) + 1px);
+         column-gap:calc(var(--spacing-4) + 1px);
+    grid-row-gap:calc((4px * 4) + 1px);
+    grid-row-gap:calc(calc(4px * 4) + 1px);
+    grid-row-gap:calc(var(--spacing-4) + 1px);
+    row-gap:calc((4px * 4) + 1px);
+    row-gap:calc(calc(4px * 4) + 1px);
+    row-gap:calc(var(--spacing-4) + 1px)
+}
+
+
 
 @media (min-width: 960px) {
-
+    .grid-type.grid-type--per-view-5 .featured-collection-grid__product {
+        width: calc(20% - calc(var(--spacing-4) + 1px) * 4 / 5);
+        max-width: calc(20% - calc(var(--spacing-4) + 1px) * 4 / 5);
+    }
+    .grid-type.grid-type--per-view-4 .featured-collection-grid__product {
+        width: calc(25% - calc(var(--spacing-4) + 1px) * 3 / 4);
+        max-width: calc(25% - calc(var(--spacing-4) + 1px) * 3 / 4);
+    }
+    .grid-type.grid-type--per-view-3 .featured-collection-grid__product {
+        width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3);
+        max-width: calc(25% - calc(var(--spacing-4) + 1px) * 2 / 3);
+    }
+    .grid-type.grid-type--per-view-2 .featured-collection-grid__product {
+        width: calc(50% - calc(var(--spacing-4) + 1px) * 1 / 2);
+        max-width: calc(50% - calc(var(--spacing-4) + 1px) * 1 / 2);
+    }
+    .grid-type.grid-type--per-view-1 .featured-collection-grid__product {
+        width: calc(100% - calc(var(--spacing-4) + 1px) / 2);
+        max-width: calc(100% - calc(var(--spacing-4) + 1px) / 2);
+    }
 
     .mobile-filters__button.filter-bar__link {
         max-width: fit-content;
@@ -430,6 +496,10 @@ h2#modal-Filter {
 }
 
 @media (max-width: 959px) {
+    .multi-home .multi-column__grid-item-image-figure {
+        --image-max-width: 64% !important;
+    }
+
     .left--sidebar[data-popup-id] .popup_content {
         max-width: calc(var(--flyout-width) - var(--flyout-mobile-gap));
     }
@@ -475,5 +545,37 @@ h2#modal-Filter {
         transform: rotate(45deg);
         right: 10px;
         top: 9px;
+    }
+}
+
+@media (min-width: 720px) {
+    .multi-home {
+        padding-top: calc(var(--height-header) - 3rem) !important;
+    }
+    .multi-home .multi-column__grid-item-image-figure {
+        --image-max-width: calc(100% - var(--height-header)) !important;
+    }
+    .multi-home .multi-column__grid-item:first-child .multi-column__grid-item-image-figure,
+    .multi-home .multi-column__grid-item:first-child .multi-column__grid-item-text {
+        margin-right: 0 !important;
+    }
+    .multi-home .multi-column__grid-item:last-child .multi-column__grid-item-image-figure,
+    .multi-home .multi-column__grid-item:last-child .multi-column__grid-item-text {
+        margin-left: 0 !important;
+    }
+    .multi-home .multi-column__grid {
+        max-width: fit-content;
+        margin: auto;
+        --grid-gap-column-desktop: 70px;
+    }
+}
+@media (max-width: 699px) {
+    .grid-type--mobile-per-view-2 .featured-collection-grid__product  {
+        width: calc(100% - calc(var(--spacing-4) + 1px) / 2);
+        max-width: calc(100% - calc(var(--spacing-4) + 1px) / 2);
+    }
+    .grid-type--mobile-per-view-2 .featured-collection-grid__product {
+        width: calc(50% - calc(var(--spacing-4) + 1px) * 1 / 2);
+        max-width: calc(50% - calc(var(--spacing-4) + 1px) * 1 / 2);
     }
 }

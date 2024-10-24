@@ -58,7 +58,6 @@
 
 <div
   class="
-    {% if section.settings.black_header == true %}black-header{% endif %}
     video-hero
     video-hero--image-aspect-{{ section.settings.image_aspect }}
     video-hero--text-{{ text_position_modifier }}
@@ -231,12 +230,6 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
-    {
-      "type": "checkbox",
-      "id": "black_header",
-      "label": "Black Header",
-      "default": false
-    },
     {
       "type": "radio",
       "id": "image_aspect",

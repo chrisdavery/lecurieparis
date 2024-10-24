@@ -8,7 +8,6 @@
   data-section-id="{{ section.id }}"
   data-section-type="rich-text"
   class="
-  {% if section.settings.black_header == true %}black-header{% endif %}
     rich-text
     section
     section--divider-{{ section.settings.divider_style }}
@@ -106,12 +105,6 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
-    {
-      "type": "checkbox",
-      "id": "black_header",
-      "label": "Black Header",
-      "default": false
-    },
     {
       "type": "select",
       "id": "alignment",
