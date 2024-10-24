@@ -12,38 +12,11 @@
     "video_hero_Yw6Wbw": {
       "type": "video-hero",
       "blocks": {
-        "accent_FEjUmA": {
-          "type": "accent",
-          "disabled": true,
-          "settings": {
-            "accent": "Accent"
-          }
-        },
-        "heading_6wqBWA": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Video hero",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-2"
-          }
-        },
         "text_VXxVKk": {
           "type": "text",
           "settings": {
             "text": "",
             "text_font_class": "fs-body-100"
-          }
-        },
-        "play_button_YxdfNC": {
-          "type": "play-button",
-          "disabled": true,
-          "settings": {
-            "video_source": "external",
-            "video_url": "",
-            "aspect_ratio": "natural",
-            "text": "Watch now",
-            "icon_style": "outline"
           }
         },
         "button_ehdneN": {
@@ -56,10 +29,7 @@
         }
       },
       "block_order": [
-        "accent_FEjUmA",
-        "heading_6wqBWA",
         "text_VXxVKk",
-        "play_button_YxdfNC",
         "button_ehdneN"
       ],
       "custom_css": [
@@ -84,124 +54,6 @@
         "overlay_opacity": 0,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "rich_text_c3ibwm": {
-      "type": "rich-text",
-      "blocks": {
-        "text_K7jPty": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>L’Écurie Paris is a luxury eyewear maison, an expression of revisited timeless designs, blended with the best materials and craftsmanship in the world.</p>",
-            "text_font_class": "fs-body-200"
-          }
-        }
-      },
-      "block_order": [
-        "text_K7jPty"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
-    "grid_xJU9aG": {
-      "type": "grid",
-      "blocks": {
-        "item_Tz3PBc": {
-          "type": "item",
-          "settings": {
-            "width": "50",
-            "height": 700,
-            "mobile_height": 300,
-            "image": "shopify://shop_images/DESKTOP_WOMEN_LP.jpg",
-            "mobile_image": "shopify://shop_images/DESKTOP_WOMEN_LP.jpg",
-            "media_fit": "cover",
-            "focal_point": "top",
-            "mobile_focal_point": "top",
-            "text_position": "center_flex-end",
-            "accent": "",
-            "title": "WOMEN",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-1-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link": "shopify://collections/ladies",
-            "link_text": "DISCOVER THE COLLECTION",
-            "button_style": "btn--secondary",
-            "background_color": "",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, 1) 94%)",
-            "overlay_opacity": 63
-          }
-        },
-        "item_7cYUfz": {
-          "type": "item",
-          "settings": {
-            "width": "50",
-            "height": 700,
-            "mobile_height": 300,
-            "image": "shopify://shop_images/new-L_Ecurie-058.jpg",
-            "mobile_image": "shopify://shop_images/new-L_Ecurie-058.jpg",
-            "media_fit": "cover",
-            "focal_point": "top",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_flex-end",
-            "accent": "",
-            "title": "MEN",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-1-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link": "shopify://collections/men",
-            "link_text": "DISCOVER THE COLLECTION",
-            "button_style": "btn--secondary",
-            "background_color": "",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, rgba(0, 0, 0, 1) 100%)",
-            "overlay_opacity": 63
-          }
-        }
-      },
-      "block_order": [
-        "item_Tz3PBc",
-        "item_7cYUfz"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".grid-item {--height: 83vh !important;}",
-        "@media (max-width: 959px) {[data-section-type] {justify-content: flex-start; } .grid-item {--mobile-height: 40vh !important; }}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "content_alignment": "left",
-        "enable_animation": false,
-        "full_width": true,
-        "spacing": 50,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "grid_iWz6U8": {
@@ -433,7 +285,6 @@
       "block_order": [
         "item_6KePQM"
       ],
-      "disabled": true,
       "custom_css": [
         "[data-section-type] {padding-top: 0 !important;}",
         ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
@@ -725,11 +576,9 @@
   },
   "order": [
     "video_hero_Yw6Wbw",
-    "rich_text_c3ibwm",
-    "grid_xJU9aG",
-    "grid_iWz6U8",
     "503d3a6d-84ce-492a-bc70-773a9883fa65",
     "multi_column_HdPrj6",
+    "grid_iWz6U8",
     "custom_liquid_x7XatE",
     "grid_Ya97wD",
     "multi_column_homepage_xLpeMW",
