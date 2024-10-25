@@ -63,7 +63,7 @@
           "type": "image_column",
           "settings": {
             "image": "shopify://shop_images/papillon2_a87a8321-bde3-488e-8827-c47c65a29185.jpg",
-            "image_width": 64,
+            "image_width": 70,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
@@ -86,7 +86,7 @@
           "type": "image_column",
           "settings": {
             "image": "shopify://shop_images/DESKTOP_MEN_LP_5946f26f-314d-4aed-a124-174eefff4693.jpg",
-            "image_width": 64,
+            "image_width": 70,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
