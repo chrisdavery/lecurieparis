@@ -379,7 +379,7 @@
         "item_96J9Ym"
       ],
       "custom_css": [
-        "[data-section-type] {padding: 0; background: var(--color-text);}",
+        "[data-section-type] {padding: 0; background: #000;}",
         ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
         ".grid__inner {margin: 0;}",
         ".grid-item {min-height: 100vh;}",
