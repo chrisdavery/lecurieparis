@@ -497,7 +497,7 @@ h2#modal-Filter {
 
 @media (max-width: 959px) {
     .multi-home .multi-column__grid-item-image-figure {
-        --image-max-width: 66% !important;
+        --image-max-width: 75% !important;
     }
 
     .left--sidebar[data-popup-id] .popup_content {
