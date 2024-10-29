@@ -82,18 +82,24 @@
     "rich_text_mzW6x6": {
       "type": "rich-text",
       "blocks": {
-        "spacer_F8M8Ug": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
         "heading_VP4iAB": {
           "type": "heading",
           "settings": {
             "title": "La Maison l'Écurie Paris",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "spacer_F8M8Ug": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "spacer_J3qHnR": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
           }
         },
         "accent_8mNmtL": {
@@ -111,8 +117,9 @@
         }
       },
       "block_order": [
-        "spacer_F8M8Ug",
         "heading_VP4iAB",
+        "spacer_F8M8Ug",
+        "spacer_J3qHnR",
         "accent_8mNmtL",
         "text_BCdexH"
       ],
