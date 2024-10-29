@@ -130,12 +130,6 @@
           "noIndexBlogTag": false,
           "noIndexProductTag": false
         }
-      },
-      "10142937387702430166": {
-        "type": "shopify://apps/pre-order-t-notify-me/blocks/app-embed/bf6c109b-79b5-457c-8752-0e5e9e9676e7",
-        "disabled": false,
-        "settings": {
-        }
       }
     }
   },

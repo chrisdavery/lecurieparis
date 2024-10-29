@@ -280,10 +280,44 @@
             "color_overlay_gradient": "",
             "overlay_opacity": 30
           }
+        },
+        "item_UeLaGB": {
+          "type": "item",
+          "settings": {
+            "width": "100",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/french-design_b443d091-bfbd-49fd-a5bc-83ffc427e628.jpg",
+            "mobile_image": "shopify://shop_images/french-design_b443d091-bfbd-49fd-a5bc-83ffc427e628.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://pages/french-design",
+            "link_text": "French Design",
+            "button_style": "btn--callout",
+            "background_color": "",
+            "text_color": "#000000",
+            "button_background_color": "#111111",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "item_6KePQM"
+        "item_6KePQM",
+        "item_UeLaGB"
       ],
       "custom_css": [
         "[data-section-type] {padding-top: 0 !important;}",
@@ -306,39 +340,6 @@
     "grid_baBxcm": {
       "type": "grid",
       "blocks": {
-        "item_96J9Ym": {
-          "type": "item",
-          "settings": {
-            "width": "50",
-            "height": 500,
-            "mobile_height": 300,
-            "image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
-            "mobile_image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_flex-end",
-            "accent": "LIONEL MOROY",
-            "title": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-2-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-6-base",
-            "text": "<p>FOUNDER, DESIGNER</p>",
-            "text_font_class": "fs-body-100",
-            "link": "shopify://pages/la-maison-lecurie-paris",
-            "link_text": "Read More",
-            "button_style": "btn--callout",
-            "background_color": "#000000",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
-          }
-        },
         "item_BDXaVm": {
           "type": "item",
           "settings": {
@@ -371,11 +372,44 @@
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
+        },
+        "item_96J9Ym": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 500,
+            "mobile_height": 300,
+            "image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "mobile_image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "LIONEL MOROY",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "<p>FOUNDER, DESIGNER</p>",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://pages/la-maison-lecurie-paris",
+            "link_text": "Read More",
+            "button_style": "btn--callout",
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "item_96J9Ym",
-        "item_BDXaVm"
+        "item_BDXaVm",
+        "item_96J9Ym"
       ],
       "disabled": true,
       "custom_css": [
