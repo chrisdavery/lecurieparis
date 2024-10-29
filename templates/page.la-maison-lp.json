@@ -82,12 +82,6 @@
     "rich_text_mzW6x6": {
       "type": "rich-text",
       "blocks": {
-        "accent_8mNmtL": {
-          "type": "accent",
-          "settings": {
-            "accent": "La Maison l'Écurie Paris"
-          }
-        },
         "spacer_F8M8Ug": {
           "type": "spacer",
           "settings": {
@@ -97,9 +91,15 @@
         "heading_VP4iAB": {
           "type": "heading",
           "settings": {
-            "title": "Meaning of the word L'Écurie",
+            "title": "La Maison l'Écurie Paris",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "accent_8mNmtL": {
+          "type": "accent",
+          "settings": {
+            "accent": "Meaning of the word L'Écurie"
           }
         },
         "text_BCdexH": {
@@ -111,9 +111,9 @@
         }
       },
       "block_order": [
-        "accent_8mNmtL",
         "spacer_F8M8Ug",
         "heading_VP4iAB",
+        "accent_8mNmtL",
         "text_BCdexH"
       ],
       "settings": {
