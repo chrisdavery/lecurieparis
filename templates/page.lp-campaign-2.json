@@ -223,7 +223,7 @@
         "subheading_PmTeXa": {
           "type": "subheading",
           "settings": {
-            "subheading": "Nuit noire, Black Night",
+            "subheading": "Nuit noire | Black Night",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-5-base"
           }
@@ -257,7 +257,7 @@
         "subheading_qntwJU": {
           "type": "subheading",
           "settings": {
-            "subheading": "Soirée au château / Evening at the castle",
+            "subheading": "Soirée au château | Evening at the castle",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-5-base"
           }
