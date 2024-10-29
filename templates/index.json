@@ -162,9 +162,9 @@
       ],
       "settings": {
         "layout": "grid",
-        "heading": "DESIGNER EYEGLASSES FRAMES",
+        "heading": "",
         "heading_tag": "h2",
-        "subheading": "",
+        "subheading": "<p>DESIGNER EYEGLASSES FRAMES</p>",
         "link": "shopify://collections/designer-sunglasses",
         "link_text": "DISCOVER MORE",
         "maximum_collections": 8,
@@ -590,6 +590,7 @@
       "block_order": [
         "item_gqYm8m"
       ],
+      "disabled": true,
       "custom_css": [
         "[data-section-type] {padding-top: 0 !important;}",
         ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
