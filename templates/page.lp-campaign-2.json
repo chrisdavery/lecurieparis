@@ -291,7 +291,7 @@
         "subheading_wC9FyK": {
           "type": "subheading",
           "settings": {
-            "subheading": "Course Folle, Crazy ride",
+            "subheading": "Course Folle | Crazy Ride",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-5-base"
           }
@@ -569,7 +569,7 @@
         "content_alignment": "center",
         "enable_animation": false,
         "full_width": false,
-        "spacing": 8,
+        "spacing": 16,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
