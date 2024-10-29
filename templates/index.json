@@ -285,7 +285,6 @@
       "block_order": [
         "item_6KePQM"
       ],
-      "disabled": true,
       "custom_css": [
         "[data-section-type] {padding-top: 0 !important;}",
         ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
@@ -378,6 +377,7 @@
         "item_96J9Ym",
         "item_BDXaVm"
       ],
+      "disabled": true,
       "custom_css": [
         "[data-section-type] {padding: 0; background: #000;}",
         ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
