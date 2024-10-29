@@ -137,7 +137,7 @@
         "image_column_gx7Rwi": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/01_fbf4beda-d989-4b50-a239-928bd9cec98f.jpg",
+            "image": "shopify://shop_images/lionelmoroy-web.jpg",
             "image_width": 64,
             "aspect_ratio": "natural",
             "enable_image_crop_circle": false,
