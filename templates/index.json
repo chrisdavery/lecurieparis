@@ -307,39 +307,6 @@
     "grid_baBxcm": {
       "type": "grid",
       "blocks": {
-        "item_BDXaVm": {
-          "type": "item",
-          "settings": {
-            "width": "50",
-            "height": 380,
-            "mobile_height": 300,
-            "image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
-            "mobile_image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_flex-end",
-            "accent": "JEAN-BAPTISTE ROUGEOT",
-            "title": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-3-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "<p>CREATIVE DIRECTOR</p>",
-            "text_font_class": "fs-body-100",
-            "link": "shopify://pages/la-maison-lecurie-paris",
-            "link_text": "Read More",
-            "button_style": "btn--callout",
-            "background_color": "#000000",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
-          }
-        },
         "item_96J9Ym": {
           "type": "item",
           "settings": {
@@ -372,11 +339,44 @@
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
+        },
+        "item_BDXaVm": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 380,
+            "mobile_height": 300,
+            "image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
+            "mobile_image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "JEAN-BAPTISTE ROUGEOT",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>CREATIVE DIRECTOR</p>",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://pages/la-maison-lecurie-paris",
+            "link_text": "Read More",
+            "button_style": "btn--callout",
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "item_BDXaVm",
-        "item_96J9Ym"
+        "item_96J9Ym",
+        "item_BDXaVm"
       ],
       "custom_css": [
         "[data-section-type] {padding: 0; background: #000;}",
