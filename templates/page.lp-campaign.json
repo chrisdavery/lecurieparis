@@ -105,28 +105,6 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "rich_text_b9bJdC": {
-      "type": "rich-text",
-      "blocks": {
-        "text_77UPVy": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Eyewear Design<br/></strong>Lionel Moroy<br/><strong>Creative director<br/></strong>Tamara LeeCarroll<br/><strong>Fashion Models<br/></strong>Camille Balsamo<br/>Jed Bernard<br/><strong>Video</strong><br/>Keenan Reed<br/><strong>Photo</strong><br/>Tamara LeeCarroll</p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "text_77UPVy"
-      ],
-      "settings": {
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "grid_ix7XTA": {
       "type": "grid",
       "blocks": {
@@ -245,6 +223,38 @@
         "spacing": 8,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_b9bJdC": {
+      "type": "rich-text",
+      "blocks": {
+        "text_77UPVy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Eyewear Design<br/></strong>Lionel Moroy<br/><strong>Creative director<br/></strong>Tamara LeeCarroll<br/><strong>Fashion Models<br/></strong>Camille Balsamo<br/>Jed Bernard<br/><strong>Video</strong><br/>Keenan Reed<br/><strong>Photo</strong><br/>Tamara LeeCarroll</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "image_XTPnh9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LP-GOLD-SQUARE-Black_a5d0e93f-3235-4b61-a3e0-69476e434616.jpg",
+            "content_width": "custom",
+            "image_size": 90,
+            "image_size_mobile": 90
+          }
+        }
+      },
+      "block_order": [
+        "text_77UPVy",
+        "image_XTPnh9"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
       }
     }
   },
