@@ -569,7 +569,7 @@
         "content_alignment": "center",
         "enable_animation": false,
         "full_width": false,
-        "spacing": 16,
+        "spacing": 32,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
