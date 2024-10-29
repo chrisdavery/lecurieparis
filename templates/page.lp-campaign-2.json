@@ -115,28 +115,6 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "rich_text_kRMHeV": {
-      "type": "rich-text",
-      "blocks": {
-        "text_f9rxcr": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Eyewear Design</strong><br/>Lionel Moroy<br/><strong>Creative director </strong><br/>Jean-Baptiste Rougeot<br/><strong>Fashion Models<br/></strong>Danika Pienaar<br/>Nalu Odigwe<br/>Mike Boorn<br/><strong>Stylist</strong> <br/>Albright Fashion Library<br/><strong>Hair</strong><br/>Ric Pipino<br/><strong>Makeup</strong><br/>U.Z.O<br/><strong>video</strong><br/>Fletcher Cowan<br/><strong>Photo</strong><br/>Daniel Sachon<br/><strong>Producer</strong><br/>Dan Cingary<br/></p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "text_f9rxcr"
-      ],
-      "settings": {
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "video_with_text_xpWfpC": {
       "type": "video-with-text",
       "blocks": {
@@ -596,6 +574,28 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "rich_text_kRMHeV": {
+      "type": "rich-text",
+      "blocks": {
+        "text_f9rxcr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Eyewear Design</strong><br/>Lionel Moroy<br/><strong>Creative director </strong><br/>Jean-Baptiste Rougeot<br/><strong>Fashion Models<br/></strong>Danika Pienaar<br/>Nalu Odigwe<br/>Mike Boorn<br/><strong>Stylist</strong> <br/>Albright Fashion Library<br/><strong>Hair</strong><br/>Ric Pipino<br/><strong>Makeup</strong><br/>U.Z.O<br/><strong>video</strong><br/>Fletcher Cowan<br/><strong>Photo</strong><br/>Daniel Sachon<br/><strong>Producer</strong><br/>Dan Cingary<br/></p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_f9rxcr"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "rich_text_EYpxFF": {
       "type": "rich-text",
       "blocks": {
@@ -627,7 +627,6 @@
     "main",
     "rich_text_KDnTin",
     "video_cpkd9Y",
-    "rich_text_kRMHeV",
     "video_with_text_xpWfpC",
     "video_with_text_AhUc3X",
     "video_with_text_3xCCUR",
@@ -635,6 +634,7 @@
     "video_with_text_qqt9QE",
     "video_with_text_3ymePc",
     "grid_GxDzJz",
+    "rich_text_kRMHeV",
     "rich_text_EYpxFF"
   ]
 }
