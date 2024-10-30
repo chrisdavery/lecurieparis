@@ -49,6 +49,8 @@
     "custom_swatch_colors": "Dark Navy Blue: #28283b,\nPewter: #5e5e5e",
     "product_show_siblings_product_image": "image",
     "sale_badge_format": "sale_text",
+    "color_background_sold_badge": "#ffffff",
+    "color_text_sold_badge": "#000000",
     "custom_product_badge_group_1_tag_names": "Responsible",
     "custom_product_badge_group_1_color": "#000000",
     "custom_product_badge_group_2_tag_names": "Pre Order",
