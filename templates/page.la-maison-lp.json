@@ -137,13 +137,14 @@
         "heading_DgWRnm": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "Lead with Passion for beauty",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-2-base"
           }
         },
         "text_VJLttG": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "text_font_class": "fs-body-100"
@@ -154,7 +155,6 @@
         "heading_DgWRnm",
         "text_VJLttG"
       ],
-      "disabled": true,
       "settings": {
         "alignment": "center_center",
         "enable_animation": false,
