@@ -202,13 +202,13 @@
             "link": "shopify://pages/lp-campaign-beverly-hills",
             "link_text": "DISCOVER MORE",
             "button_style": "btn--callout",
-            "background_color": "",
+            "background_color": "rgba(0,0,0,0)",
             "text_color": "#ffffff",
             "button_background_color": "#ffffff",
             "button_text_color": "#ffffff",
             "color_overlay": "#ffffff",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
+            "color_overlay_gradient": "linear-gradient(0deg, rgba(0, 0, 0, 1) 6.115%, rgba(255, 255, 255, 0) 32%)",
+            "overlay_opacity": 34
           }
         }
       },
