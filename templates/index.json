@@ -236,7 +236,7 @@
             "link": "shopify://collections/designer-sunglasses-men",
             "link_text": "DISCOVER",
             "button_style": "btn--callout",
-            "background_color": "#ffffff",
+            "background_color": "#000000",
             "text_color": "#ffffff",
             "button_background_color": "#ffffff",
             "button_text_color": "#000000",
@@ -251,7 +251,7 @@
         "item_BDXaVm"
       ],
       "custom_css": [
-        "[data-section-type] {padding: 0; background: #fff;}",
+        "[data-section-type] {padding: 0; background: #000;}",
         ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
         ".grid__inner {margin: 0;}",
         ".grid-item {min-height: 100vh;}",
