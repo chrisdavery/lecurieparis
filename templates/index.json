@@ -182,13 +182,13 @@
         "item_96J9Ym": {
           "type": "item",
           "settings": {
-            "width": "50",
+            "width": "33",
             "height": 500,
             "mobile_height": 300,
             "image": "shopify://shop_images/DESKTOP_WOMEN_LP.jpg",
             "mobile_image": "shopify://shop_images/DESKTOP_WOMEN_LP.jpg",
-            "media_fit": "contain",
-            "focal_point": "image_presentation",
+            "media_fit": "cover",
+            "focal_point": "top",
             "mobile_focal_point": "image_presentation",
             "text_position": "center_flex-end",
             "accent": "",
@@ -215,7 +215,7 @@
         "item_BDXaVm": {
           "type": "item",
           "settings": {
-            "width": "50",
+            "width": "33",
             "height": 500,
             "mobile_height": 300,
             "image": "shopify://shop_images/DESKTOP_MEN_LP_5946f26f-314d-4aed-a124-174eefff4693.jpg",
