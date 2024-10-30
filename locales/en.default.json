@@ -392,7 +392,7 @@
   "product": {
     "add_to_cart": "Add to Bag",
     "share": "Share",
-    "sold_out": "Sold out",
+    "sold_out": "Coming Back Soon",
     "unavailable": "Unavailable"
   },
   "products": {
@@ -414,7 +414,7 @@
       "in_stock": "In stock, and ready to ship",
       "low_stock": "Only {{count}} left. Order soon!",
       "sold_out": "Out of stock",
-      "sold_out_price_custom_label": "Sold out",
+      "sold_out_price_custom_label": "Coming Back Soon",
       "unavailable": "Unavailable",
       "zero_price_custom_label": "Free"
     },
@@ -459,7 +459,7 @@
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "sku": "SKU",
       "sku_with_value": "SKU: {{ value }}",
-      "sold_out": "Sold out",
+      "sold_out": "Coming Back Soon",
       "swatch_and_chip_delimiter": ", ",
       "swatch_count": {
         "one": "{{count}} {{ swatch_name }}",
