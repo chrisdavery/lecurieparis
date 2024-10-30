@@ -72,7 +72,8 @@
       "custom_css": [
         ".featured-collection-grid__heading {margin: 0;}",
         ".grid-type {row-gap: 0;}",
-        "@media (min-width: 720px) {.image__img {--aspect-ratio-square: 1.4; }}"
+        "@media (min-width: 720px) {.image__img {--aspect-ratio-square: 1.4; }}",
+        "@media (max-width: 719px) {.featured-collection-grid__product:nth-child(n + 5) {display: none; }}"
       ],
       "settings": {
         "layout": "grid",
