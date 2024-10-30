@@ -144,6 +144,7 @@
         "image_column_UQAcKC",
         "image_column_Xt9LdA"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 959px) {{padding-top: 0; padding-bottom: 0; min-height: unset; } .multi-column__grid {gap: 0; } .multi-column__grid-item {min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; } .multi-column__inner {padding: 0; }}"
       ],
@@ -173,6 +174,99 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none",
         "css_class": "multi-home"
+      }
+    },
+    "grid_baBxcm": {
+      "type": "grid",
+      "blocks": {
+        "item_96J9Ym": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 500,
+            "mobile_height": 300,
+            "image": "shopify://shop_images/DESKTOP_WOMEN_LP.jpg",
+            "mobile_image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "<h5>WOMEN</h5>",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/designer-sunglasses-women",
+            "link_text": "DISCOVER",
+            "button_style": "btn--callout",
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_BDXaVm": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 380,
+            "mobile_height": 300,
+            "image": "shopify://shop_images/DESKTOP_MEN_LP_5946f26f-314d-4aed-a124-174eefff4693.jpg",
+            "mobile_image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "JEAN-BAPTISTE ROUGEOT",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>CREATIVE DIRECTOR</p>",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://pages/la-maison-lecurie-paris",
+            "link_text": "Read More",
+            "button_style": "btn--callout",
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_96J9Ym",
+        "item_BDXaVm"
+      ],
+      "custom_css": [
+        "[data-section-type] {padding: 0; background: #fff;}",
+        ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
+        ".grid__inner {margin: 0;}",
+        ".grid-item {min-height: 100vh;}",
+        "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "content_alignment": "center",
+        "enable_animation": false,
+        "full_width": true,
+        "spacing": 50,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "grid_iWz6U8": {
@@ -243,100 +337,6 @@
         "custom_liquid": "<h1>Designer Eyeglasses Frames</h1>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only"
-      }
-    },
-    "grid_baBxcm": {
-      "type": "grid",
-      "blocks": {
-        "item_BDXaVm": {
-          "type": "item",
-          "settings": {
-            "width": "50",
-            "height": 380,
-            "mobile_height": 300,
-            "image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
-            "mobile_image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_flex-end",
-            "accent": "JEAN-BAPTISTE ROUGEOT",
-            "title": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-3-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "<p>CREATIVE DIRECTOR</p>",
-            "text_font_class": "fs-body-100",
-            "link": "shopify://pages/la-maison-lecurie-paris",
-            "link_text": "Read More",
-            "button_style": "btn--callout",
-            "background_color": "#000000",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
-          }
-        },
-        "item_96J9Ym": {
-          "type": "item",
-          "settings": {
-            "width": "50",
-            "height": 500,
-            "mobile_height": 300,
-            "image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
-            "mobile_image": "shopify://shop_images/lionelmoroy-lecurieparis_14c16548-4f45-45bf-918f-653a5984b62c.jpg",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_flex-end",
-            "accent": "LIONEL MOROY",
-            "title": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-2-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-6-base",
-            "text": "<p>FOUNDER, DESIGNER</p>",
-            "text_font_class": "fs-body-100",
-            "link": "shopify://pages/la-maison-lecurie-paris",
-            "link_text": "Read More",
-            "button_style": "btn--callout",
-            "background_color": "#000000",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_BDXaVm",
-        "item_96J9Ym"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "[data-section-type] {padding: 0; background: #000;}",
-        ".grid-item__text-container-wrapper {padding-top: calc(var(--height-header));}",
-        ".grid__inner {margin: 0;}",
-        ".grid-item {min-height: 100vh;}",
-        "@media (max-width: 959px) {.grid-item {min-height: 100vh; }}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "content_alignment": "center",
-        "enable_animation": false,
-        "full_width": true,
-        "spacing": 50,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
       }
     },
     "multi_column_homepage_xLpeMW": {
@@ -614,9 +614,9 @@
     "video_hero_Yw6Wbw",
     "503d3a6d-84ce-492a-bc70-773a9883fa65",
     "multi_column_HdPrj6",
+    "grid_baBxcm",
     "grid_iWz6U8",
     "custom_liquid_x7XatE",
-    "grid_baBxcm",
     "multi_column_homepage_xLpeMW",
     "grid_WfkNXY",
     "grid_Ya97wD"
