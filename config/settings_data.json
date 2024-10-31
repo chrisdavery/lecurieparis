@@ -132,6 +132,12 @@
           "noIndexBlogTag": false,
           "noIndexProductTag": false
         }
+      },
+      "7313114205116804392": {
+        "type": "shopify://apps/propel-replays-surveys/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
