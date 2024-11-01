@@ -206,7 +206,8 @@ class SliderCollectionItem extends HTMLElement {
       const defaultSwiperOptions = {
         slidesPerView: this.perView,
         grabCursor: true,
-        draggable: true
+        draggable: true,
+        loop: true
       };
 
       let swiperOptions = defaultSwiperOptions;
