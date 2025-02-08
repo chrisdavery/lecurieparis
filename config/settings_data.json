@@ -88,17 +88,14 @@
     "social_pinterest_link": "https://www.pinterest.com/lecurieparis/",
     "social_tiktok_link": "https://www.tiktok.com/@lecurieparis",
     "social_twitter_link": "https://twitter.com/lecurieparis",
-    "social_youtube_link": "https://www.youtube.com/channel/UCN_qYUzf2ug-WB3LMpHey-w?themeRefresh=1",
+    "social_youtube_link": "https://www.youtube.com/@lecurieparis",
     "favicon": "shopify://shop_images/faviconlp.jpg",
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "2153490007123654574": {
         "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5057006142565981955": {
         "type": "shopify://apps/affirm-pay-over-time-messaging/blocks/cart-drawer-embed-block/6dce54be-130d-4d13-9636-1e8f611b3071",
@@ -118,8 +115,7 @@
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11286895472990583310": {
         "type": "shopify://apps/sitemapper/blocks/sitemap/f8fe1657-b243-4261-8f0f-cb2fd9da6ce0",
@@ -136,8 +132,7 @@
       "7313114205116804392": {
         "type": "shopify://apps/propel-replays-surveys/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -371,8 +366,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
