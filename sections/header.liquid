@@ -24,7 +24,9 @@
     endif
   endfor
 -%}
-
+<script>
+  fbq('track', 'ViewContent');
+</script>
 <script>
   {% # This is done here AND in the JS so it's responsive in the theme editor before the JS is loaded %}
   {% if section.settings.enable_sticky_header %}
