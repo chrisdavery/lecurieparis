@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "title": "<p>Complimentary Free Express Shipping Worldwide</p>",
-            "title_mobile": "<p>Complimentary Free Express Shipping Worldwide</p>",
+            "title": "<p><strong>Complimentary Free Express Shipping Worldwide</strong></p>",
+            "title_mobile": "<p><strong>Complimentary Free Express Shipping Worldwide</strong></p>",
             "link": ""
           }
         }
