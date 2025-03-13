@@ -467,7 +467,7 @@
           "settings": {
             "width": "100",
             "height": 500,
-            "mobile_height": 500,
+            "mobile_height": 800,
             "image": "shopify://shop_images/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
             "mobile_image": "shopify://shop_images/lp-victor-lecurieparis-2025_74230aa8-464b-469d-87bb-cedfa8af7d4f.jpg",
             "media_fit": "cover",
