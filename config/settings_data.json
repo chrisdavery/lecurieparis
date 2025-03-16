@@ -53,11 +53,11 @@
     "color_text_sold_badge": "#000000",
     "custom_product_badge_group_1_tag_names": "Responsible",
     "custom_product_badge_group_1_color": "#000000",
-    "custom_product_badge_group_2_tag_names": "Pre Order",
+    "custom_product_badge_group_2_tag_names": "",
     "custom_product_badge_group_2_color": "#7e6b45",
     "custom_product_badge_group_3_tag_names": "Coming Back Soon",
     "custom_product_badge_group_3_color": "#7b7b7b",
-    "custom_product_badge_group_4_tag_names": "n",
+    "custom_product_badge_group_4_tag_names": "",
     "uppercase_badges": true,
     "product_listing_show_vendor": false,
     "enable_border_on_hover": false,
@@ -88,17 +88,14 @@
     "social_pinterest_link": "https://www.pinterest.com/lecurieparis/",
     "social_tiktok_link": "https://www.tiktok.com/@lecurieparis",
     "social_twitter_link": "https://twitter.com/lecurieparis",
-    "social_youtube_link": "https://www.youtube.com/channel/UCN_qYUzf2ug-WB3LMpHey-w?themeRefresh=1",
+    "social_youtube_link": "https://www.youtube.com/@lecurieparis",
     "favicon": "shopify://shop_images/faviconlp.jpg",
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "2153490007123654574": {
         "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5057006142565981955": {
         "type": "shopify://apps/affirm-pay-over-time-messaging/blocks/cart-drawer-embed-block/6dce54be-130d-4d13-9636-1e8f611b3071",
@@ -118,8 +115,7 @@
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11286895472990583310": {
         "type": "shopify://apps/sitemapper/blocks/sitemap/f8fe1657-b243-4261-8f0f-cb2fd9da6ce0",
@@ -136,7 +132,25 @@
       "7313114205116804392": {
         "type": "shopify://apps/propel-replays-surveys/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
         "disabled": false,
+        "settings": {}
+      },
+      "17932116065945454919": {
+        "type": "shopify://apps/adt-facebook-pixels-ads/blocks/facebook-ads-pixels/4ad3004f-fa0b-4587-a4f1-4d8ce89e9fbb",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
         "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
         }
       }
     }
@@ -371,8 +385,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
