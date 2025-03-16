@@ -70,6 +70,10 @@
   </div>
 {%- endif -%}
 
+{% unless show_siblings
+  and product.metafields.stiletto.sibling_option_name
+  and sibling_products
+  and settings.siblings_option_name != blank %}
 {%- unless product.has_only_default_variant -%}
   {%- liquid
     assign variant_popup_page = pages[block_settings.variant_popup_page]
@@ -261,3 +265,5 @@
     {%- endif -%}
   </div>
 {% endunless %}
+{% endunless %}
+
