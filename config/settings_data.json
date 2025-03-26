@@ -152,6 +152,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "12691944026889484271": {
+        "type": "shopify://apps/snapb2b/blocks/snap-b2b/4873aea5-77bc-44a0-badb-f9cfb804db54",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
