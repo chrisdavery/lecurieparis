@@ -157,6 +157,11 @@
         "type": "shopify://apps/snapb2b/blocks/snap-b2b/4873aea5-77bc-44a0-badb-f9cfb804db54",
         "disabled": false,
         "settings": {}
+      },
+      "13969055170449783870": {
+        "type": "shopify://apps/bss-b2b-solution/blocks/config-header/451233f2-9631-4c49-8b6f-057e4ebcde7f",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
