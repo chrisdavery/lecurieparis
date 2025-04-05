@@ -63,7 +63,7 @@
     "enable_border_on_hover": false,
     "enable_quick_view": false,
     "enable_product_card_swatches": false,
-    "enable_product_card_sibling_swatches": false,
+    "enable_product_card_sibling_swatches": true,
     "product_listing_show_second_image_on_hover": false,
     "product_listing_show_slider": true,
     "product_listing_aspect_ratio": "square",
