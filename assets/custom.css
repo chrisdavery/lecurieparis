@@ -291,6 +291,9 @@ html:not(.no-js) .navigation__submenu,.meganav {
     max-width: 100% !important;
     padding-left: calc(var(--spacing-1) + 1px) !important;
     padding-right: calc(var(--spacing-1) + 1px) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow: hidden;
 }
 
 .product__price-and-ratings {
@@ -314,10 +317,6 @@ html:not(.no-js) .navigation__submenu,.meganav {
 
 .product__controls-group {
     margin-bottom: 3.5rem !important;
-}
-
-.product-item {
-    overflow: hidden;
 }
 
 .product-item__slider__content {
@@ -450,6 +449,9 @@ h2#modal-Filter {
 }
 
 
+.collection__products .product-item {
+    min-width: 100%;
+}
 
 @media (min-width: 960px) {
     .grid-type.grid-type--per-view-5 .featured-collection-grid__product {

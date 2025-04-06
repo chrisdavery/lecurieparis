@@ -225,7 +225,8 @@ class SliderCollectionItem extends HTMLElement {
           navigation: {
             nextEl: nextButton,
             prevEl: prevButton
-          }
+          },
+          cssMode: true
         });
       }
 
