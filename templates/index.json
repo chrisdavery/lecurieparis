@@ -284,7 +284,7 @@
             "media_fit": "cover",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
-            "text_position": "center_center",
+            "text_position": "center_flex-end",
             "accent": "",
             "title": "RON DORFF x L'Écurie Paris",
             "heading_tag": "h3",
@@ -298,10 +298,10 @@
             "link_text": "SHOP NOW",
             "button_style": "btn--secondary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
