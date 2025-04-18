@@ -161,7 +161,7 @@
         "column_spacing": 4,
         "row_spacing": 20,
         "column_alignment": "center",
-        "enable_slider_mobile": false,
+        "enable_slider_mobile": true,
         "columns_mobile": "2",
         "column_spacing_mobile": 36,
         "row_spacing_mobile": 36,
