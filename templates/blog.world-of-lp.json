@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_y68i8t": {
@@ -6,7 +15,7 @@
         "text_ARYHgf": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"\/pages\/lp-campaign-2\" title=\"LP Campaign 2\">LP CAMPAIGN<\/a>   , <a href=\"\/blogs\/news\" title=\"LUXURY STORIES\">LUXURIE STORIES<\/a><\/p>",
+            "text": "<p><a href=\"/pages/lp-campaign-2\" title=\"LP Campaign 2\">LP CAMPAIGN</a>   , <a href=\"/blogs/news\" title=\"LUXURY STORIES\">LUXURIE STORIES</a></p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -16,7 +25,6 @@
       ],
       "disabled": true,
       "settings": {
-        "black_header": false,
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -36,14 +44,14 @@
         "text_9RVrRi": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore the artistry, craftsmanship, and innovation behind L’Écurie Paris. <br\/>Dive into stories of inspiration, the meticulous process of creating each pair of sunglasses, <br\/>and the latest updates from our luxury eyewear maison. <br\/>Immerse yourself in the world of sophisticated design and timeless elegance.<\/p>",
+            "text": "<p>Explore the artistry, craftsmanship, and innovation behind L’Écurie Paris. <br/>Dive into stories of inspiration, the meticulous process of creating each pair of sunglasses, <br/>and the latest updates from our luxury eyewear maison. <br/>Immerse yourself in the world of sophisticated design and timeless elegance.</p>",
             "text_font_class": "fs-body-100"
           }
         },
         "image_jM7nPR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LP-GOLD.jpg",
+            "image": "shopify://shop_images/LP-GOLD.jpg",
             "content_width": "custom",
             "image_size": 50,
             "image_size_mobile": 50
@@ -56,7 +64,6 @@
         "image_jM7nPR"
       ],
       "settings": {
-        "black_header": false,
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -70,13 +77,14 @@
         "article_a3PqWx": {
           "type": "article",
           "settings": {
-            "article": "news\/discover-the-essence-of-french-elegance-with-papillon-designer-eyewear"
+            "article": "news/discover-the-essence-of-french-elegance-with-papillon-designer-eyewear"
           }
         }
       },
       "block_order": [
         "article_a3PqWx"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Latest news",
         "subheading": "",
@@ -132,7 +140,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+            "text": "<p>Include a short sentence describing what someone can expect from your newsletter.</p>",
             "text_font_class": "fs-body-100"
           }
         },
