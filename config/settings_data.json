@@ -159,6 +159,11 @@
         "type": "shopify://apps/snapb2b/blocks/snap-b2b/4873aea5-77bc-44a0-badb-f9cfb804db54",
         "disabled": false,
         "settings": {}
+      },
+      "5515809131802108258": {
+        "type": "shopify://apps/google-analytics-4-ga4/blocks/google-analytics-4/25a47c90-9437-4f66-918c-3c9a15d7897f",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
