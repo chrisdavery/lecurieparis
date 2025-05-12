@@ -310,10 +310,6 @@ html:not(.no-js) .navigation__submenu,.meganav {
     font-weight: 700;
 }
 
-.product__media-container[data-gallery-style=list] .product__media {
-    max-width: 43rem;
-    margin: auto;
-}
 
 .product__controls-group {
     margin-bottom: 3.5rem !important;
@@ -559,6 +555,11 @@ h2#modal-Filter {
 }
 
 @media (min-width: 720px) {
+    .product__media-container[data-gallery-style=list] .product__media {
+        max-width: 38rem;
+        margin: 0 0 0 auto;
+    }
+
     .multi-home {
         padding-top: calc(var(--height-header) - 3rem) !important;
     }
