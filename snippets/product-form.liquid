@@ -49,6 +49,12 @@
     >
   </div>
 
+  {% assign sibling_products = product.metafields.stiletto.sibling_collection.value.products | default: product.metafields.stiletto.siblings_collection.value.products %}
+
+  {% if sibling_products.size > 0 %}
+    <input type="hidden" name="properties[_siblings]" value="true">
+  {% endif %}
+
   {% comment -%}
      option field within form remains hidden but will be updated
     from outside the form if enabled.
