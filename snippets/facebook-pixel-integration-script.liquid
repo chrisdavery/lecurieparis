@@ -1,0 +1,41 @@
+<!-- Facebook Pixel integration script from Consentmo GDPR Compliance App -->
+<script id="consentmo-fbpx-integration-script">
+  let isFBPXExecuted = false;
+  let isFBPXBlocked = false;
+
+  function executeFBPX() {
+    if(!isFBPXExecuted) {
+      // The content of Facebook Pixel script goes here
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2263437037017942'); 
+      fbq('track', 'PageView');
+      
+      isFBPXExecuted = true;
+    }
+  }
+
+  function blockFBPX() {
+    if(!isFBPXBlocked) {
+      !function(){var e=null,n=[];
+        Object.defineProperty(window,"fbq",{get:function(){return e},set:function(o){Object.defineProperty(o,"queue",{get:function(){return []},set:function(){}}),e=o}})}();
+      isFBPXBlocked = true;
+    }
+  }
+
+
+  document.addEventListener('consentmoSignal', function(eventData) {
+    let data = eventData.detail.preferences;
+    if (data.analytics && data.marketing) {
+      executeFBPX();
+    } else {
+      blockFBPX();
+    }
+  });
+</script>
