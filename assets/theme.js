@@ -6244,6 +6244,12 @@ function stickyScroll (node) {
   // Save the sticky filter bar height to a CSS variable
   const root = n$2(selectors$I.root, document);
   root.style.setProperty("--sticky-filter-bar-height", "0px");
+
+  const stickyMobileFilterBar = n$2('.mobile-filters')
+  if (stickyMobileFilterBar && stickyFilterBarHeight == 0) {
+    root.style.setProperty("--sticky-filter-bar-height", "".concat(stickyMobileFilterBar.offsetHeight, "px"));
+  }
+
   let stickyContainerTop = headerHeight; // The sticky container's `top` value
   let stickyContainerTopPrevious = stickyContainerTop;
 
@@ -6269,6 +6275,11 @@ function stickyScroll (node) {
     // Update the sticky filter bar height CSS variable
     if (stickyFilterBar) stickyFilterBarHeight = stickyFilterBar.offsetHeight;
     root.style.setProperty("--sticky-filter-bar-height", "".concat(stickyFilterBarHeight, "px"));
+
+    const stickyMobileFilterBar = n$2('.mobile-filters')
+    if (stickyMobileFilterBar && stickyFilterBarHeight == 0) {
+      root.style.setProperty("--sticky-filter-bar-height", "".concat(stickyMobileFilterBar.offsetHeight, "px"));
+    }
   });
 
   // Resize observer on the window and the sticky container

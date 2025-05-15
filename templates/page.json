@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_BLyt9B": {
@@ -6,7 +15,7 @@
         "text_dmqqV7": {
           "type": "text",
           "settings": {
-            "text": "<p>A curated boutique selection to find L'Écurie Paris eyewear<br\/>To open an account email us : <a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:experience@lecurieparis.com\">experience@lecurieparis.com<\/a><\/p>",
+            "text": "<p>A curated boutique selection to find L'Écurie Paris eyewear<br/>To open an account email us : <a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:experience@lecurieparis.com\">experience@lecurieparis.com</a></p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -15,7 +24,6 @@
         "text_dmqqV7"
       ],
       "settings": {
-        "black_header": false,
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -25,9 +33,7 @@
     },
     "main": {
       "type": "main-page",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
         "content_color": "rgba(0,0,0,0)",

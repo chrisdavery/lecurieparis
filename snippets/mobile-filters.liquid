@@ -61,7 +61,7 @@
   {% endif %}
 
   {%- if filters_valid -%}
-    <div class="mobile-filters__group" data-group="{{ 'filters.title' | t }}">
+    <div class="mobile-filters__group {% if filter_location == 'sidebar' %}large-up-hide{% endif %}" data-group="{{ 'filters.title' | t }}">
       <button
         type="button"
         class="mobile-filters__button filter-bar__link fs-body-75 filter-bar__link--filters"
@@ -80,13 +80,12 @@
     </div>
   {%- endif -%}
 
-  {% comment %} {%- if show_sort -%}
-    <div class="mobile-filters__group" data-group="{{ heading }}">
-      <button type="button" class="mobile-filters__button" data-filter-drawer-target="__sort" data-sort-dropdown>
-        {% render 'icon' with icon: 'sort' %}
-
+  {%- if show_sort -%}
+    <div class="mobile-filters__group small-hide" data-group="sort">
+      <button type="button" class="mobile-filters__button filter-bar__link fs-body-75 filter-bar__link--filters" data-filter-drawer-target="__sort" data-sort-dropdown>
         {{ 'filters.sort_title' | t }}
+        {% render 'icon' with icon: 'sort' %}
       </button>
     </div>
-  {%- endif -%} {% endcomment %}
+  {%- endif -%}
 </div>

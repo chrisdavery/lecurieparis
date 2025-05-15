@@ -119,6 +119,16 @@
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "lens-color",
+      "namespace": "shopify",
+      "name": "Lens color",
+      "description": "Specifies the color of eyewear lenses, such as yellow or black",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "variant": [

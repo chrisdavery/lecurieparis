@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -64,11 +73,11 @@
             "add_box": false,
             "add_dividers": false,
             "icon_1": "envelope",
-            "text_1": "<p>Complimentary Express Free shipping & 30 days to return*<\/p>",
+            "text_1": "<p>Complimentary Express Free shipping & 30 days to return*</p>",
             "icon_2": "none",
             "text_2": "",
             "icon_3": "chat",
-            "text_3": "<p>Need help? <a href=\"\/pages\/contact\">Contact us<\/a><\/p>",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
             "icon_4": "none",
             "text_4": "",
             "icon_5": "none",
@@ -103,7 +112,7 @@
           "type": "popup",
           "settings": {
             "title": "Payment",
-            "content": "<p>Payments are accepted via credit card, debit card, Apple Pay, or PayPal with a valid billing address and United States shipping address. Accepted credit cards are Visa, American Express, and Mastercard.<\/p><p><\/p><p>When placing an order, your billing address must correspond to the address of your credit card, or we will not be able to process your order.<\/p><p><\/p><p>All transactions are secured. The L'Écurie Paris website is provided with an SSL encryption system to protect personal and payment data.<\/p>",
+            "content": "<p>Payments are accepted via credit card, debit card, Apple Pay, or PayPal with a valid billing address and United States shipping address. Accepted credit cards are Visa, American Express, and Mastercard.</p><p></p><p>When placing an order, your billing address must correspond to the address of your credit card, or we will not be able to process your order.</p><p></p><p>All transactions are secured. The L'Écurie Paris website is provided with an SSL encryption system to protect personal and payment data.</p>",
             "page_content": ""
           }
         },
@@ -111,7 +120,7 @@
           "type": "popup",
           "settings": {
             "title": "Lifetime warranty",
-            "content": "<p>L’Écurie Paris products purchased from an authorized retailer is guaranteed by L’Écurie Paris against manufacturing defects for the lifetime of the product, subject to verification by our technical service department. <br\/><br\/>If a manufacturing defect is verified, the frame or part of the frame deemed defective will be replaced free of charge. <br\/>This does not include ophthalmic lenses, which will not be replaced under any circumstances.<br\/><br\/>This warranty does not cover damage caused by accidents (impact, crushing, scratching, etc.), improper or unauthorized use of the frame, unauthorized alterations, repairs or tampering. Any damage not covered under warranty can be repaired for a charge after verification.<\/p><p>Should a defect occur, please send your frame(s) and include your name, phone number, mailing address, email address, and a check for USD $25.00 (shipping and handling fee) or USD $50 (expedited service) to: <\/p><p>L’Écurie Paris<br\/><br\/>1065 La Mirada ct, Vista , CA 92081, United States<br\/><br\/>Email: experience@lecurieparis.com<\/p>",
+            "content": "<p>L’Écurie Paris products purchased from an authorized retailer is guaranteed by L’Écurie Paris against manufacturing defects for the lifetime of the product, subject to verification by our technical service department. <br/><br/>If a manufacturing defect is verified, the frame or part of the frame deemed defective will be replaced free of charge. <br/>This does not include ophthalmic lenses, which will not be replaced under any circumstances.<br/><br/>This warranty does not cover damage caused by accidents (impact, crushing, scratching, etc.), improper or unauthorized use of the frame, unauthorized alterations, repairs or tampering. Any damage not covered under warranty can be repaired for a charge after verification.</p><p>Should a defect occur, please send your frame(s) and include your name, phone number, mailing address, email address, and a check for USD $25.00 (shipping and handling fee) or USD $50 (expedited service) to: </p><p>L’Écurie Paris<br/><br/>1065 La Mirada ct, Vista , CA 92081, United States<br/><br/>Email: experience@lecurieparis.com</p>",
             "page_content": ""
           }
         },
@@ -132,9 +141,9 @@
           "type": "popup",
           "settings": {
             "title": "In the box informations",
-            "content": "<p>L'Écurie Paris has developed its own packaging. It was inspired by vintage elegance to honor Parisian accessories designs.<\/p><p>Elegantly display your French style sunglasses.<\/p><p>Includes:<br\/>- LP Box<br\/>- 1 cleaning cloth<br\/>- 1 Foldable hard case Black<br\/>- 1 soft pouch faux leather brown<br\/>- 1 LP Eyewear<br\/>- 1 Certificates of authenticity<\/p>",
+            "content": "<p>L'Écurie Paris has developed its own packaging. It was inspired by vintage elegance to honor Parisian accessories designs.</p><p>Elegantly display your French style sunglasses.</p><p>Includes:<br/>- LP Box<br/>- 1 cleaning cloth<br/>- 1 Foldable hard case Black<br/>- 1 soft pouch faux leather brown<br/>- 1 LP Eyewear<br/>- 1 Certificates of authenticity</p>",
             "page_content": "",
-            "image": "shopify:\/\/shop_images\/LookBook-LP-Europe-Revised.001.jpg"
+            "image": "shopify://shop_images/LookBook-LP-Europe-Revised.001.jpg"
           }
         },
         "product_callouts_AYyTHy": {
@@ -145,11 +154,11 @@
             "add_box": false,
             "add_dividers": false,
             "icon_1": "package-closed",
-            "text_1": "<p>Free Express shipping Worldwide<\/p>",
+            "text_1": "<p>Free Express shipping Worldwide</p>",
             "icon_2": "paper-airplane",
-            "text_2": "<p>Free Returns & Exchanges ( USA )<\/p>",
+            "text_2": "<p>Free Returns & Exchanges ( USA )</p>",
             "icon_3": "chat",
-            "text_3": "<p>Need help? <a href=\"\/pages\/contact\">Contact us<\/a><\/p>",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
             "icon_4": "none",
             "text_4": "",
             "icon_5": "none",
@@ -206,7 +215,7 @@
             "heading": "Column",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -221,7 +230,7 @@
             "heading": "Column",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -236,7 +245,7 @@
             "heading": "Column",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -252,10 +261,9 @@
       ],
       "disabled": true,
       "settings": {
-        "black_header": false,
         "title": "",
         "heading_tag": "h2",
-        "subheading": "<p>Use a multi-column section to organize detailed information about your products:<\/p>",
+        "subheading": "<p>Use a multi-column section to organize detailed information about your products:</p>",
         "heading_font_class": "fs-heading-3-base",
         "heading_alignment": "center",
         "content_vertical_alignment": "top",
@@ -299,7 +307,7 @@
         "block-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -343,7 +351,7 @@
         "block-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text": "<p>Use these sections to promote a particular feature with editorial photography</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -385,7 +393,7 @@
         "block-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text": "<p>Use these sections to promote a particular feature with editorial photography</p>",
             "text_font_class": "fs-body-100"
           }
         }

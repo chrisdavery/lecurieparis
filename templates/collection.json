@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -28,7 +37,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "link": "https:\/\/lecurieparis.com\/pages\/try-on",
+            "link": "https://lecurieparis.com/pages/try-on",
             "link_text": "VIRTUAL TRY ON",
             "button_style": "btn--primary"
           }
@@ -38,7 +47,6 @@
         "f0f04736-9482-42d1-8814-f093972b3e62"
       ],
       "settings": {
-        "black_header": false,
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -56,12 +64,12 @@
         "show_sort": true,
         "show_filters": true,
         "enable_sticky_filter_bar": true,
-        "desktop_filter_location": "filter_bar",
+        "desktop_filter_location": "sidebar",
         "collapse_filter_bar": false,
         "category_menu": "category",
         "slide_drawer": true,
         "enable_sticky_filter_sidebar": true,
-        "collapse_filter_groups_desktop": false,
+        "collapse_filter_groups_desktop": true,
         "collapse_filter_groups_mobile": true,
         "show_swatch_filters": false,
         "show_chip_filters": true,

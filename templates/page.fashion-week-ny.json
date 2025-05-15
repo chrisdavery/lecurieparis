@@ -1,10 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_liquid_igTgD7": {
       "type": "custom-liquid",
       "settings": {
-        "black_header": true,
-        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: var(--color-text-link);\n}\n.header {\n--color-background-header:var(--color-text-link);\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n<\/style>",
+        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: var(--color-text-link);\n}\n.header {\n--color-background-header:var(--color-text-link);\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
@@ -34,7 +42,7 @@
         "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-1": {
           "type": "text",
           "settings": {
-            "text": "<p>L'ÉCURIE PARIS on the runway on selected Fashion Designer.<br\/>Sharing the beauty of LP Eyewear with the beauty of Fashion models.<\/p>",
+            "text": "<p>L'ÉCURIE PARIS on the runway on selected Fashion Designer.<br/>Sharing the beauty of LP Eyewear with the beauty of Fashion models.</p>",
             "text_font_class": "fs-body-75"
           }
         }
@@ -44,7 +52,6 @@
         "template--15164614115371__1e9b27a5-4825-4006-88fe-a58b14bbb7b6-16875051644f221e44-1"
       ],
       "settings": {
-        "black_header": false,
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -68,7 +75,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Use this section to promote a particular feature with editorial video.<\/p>",
+            "text": "<p>Use this section to promote a particular feature with editorial video.</p>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -88,8 +95,8 @@
       ],
       "settings": {
         "video_source": "shopify",
-        "video": "shopify:\/\/files\/videos\/L'ÉCURIE PARIS LUXURY EYEWEAR X NYFASHION WEEK 2023.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=rUiK-1WNQH4",
+        "video": "shopify://files/videos/L'ÉCURIE PARIS LUXURY EYEWEAR X NYFASHION WEEK 2023.mp4",
+        "video_url": "https://www.youtube.com/watch?v=rUiK-1WNQH4",
         "loop": false,
         "media_aspect_ratio": "landscape_wide_alt",
         "focal_point": "image_presentation",
@@ -110,7 +117,7 @@
         "c495ccb9-0c36-496d-8716-316fb684c298": {
           "type": "image_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FWNY-LP9.jpg",
+            "image": "shopify://shop_images/FWNY-LP9.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -133,7 +140,7 @@
         "a4aa514b-13c4-467e-8521-36048f3354cc": {
           "type": "image_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FWNY-LP3.jpg",
+            "image": "shopify://shop_images/FWNY-LP3.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -156,7 +163,7 @@
         "9df96453-7e48-4034-82af-0eef3a5d6ebe": {
           "type": "image_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FWNY-LP10.jpg",
+            "image": "shopify://shop_images/FWNY-LP10.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -179,7 +186,7 @@
         "0d1d6b93-747c-4be4-b468-a959a87566b8": {
           "type": "image_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FWNY-LP4.jpg",
+            "image": "shopify://shop_images/FWNY-LP4.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -202,7 +209,7 @@
         "235e2da5-757e-4ed7-b89f-f935f014215c": {
           "type": "image_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FWNY-LP12.jpg",
+            "image": "shopify://shop_images/FWNY-LP12.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -225,7 +232,7 @@
         "791faa5e-c113-489d-8caf-286dc8c9966e": {
           "type": "image_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FWNY-LP1.jpg",
+            "image": "shopify://shop_images/FWNY-LP1.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -248,7 +255,7 @@
         "0721cab0-b578-49da-8194-3c12fe012890": {
           "type": "image_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FWNY-LP8.jpg",
+            "image": "shopify://shop_images/FWNY-LP8.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -271,7 +278,7 @@
         "973e8604-edd9-4bbf-8bb5-b42625c00394": {
           "type": "image_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FWNY-LP6.jpg",
+            "image": "shopify://shop_images/FWNY-LP6.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -303,7 +310,6 @@
         "973e8604-edd9-4bbf-8bb5-b42625c00394"
       ],
       "settings": {
-        "black_header": false,
         "title": "LOOKS",
         "heading_tag": "h2",
         "subheading": "",
@@ -373,7 +379,7 @@
         "50cad5e8-8803-4fae-beb9-410980045215"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FWNY-LP1wall.jpg",
+        "image": "shopify://shop_images/FWNY-LP1wall.jpg",
         "image_position": "left",
         "image_size": 61,
         "aspect_ratio": "landscape_alt",
@@ -405,11 +411,11 @@
         "template--15164614115371__38aac0a7-8b34-4fd0-aa4c-f9d5bb9b7d19-168748660838cc63db-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FWNY-LP0wall.jpg",
+        "image": "shopify://shop_images/FWNY-LP0wall.jpg",
         "aspect_ratio": "landscape",
         "heading": "Fashionable Frame",
         "heading_tag": "h2",
-        "subheading": "<p>Papillon 18K Gold with Pink lenses<\/p>",
+        "subheading": "<p>Papillon 18K Gold with Pink lenses</p>",
         "link": "",
         "link_text": "",
         "button_style": "btn--secondary",
