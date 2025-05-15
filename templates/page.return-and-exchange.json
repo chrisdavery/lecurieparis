@@ -1,11 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
         "content_color": "rgba(0,0,0,0)",
@@ -24,7 +31,7 @@
             "heading": "",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><strong>Policy<\/strong><\/p><p><br\/>Complimentary exchanges & returns within 30 days (USA ONLY).<br\/>Item new in perfect & sellable condition.<br\/>Original packaging.<br\/>Original invoice, leaflets and certificates.<br\/>No exchanges and returns for personalized items, engraved products, Made-to-Order items.<br\/> Returns ( USA ONLY )<br\/>Contact us to receive a return label within 30 days of purchase.<br\/>Product must be new, unused.<br\/>Prepare your free exchange package: Place your item in its original packaging and with the original receipt.<br\/>Put the pre-paid label, on your package: Cover old address labels with the new pre-paid label and securely seal your package using the adhesive strip on the inside of the box.<br\/>Deliver your package to UPS: Drop your package off at any UPS store or pick-up location.<br\/>Return your product within 30 days from the purchase date.<br\/> Returns ( worldwide except USA )<br\/>Product must be new, unused.<br\/>Place your item in its original packaging and with the original receipt.<br\/>Ship to :\u2028L’Écurie Paris distribution\u20281065 La Mirada Ct, Vista, CA 92081\u2028United States\u2028Email: experience@lecurieparis.com.<br\/>Return your product within 30 days from the purchase date.<\/p>",
+            "text": "<p><strong>Policy</strong></p><p><br/>Complimentary exchanges & returns within 30 days (USA ONLY).<br/>Item new in perfect & sellable condition.<br/>Original packaging.<br/>Original invoice, leaflets and certificates.<br/>No exchanges and returns for personalized items, engraved products, Made-to-Order items.<br/> Returns ( USA ONLY )<br/>Contact us to receive a return label within 30 days of purchase.<br/>Product must be new, unused.<br/>Prepare your free exchange package: Place your item in its original packaging and with the original receipt.<br/>Put the pre-paid label, on your package: Cover old address labels with the new pre-paid label and securely seal your package using the adhesive strip on the inside of the box.<br/>Deliver your package to UPS: Drop your package off at any UPS store or pick-up location.<br/>Return your product within 30 days from the purchase date.<br/> Returns ( worldwide except USA )<br/>Product must be new, unused.<br/>Place your item in its original packaging and with the original receipt.<br/>Ship to : L’Écurie Paris distribution 1065 La Mirada Ct, Vista, CA 92081 United States Email: experience@lecurieparis.com.<br/>Return your product within 30 days from the purchase date.</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 67,
             "link": "",
@@ -37,10 +44,9 @@
         "column_PtBiM4"
       ],
       "settings": {
-        "black_header": false,
         "title": "",
         "heading_tag": "h2",
-        "subheading": "<h3>Hassle Free Exchange & Return<\/h3>",
+        "subheading": "<h3>Hassle Free Exchange & Return</h3>",
         "heading_font_class": "fs-heading-2-base",
         "heading_alignment": "center",
         "content_vertical_alignment": "center",

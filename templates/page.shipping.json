@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,7 +30,7 @@
             "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<h3>QUICK FACTS<\/h3><p><br\/>Orders may take 24 to 36 hours to process, once your order has been processed you will receive an email confirming your order has shipped.<br\/>Shipping & Timing begin when you receive the shipping confirmation email.<br\/>Additional validation may be required for some orders and can delay delivery.<br\/>Signature is required on all shipments above $50.<br\/>To track your order, visit your account or shipping confirmation email.<br\/>Hassle-Free Exchange, Returns & Lifetime warranty are available for all our products.<\/p><h3>SHIPPING FEES & TIMING <\/h3><p>Complimentary express shipping for all orders worldwide.<br\/>Delivery Timing: L'Écurie Paris ship 2nd day air signature required (For USA), and express delivery for the rest of the world.<br\/>Time to receive your order within USA territory is 2-3 business days from the time you receive shipping confirmation email.<br\/>Alaska and Hawaii: Allow 5-7 business days from the time you receive shipping confirmation email.<br\/>SIGNATURE REQUIRED<br\/>Due to the high value of our products there will be a signature required on all shipments above $50 regardless of service type.<br\/><br\/><\/p>",
+            "text": "<h3>QUICK FACTS</h3><p><br/>Orders may take 24 to 36 hours to process, once your order has been processed you will receive an email confirming your order has shipped.<br/>Shipping & Timing begin when you receive the shipping confirmation email.<br/>Additional validation may be required for some orders and can delay delivery.<br/>Signature is required on all shipments above $50.<br/>To track your order, visit your account or shipping confirmation email.<br/>Hassle-Free Exchange, Returns & Lifetime warranty are available for all our products.</p><h3>SHIPPING FEES & TIMING </h3><p>Complimentary express shipping for all orders worldwide.<br/>Delivery Timing: L'Écurie Paris ship 2nd day air signature required (For USA), and express delivery for the rest of the world.<br/>Time to receive your order within USA territory is 2-3 business days from the time you receive shipping confirmation email.<br/>Alaska and Hawaii: Allow 5-7 business days from the time you receive shipping confirmation email.<br/>SIGNATURE REQUIRED<br/>Due to the high value of our products there will be a signature required on all shipments above $50 regardless of service type.<br/><br/></p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 68,
             "link": "",
@@ -34,10 +43,9 @@
         "column_d8ekMh"
       ],
       "settings": {
-        "black_header": false,
         "title": "",
         "heading_tag": "h2",
-        "subheading": "<h3>SHIPPING & DELIVERY <\/h3>",
+        "subheading": "<h3>SHIPPING & DELIVERY </h3>",
         "heading_font_class": "fs-heading-2-base",
         "heading_alignment": "center",
         "content_vertical_alignment": "center",
