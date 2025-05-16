@@ -77,9 +77,9 @@
         "focal_point": "image_presentation",
         "text_position": "center_center",
         "text_position_mobile": "center",
-        "button_background_color": "#FFF",
-        "color_overlay": "#000",
-        "color_overlay_text": "#FFF",
+        "button_background_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_text": "#ffffff",
         "color_overlay_gradient": "",
         "overlay_opacity": 0,
         "enable_animation": true,
@@ -92,7 +92,7 @@
         "text_LDgM3G": {
           "type": "text",
           "settings": {
-            "text": "<p>Crazy Driver<br/>Printemps-été | Spring summer | 2025</p>",
+            "text": "<p>Crazy Driver</p>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -120,9 +120,9 @@
         "focal_point": "image_presentation",
         "text_position": "center_center",
         "text_position_mobile": "center",
-        "button_background_color": "#FFF",
-        "color_overlay": "#000",
-        "color_overlay_text": "#FFF",
+        "button_background_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_text": "#ffffff",
         "color_overlay_gradient": "",
         "overlay_opacity": 0,
         "enable_animation": true,
@@ -157,10 +157,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -190,10 +190,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -223,10 +223,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -256,10 +256,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -289,10 +289,10 @@
             "link_text": "",
             "button_style": "btn--primary",
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
@@ -349,6 +349,31 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
+    },
+    "rich_text_M3KP9f": {
+      "type": "rich-text",
+      "blocks": {
+        "image_TpaGdP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LP-GOLD-SQUARE-Black_a5d0e93f-3235-4b61-a3e0-69476e434616.jpg",
+            "content_width": "custom",
+            "image_size": 80,
+            "image_size_mobile": 200
+          }
+        }
+      },
+      "block_order": [
+        "image_TpaGdP"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
     }
   },
   "order": [
@@ -358,6 +383,7 @@
     "video_rebpEP",
     "grid_K8nKB6",
     "rich_text_XPiMte",
+    "rich_text_M3KP9f",
     "custom_liquid_R9NQC3"
   ]
 }
