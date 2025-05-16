@@ -9,8 +9,31 @@
  */
 {
   "sections": {
+    "rich_text_tALTkU": {
+      "type": "rich-text",
+      "blocks": {
+        "accent_6DcrQH": {
+          "type": "accent",
+          "settings": {
+            "accent": "A take of Luxury fashion."
+          }
+        }
+      },
+      "block_order": [
+        "accent_6DcrQH"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
@@ -28,10 +51,55 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
+    },
+    "video_cQ3NE8": {
+      "type": "video",
+      "blocks": {
+        "text_TERM87": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Liaison tropicale | Tropical affair<br/>Printemps-été | Spring summer | 2025</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "play_button_7L4KRD": {
+          "type": "play-button",
+          "settings": {
+            "text": "Watch now",
+            "button_layout": "full",
+            "icon_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "text_TERM87",
+        "play_button_7L4KRD"
+      ],
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "video_source": "shopify",
+        "video": "shopify://files/videos/Cuba.MP4",
+        "video_url": "",
+        "image": "shopify://shop_images/l_ecurie__19_LEV_G.jpg",
+        "loop": false,
+        "media_aspect_ratio": "landscape_wide_alt",
+        "focal_point": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center",
+        "button_background_color": "#FFF",
+        "color_overlay": "#000",
+        "color_overlay_text": "#FFF",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
+    "rich_text_tALTkU",
     "main",
+    "video_cQ3NE8",
     "custom_liquid_R9NQC3"
   ]
 }
