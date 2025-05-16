@@ -43,15 +43,6 @@
         "custom_content_width": 1000
       }
     },
-    "custom_liquid_R9NQC3": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: #000;\n}\n.header {\n--color-background-header:#000;\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "video_cQ3NE8": {
       "type": "video",
       "blocks": {
@@ -94,12 +85,45 @@
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-bottom"
       }
+    },
+    "custom_liquid_R9NQC3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: #000;\n}\n.header {\n--color-background-header:#000;\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_XPiMte": {
+      "type": "rich-text",
+      "blocks": {
+        "text_W67JYM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Eyewear Design</strong><br/>Lionel Moroy<br/><strong>Creative Director </strong><br/>Jean-Baptiste Rougeot<br/><strong>Photographer</strong><br/>Daniella Midenge<br/><strong>DP</strong><br/>Tanner Deutsch<br/><strong>Stylist</strong><br/>Katie Mossman<br/><strong>Makeup</strong><br/>Jenna Anton<br/><strong>Hair </strong><br/>Riad Azar<br/><strong>Producer</strong> <br/>Dan Cingary<br/><strong>Zizi (model) </strong><br/>Zizi Donohoe<br/><strong>Jensen (model) </strong><br/>Jensen Fairchild<br/><strong>Miles (model)<br/></strong>Miles Grossman</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_W67JYM"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
     }
   },
   "order": [
     "rich_text_tALTkU",
     "main",
     "video_cQ3NE8",
-    "custom_liquid_R9NQC3"
+    "custom_liquid_R9NQC3",
+    "rich_text_XPiMte"
   ]
 }
