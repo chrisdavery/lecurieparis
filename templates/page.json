@@ -41,10 +41,20 @@
         "content_width": "full",
         "custom_content_width": 1000
       }
+    },
+    "custom_liquid_R9NQC3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
     "rich_text_BLyt9B",
-    "main"
+    "main",
+    "custom_liquid_R9NQC3"
   ]
 }
