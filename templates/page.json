@@ -86,11 +86,234 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "custom_liquid_R9NQC3": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.name",
+    "video_rebpEP": {
+      "type": "video",
+      "blocks": {
+        "text_LDgM3G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Crazy Driver<br/>Printemps-été | Spring summer | 2025</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "play_button_mxKRyB": {
+          "type": "play-button",
+          "settings": {
+            "text": "Watch now",
+            "button_layout": "full",
+            "icon_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "text_LDgM3G",
+        "play_button_mxKRyB"
+      ],
+      "name": "t:sections.video.presets.name",
       "settings": {
-        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: #000;\n}\n.header {\n--color-background-header:#000;\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
+        "video_source": "shopify",
+        "video": "shopify://files/videos/Lecurieparis-summer 2025-crazydriver.MP4",
+        "video_url": "",
+        "image": "shopify://shop_images/l_ecurie__30_LEV_G.jpg",
+        "loop": false,
+        "media_aspect_ratio": "landscape_wide_alt",
+        "focal_point": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center",
+        "button_background_color": "#FFF",
+        "color_overlay": "#000",
+        "color_overlay_text": "#FFF",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "grid_K8nKB6": {
+      "type": "grid",
+      "blocks": {
+        "item_kYbYWe": {
+          "type": "item",
+          "settings": {
+            "width": "100",
+            "height": 780,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/l_ecurie__18_LEV_G.jpg",
+            "mobile_image": "shopify://shop_images/l_ecurie__18_LEV_G.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_pP8KrH": {
+          "type": "item",
+          "settings": {
+            "width": "25",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/l_ecurie__25_LEV_G.jpg",
+            "mobile_image": "shopify://shop_images/l_ecurie__25_LEV_G.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_bwKWeY": {
+          "type": "item",
+          "settings": {
+            "width": "25",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/l_ecurie__33_LEV_G.jpg",
+            "mobile_image": "shopify://shop_images/l_ecurie__33_LEV_G.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_FBzbGt": {
+          "type": "item",
+          "settings": {
+            "width": "25",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/l_ecurie__34_LEV_G.jpg",
+            "mobile_image": "shopify://shop_images/l_ecurie__34_LEV_G.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_dLJMQE": {
+          "type": "item",
+          "settings": {
+            "width": "100",
+            "height": 800,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/l_ecurie__28_LEV_G.jpg",
+            "mobile_image": "shopify://shop_images/l_ecurie__28_LEV_G.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_kYbYWe",
+        "item_pP8KrH",
+        "item_bwKWeY",
+        "item_FBzbGt",
+        "item_dLJMQE"
+      ],
+      "name": "t:sections.grid.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 24,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
@@ -117,13 +340,24 @@
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
       }
+    },
+    "custom_liquid_R9NQC3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: #000;\n}\n.header {\n--color-background-header:#000;\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
     "rich_text_tALTkU",
     "main",
     "video_cQ3NE8",
-    "custom_liquid_R9NQC3",
-    "rich_text_XPiMte"
+    "video_rebpEP",
+    "grid_K8nKB6",
+    "rich_text_XPiMte",
+    "custom_liquid_R9NQC3"
   ]
 }
