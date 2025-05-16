@@ -341,15 +341,6 @@
         "content_width": "custom"
       }
     },
-    "custom_liquid_R9NQC3": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: #000;\n}\n.header {\n--color-background-header:#000;\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "rich_text_M3KP9f": {
       "type": "rich-text",
       "blocks": {
@@ -359,7 +350,7 @@
             "image": "shopify://shop_images/LP-GOLD-SQUARE-Black_a5d0e93f-3235-4b61-a3e0-69476e434616.jpg",
             "content_width": "custom",
             "image_size": 80,
-            "image_size_mobile": 200
+            "image_size_mobile": 80
           }
         }
       },
@@ -373,6 +364,15 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
+      }
+    },
+    "custom_liquid_R9NQC3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: #000;\n}\n.header {\n--color-background-header:#000;\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     }
   },
