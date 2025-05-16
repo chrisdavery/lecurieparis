@@ -15,7 +15,7 @@
         "accent_6DcrQH": {
           "type": "accent",
           "settings": {
-            "accent": "A take of Luxury fashion."
+            "accent": "Printemps-été | Spring summer | 2025"
           }
         }
       },
@@ -49,7 +49,7 @@
         "text_TERM87": {
           "type": "text",
           "settings": {
-            "text": "<p>Liaison tropicale | Tropical affair<br/>Printemps-été | Spring summer | 2025</p>",
+            "text": "<p>Liaison tropicale | Tropical affair</p>",
             "text_font_class": "fs-body-100"
           }
         },
