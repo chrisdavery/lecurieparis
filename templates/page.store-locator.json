@@ -20,9 +20,19 @@
         "content_width": "full",
         "custom_content_width": 1000
       }
+    },
+    "custom_liquid_3A3dNg": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"progus-store-locator\"></div><script>(function(p,r,o,g,u,s){var a=p.createElement(r);var b=\"?shop=lecuriesport.myshopify.com&lang=\" +(typeof Shopify!==`undefined`?Shopify.locale:``) +\"&tags=\"+g+\"&city=\"+u+\"&groups=\"+s;a.src=o+b;a.allowfullscreen=!0;a.allow=\"geolocation\";a.frameborder=0;a.setAttribute(\"frameBorder\",\"0\");a.setAttribute(\"allowfullscreen\",\"\");a.width=\"100%\";a.height=\"500px\";p.querySelector(\"#progus-store-locator\").appendChild(a);window.addEventListener(\"message\",(e)=>{if(e.data.pslheight){a.style.height=e.data.pslheight}})})(document,\"iframe\",\"https://sl-widget.proguscommerce.com/main\")</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_3A3dNg"
   ]
 }
