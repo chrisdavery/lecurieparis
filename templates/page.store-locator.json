@@ -9,6 +9,28 @@
  */
 {
   "sections": {
+    "rich_text_8P9VeH": {
+      "type": "rich-text",
+      "blocks": {
+        "accent_69Rjct": {
+          "type": "accent",
+          "settings": {
+            "accent": "A curated collection of distinguished fashion and eyewear boutiques."
+          }
+        }
+      },
+      "block_order": [
+        "accent_69Rjct"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -32,6 +54,7 @@
     }
   },
   "order": [
+    "rich_text_8P9VeH",
     "main",
     "custom_liquid_3A3dNg"
   ]
