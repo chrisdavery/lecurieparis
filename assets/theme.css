@@ -17036,12 +17036,7 @@ a.link:hover{
 .t-opacity-80{
   opacity:0.7;
 }
-.template-index .main{
-  overflow:hidden;
-}
-.shopify-section{
-  overflow:hidden;
-}
+
 .shopify-section.shopify-section--full-width + .shopify-section .section.section--divider-solid:before{
       display:none;
     }

@@ -228,14 +228,13 @@
           <slider-collection-item
             class="
               product-item__slider__content
-            "  
+            "
             data-products-per-view="1"
             data-mobile-products-per-view="1"
           > 
-            <div class="product-item__slider__inner swiper">
-              <div class="product-item__slider carousel__wrapper swiper-wrapper">
+              <div class="product-item__slider" id="Slider-Collection-{{ prod.id }}">
                 {% for media in prod.media %}
-                  <div class="product-list-slider__collection carousel__slide swiper-slide">
+                  <div class="product-list-slider__collection slider-collection__slide">
                     <a class="product-item__image-link" href="{{ prod.url | within: collection }}" aria-label="{{ prod.title }}">
                       {% case media.media_type %}
                         {% when 'image' %}
@@ -255,9 +254,7 @@
                   </div>
                 {% endfor %}
               </div>
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
-            </div>
+
               <button
                 type="button"
                 class="carousel__navigation-button carousel__navigation-button--back"
@@ -274,6 +271,12 @@
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="false"><path stroke="currentColor" d="m9 6 6 6-6 6"></path></svg>
               </button>
+
+              <!-- If we need scrollbar -->
+              {%- assign default_progress = 1 | times: 1.0 | divided_by: prod.media.size -%}
+
+              {%- assign scroll_area_id = 'Slider-Collection-' | append: prod.id -%}
+              {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress -%}
           </slider-collection-item>
         {% endif %}
       {% unless placeholder %}

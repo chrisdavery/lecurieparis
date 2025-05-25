@@ -181,67 +181,88 @@ class SliderCollectionItem extends HTMLElement {
   }
 
   _initCarousel() {
-
-    const {
-      productsPerView,
-      mobileProductsPerView
-    } = this.dataset;
-
-    this.carousel = this.querySelector('.product-item__slider__inner')
-    this.perView = parseInt(productsPerView, 10);
-    this.mobilePerView = parseInt(mobileProductsPerView, 10) * 1.05;
-
+    const slider = this.querySelector('.product-item__slider');
     const nextButton = this.querySelector("[data-next]");
     const prevButton = this.querySelector("[data-prev]");
-    const useNav = nextButton && prevButton;
-    const scrollbarSwiper = this.querySelector(".swiper-scrollbar");
+    const slides = slider.querySelectorAll('.slider-collection__slide');
 
-    import(flu.chunks.swiper).then(_ref => {
-      let {
-        Swiper,
-        Navigation,
-        Scrollbar
-      } = _ref;
+    let currentIndex = 0;
 
-      const defaultSwiperOptions = {
-        slidesPerView: this.perView,
-        grabCursor: true,
-        draggable: true,
-        loop: true
-      };
+    const updateButtons = () => {
+      if (prevButton) {
+        prevButton.classList.toggle('button-disabled', currentIndex === 0);
+      }
+      if (nextButton) {
+        nextButton.classList.toggle('button-disabled', currentIndex >= slides.length - 1);
+      }
+    };
 
-      let swiperOptions = defaultSwiperOptions;
-
-      // nextEl and prevEl can be passed in check if they are before
-      // using the defaults
-
-      if ("navigation" in swiperOptions) {
-        swiperOptions = Object.assign(swiperOptions, {
-          modules: [Navigation,Scrollbar]
-        });
-      } else if (useNav) {
-        swiperOptions = Object.assign(swiperOptions, {
-          modules: [Navigation,Scrollbar],
-          navigation: {
-            nextEl: nextButton,
-            prevEl: prevButton
-          },
-          cssMode: true
+    const scrollToSlide = (index) => {
+      const targetSlide = slides[index];
+      if (targetSlide) {
+        slider.scrollTo({
+          left: targetSlide.offsetLeft,
+          behavior: 'smooth'
         });
       }
+    };
 
-      if (scrollbarSwiper) {
-        swiperOptions = Object.assign(swiperOptions, {
-          scrollbar: {
-            el: '.swiper-scrollbar',
-          }
-        });
-      }
+    if (nextButton) {
+      nextButton.addEventListener('click', () => {
+        if (currentIndex < slides.length - 1) {
+          currentIndex++;
+          scrollToSlide(currentIndex);
+          updateButtons();
+        }
+      });
+    }
 
-      var carousel = new Swiper(this.carousel, swiperOptions);
-    });
+    if (prevButton) {
+      prevButton.addEventListener('click', () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+          scrollToSlide(currentIndex);
+          updateButtons();
+        }
+      });
+    }
+
+    // Initial setup
+    updateButtons();
   }
 }
 
 // Register the custom element
 customElements.define('slider-collection-item', SliderCollectionItem);
+
+
+// js/common/behavior/scroll-progress.js
+var ScrollProgress = class extends HTMLElement {
+    connectedCallback() {
+      this.scrolledElement.addEventListener("scroll", throttle(this._updateScrollProgress.bind(this)));
+      if (window.ResizeObserver) {
+        new ResizeObserver(this._updateScrollProgress.bind(this)).observe(this.scrolledElement);
+      }
+    }
+    get scrolledElement() {
+      return this._scrolledElement = this._scrolledElement || document.getElementById(this.getAttribute("observes"));
+    }
+    _updateScrollProgress() {
+      const scrollLeft = document.dir === "ltr" ? this.scrolledElement.scrollLeft : Math.abs(this.scrolledElement.scrollLeft), advancement = (scrollLeft + this.scrolledElement.clientWidth) / this.scrolledElement.scrollWidth;
+      this.style.setProperty("--scroll-progress", Math.max(0, Math.min(advancement, 1)).toFixed(6));
+    }
+  };
+if (!window.customElements.get("scroll-progress")) {
+    window.customElements.define("scroll-progress", ScrollProgress);
+}
+
+function throttle(fn, wait = 100) {
+  let lastTime = 0;
+  return function(...args) {
+    const now = Date.now();
+    if (now - lastTime >= wait) {
+      lastTime = now;
+      fn.apply(this, args);
+    }
+  };
+}
