@@ -32,6 +32,7 @@
         "text_VXxVKk",
         "button_ehdneN"
       ],
+      "disabled": true,
       "custom_css": [
         "[data-section-type] {padding-top: 0;}",
         "@media (max-width: 719px) {.video-hero__text-container {margin-bottom: 4rem; }}"
@@ -55,6 +56,61 @@
         "overlay_opacity": 0,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "slideshow_niaJyb": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_RAEchN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/05_095b5abd-5b20-4798-bbe2-694844d07b2a.jpg",
+            "image_mobile": "shopify://shop_images/05_095b5abd-5b20-4798-bbe2-694844d07b2a.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-1",
+            "subheading": "Limited edition - Golden Summer 2025",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_RAEchN"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "enable_autoplay": true,
+        "duration_autoplay": 6,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#fff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "none"
       }
     },
     "503d3a6d-84ce-492a-bc70-773a9883fa65": {
@@ -647,6 +703,7 @@
   },
   "order": [
     "video_hero_Yw6Wbw",
+    "slideshow_niaJyb",
     "503d3a6d-84ce-492a-bc70-773a9883fa65",
     "multi_column_HdPrj6",
     "grid_baBxcm",
