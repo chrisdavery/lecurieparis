@@ -80,8 +80,8 @@
         "right_menu": "right-menu-2024",
         "enable_transparent_on_home": true,
         "enable_transparent_template_list": "page.contact",
-        "logo_transparent": "shopify://shop_images/Lecurieparis-logo2024-white.png",
-        "color_text_transparent": "#ffffff",
+        "logo_transparent": "shopify://shop_images/Lecurieparis-logo2024_c64fb007-60b1-4f7e-9ef7-78b81c847f7d.png",
+        "color_text_transparent": "#000000",
         "color_count_transparent": "#000000"
       }
     }
