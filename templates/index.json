@@ -98,6 +98,10 @@
       "block_order": [
         "slide_RAEchN"
       ],
+      "custom_css": [
+        "[data-section-type] {padding-top: 0;}",
+        "@media (max-width: 719px) {.video-hero__text-container {margin-bottom: 4rem; }}"
+      ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "image_aspect": "original",
