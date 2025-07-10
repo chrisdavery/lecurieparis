@@ -65,12 +65,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/05_80e2f015-dd76-48c9-8aac-0f4bb1a6199b.jpg",
-            "image_mobile": "shopify://shop_images/05_80e2f015-dd76-48c9-8aac-0f4bb1a6199b.jpg",
+            "image_mobile": "shopify://shop_images/01-1.jpg",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/golden-summer",
             "text_position": "center_center",
-            "text_position_mobile": "center_center",
+            "text_position_mobile": "center_flex-end",
             "accent": "",
             "title": "",
             "heading_tag": "h2",
@@ -89,7 +89,7 @@
             "text_color": "#000000",
             "button_background_color": "#000000",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#000000",
             "color_overlay_gradient": "",
             "overlay_opacity": 0
           }
