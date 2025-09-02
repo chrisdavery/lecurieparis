@@ -705,13 +705,13 @@
             "link": "shopify://blogs/news",
             "link_text": "DISCOVER MORE",
             "button_style": "btn--callout",
-            "background_color": "",
+            "background_color": "#a19f9f",
             "text_color": "#FFFFFF",
             "button_background_color": "#FFFFFF",
             "button_text_color": "#000000",
-            "color_overlay": "#000",
+            "color_overlay": "#4d4c4c",
             "color_overlay_gradient": "",
-            "overlay_opacity": 30
+            "overlay_opacity": 27
           }
         }
       },
