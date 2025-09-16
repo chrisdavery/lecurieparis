@@ -170,7 +170,7 @@
           "type": "image_column",
           "settings": {
             "image": "shopify://shop_images/lionelmoroy-web_6a56c3d2-bb9d-4982-be99-eeb78a69f167.jpg",
-            "image_width": 64,
+            "image_width": 50,
             "aspect_ratio": "natural",
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
@@ -188,34 +188,10 @@
             "link_text": "@lionelmoroy",
             "button_style": "btn--primary"
           }
-        },
-        "image_column_hGUQy6": {
-          "type": "image_column",
-          "settings": {
-            "image": "shopify://shop_images/jeanbaptisterougeot-lecurieparis_483a6de0-9a3d-43d7-9ce0-0a66bfea770b.jpg",
-            "image_width": 64,
-            "aspect_ratio": "natural",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "Jean-Baptiste Rougeot , Creative Director",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Jean-Baptiste is a french internationally, recognized creative strategist who specializes in the realms of luxury, fashion, cosmetics, lifestyle and entertainment. <br/>His inventive and meticulous approach to image-building is based on his ability to create effective bridges between marketing and creative concepts.</p>",
-            "text_font_class": "fs-body-100",
-            "text_max_width": 82,
-            "link": "https://www.instagram.com/jbrougeot",
-            "link_text": "@jbrougeot",
-            "button_style": "btn--primary"
-          }
         }
       },
       "block_order": [
-        "image_column_gx7Rwi",
-        "image_column_hGUQy6"
+        "image_column_gx7Rwi"
       ],
       "settings": {
         "title": "",
@@ -224,10 +200,10 @@
         "heading_font_class": "fs-heading-3-base",
         "heading_alignment": "center",
         "content_vertical_alignment": "top",
-        "content_background_padding": "medium",
-        "columns": "2",
-        "column_spacing": 28,
-        "row_spacing": 28,
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 8,
+        "row_spacing": 8,
         "column_alignment": "center",
         "enable_slider_mobile": false,
         "columns_mobile": "1",
