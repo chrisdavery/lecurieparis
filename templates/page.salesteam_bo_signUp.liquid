@@ -29,6 +29,10 @@
     {% break %}
     {% endif %}
     {% endfor %}
+    {% assign login_config_raw = shop.metafields.SalesTeamApp.login_page_config.value %}
+    {% if login_config_raw and login_config_raw != blank %}
+    {% assign login_config = login_config_raw | json %}
+    {% endif %}
     window.salesteam_bo_props = {
       "baseUrlShopName" : "{{ shop.domain }}",
       "shopName": window.Shopify.shop,
@@ -39,7 +43,8 @@
       "customerEmail": "{{customer.email }}",
       "shopCurrency": css_shopCurrency,
       "countriesAndStates": css_countriesAndStates,
-      "currency" : css_currencyCode
+      "currency" : css_currencyCode,
+      "loginCustomization": {% if login_config %}{{ login_config | json }}{% else %}null{% endif %}
     }
     console.log("check backoffice")
   } catch (error) {
