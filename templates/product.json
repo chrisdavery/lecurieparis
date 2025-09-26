@@ -36,6 +36,12 @@
             "chip_layout": "3col"
           }
         },
+        "custom_options_set_3n9kVt": {
+          "type": "custom_options_set",
+          "settings": {
+            "swatch_size": "large"
+          }
+        },
         "inventory_counter": {
           "type": "inventory-counter",
           "disabled": true,
@@ -173,6 +179,7 @@
       "block_order": [
         "product_header",
         "variant_picker",
+        "custom_options_set_3n9kVt",
         "inventory_counter",
         "text_tEWEyr",
         "buy_buttons",
@@ -284,7 +291,8 @@
         "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-top-bottom",
+        "css_class": ""
       }
     },
     "image-hero": {

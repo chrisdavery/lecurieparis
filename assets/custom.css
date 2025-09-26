@@ -170,8 +170,30 @@ body.overhidden {
     width: 100%;
 }
 
+.tippy-swatch-img {
+    max-width: 100%;
+    display: block;
+}
+
+.tippy-box[data-theme~='swatch'] {
+  background-color: white;
+  border: .5px solid var(--color-text);
+}
+
+.tippy-box[data-theme~='swatch'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: var(--color-text);
+}
+
 .product__color-swatches .product__color-swatch[data-shape=rectangle] {
-    aspect-ratio: 1.5;
+    aspect-ratio: 1;
+}
+
+.product__controls-set .product__color-swatches {
+    margin: calc(var(--spacing-unit) * -1);
+}
+
+.product__controls-set .product__color-swatches .product__color-swatch:after {
+    content: unset !important;
 }
 
 .product__variants-wrapper .product__label-wrapper {
@@ -505,6 +527,54 @@ inbox-online-store-chat#ShopifyChat {
     right: 0;
 }
 
+.product__controls-set .product__custom-option-content-inner {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2em;
+    margin-top: .5rem;
+    max-width: var(--swatch-width, 30px);
+}
+
+.product__controls-set .product__color-swatches .product__color-swatch img {
+    position: static;
+    display: block;
+}
+
+.product__controls-set .product__color-swatch {
+    cursor: pointer;
+    position: static;
+}
+
+.product__controls-set input[type=radio] {
+    display: none;
+}
+
+.product__controls-set .product__color-swatch[data-shape=rectangle] {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.product__controls-set .product__color-swatches--inner > div {
+    padding: var(--spacing-unit);
+    position: relative;
+}
+
+.product__controls-set input[type=radio] + label {
+    margin: 0 !important;
+}
+/* .product__controls-set input[type=radio] + label img {
+    max-width: fit-content;
+    margin: auto;
+} */
+.product__controls-set input[type=radio]:checked + label img {
+    box-shadow: 0 .1rem 0 0 var(--color-text);
+}
+
+.product__controls-set .product__color-swatches--inner {
+    margin: 0;
+}
+
 @media (min-width: 960px) {
     .large-up-hide {
         display: none !important;
@@ -558,6 +628,9 @@ inbox-online-store-chat#ShopifyChat {
     .product__meta {
         max-width: 412px;
         margin: auto;
+    }
+    .product__controls-group + .product__controls-group {
+        margin-top: -1.5rem;
     }
 }
 

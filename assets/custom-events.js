@@ -266,3 +266,23 @@ function throttle(fn, wait = 100) {
     }
   };
 }
+
+document.querySelectorAll('.product__controls-set').forEach(set => {
+  const radios = set.querySelectorAll('input[type=radio]')
+  const activeText = set.querySelector('[data-custom-label-value]')
+
+  function updateLabel() {
+    const selected = set.querySelector('input[type=radio]:checked')
+    if (selected && activeText) {
+      activeText.textContent = selected.value
+    }
+  }
+
+  // Initial update on page load
+  updateLabel()
+
+  // Update on change
+  radios.forEach(radio => {
+    radio.addEventListener('change', updateLabel)
+  })
+})

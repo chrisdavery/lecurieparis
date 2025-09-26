@@ -79,7 +79,90 @@
           block: block,
           field_type: block.settings.field_type,
         -%}
+      {% when 'custom_options_set' %}
+        {% liquid
+            case settings.swatch_shape
+              when 'rectangle'
+                case block.settings.swatch_size
+                  when 'large'
+                    assign swatch_width = 72
+                  when 'medium'
+                    assign swatch_width = 60
+                  else
+                    assign swatch_width = 44
+                endcase
+              else
+                case block_settings.swatch_size
+                  when 'large'
+                    assign swatch_width = 48
+                  when 'medium'
+                    assign swatch_width = 38
+                  else
+                    assign swatch_width = 30
+                endcase
+            endcase
 
+          capture swatch_style
+            echo '--swatch-width: [[sw]]px;' | replace: '[[sw]]', swatch_width
+            echo '--swatch-image-fit: [[sif]];' | replace: '[[sif]]', settings.swatch_image_fit
+          endcapture
+        %}
+
+        {% if product.metafields.custom.custom_options.value != blank %}
+          <script src="https://unpkg.com/@popperjs/core@2" defer></script>
+          <script src="https://unpkg.com/tippy.js@6" defer></script>
+          <script src="{{ 'custom-option-sets.js' | asset_url }}" defer></script>
+        {% endif %}
+        
+        {% for option in product.metafields.custom.custom_options.value %}
+          <div
+            class="product__controls-group product__controls-set product__block product__block--medium"
+            {{ block.shopify_attributes }}
+          >
+            <div class="product__label-wrapper">
+              <label class="product__label fs-body-75">
+                {{ option.option_name }}:
+                <span class="t-opacity-70" data-custom-label-value>{{ option.items[0].value.name }}</span>
+              </label>
+            </div>
+            <div class="product__color-swatches" style="{{ swatch_style }}">
+              <div class="product__color-swatches--inner">
+                {% for item in option.items.value %}
+                  <div>
+                    <input
+                      type="radio"
+                      id="custom-{{ option.option_name | handleize }}-{{ item.name | handleize }}"
+                      name="properties[{{ option.option_name }}]"
+                      {% if forloop.first %}
+                        checked="checked"
+                      {% endif %}
+                      class="visually-hidden"
+                      value="{{ item.name }}"
+                      form="product_form_{{ product.id }}"
+                    >
+                    <label data-shape="{{ settings.swatch_shape }}"
+                      data-size="{{ swatch_size }}"
+                      class="
+                        product__color-swatch
+                        product__color-swatch--sibling-product
+                        {% if sibling_product.id == prod.id %}
+                          selected
+                        {% endif %}
+                      "
+                      data-image="{{ item.image | image_url: width: item.image.width }}"
+                      for="custom-{{ option.option_name | handleize }}-{{ item.name | handleize }}"
+                      style="{{ swatch_background_style }}">
+                      {{ item.image | image_url: width: item.image.width | image_tag: alt: item.name, loading: 'lazy', role: 'presentation' }}
+                    </label>
+                    <div class="product__custom-option-content-inner">
+                      <span class="fs-body-75 t-opacity-70">{{ item.name }}</span>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       {%- when 'buy_buttons' -%}
         {%- if prod != blank -%}
           {%-

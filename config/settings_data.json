@@ -136,11 +136,6 @@
         "disabled": false,
         "settings": {}
       },
-      "17932116065945454919": {
-        "type": "shopify://apps/adt-facebook-pixels-ads/blocks/facebook-ads-pixels/4ad3004f-fa0b-4587-a4f1-4d8ce89e9fbb",
-        "disabled": false,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -154,11 +149,6 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
-      },
-      "12691944026889484271": {
-        "type": "shopify://apps/snapb2b/blocks/snap-b2b/4873aea5-77bc-44a0-badb-f9cfb804db54",
-        "disabled": false,
-        "settings": {}
       },
       "5515809131802108258": {
         "type": "shopify://apps/google-analytics-4-ga4/blocks/google-analytics-4/25a47c90-9437-4f66-918c-3c9a15d7897f",
