@@ -32,7 +32,6 @@
         "text_VXxVKk",
         "button_ehdneN"
       ],
-      "disabled": true,
       "custom_css": [
         "[data-section-type] {padding-top: 0;}",
         "@media (max-width: 719px) {.video-hero__text-container {margin-bottom: 4rem; }}"
@@ -42,7 +41,7 @@
         "desktop_height": 100,
         "mobile_height": 100,
         "video": "shopify://files/videos/Cuba.MP4",
-        "video_mobile": "shopify://files/videos/vertical-website.mov",
+        "video_mobile": "shopify://files/videos/Cuba.MP4",
         "media_link": "",
         "focal_point": "image_presentation",
         "focal_point_mobile": "image_presentation",
@@ -98,6 +97,7 @@
       "block_order": [
         "slide_RAEchN"
       ],
+      "disabled": true,
       "custom_css": [
         "[data-section-type] {padding-top: 0;}",
         "@media (max-width: 719px) {.video-hero__text-container {margin-bottom: 4rem; }}"
