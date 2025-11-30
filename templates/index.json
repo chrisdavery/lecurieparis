@@ -272,8 +272,7 @@
         "image_column_TGViDj"
       ],
       "custom_css": [
-        "{padding-left: 1vw; padding-right: 1vw;}",
-        "section {padding-top: 0; padding-bottom: 0;}"
+        ".multi-column__inner {padding: 0 4vw var(--spacing-10); max-width: 100%;}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {

@@ -689,13 +689,15 @@ inbox-online-store-chat#ShopifyChat {
 /* Make the overall footer background white */
 .footer.section[data-section-type="footer"] {
   background-color: #ffffff !important;
+  max-width: 100%;
+  padding-inline: 4vw;
 }
 
 /* Brown block with 4vw left/right "white borders" */
 .footer.section[data-section-type="footer"] .footer__groups {
   background-color: #8a633a !important;  /* brown */
   color: #ffffff;
-  margin: 0 1vw;                         /* white on left/right */
+  margin: 0;                         /* white on left/right */
   padding: 70px 4vw 80px;                /* inner padding (top | LR | bottom) */
   box-sizing: border-box;
 }
