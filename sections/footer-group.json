@@ -70,6 +70,7 @@
         "footer-2",
         "footer-0"
       ],
+      "custom_css": [],
       "settings": {
         "enable_locale_selector": false,
         "enable_country_selector": true,

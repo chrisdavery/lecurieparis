@@ -3,18 +3,18 @@
     --font-body: 'Baron Neue', sans-serif;
 } */
 
-.template-index main .shopify-section {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.template-index main .shopify-section [data-section-type] {
+/* Only the first homepage section (hero) gets header padding */
+.template-index main .shopify-section:first-of-type [data-section-type] {
     width: 100%;
     padding-top: calc(var(--height-header));
 }
+
+/* All other sections: no extra padding on top */
+.template-index main .shopify-section:not(:first-of-type) [data-section-type] {
+    width: 100%;
+    padding-top: 0;
+}
+
 
 /* .swiper-creative .swiper-slide:first-child [data-section-type] {
     padding-top: calc(var(--height-header) * -1);
@@ -518,6 +518,7 @@ inbox-online-store-chat#ShopifyChat {
         padding-left: 0;
         padding-right: 0;
     }
+
     .grid-type.grid-type--per-view-5 .featured-collection-grid__product {
         width: calc(20% - calc(var(--spacing-4) + 1px) * 4 / 5);
         max-width: calc(20% - calc(var(--spacing-4) + 1px) * 4 / 5);
@@ -657,4 +658,97 @@ inbox-online-store-chat#ShopifyChat {
         margin: auto;
         --grid-gap-column-desktop: 70px;
     }
+}
+
+.grid-type {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.grid-type--per-view-3 .featured-collection-grid__product {
+  width: 30% !important;       /* increase from ~33% */
+  max-width: 30% !important;
+}
+.template-index .featured-collection-grid,
+.template-index .grid-type {
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.35vw;
+    padding-right: 0.35vw;
+    box-sizing: border-box;
+}
+/* Add left/right padding to "Image with text split" sections on the home page */
+.template-index main .shopify-section [data-section-type="image-with-text-split"] {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    box-sizing: border-box;
+}
+/* ===== L'ÉCURIE – FOOTER LAYOUT ===== */
+
+/* Make the overall footer background white */
+.footer.section[data-section-type="footer"] {
+  background-color: #ffffff !important;
+}
+
+/* Brown block with 4vw left/right "white borders" */
+.footer.section[data-section-type="footer"] .footer__groups {
+  background-color: #8a633a !important;  /* brown */
+  color: #ffffff;
+  margin: 0 1vw;                         /* white on left/right */
+  padding: 70px 4vw 80px;                /* inner padding (top | LR | bottom) */
+  box-sizing: border-box;
+}
+
+/* Text + links inside brown block */
+.footer.section[data-section-type="footer"] .footer__groups a,
+.footer.section[data-section-type="footer"] .footer__groups p,
+.footer.section[data-section-type="footer"] .footer__groups li {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Headings in brown block */
+.footer.section[data-section-type="footer"] .footer__groups h2,
+.footer.section[data-section-type="footer"] .footer__groups h3,
+.footer.section[data-section-type="footer"] .footer__groups h4 {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Bottom copyright / selector strip – white, full width */
+.footer.section[data-section-type="footer"] .footer__bottom {
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 40px;
+  padding: 18px 1vw 22px;                /* same 4vw left/right */
+  box-sizing: border-box;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.footer.section[data-section-type="footer"] .footer__bottom a,
+.footer.section[data-section-type="footer"] .footer__bottom span {
+  color: #000000;
+}
+
+/* FORCE HEADER MENU BOLD */
+header a,
+header nav a,
+.header a,
+.header nav a,
+.nav a,
+.menu a,
+.navigation a,
+#HeaderMenu a,
+.site-nav a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  font-size:11px;
 }
