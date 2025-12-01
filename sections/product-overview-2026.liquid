@@ -282,6 +282,13 @@
         margin: 0;
     }
 
+
+    .product-overview-2026 .product {
+        @media (max-width: 959px) {
+            margin-top: 0;
+        }
+    }
+
     .product-overview-2026 .product__title {
         margin-bottom: 0.5rem;
     }
@@ -297,6 +304,9 @@
             .product__color-swatches {
                 --swatch-width: 120px !important;
             }
+            .grid-button-product > div {
+                width: fit-content;
+            }
         }
 
         .product-form__cart-submit {
@@ -306,9 +316,10 @@
                 width: 100%;
             }
         }
-
-        .grid-button-product > div {
-            width: 100%;
+        @media (max-width: 959px) {
+            .grid-button-product > div {
+                width: 100%;
+            }
         }
     }
 

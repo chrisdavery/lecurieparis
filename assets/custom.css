@@ -514,6 +514,10 @@ inbox-online-store-chat#ShopifyChat {
     right: 0;
 }
 
+.footer .disclosure__toggle {
+    color: inherit;
+}
+
 @media (min-width: 960px) {
     .large-up-hide {
         display: none !important;
