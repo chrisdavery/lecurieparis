@@ -19,18 +19,33 @@
         "featured_image_izAebx": {
           "type": "featured_image",
           "settings": {
-            "image": "{{ product.featured_image }}"
+            "image": "{{ product.featured_image }}",
+            "aspect_ratio": "landscape"
           }
         },
         "variant_title_price_dpR6CQ": {
           "type": "variant_title_price",
           "settings": {}
+        },
+        "buy_buttons_Qjh6aD": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_gift_card_recipient": true,
+            "show_dynamic_checkout": false,
+            "variant_popup_option": "Size",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "large",
+            "chip_layout": "3col"
+          }
         }
       },
       "block_order": [
         "title_q4V7dg",
         "featured_image_izAebx",
-        "variant_title_price_dpR6CQ"
+        "variant_title_price_dpR6CQ",
+        "buy_buttons_Qjh6aD"
       ],
       "name": "Product overview 2026",
       "settings": {

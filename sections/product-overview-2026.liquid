@@ -1,6 +1,10 @@
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
   assign price_content_type = 'price'
+
+  capture product_url
+    echo shop.url | append: product.url
+  endcapture
 %}
 
 <div
@@ -12,85 +16,106 @@
     "
     style="--max-width: {{ section.settings.container_width | divided_by: 10 }}rem;"
   >
-    <div class="product-overview-items">
-        {% for block in section.blocks %}
-            {% case block.type %}
-                {% when 'title' %}
-                    <div class="product__block--product-header-inner text-center" {{ block.shopify_attributes }}>
-                        {% liquid
-                        capture product_title_tag_type
-                            if is_quick or is_featured
-                            echo 'h2'
-                            else
-                            echo 'h1'
-                            endif
-                        endcapture
-                        %}
-                        {%- if product != blank -%}
-                            <h1 class="product__title ff-heading fs-heading-3-base">
-                                {{- product.title -}}
-                            </h1>
-                        {%- else -%}
-                            <h1 class="product__title ff-heading fs-heading-5-base">
-                                {{- 'sections.featured_product.placeholder.title' | t -}}
-                            </h1>
-                        {% endif %}
-
-                    
-                        {% comment %} <div
-                        class="product__price-and-ratings"
-                        data-show-product-rating="{{ block_settings.show_product_rating }}"
-                        >
-                        <div class="product__price fs-body-75">
+    <div
+        class="
+            product
+            {% if settings.enable_section_animations and section.settings.enable_animation %}
+            animation
+            animation--product
+            {% endif %}
+        "
+        data-section-id="{{ section.id }}"
+        data-section-type="product"
+        data-current-product-id="{{ current_variant.id }}"
+        data-product-has-only-default-variant="{{ product.has_only_default_variant }}"
+        data-enable-sticky-container="{{ section.settings.enable_sticky_product_details }}"
+        data-loop-mobile-carousel="{{ section.settings.enable_mobile_carousel_looping }}"
+        data-show-mobile-carousel-full-width="{{ show_mobile_carousel_images_full_width }}"
+        data-hide-mobile-carousel-dots="{{ hide_mobile_carousel_dots }}"
+        data-gallery-size="{{ gallery_size }}"
+        data-enable-multiple-variant-media="{{ section.settings.enable_multiple_variant_media }}"
+        data-initial-media-id="{{ featured_media.id }}"
+        data-is-full-product="true"
+        data-product-handle="{{ product.handle }}"
+    >
+        <div class="product-overview-items">
+            {% for block in section.blocks %}
+                {% case block.type %}
+                    {% when 'title' %}
+                        <div class="product__block--product-header-inner text-center" {{ block.shopify_attributes }}>
+                            {% liquid
+                            capture product_title_tag_type
+                                if is_quick or is_featured
+                                echo 'h2'
+                                else
+                                echo 'h1'
+                                endif
+                            endcapture
+                            %}
                             {%- if product != blank -%}
-                            <span class="visually-hidden" data-compare-text>{{ 'products.product.regular_price' | t }}</span>
-                            <s data-compare-price>
-                                {%- if price_content_type == 'price' and current_variant.compare_at_price > current_variant.price -%}
-                                {{- current_variant.compare_at_price | money -}}
-                                {%- endif -%}
-                            </s>
-                            <span data-price>
-                                {%- if price_content_type == 'price' %}
-                                {{ current_variant.price | money -}}
-                                {%- elsif price_content_type == 'custom' -%}
-                                {{- custom_price_content }}
-                                {% endif -%}
-                            </span>
-
-                            {%- if block_settings.show_discount -%}
-                                <span data-discount-display class="product__price-displayed-discount fs-body-50">
-                                {%-
-                                    render "get-display-discount"
-                                    with product: product,
-                                    variant: current_variant,
-                                    format: block_settings.discount_format
-                                -%}
-                                </span>
-                            {%- endif -%}
-
-                            {% render 'unit-price', item: current_variant %}
+                                <h1 class="product__title ff-heading fs-heading-3-base">
+                                    {{- product.title -}}
+                                </h1>
                             {%- else -%}
-                            <span>{{ 9999 | money }}</span>
-                            {%- endif -%}
-                        </div>
+                                <h1 class="product__title ff-heading fs-heading-5-base">
+                                    {{- 'sections.featured_product.placeholder.title' | t -}}
+                                </h1>
+                            {% endif %}
 
-                        {%- if block_settings.show_product_rating and product != blank -%}
-                            {% render 'product-rating', prod: product %}
-                        {%- endif -%}
-                        </div> {% endcomment %}
-                    </div>
-                {% when 'featured_image' %}
-                    {%- capture image_sizes -%}
-                        (min-width: 720px) calc(calc(50vw - calc(2 * clamp(18px, 3.3vw, 3.3vw)))), calc(100vw - calc(2 * 3.3vw))
-                    {%- endcapture -%}
-                    {%- render 'image',
-                        wrapper_class: 'featured-product__image',
-                        image: block.settings.image,
-                        sizes: image_sizes,
-                        aspect_ratio: block.settings.aspect_ratio,
-                    -%}
-                {% when 'variant_title_price' %}
-                    {% unless product.variants.size == 0 %}
+                        
+                            {% comment %} <div
+                            class="product__price-and-ratings"
+                            data-show-product-rating="{{ block_settings.show_product_rating }}"
+                            >
+                            <div class="product__price fs-body-75">
+                                {%- if product != blank -%}
+                                <span class="visually-hidden" data-compare-text>{{ 'products.product.regular_price' | t }}</span>
+                                <s data-compare-price>
+                                    {%- if price_content_type == 'price' and current_variant.compare_at_price > current_variant.price -%}
+                                    {{- current_variant.compare_at_price | money -}}
+                                    {%- endif -%}
+                                </s>
+                                <span data-price>
+                                    {%- if price_content_type == 'price' %}
+                                    {{ current_variant.price | money -}}
+                                    {%- elsif price_content_type == 'custom' -%}
+                                    {{- custom_price_content }}
+                                    {% endif -%}
+                                </span>
+
+                                {%- if block_settings.show_discount -%}
+                                    <span data-discount-display class="product__price-displayed-discount fs-body-50">
+                                    {%-
+                                        render "get-display-discount"
+                                        with product: product,
+                                        variant: current_variant,
+                                        format: block_settings.discount_format
+                                    -%}
+                                    </span>
+                                {%- endif -%}
+
+                                {% render 'unit-price', item: current_variant %}
+                                {%- else -%}
+                                <span>{{ 9999 | money }}</span>
+                                {%- endif -%}
+                            </div>
+
+                            {%- if block_settings.show_product_rating and product != blank -%}
+                                {% render 'product-rating', prod: product %}
+                            {%- endif -%}
+                            </div> {% endcomment %}
+                        </div>
+                    {% when 'featured_image' %}
+                        {%- capture image_sizes -%}
+                            (min-width: 720px) calc(calc(50vw - calc(2 * clamp(18px, 3.3vw, 3.3vw)))), calc(100vw - calc(2 * 3.3vw))
+                        {%- endcapture -%}
+                        {%- render 'image',
+                            wrapper_class: 'featured-product__image',
+                            image: block.settings.image,
+                            sizes: image_sizes,
+                            aspect_ratio: block.settings.aspect_ratio,
+                        -%}
+                    {% when 'variant_title_price' %}
                         <div class="product__block--product-variant-title" {{ block.shopify_attributes }}>
                             <div class="
                                 grid-type align-center
@@ -112,14 +137,12 @@
                                             <span class="visually-hidden" data-compare-text>{{ 'products.product.regular_price' | t }}</span>
                                             <s data-compare-price>
                                                 {%- if price_content_type == 'price' and current_variant.compare_at_price > current_variant.price -%}
-                                                {{- current_variant.compare_at_price | money -}}
+                                                {{- current_variant.compare_at_price | money_with_currency -}}
                                                 {%- endif -%}
                                             </s>
                                             <span data-price>
                                                 {%- if price_content_type == 'price' %}
-                                                {{ current_variant.price | money -}}
-                                                {%- elsif price_content_type == 'custom' -%}
-                                                {{- custom_price_content }}
+                                                    {{ current_variant.price | money_with_currency -}}
                                                 {% endif -%}
                                             </span>
 
@@ -143,12 +166,113 @@
                                 </div>
                             </div>
                         </div>
-                    {% endunless %}
-            {% endcase %}
-        {% endfor %}
+                    {% when 'buy_buttons' %}
+                            <div class="
+                                grid-type align-center
+                                grid-type--mobile-per-view-1
+                                grid-type--per-view-2
+                                justify-between--lg
+                            ">
+                                <div>
+                                    {%-
+                                        render 'product-block-variant-picker',
+                                        product: product,
+                                        block: block,
+                                        block_settings: block.settings,
+                                        current_variant: current_variant,
+                                        use_variant_images: settings.use_variant_image_swatches,
+                                        show_siblings: settings.enable_product_sibling_swatches
+                                    -%}
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </div>
+
+                        <div class="product__block--buy-button" {{ block.shopify_attributes }}>
+                            <div
+                                class="product__quantity-error product__block product__block--medium hidden"
+                                data-quantity-error
+                                data-fallback-error-message="{{ 'products.product.quantity_error' | t }}"
+                            >
+                                {{ 'products.product.quantity_error' | t }}
+                            </div>
+
+                            {% if block.settings.enable_gift_card_recipient and product.gift_card? and template.suffix != 'quick-view' -%}
+                            {% render 'gift-card-recipient-form', source: 'product-display', product: product %}
+                            {%- endif %}
+
+                            {% render 'product-form',
+                                block: block,
+                                prod: product,
+                                current_variant: current_variant,
+                                show_dynamic_checkout: block.settings.show_dynamic_checkout,
+                            %}
+
+                            {%- unless is_quick -%}
+                                {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+                                    <div class="product__policies rte" data-product-policies>
+                                    {%- if shop.taxes_included -%}
+                                        {{ 'products.product.include_taxes' | t }}
+                                    {%- endif -%}
+                                    {%- if shop.shipping_policy.body != blank -%}
+                                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                                    {%- endif -%}
+                                    </div>
+                                {%- endif -%}
+                            {%- endunless -%}
+                        </div>
+                {% endcase %}
+            {% endfor %}
+        </div>
     </div>
 </div>
 
+
+
+{% unless product == empty -%}
+  <script type="application/json" id="ProductJson-{{ section.id }}">
+    {{ product | json }}
+  </script>
+
+  <script type="application/json" id="ModelJson-{{ section.id }}">
+    {{ product.media | where: 'media_type', 'model' | json }}
+  </script>
+{%- endunless %}
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "url": {{ product_url | json }},
+    {% if product.featured_media -%}
+      "image": [{{ product_featured_image_url }}],
+    {%- endif %}
+    "description": {{ product.description | strip_html | json }},
+    {% if current_variant.sku != blank -%}
+      "sku": {{ current_variant.sku | json }},
+    {%- endif %}
+    "brand": {
+      "@type": "Thing",
+      "name": {{ product.vendor | json }}
+    },
+    "offers": [
+      {% for variant in product.variants -%}
+        {
+          "@type" : "Offer",
+          {% if variant.sku != blank -%}
+            "sku": {{ variant.sku | json }},
+          {%- endif %}
+          "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+          "price" : {{ variant.price | divided_by: 100.00 | json }},
+          "priceCurrency" : {{ cart.currency.iso_code | json }},
+          "url" : {{ shop.url | append: variant.url | json }}
+        }{% unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    ]
+  }
+</script>
 
 {% stylesheet %}
     .product-overview-2026 .product__price-and-ratings {
@@ -163,6 +287,15 @@
         flex-direction: column;
         gap: 1.5rem;
     }
+
+    .product-overview-2026 {
+        @media (min-width: 960px) {
+            .product__color-swatches {
+                --swatch-width: 120px !important;
+            }
+        }
+    }
+
 {% endstylesheet %}
 
 {% schema %}
@@ -231,15 +364,18 @@
   "blocks": [
     {
         "type": "title",
-        "name": "Title"
+        "name": "Title",
+        "limit": 1
     },
     {
         "type": "variant_title_price",
-        "name": "Variant Title + Price"
+        "name": "Variant Title + Price",
+        "limit": 1
     },
     {
         "type": "featured_image",
         "name": "Featured Image",
+        "limit": 1,
         "settings": [
             {
                 "type": "image_picker",
@@ -271,6 +407,112 @@
                 ]
             }
         ]
+    },
+    {
+        "type": "buy_buttons",
+        "name": "Buy buttons",
+        "limit": 1,
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "enable_gift_card_recipient",
+                "default": true,
+                "label": "t:sections.main_product_overview.settings.enable_gift_card_recipient.label",
+                "info": "t:sections.main_product_overview.settings.enable_gift_card_recipient.info"
+            },
+            {
+                "type": "checkbox",
+                "id": "show_dynamic_checkout",
+                "default": true,
+                "label": "t:sections.main_product_overview.blocks.buy_buttons.settings.show_dynamic_checkout.label",
+                "info": "t:sections.main_product_overview.blocks.buy_buttons.settings.show_dynamic_checkout.info"
+            },
+            {
+                "type": "header",
+                "content": "t:sections.main_product_overview.blocks.variant_picker.settings.popup__header.content",
+                "info": "t:sections.main_product_overview.blocks.variant_picker.settings.popup__header.info"
+            },
+            {
+                "type": "text",
+                "id": "variant_popup_option",
+                "label": "t:sections.main_product_overview.blocks.variant_picker.settings.variant_popup_option.label",
+                "info": "t:sections.main_product_overview.blocks.variant_picker.settings.variant_popup_option.info",
+                "default": "Size"
+            },
+            {
+                "type": "select",
+                "id": "variant_popup_icon",
+                "label": "t:sections.main_product_overview.blocks.variant_picker.settings.variant_popup_icon.label",
+                "default": "none",
+                "options": [{"value":"none","label":"t:shared.settings.icon.option_none"},{"value":"bank","label":"t:shared.settings.icon.option_bank"},{"value":"bill","label":"t:shared.settings.icon.option_bill"},{"value":"bottle","label":"t:shared.settings.icon.option_bottle"},{"value":"chat","label":"t:shared.settings.icon.option_chat"},{"value":"chat-empty","label":"t:shared.settings.icon.option_chat_empty"},{"value":"checked-box","label":"t:shared.settings.icon.option_checked_box"},{"value":"clothes-button","label":"t:shared.settings.icon.option_clothes_button"},{"value":"clothes-hanger","label":"t:shared.settings.icon.option_clothes_hanger"},{"value":"cotton","label":"t:shared.settings.icon.option_cotton"},{"value":"envelope","label":"t:shared.settings.icon.option_envelope"},{"value":"globe","label":"t:shared.settings.icon.option_globe"},{"value":"hand-washing","label":"t:shared.settings.icon.option_hand_washing"},{"value":"heart","label":"t:shared.settings.icon.option_heart"},{"value":"laundry-dryer","label":"t:shared.settings.icon.option_laundry_dryer"},{"value":"laundry-washer","label":"t:shared.settings.icon.option_laundry_washer"},{"value":"leaf","label":"t:shared.settings.icon.option_leaf"},{"value":"lipstick","label":"t:shared.settings.icon.option_lipstick"},{"value":"measuring-tape","label":"t:shared.settings.icon.option_measuring_tape"},{"value":"model-silhouette","label":"t:shared.settings.icon.option_silhouette"},{"value":"money-bills","label":"t:shared.settings.icon.option_money_bills"},{"value":"moving-truck","label":"t:shared.settings.icon.option_moving_truck"},{"value":"package-open","label":"t:shared.settings.icon.option_package_open"},{"value":"package-closed","label":"t:shared.settings.icon.option_package_closed"},{"value":"padlock","label":"t:shared.settings.icon.option_padlock"},{"value":"paper-airplane","label":"t:shared.settings.icon.option_paper_airplane"},{"value":"paw-print","label":"t:shared.settings.icon.option_paw_print"},{"value":"plant","label":"t:shared.settings.icon.option_plant"},{"value":"price-tag","label":"t:shared.settings.icon.option_price_tag"},{"value":"question-mark","label":"t:shared.settings.icon.option_question_mark"},{"value":"recycle-symbol","label":"t:shared.settings.icon.option_recycle_symbol"},{"value":"ruler","label":"t:shared.settings.icon.option_ruler"},{"value":"scissors","label":"t:shared.settings.icon.option_scissors"},{"value":"security-badge","label":"t:shared.settings.icon.option_security_badge"},{"value":"stiletto","label":"t:shared.settings.icon.option_stiletto"},{"value":"stopwatch","label":"t:shared.settings.icon.option_stopwatch"},{"value":"sunflower","label":"t:shared.settings.icon.option_sunflower"},{"value":"t-shirt","label":"t:shared.settings.icon.option_tshirt"},{"value":"washing-symbol","label":"t:shared.settings.icon.option_washing_symbol"},{"value":"water-bottle","label":"t:shared.settings.icon.option_water_bottle"}]
+            },
+            {
+                "type": "image_picker",
+                "id": "custom_icon_image",
+                "label": "t:shared.settings.custom_icon_image.label"
+            },
+            {
+                "type": "text",
+                "id": "variant_popup_text",
+                "label": "t:sections.main_product_overview.blocks.variant_picker.settings.variant_popup_text.label",
+                "default": "Size guide"
+            },
+            {
+                "type": "page",
+                "id": "variant_popup_page",
+                "label": "t:sections.main_product_overview.blocks.variant_picker.settings.variant_popup_page.label",
+                "info": "t:sections.main_product_overview.blocks.variant_picker.settings.variant_popup_page.info"
+            },
+            {
+                "type": "header",
+                "content": "t:shared.settings.swatches.default_swatches.header__swatches.content",
+                "info": "t:shared.settings.swatches.default_swatches.header__swatches.info"
+            },
+            {
+                "type": "select",
+                "id": "swatch_size",
+                "label": "t:sections.main_product_overview.blocks.variant_picker.settings.swatch_size.label",
+                "default": "medium",
+                "options": [
+                    {
+                    "value": "small",
+                    "label": "t:sections.main_product_overview.blocks.variant_picker.settings.swatch_size.option_small"
+                    },
+                    {
+                    "value": "medium",
+                    "label": "t:sections.main_product_overview.blocks.variant_picker.settings.swatch_size.option_medium"
+                    },
+                    {
+                    "value": "large",
+                    "label": "t:sections.main_product_overview.blocks.variant_picker.settings.swatch_size.option_large"
+                    }
+                ]
+            },
+            {
+                "type": "header",
+                "content": "t:sections.main_product_overview.blocks.variant_picker.settings.header__chips.content"
+            },
+            {
+                "type": "select",
+                "id": "chip_layout",
+                "label": "t:sections.main_product_overview.blocks.variant_picker.settings.chip_layout.label",
+                "default": "3col",
+                "options": [
+                    {
+                    "value": "3col",
+                    "label": "t:sections.main_product_overview.blocks.variant_picker.settings.chip_layout.option_3col"
+                    },
+                    {
+                    "value": "2col",
+                    "label": "t:sections.main_product_overview.blocks.variant_picker.settings.chip_layout.option_2col"
+                    },
+                    {
+                    "value": "natural",
+                    "label": "t:sections.main_product_overview.blocks.variant_picker.settings.chip_layout.option_natural"
+                    }
+                ]
+            }
+        ]   
     }
   ],
   "presets": [
