@@ -96,7 +96,7 @@
         "link_text": "",
         "maximum_collections": 3,
         "columns": "3",
-        "mobile_columns": "1",
+        "mobile_columns": "2",
         "enable_animation": false,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
