@@ -575,6 +575,12 @@ inbox-online-store-chat#ShopifyChat {
         width: calc(50% - calc(var(--spacing-4) + 1px) * 1 / 2);
         max-width: calc(50% - calc(var(--spacing-4) + 1px) * 1 / 2);
     }
+
+    .grid-type--mobile-per-view-1 .featured-collection-grid__product {
+        width: 100%;
+        max-width: 100%;
+    }
+
     .multi-home .multi-column__grid-item-image-figure {
         --image-max-width: 75% !important;
     }
@@ -666,11 +672,7 @@ inbox-online-store-chat#ShopifyChat {
     justify-content: center !important;
 }
 
-.grid-type--per-view-3 .featured-collection-grid__product {
-  width: 30% !important;       /* increase from ~33% */
-  max-width: 30% !important;
-}
-.template-index .featured-collection-grid,
+/* .template-index .featured-collection-grid,
 .template-index .grid-type {
     max-width: var(--max-width);
     margin-left: auto;
@@ -678,7 +680,7 @@ inbox-online-store-chat#ShopifyChat {
     padding-left: 0.35vw;
     padding-right: 0.35vw;
     box-sizing: border-box;
-}
+} */
 /* Add left/right padding to "Image with text split" sections on the home page */
 .template-index main .shopify-section [data-section-type="image-with-text-split"] {
     padding-left: 4vw;

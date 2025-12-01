@@ -82,7 +82,9 @@
       ],
       "custom_css": [
         ".product-item__price {display: none;}",
-        ".product-item__product-title {margin: 0;}"
+        ".product-item__product-title {margin: 0;}",
+        ".featured-collection-grid {max-width: 100%; padding: 0 4vw;}",
+        "@media (min-width: 960px) {.featured-collection-grid__product {width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); max-width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); }}"
       ],
       "name": "t:sections.featured_collection_grid.presets.name",
       "settings": {
@@ -94,7 +96,7 @@
         "link_text": "",
         "maximum_collections": 3,
         "columns": "3",
-        "mobile_columns": "2",
+        "mobile_columns": "1",
         "enable_animation": false,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
