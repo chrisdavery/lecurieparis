@@ -5,16 +5,16 @@
 }
 
 /* Only the first homepage section (hero) gets header padding */
-.template-index main .shopify-section:first-of-type [data-section-type] {
+/* .template-index main .shopify-section:first-of-type [data-section-type] {
     width: 100%;
     padding-top: calc(var(--height-header));
-}
+} */
 
 /* All other sections: no extra padding on top */
-.template-index main .shopify-section:not(:first-of-type) [data-section-type] {
+/* .template-index main .shopify-section:not(:first-of-type) [data-section-type] {
     width: 100%;
     padding-top: 0;
-}
+} */
 
 
 /* .swiper-creative .swiper-slide:first-child [data-section-type] {

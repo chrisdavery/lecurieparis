@@ -53,8 +53,9 @@
         "heading_4p9XUk"
       ],
       "custom_css": [
-        "section {padding-top: 0; padding-bottom: 0;}",
-        ".rich-text__inner {background-color: #8a633a; color: white; text-align: center; padding: 50px 0; margin: 0 0.7vw;}",
+        ".rich-text {max-width: 100%; padding: 0 4vw var(--spacing-10);}",
+        "section {padding-top: 0;}",
+        ".rich-text__inner {background-color: #8a633a; color: white; text-align: center; padding: 50px 0;}",
         "h2 {font-size: 24px;}"
       ],
       "name": "t:sections.rich_text.presets.name",
@@ -114,7 +115,7 @@
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}",
         "h2 {font-size: 36px; font-weight: 700; margin: 24px 0 0;}",
-        "@media (max-width: 959px) {h2 {display: block; font-size: 32px;}}"
+        "@media (max-width: 959px) {h2 {display: block; font-size: 32px; }}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -380,8 +381,9 @@
         "heading_kbEbwK"
       ],
       "custom_css": [
-        "section {padding-top: 0; padding-bottom: 0;}",
-        ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 50px 0; margin: 0 0.7vw;}",
+        ".rich-text {max-width: 100%; padding: 0 4vw var(--spacing-10);}",
+        "section {padding-top: 0;}",
+        ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 50px 0;}",
         "h2 {font-size: 24px;}"
       ],
       "name": "t:sections.rich_text.presets.name",
