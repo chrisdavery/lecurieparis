@@ -80,7 +80,10 @@
       "block_order": [
         "collection_QN7Hcx"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".product-item__price {display: none;}",
+        ".product-item__product-title {margin: 0;}"
+      ],
       "name": "t:sections.featured_collection_grid.presets.name",
       "settings": {
         "layout": "grid",
