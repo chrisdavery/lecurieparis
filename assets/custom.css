@@ -21,6 +21,12 @@
     padding-top: calc(var(--height-header) * -1);
 } */
 
+.aparajita-font {
+    font-family: 'Aparajita', serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
 .text-uppercase {
     text-transform: uppercase;
 }

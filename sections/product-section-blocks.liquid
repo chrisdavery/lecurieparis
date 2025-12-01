@@ -1,0 +1,175 @@
+{% assign objects = product.metafields.custom.product_section_blocks.value %}
+
+{% if product.metafields.custom.product_section_blocks.value == blank %}
+    {% break %}
+{% endif %}
+
+<div
+class="
+    section
+    {{ section.settings.section_padding }}
+"
+    style="--max-width: {{ section.settings.container_width | divided_by: 10 }}rem;"
+>
+    {% for item in objects %}
+        {% case item.system.type %}
+            {% when 'quote_product_section_block' %}
+                {% if item.quote_content.value != blank %}
+                    
+                    {% liquid 
+                        assign padding_top = item.padding_top | plus: 0
+                        assign padding_bottom = item.padding_top | plus: 0
+
+                        if item.padding_top_mobile != nil
+                            assign padding_top_mobile = item.padding_top_mobile
+                        endif
+
+                        if item.padding_bottom_mobile != nil
+                            assign padding_bottom_mobile = item.padding_bottom_mobile
+                        endif
+                    %}
+
+                    <div class="product-section-block fs-heading-display-3 aparajita-font" style="
+                    --padding-top: {{ padding_top }}px;
+                    --padding-bottom: {{ padding_bottom }}px;
+                    {% if padding_top_mobile != blank %}--padding-top-mobile: {{ padding_top_mobile }}px;{% endif %}
+                    {% if padding_bottom_mobile != blank %}--padding-bottom-mobile: {{ padding_bottom_mobile }}px;{% endif %}">
+                        {{ item.quote_content | metafield_tag }}
+                    </div>
+                {% endif %}
+            {% when 'image_product_section_block' %}
+                {% liquid 
+                    assign padding_top = item.padding_top | plus: 0
+                    assign padding_bottom = item.padding_top | plus: 0
+
+                    if item.padding_top_mobile != nil
+                        assign padding_top_mobile = item.padding_top_mobile
+                    endif
+
+                    if item.padding_bottom_mobile != nil
+                        assign padding_bottom_mobile = item.padding_bottom_mobile
+                    endif
+                %}
+
+                {% if item.image != blank %}
+                    {% liquid
+
+                        case item.image_aspect_ratio
+                            when 'Adapt to image'
+                                assign aspect_ratio = 'natural'
+                            when 'Portrait (2:3)'
+                                assign aspect_ratio = 'portrait'
+                            when 'Square (1:1)'
+                                assign aspect_ratio = 'square'
+                            when 'Landscape (2:3)'
+                                assign aspect_ratio = 'landscape'
+                            else
+                                assign aspect_ratio = 'natural'
+                        endcase
+                    %}
+
+                    <div class="product-section-block product-section-block-image" style="
+                        --padding-top: {{ padding_top }}px;
+                        --padding-bottom: {{ padding_bottom }}px;
+                        {% if padding_top_mobile != blank %}--padding-top-mobile: {{ padding_top_mobile }}px;{% endif %}
+                        {% if padding_bottom_mobile != blank %}--padding-bottom-mobile: {{ padding_bottom_mobile }}px;{% endif %}"
+                    >
+                        {%- capture image_sizes -%}
+                            (min-width: 720px) calc(calc(50vw - calc(2 * clamp(18px, 3.3vw, 3.3vw)))), calc(100vw - calc(2 * 3.3vw))
+                        {%- endcapture -%}
+                        {%- render 'image',
+                            wrapper_class: 'section-block-product__image',
+                            image: item.image.value,
+                            aspect_ratio: aspect_ratio,
+                            sizes: image_sizes
+                        -%}
+                    </div>
+                {% endif %}
+        {% endcase %}
+    {% endfor %}
+</div>
+
+
+{% stylesheet %}
+    .product-section-block {
+        padding-top: var(--padding-top);
+        padding-bottom: var(--padding-top);
+
+        @media (max-width: 959px) {
+            &[style*="--padding-top-mobile"] {
+                padding-top: var(--padding-top-mobile);
+                padding-bottom: var(--padding-bottom-mobile);
+            }
+        }
+    }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "Product section blocks",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+        "type": "range",
+        "id": "container_width",
+        "label": "Container width",
+        "min": 500,
+        "max": 1600,
+        "step": 100,
+        "default": 1200,
+        "unit": "rem"
+    },
+    {
+      "type": "header",
+      "content": "t:shared.settings.section_style.header_style.content"
+    },
+    {
+      "type": "select",
+      "id": "divider_style",
+      "label": "t:shared.settings.section_style.divider_style.label",
+      "default": "none",
+      "options": [
+        {
+          "label": "t:shared.settings.section_style.divider_style.option_none",
+          "value": "none"
+        },
+        {
+          "label": "t:shared.settings.section_style.divider_style.option_solid",
+          "value": "solid"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "t:shared.settings.section_style.section_padding.label",
+      "default": "section--vertical-padding-top-bottom",
+      "options": [
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_none",
+          "value": "section--vertical-padding-none"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_both",
+          "value": "section--vertical-padding-top-bottom"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_top",
+          "value": "section--vertical-padding-top-only"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_bottom",
+          "value": "section--vertical-padding-bottom-only"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product section blocks"
+    }
+  ]
+}
+{% endschema %}

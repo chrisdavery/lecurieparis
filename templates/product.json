@@ -54,6 +54,15 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "product_section_blocks_CrqG7i": {
+      "type": "product-section-blocks",
+      "name": "Product section blocks",
+      "settings": {
+        "container_width": 600,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "main": {
       "type": "main-product--default",
       "blocks": {
@@ -269,6 +278,7 @@
   },
   "order": [
     "product_overview_2026_9DNz3H",
+    "product_section_blocks_CrqG7i",
     "main",
     "recommendations"
   ]

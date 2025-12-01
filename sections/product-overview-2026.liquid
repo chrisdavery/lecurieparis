@@ -286,6 +286,8 @@
 
 
     .product-overview-2026 .product {
+        margin-bottom: 0;
+
         @media (max-width: 959px) {
             margin-top: 0;
         }
@@ -311,13 +313,24 @@
             .product__color-swatches {
                 --swatch-width: 120px !important;
             }
+
+            .grid-button-product .product__block {
+                margin: 0;
+            }
+
             .grid-button-product > div {
                 width: fit-content;
             }
-
-            .product-form__controls-group {
-                max-width: 15rem;
+            .grid-button-product > div:first-child {
+                width: calc(70% - calc(var(--spacing-4) + 1px) * 1/2);
+                max-width: calc(70% - calc(var(--spacing-4) + 1px) * 1/2);
             }
+
+            .grid-button-product > div:last-child {
+                width: calc(30% - calc(var(--spacing-4) + 1px) * 1/2);
+                max-width: calc(30% - calc(var(--spacing-4) + 1px) * 1/2);
+            }
+
             .product__label {
                 font-size: var(--font-size-body-100) !important;
             }
