@@ -185,43 +185,41 @@
                                     -%}
                                 </div>
                                 <div>
-                                    
+                                    <div class="product__block--buy-button" {{ block.shopify_attributes }}>
+                                        <div
+                                            class="product__quantity-error product__block product__block--medium hidden"
+                                            data-quantity-error
+                                            data-fallback-error-message="{{ 'products.product.quantity_error' | t }}"
+                                        >
+                                            {{ 'products.product.quantity_error' | t }}
+                                        </div>
+
+                                        {% if block.settings.enable_gift_card_recipient and product.gift_card? and template.suffix != 'quick-view' -%}
+                                        {% render 'gift-card-recipient-form', source: 'product-display', product: product %}
+                                        {%- endif %}
+
+                                        {% render 'product-form',
+                                            block: block,
+                                            prod: product,
+                                            current_variant: current_variant,
+                                            show_dynamic_checkout: block.settings.show_dynamic_checkout,
+                                        %}
+
+                                        {%- unless is_quick -%}
+                                            {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+                                                <div class="product__policies rte" data-product-policies>
+                                                {%- if shop.taxes_included -%}
+                                                    {{ 'products.product.include_taxes' | t }}
+                                                {%- endif -%}
+                                                {%- if shop.shipping_policy.body != blank -%}
+                                                    {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                                                {%- endif -%}
+                                                </div>
+                                            {%- endif -%}
+                                        {%- endunless -%}
+                                    </div>
                                 </div>
                             </div>
-
-                        <div class="product__block--buy-button" {{ block.shopify_attributes }}>
-                            <div
-                                class="product__quantity-error product__block product__block--medium hidden"
-                                data-quantity-error
-                                data-fallback-error-message="{{ 'products.product.quantity_error' | t }}"
-                            >
-                                {{ 'products.product.quantity_error' | t }}
-                            </div>
-
-                            {% if block.settings.enable_gift_card_recipient and product.gift_card? and template.suffix != 'quick-view' -%}
-                            {% render 'gift-card-recipient-form', source: 'product-display', product: product %}
-                            {%- endif %}
-
-                            {% render 'product-form',
-                                block: block,
-                                prod: product,
-                                current_variant: current_variant,
-                                show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                            %}
-
-                            {%- unless is_quick -%}
-                                {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
-                                    <div class="product__policies rte" data-product-policies>
-                                    {%- if shop.taxes_included -%}
-                                        {{ 'products.product.include_taxes' | t }}
-                                    {%- endif -%}
-                                    {%- if shop.shipping_policy.body != blank -%}
-                                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                                    {%- endif -%}
-                                    </div>
-                                {%- endif -%}
-                            {%- endunless -%}
-                        </div>
                 {% endcase %}
             {% endfor %}
         </div>
