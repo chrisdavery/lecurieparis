@@ -1,0 +1,282 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign price_content_type = 'price'
+%}
+
+<div
+    class="
+      section
+      section--divider-{{ section.settings.divider_style }}
+      {{ section.settings.section_padding }}
+       product-overview-2026
+    "
+    style="--max-width: {{ section.settings.container_width | divided_by: 10 }}rem;"
+  >
+    <div class="product-overview-items">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'title' %}
+                    <div class="product__block--product-header-inner text-center" {{ block.shopify_attributes }}>
+                        {% liquid
+                        capture product_title_tag_type
+                            if is_quick or is_featured
+                            echo 'h2'
+                            else
+                            echo 'h1'
+                            endif
+                        endcapture
+                        %}
+                        {%- if product != blank -%}
+                            <h1 class="product__title ff-heading fs-heading-3-base">
+                                {{- product.title -}}
+                            </h1>
+                        {%- else -%}
+                            <h1 class="product__title ff-heading fs-heading-5-base">
+                                {{- 'sections.featured_product.placeholder.title' | t -}}
+                            </h1>
+                        {% endif %}
+
+                    
+                        {% comment %} <div
+                        class="product__price-and-ratings"
+                        data-show-product-rating="{{ block_settings.show_product_rating }}"
+                        >
+                        <div class="product__price fs-body-75">
+                            {%- if product != blank -%}
+                            <span class="visually-hidden" data-compare-text>{{ 'products.product.regular_price' | t }}</span>
+                            <s data-compare-price>
+                                {%- if price_content_type == 'price' and current_variant.compare_at_price > current_variant.price -%}
+                                {{- current_variant.compare_at_price | money -}}
+                                {%- endif -%}
+                            </s>
+                            <span data-price>
+                                {%- if price_content_type == 'price' %}
+                                {{ current_variant.price | money -}}
+                                {%- elsif price_content_type == 'custom' -%}
+                                {{- custom_price_content }}
+                                {% endif -%}
+                            </span>
+
+                            {%- if block_settings.show_discount -%}
+                                <span data-discount-display class="product__price-displayed-discount fs-body-50">
+                                {%-
+                                    render "get-display-discount"
+                                    with product: product,
+                                    variant: current_variant,
+                                    format: block_settings.discount_format
+                                -%}
+                                </span>
+                            {%- endif -%}
+
+                            {% render 'unit-price', item: current_variant %}
+                            {%- else -%}
+                            <span>{{ 9999 | money }}</span>
+                            {%- endif -%}
+                        </div>
+
+                        {%- if block_settings.show_product_rating and product != blank -%}
+                            {% render 'product-rating', prod: product %}
+                        {%- endif -%}
+                        </div> {% endcomment %}
+                    </div>
+                {% when 'featured_image' %}
+                    {%- capture image_sizes -%}
+                        (min-width: 720px) calc(calc(50vw - calc(2 * clamp(18px, 3.3vw, 3.3vw)))), calc(100vw - calc(2 * 3.3vw))
+                    {%- endcapture -%}
+                    {%- render 'image',
+                        wrapper_class: 'featured-product__image',
+                        image: block.settings.image,
+                        sizes: image_sizes,
+                        aspect_ratio: block.settings.aspect_ratio,
+                    -%}
+                {% when 'variant_title_price' %}
+                    {% unless product.variants.size == 0 %}
+                        <div class="product__block--product-variant-title" {{ block.shopify_attributes }}>
+                            <div class="
+                                grid-type align-center
+                                grid-type--mobile-per-view-1
+                                grid-type--per-view-2
+                                justify-between--lg
+                            ">
+                                <div>
+                                    <h2 class="ff-body fs-heading-5-base text-uppercase">
+                                        {{- current_variant.title -}}
+                                    </h2>
+                                </div>
+                                <div>
+                                    <div
+                                        class="product__price-and-ratings"
+                                    >
+                                        <div class="product__price ff-body fs-heading-5-base text-uppercase">
+                                            {%- if product != blank -%}
+                                            <span class="visually-hidden" data-compare-text>{{ 'products.product.regular_price' | t }}</span>
+                                            <s data-compare-price>
+                                                {%- if price_content_type == 'price' and current_variant.compare_at_price > current_variant.price -%}
+                                                {{- current_variant.compare_at_price | money -}}
+                                                {%- endif -%}
+                                            </s>
+                                            <span data-price>
+                                                {%- if price_content_type == 'price' %}
+                                                {{ current_variant.price | money -}}
+                                                {%- elsif price_content_type == 'custom' -%}
+                                                {{- custom_price_content }}
+                                                {% endif -%}
+                                            </span>
+
+                                            {%- if block_settings.show_discount -%}
+                                                <span data-discount-display class="product__price-displayed-discount fs-body-50">
+                                                {%-
+                                                    render "get-display-discount"
+                                                    with product: product,
+                                                    variant: current_variant,
+                                                    format: block_settings.discount_format
+                                                -%}
+                                                </span>
+                                            {%- endif -%}
+
+                                            {% render 'unit-price', item: current_variant %}
+                                            {%- else -%}
+                                            <span>{{ 9999 | money }}</span>
+                                            {%- endif -%}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endunless %}
+            {% endcase %}
+        {% endfor %}
+    </div>
+</div>
+
+
+{% stylesheet %}
+    .product-overview-2026 .product__price-and-ratings {
+        margin: 0;
+    }
+    .product-overview-2026 .product__title {
+        margin-bottom: 0.5rem;
+    }
+
+    .product-overview-items {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Product overview 2026",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+        "type": "range",
+        "id": "container_width",
+        "label": "Container width",
+        "min": 500,
+        "max": 1600,
+        "step": 100,
+        "default": 1200,
+        "unit": "rem"
+    },
+    {
+      "type": "header",
+      "content": "t:shared.settings.section_style.header_style.content"
+    },
+    {
+      "type": "select",
+      "id": "divider_style",
+      "label": "t:shared.settings.section_style.divider_style.label",
+      "default": "none",
+      "options": [
+        {
+          "label": "t:shared.settings.section_style.divider_style.option_none",
+          "value": "none"
+        },
+        {
+          "label": "t:shared.settings.section_style.divider_style.option_solid",
+          "value": "solid"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "t:shared.settings.section_style.section_padding.label",
+      "default": "section--vertical-padding-top-bottom",
+      "options": [
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_none",
+          "value": "section--vertical-padding-none"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_both",
+          "value": "section--vertical-padding-top-bottom"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_top",
+          "value": "section--vertical-padding-top-only"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_bottom",
+          "value": "section--vertical-padding-bottom-only"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+        "type": "title",
+        "name": "Title"
+    },
+    {
+        "type": "variant_title_price",
+        "name": "Variant Title + Price"
+    },
+    {
+        "type": "featured_image",
+        "name": "Featured Image",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "select",
+                "id": "aspect_ratio",
+                "label": "t:sections.blog_posts.settings.aspect_ratio.label",
+                "default": "landscape",
+                "options": [
+                    {
+                    "value": "natural",
+                    "label": "t:shared.settings.aspect_ratio.option_natural"
+                    },
+                    {
+                    "value": "square",
+                    "label": "t:shared.settings.aspect_ratio.option_square"
+                    },
+                    {
+                    "value": "portrait",
+                    "label": "t:shared.settings.aspect_ratio.option_portrait"
+                    },
+                    {
+                    "value": "landscape",
+                    "label": "t:shared.settings.aspect_ratio.option_landscape"
+                    }
+                ]
+            }
+        ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product overview 2026"
+    }
+  ]
+}
+{% endschema %}

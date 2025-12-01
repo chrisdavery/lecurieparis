@@ -9,11 +9,42 @@
  */
 {
   "sections": {
+    "product_overview_2026_9DNz3H": {
+      "type": "product-overview-2026",
+      "blocks": {
+        "title_q4V7dg": {
+          "type": "title",
+          "settings": {}
+        },
+        "featured_image_izAebx": {
+          "type": "featured_image",
+          "settings": {
+            "image": "{{ product.featured_image }}"
+          }
+        },
+        "variant_title_price_dpR6CQ": {
+          "type": "variant_title_price",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_q4V7dg",
+        "featured_image_izAebx",
+        "variant_title_price_dpR6CQ"
+      ],
+      "name": "Product overview 2026",
+      "settings": {
+        "container_width": 600,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "main": {
       "type": "main-product--default",
       "blocks": {
         "product_header": {
           "type": "product_header",
+          "disabled": true,
           "settings": {
             "show_divider": false,
             "show_vendor": false,
@@ -185,6 +216,7 @@
         "popup_hrezap",
         "product_callouts_AYyTHy"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_product_details": true,
         "show_breadcrumbs": false,
@@ -207,6 +239,7 @@
     },
     "recommendations": {
       "type": "recommended-products",
+      "disabled": true,
       "settings": {
         "title": "Recommended Products",
         "subheading": "",
@@ -220,6 +253,7 @@
     }
   },
   "order": [
+    "product_overview_2026_9DNz3H",
     "main",
     "recommendations"
   ]
