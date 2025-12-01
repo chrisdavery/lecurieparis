@@ -123,11 +123,13 @@
                                 grid-type--per-view-2
                                 justify-between
                             ">
-                                <div>
-                                    <h2 class="ff-body fs-heading-5-base text-uppercase">
-                                        {{- current_variant.title -}}
-                                    </h2>
-                                </div>
+                                    <div>
+                                        {% unless product.has_only_default_variant %}
+                                            <h2 class="ff-body fs-heading-5-base text-uppercase">
+                                                {{ settings.siblings_option_name }}:&nbsp;{{- current_variant.title -}}
+                                            </h2>
+                                        {% endunless %}
+                                    </div>
                                 <div>
                                     <div
                                         class="product__price-and-ratings"
@@ -169,7 +171,7 @@
                     {% when 'buy_buttons' %}
                             <div class="
                                 grid-button-product
-                                grid-type align-center
+                                grid-type
                                 grid-type--mobile-per-view-1
                                 grid-type--per-view-2
                                 justify-between--lg
@@ -296,10 +298,15 @@
     .product-overview-items {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: var(--spacing-6);
     }
 
     .product-overview-2026 {
+
+        .product__label-wrapper {
+            display: none;
+        }
+
         @media (min-width: 960px) {
             .product__color-swatches {
                 --swatch-width: 120px !important;
@@ -310,6 +317,13 @@
 
             .product-form__controls-group {
                 max-width: 15rem;
+            }
+            .product__label {
+                font-size: var(--font-size-body-100) !important;
+            }
+
+            .product__block--product-variant-title {
+                margin-bottom: var(--spacing-6);
             }
         }
 
