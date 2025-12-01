@@ -121,7 +121,7 @@
                                 grid-type align-center
                                 grid-type--mobile-per-view-1
                                 grid-type--per-view-2
-                                justify-between--lg
+                                justify-between
                             ">
                                 <div>
                                     <h2 class="ff-body fs-heading-5-base text-uppercase">
@@ -168,6 +168,7 @@
                         </div>
                     {% when 'buy_buttons' %}
                             <div class="
+                                grid-button-product
                                 grid-type align-center
                                 grid-type--mobile-per-view-1
                                 grid-type--per-view-2
@@ -296,6 +297,18 @@
             .product__color-swatches {
                 --swatch-width: 120px !important;
             }
+        }
+
+        .product-form__cart-submit {
+            --font-size-button: var(--font-size-body-150) !important;
+
+            @media (max-width: 959px) {
+                width: 100%;
+            }
+        }
+
+        .grid-button-product > div {
+            width: 100%;
         }
     }
 
