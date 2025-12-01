@@ -1,7 +1,8 @@
-/* :root {
-    --font-heading: 'Baron Neue', sans-serif;
-    --font-body: 'Baron Neue', sans-serif;
-} */
+:root {
+    --font-heading: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-heading-weight: 700 !important;
+    /* --font-body: 'Baron Neue', sans-serif; */
+}
 
 /* Only the first homepage section (hero) gets header padding */
 .template-index main .shopify-section:first-of-type [data-section-type] {
@@ -748,9 +749,7 @@ header nav a,
 .navigation a,
 #HeaderMenu a,
 .site-nav a {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.08em !important;
-  text-transform: uppercase !important;
-  font-size:11px;
+    font-family: var(--font-heading) !important;
+    font-weight: var(--font-heading-weight) !important;
+    font-style: var(--font-heading-style) !important;
 }

@@ -290,7 +290,7 @@
         "type": "range",
         "id": "navigation_base_size",
         "label": "t:shared.settings.typography.base_size.label",
-        "min": 14,
+        "min": 11,
         "max": 22,
         "step": 1,
         "default": 18,

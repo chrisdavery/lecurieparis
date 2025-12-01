@@ -54,7 +54,8 @@
       ],
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}",
-        "h2 {background-color: #8a633a; color: white; text-align: center; padding: 50px 0; margin: 0 0.7vw; text-transform: uppercase; font-size: 20px; display: block; font-size: 24px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-family: \"Helvetica Neue\", \"Inter\", \"Arial\", sans-serif;}"
+        ".rich-text__inner {background-color: #8a633a; color: white; text-align: center; padding: 50px 0; margin: 0 0.7vw;}",
+        "h2 {font-size: 24px;}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -112,11 +113,12 @@
       ],
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}",
-        "h2 {font-size: 36px; font-weight: 700; text-align: center; margin: 24px 0 0; font-size: 20px; display: block; font-size: 32px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;}"
+        "h2 {font-size: 36px; font-weight: 700; margin: 24px 0 0;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 32px;}}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "alignment": "left_left",
+        "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-bottom-only",
@@ -139,7 +141,8 @@
         "heading_MWrzg9"
       ],
       "custom_css": [
-        "h2 {font-size: 20px; display: block; font-size: 32px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;}"
+        "h2 {display: block; font-size: 32px;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
@@ -174,7 +177,8 @@
         "heading_NW9Dyq"
       ],
       "custom_css": [
-        "h2 {font-size: 20px; display: block; font-size: 32px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;}"
+        "h2 {display: block; font-size: 32px;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
@@ -320,11 +324,12 @@
       ],
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}",
-        "h2 {font-size: 36px; font-weight: 700; text-align: center; margin: 24px 0 0; font-size: 20px; display: block; font-size: 32px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;}"
+        "h2 {display: block; font-size: 36px; margin: var(--spacing-10) 0 0;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 32px; }}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "alignment": "left_left",
+        "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-bottom-only",
@@ -376,7 +381,8 @@
       ],
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}",
-        "h2 {background-color: #8a281b; color: white; text-align: center; padding: 50px 0; margin: 0 0.7vw; text-transform: uppercase; font-size: 20px; display: block; font-size: 24px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-family: \"Helvetica Neue\", \"Inter\", \"Arial\", sans-serif;}"
+        ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 50px 0; margin: 0 0.7vw;}",
+        "h2 {font-size: 24px;}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -412,7 +418,8 @@
         "heading_NCer4d"
       ],
       "custom_css": [
-        "h2 {font-size: 20px; display: block; font-size: 32px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;}"
+        "h2 {display: block; font-size: 32px;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
@@ -456,7 +463,8 @@
         "heading_yAfT7p"
       ],
       "custom_css": [
-        "h2 {font-size: 20px; display: block; font-size: 32px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;}"
+        "h2 {display: block; font-size: 32px;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
