@@ -40,7 +40,7 @@ class="
             {% when 'image_product_section_block' %}
                 {% liquid 
                     assign padding_top = item.padding_top | plus: 0
-                    assign padding_bottom = item.padding_top | plus: 0
+                    assign padding_bottom = item.padding_bottom | plus: 0
 
                     if item.padding_top_mobile != nil
                         assign padding_top_mobile = item.padding_top_mobile
