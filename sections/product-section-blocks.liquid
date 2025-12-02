@@ -19,6 +19,9 @@ class="
                     {% liquid 
                         assign padding_top = blank
                         assign padding_bottom = blank
+                        assign padding_top_mobile = blank
+                        assign padding_bottom_mobile = blank
+
                         assign padding_top = item.padding_top | plus: 0
                         assign padding_bottom = item.padding_bottom | plus: 0
 
@@ -43,6 +46,9 @@ class="
                 {% liquid 
                     assign padding_top = blank
                     assign padding_bottom = blank
+                    assign padding_top_mobile = blank
+                    assign padding_bottom_mobile = blank
+
                     assign padding_top = item.padding_top | plus: 0
                     assign padding_bottom = item.padding_bottom | plus: 0
 
