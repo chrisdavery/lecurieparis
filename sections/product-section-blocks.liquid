@@ -18,7 +18,7 @@ class="
                     
                     {% liquid 
                         assign padding_top = item.padding_top | plus: 0
-                        assign padding_bottom = item.padding_top | plus: 0
+                        assign padding_bottom = item.padding_bottom | plus: 0
 
                         if item.padding_top_mobile != nil
                             assign padding_top_mobile = item.padding_top_mobile
@@ -93,7 +93,7 @@ class="
 {% stylesheet %}
     .product-section-block {
         padding-top: var(--padding-top);
-        padding-bottom: var(--padding-top);
+        padding-bottom: var(--padding-bottom);
 
         @media (max-width: 959px) {
             &[style*="--padding-top-mobile"] {
