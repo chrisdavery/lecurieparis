@@ -585,6 +585,12 @@ inbox-online-store-chat#ShopifyChat {
     .small-hide {
         display: none;
     }
+
+    .grid-type--mobile-per-view-3 .featured-collection-grid__product  {
+        width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2/3);
+        max-width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2/3);
+    }
+
     .grid-type--mobile-per-view-2 .featured-collection-grid__product  {
         width: calc(100% - calc(var(--spacing-4) + 1px) / 2);
         max-width: calc(100% - calc(var(--spacing-4) + 1px) / 2);

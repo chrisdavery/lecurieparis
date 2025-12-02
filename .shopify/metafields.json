@@ -138,6 +138,16 @@
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "product_section_blocks",
+      "namespace": "custom",
+      "name": "Product section blocks",
+      "description": "",
+      "type": {
+        "name": "list.mixed_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "variant": [

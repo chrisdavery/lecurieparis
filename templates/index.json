@@ -96,7 +96,7 @@
         "link_text": "",
         "maximum_collections": 3,
         "columns": "3",
-        "mobile_columns": "2",
+        "mobile_columns": "3",
         "enable_animation": false,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
@@ -299,7 +299,7 @@
         "row_spacing": 16,
         "column_alignment": "left",
         "enable_slider_mobile": false,
-        "columns_mobile": "2",
+        "columns_mobile": "3",
         "column_spacing_mobile": 20,
         "row_spacing_mobile": 20,
         "column_alignment_mobile": "left",
