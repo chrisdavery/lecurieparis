@@ -17,6 +17,8 @@ class="
                 {% if item.quote_content.value != blank %}
                     
                     {% liquid 
+                        assign padding_top = blank
+                        assign padding_bottom = blank
                         assign padding_top = item.padding_top | plus: 0
                         assign padding_bottom = item.padding_bottom | plus: 0
 
@@ -29,7 +31,7 @@ class="
                         endif
                     %}
 
-                    <div class="product-section-block fs-heading-display-3 aparajita-font" style="
+                    <div class="product-section-block fs-heading-display-3 fs-heading-4-base--mobile aparajita-font" style="
                     --padding-top: {{ padding_top }}px;
                     --padding-bottom: {{ padding_bottom }}px;
                     {% if padding_top_mobile != blank %}--padding-top-mobile: {{ padding_top_mobile }}px;{% endif %}
@@ -39,6 +41,8 @@ class="
                 {% endif %}
             {% when 'image_product_section_block' %}
                 {% liquid 
+                    assign padding_top = blank
+                    assign padding_bottom = blank
                     assign padding_top = item.padding_top | plus: 0
                     assign padding_bottom = item.padding_bottom | plus: 0
 
