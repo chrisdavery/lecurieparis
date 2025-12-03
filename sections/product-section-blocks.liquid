@@ -1,6 +1,6 @@
 {% assign objects = product.metafields.custom.product_section_blocks.value %}
 
-{% if product.metafields.custom.product_section_blocks.value == blank %}
+{% if product.metafields.custom.product_section_blocks.value == blank and product.description == blank %}
     {% break %}
 {% endif %}
 
@@ -11,6 +11,9 @@ class="
 "
     style="--max-width: {{ section.settings.container_width | divided_by: 10 }}rem;"
 >
+    <div class="description-plain">
+      {{ product.description }}
+    </div>
     {% for item in objects %}
         {% case item.system.type %}
             {% when 'quote_product_section_block' %}
@@ -101,6 +104,23 @@ class="
 
 
 {% stylesheet %}
+    .description-plain img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .description-plain h3:has(em) {
+      font-size: var(--font-size-heading-display-3);
+        line-height: var(--line-height-heading);
+      font-family: Aparajita, serif;
+      font-style: italic;
+      font-weight: 400;
+
+      @media (max-width: 959px) {
+        font-size: var(--font-size-heading-4-base);
+      }
+    }
+
     .product-section-block {
         padding-top: var(--padding-top);
         padding-bottom: var(--padding-bottom);
