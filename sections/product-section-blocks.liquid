@@ -14,6 +14,27 @@ class="
     <div class="description-plain">
       {{ product.description }}
     </div>
+
+    {% if product.media.size > 1 %}
+      <div class="product-media-cascade">
+        {% for media in product.media %}
+          {% unless forloop.first and product.media.size > 1%}
+            <div class="product-section-block product-section-block-image">
+                {%- capture image_sizes -%}
+                    (min-width: 720px) calc(calc(50vw - calc(2 * clamp(18px, 3.3vw, 3.3vw)))), calc(100vw - calc(2 * 3.3vw))
+                {%- endcapture -%}
+                {%- render 'image',
+                    wrapper_class: 'section-block-product__image',
+                    image: media,
+                    aspect_ratio: 'landscape',
+                    sizes: image_sizes
+                -%}
+            </div>
+          {% endunless %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
     {% for item in objects %}
         {% case item.system.type %}
             {% when 'quote_product_section_block' %}
@@ -121,6 +142,18 @@ class="
       }
     }
 
+    .product-media-cascade {
+      margin-top: 52px;
+
+      .product-section-block-image + .product-section-block-image {
+        margin-top: 32px;
+      }
+
+      @media (max-width: 959px) {
+        margin-top: 36px;
+      }
+    }
+
     .product-section-block {
         padding-top: var(--padding-top);
         padding-bottom: var(--padding-bottom);
@@ -136,6 +169,7 @@ class="
         }
     }
 {% endstylesheet %}
+
 {% schema %}
 {
   "name": "Product section blocks",
