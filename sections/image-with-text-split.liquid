@@ -31,6 +31,13 @@
   "
 >
   <div class="image-with-text-split__inner">
+    {%- unless section.settings.section_link == blank -%}
+      <a
+        href="{{ section.settings.section_link }}"
+        class="section-link"
+        aria-label="{{ section.settings.section_link }}"
+      ></a>
+    {%- endunless -%}
     <div class="image-with-text-split__image-container">
       {%-
         render 'image' with
@@ -122,6 +129,11 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "url",
+      "id": "section_link",
+      "label": "Section link"
+    },
     {
       "type": "header",
       "content": "t:sections.image_with_text_split.settings.header__image.content"
@@ -325,6 +337,10 @@
           "default": "h2",
           "options": [
             {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
               "value": "h2",
               "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h2"
             },
@@ -367,6 +383,14 @@
             {
               "value": "fs-heading-display-2",
               "label": "t:shared.settings.heading_font_class.option_large"
+            },
+            {
+              "value": "fs-heading-display-1",
+              "label": "Extra Large"
+            },
+            {
+              "value": "fs-heading-display-0",
+              "label": "Jumbo"
             }
           ]
         }

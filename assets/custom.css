@@ -524,6 +524,24 @@ inbox-online-store-chat#ShopifyChat {
     color: inherit;
 }
 
+.section-link {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+.rich-text__inner:has(.section-link), .image-with-text-split__inner:has(.section-link) {
+    position: relative;
+}
+
+.fs-heading-display-0 {
+  line-height:var(--line-height-heading);
+  font-size: var(--font-size-heading-display-0);
+}
+
+
 @media (min-width: 960px) {
     .large-up-hide {
         display: none !important;
@@ -620,6 +638,10 @@ inbox-online-store-chat#ShopifyChat {
 
     .left--sidebar[data-popup-id] .popup_content {
         max-width: calc(var(--flyout-width) - var(--flyout-mobile-gap));
+    }
+
+    .fs-heading-display-0 {
+        font-size: 32px;
     }
 
     .filter-bar__link {

@@ -26,6 +26,13 @@
   "
 >
   <div class="rich-text__inner section-blocks animation--section-blocks">
+    {%- unless section.settings.section_link == blank -%}
+      <a
+        href="{{ section.settings.section_link }}"
+        class="section-link"
+        aria-label="{{ section.settings.section_link }}"
+      ></a>
+    {%- endunless -%}
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'accent' -%}
@@ -105,6 +112,11 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "url",
+      "id": "section_link",
+      "label": "Section link"
+    },
     {
       "type": "select",
       "id": "alignment",

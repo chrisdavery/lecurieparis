@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": false,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "image_aspect": "original",
+        "desktop_height": 50,
+        "mobile_height": 100,
+        "focal_point": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "linear-gradient(228deg, rgba(0, 0, 0, 1) 14%, rgba(255, 255, 255, 1) 83%)",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "columns_desktop": "3",
+        "columns_mobile": "2",
+        "rows": "4",
+        "show_item_count": false,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "sidebar",
+        "collapse_filter_bar": false,
+        "category_menu": "category",
+        "slide_drawer": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": false,
+        "show_chip_filters": true,
+        "chip_layout": "3col",
+        "pagination": "infinite",
+        "enable_animation": false,
+        "divider_style": "none"
+      }
+    },
+    "image_with_text_split_c4EWLV": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "heading_BmRKYN": {
+          "type": "heading",
+          "settings": {
+            "title": "THE COLLECTION",
+            "heading_tag": "h1",
+            "heading_font_class": "fs-heading-display-0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BmRKYN"
+      ],
+      "custom_css": [
+        ".image-with-text-split {padding-inline: 4vw;}",
+        ".image-with-text-split__image-container {aspect-ratio: 5 / 2; background: #025740;}",
+        ".image {height: auto !important; max-width: 3rem; margin: auto;}",
+        ".image-with-text-split__image-container {display: flex; align-items: center; justify-content: center;}",
+        ".image-with-text-split__inner {box-sizing: border-box; border: 1.5px solid var(--color-text);}",
+        ".image-with-text-split__text-container {padding: var(--spacing-6); justify-content: flex-start;}"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "section_link": "",
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/lp-logo.png",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#ffffff",
+        "text_color": "#111111",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "rich_text_xFndcg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UKTebP": {
+          "type": "heading",
+          "settings": {
+            "title": "\"Details make perfection and perfection is not a detail.\"",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "subheading_94tDjm": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Leonardo Da Vinci",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UKTebP",
+        "subheading_94tDjm"
+      ],
+      "custom_css": [
+        ".rich-text__inner {max-width: 33rem;}",
+        ".rich-text__heading {font-size: var(--font-size-heading-display-3); line-height: var(--line-height-heading); font-family: Aparajita, serif; font-style: italic; font-weight: 400; text-transform: unset;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); }}"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "image_with_text_split_c4EWLV",
+    "rich_text_xFndcg"
+  ]
+}

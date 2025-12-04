@@ -24,7 +24,7 @@
         "image_mobile": "shopify://shop_images/l_ecurie__1_LEV_G.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
-        "media_link": "",
+        "media_link": "shopify://collections/designer-sunglasses",
         "text_position": "center_flex-end",
         "text_position_mobile": "center_flex-end",
         "text_color": "#ffffff",
@@ -60,6 +60,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
+        "section_link": "shopify://collections/designer-sunglasses",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -124,6 +125,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -153,6 +155,7 @@
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
+        "section_link": "shopify://collections/designer-sunglasses-women",
         "image_position": "left",
         "image_mobile_position": "above-content",
         "image_padding": "none",
@@ -189,6 +192,7 @@
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
+        "section_link": "shopify://collections/optical",
         "image_position": "right",
         "image_mobile_position": "above-content",
         "image_padding": "none",
@@ -336,6 +340,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -358,7 +363,7 @@
         "image_mobile": "shopify://shop_images/art.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
-        "media_link": "",
+        "media_link": "shopify://pages/a-design-story",
         "text_position": "center_flex-end",
         "text_position_mobile": "center_flex-end",
         "text_color": "#ffffff",
@@ -394,6 +399,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
+        "section_link": "shopify://pages/a-design-story",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -432,6 +438,7 @@
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
+        "section_link": "",
         "image_position": "left",
         "image_mobile_position": "above-content",
         "image_padding": "none",
@@ -478,6 +485,7 @@
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
+        "section_link": "",
         "image_position": "right",
         "image_mobile_position": "above-content",
         "image_padding": "none",
