@@ -1,0 +1,325 @@
+<div
+  class="
+    section
+    section--divider-{{ section.settings.divider_style }}
+    {{ section.settings.section_padding }}
+  "
+>
+  <div class="grid-collection" style="
+    --desktop-columns: {{ section.settings.columns }};
+    --mobile-columns: {{ section.settings.columns_mobile }};
+    --desktop-column-gap: {{ section.settings.column_spacing }}px;
+    --desktop-row-gap: {{ section.settings.row_spacing }}px;
+    --mobile-column-gap: {{ section.settings.mobile_column_spacing }}px;
+    --mobile-row-gap: {{ section.settings.mobile_row_spacing }}px;
+  ">
+    {% for block in section.blocks %}
+      {% render 'grid-collection-item', block: block,
+        product_columns_desktop: section.settings.columns_desktop,
+        product_columns_mobile: section.settings.columns_mobile,
+        product_listing_aspect_ratio: section.settings.product_listing_aspect_ratio
+      %}
+    {% endfor %}
+  </div>
+</div>
+
+{% stylesheet %}
+  .grid-collection {
+    display: grid;
+    grid-template-columns: repeat(var(--desktop-columns), 1fr);
+    column-gap: var(--desktop-column-gap);
+    row-gap: var(--desktop-row-gap);
+
+    @media (max-width: 959px) {
+      column-gap: var(--mobile-column-gap);
+      row-gap: var(--mobile-row-gap);
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Grid Collection 2026",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.multi_column.settings.title.label",
+      "default": "Multi-column"
+    },
+    {
+      "id": "heading_tag",
+      "type": "select",
+      "label": "t:shared.section_blocks.heading.settings.heading_tag.label",
+      "default": "h2",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h2"
+        },
+        {
+          "value": "h3",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h3"
+        },
+        {
+          "value": "h4",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h4"
+        },
+        {
+          "value": "h5",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h5"
+        },
+        {
+          "value": "h6",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h6"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "t:sections.multi_column.settings.heading_alignment.label",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:shared.settings.alignment_horizontal.option_left"
+        },
+        {
+          "value": "center",
+          "label": "t:shared.settings.alignment_horizontal.option_center"
+        },
+        {
+          "value": "right",
+          "label": "t:shared.settings.alignment_horizontal.option_right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "columns",
+      "label": "t:sections.multi_column.settings.columns.label",
+      "default": "4",
+      "options": [
+        {
+          "value": "1",
+          "label": "t:sections.multi_column.settings.columns.option_1"
+        },
+        {
+          "value": "2",
+          "label": "t:sections.multi_column.settings.columns.option_2"
+        },
+        {
+          "value": "3",
+          "label": "t:sections.multi_column.settings.columns.option_3"
+        },
+        {
+          "value": "4",
+          "label": "t:sections.multi_column.settings.columns.option_4"
+        },
+        {
+          "value": "5",
+          "label": "t:sections.multi_column.settings.columns.option_5"
+        },
+        {
+          "value": "6",
+          "label": "t:sections.multi_column.settings.columns.option_6"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "t:sections.multi_column.settings.columns.label",
+      "default": "2",
+      "options": [
+        {
+          "value": "1",
+          "label": "t:sections.multi_column.settings.columns.option_1"
+        },
+        {
+          "value": "2",
+          "label": "t:sections.multi_column.settings.columns.option_2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "column_spacing",
+      "label": "t:sections.multi_column.settings.column_spacing.label",
+      "min": 4,
+      "max": 48,
+      "step": 4,
+      "default": 28,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "row_spacing",
+      "label": "t:sections.multi_column.settings.row_spacing.label",
+      "min": 4,
+      "max": 48,
+      "step": 4,
+      "default": 28,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Mobile spacing"
+    },
+    {
+      "type": "range",
+      "id": "mobile_column_spacing",
+      "label": "Mobile column spacing",
+      "min": 4,
+      "max": 48,
+      "step": 4,
+      "default": 28,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "mobile_row_spacing",
+      "label": "Row column spacing",
+      "min": 4,
+      "max": 48,
+      "step": 4,
+      "default": 28,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "product_listing_aspect_ratio",
+      "label": "t:settings_schema.product_listing.settings.product_listing_aspect_ratio.label",
+      "default": "portrait",
+      "options": [
+        {
+          "value": "natural",
+          "label": "t:shared.settings.aspect_ratio.option_natural"
+        },
+        {
+          "value": "square",
+          "label": "t:shared.settings.aspect_ratio.option_square"
+        },
+        {
+          "value": "portrait",
+          "label": "t:shared.settings.aspect_ratio.option_portrait"
+        },
+        {
+          "value": "landscape",
+          "label": "t:shared.settings.aspect_ratio.option_landscape"
+        }
+      ]
+    },
+    {
+      "id": "product_listing_media_fit",
+      "type": "radio",
+      "label": "t:shared.settings.media_fit.label",
+      "options": [
+        {
+          "label": "t:shared.settings.media_fit.option_cover",
+          "value": "cover"
+        },
+        {
+          "label": "t:shared.settings.media_fit.option_contain",
+          "value": "contain"
+        }
+      ],
+      "info": "t:shared.settings.media_fit.info",
+      "default": "cover"
+    },
+    {
+      "type": "header",
+      "content": "t:shared.settings.section_style.header_style.content"
+    },
+    {
+      "type": "select",
+      "id": "divider_style",
+      "label": "t:shared.settings.section_style.divider_style.label",
+      "default": "none",
+      "options": [
+        {
+          "label": "t:shared.settings.section_style.divider_style.option_none",
+          "value": "none"
+        },
+        {
+          "label": "t:shared.settings.section_style.divider_style.option_solid",
+          "value": "solid"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "t:shared.settings.section_style.section_padding.label",
+      "default": "section--vertical-padding-top-bottom",
+      "options": [
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_none",
+          "value": "section--vertical-padding-none"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_both",
+          "value": "section--vertical-padding-top-bottom"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_top",
+          "value": "section--vertical-padding-top-only"
+        },
+        {
+          "label": "t:shared.settings.section_style.section_padding.option_bottom",
+          "value": "section--vertical-padding-bottom-only"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "Title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Grid Collection 2026"
+    }
+  ]
+}
+{% endschema %}

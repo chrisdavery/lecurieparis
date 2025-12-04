@@ -49,7 +49,7 @@
       ],
       "name": "Product overview 2026",
       "settings": {
-        "container_width": 600,
+        "container_width": 500,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
@@ -58,7 +58,7 @@
       "type": "product-section-blocks",
       "name": "Product section blocks",
       "settings": {
-        "container_width": 600,
+        "container_width": 500,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }

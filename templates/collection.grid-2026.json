@@ -137,12 +137,44 @@
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
       }
+    },
+    "grid_collection_2026_6JrgTm": {
+      "type": "grid-collection-2026",
+      "blocks": {
+        "product_yXtg6i": {
+          "type": "product",
+          "settings": {
+            "product": "riviera-smoke-acetate",
+            "image": "{{ block.settings.product.featured_image }}",
+            "title": "SMOKE <strong>RIVIERA</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "product_yXtg6i"
+      ],
+      "name": "Grid Collection 2026",
+      "settings": {
+        "title": "ACETATE SUNGLASSES",
+        "heading_tag": "h2",
+        "heading_alignment": "left",
+        "columns": "3",
+        "columns_mobile": "2",
+        "column_spacing": 12,
+        "row_spacing": 12,
+        "mobile_column_spacing": 8,
+        "mobile_row_spacing": 8,
+        "product_listing_aspect_ratio": "landscape",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
     "image_with_text_split_c4EWLV",
-    "rich_text_xFndcg"
+    "rich_text_xFndcg",
+    "grid_collection_2026_6JrgTm"
   ]
 }
