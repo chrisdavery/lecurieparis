@@ -1,6 +1,6 @@
 :root {
-    --font-heading: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-heading-weight: 700 !important;
+    --font-heading: 'Helvetica Neue LT Pro', sans-serif !important;
+    --font-heading-weight: bold !important;
     /* --font-body: 'Baron Neue', sans-serif; */
 }
 
@@ -541,6 +541,10 @@ inbox-online-store-chat#ShopifyChat {
   font-size: var(--font-size-heading-display-0);
 }
 
+.image.aspect-ratio--short * {
+    aspect-ratio: var(--aspect-ratio-widescreen);
+    object-fit: var(--object-fit, cover);
+}
 
 @media (min-width: 960px) {
     .large-up-hide {

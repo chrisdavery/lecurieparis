@@ -13,12 +13,86 @@
     --mobile-column-gap: {{ section.settings.mobile_column_spacing }}px;
     --mobile-row-gap: {{ section.settings.mobile_row_spacing }}px;
   ">
-    {% for block in section.blocks %}
-      {% render 'grid-collection-item', block: block,
-        product_columns_desktop: section.settings.columns_desktop,
-        product_columns_mobile: section.settings.columns_mobile,
-        product_listing_aspect_ratio: section.settings.product_listing_aspect_ratio
+    {%- unless section.settings.title == blank -%}
+      {% liquid
+        assign ratio = blank
+        if section.settings.product_listing_aspect_ratio == 'square'
+          assign ratio = '1'
+        elsif section.settings.product_listing_aspect_ratio == 'portrait'
+          assign ratio = '2 / 3'
+        elsif section.settings.product_listing_aspect_ratio == 'landscape'
+          assign ratio = '3 / 2'
+        elsif section.settings.product_listing_aspect_ratio == 'short'
+          assign ratio = '16 / 9'
+        endif
       %}
+      <div class="collection-grid-item
+        animation
+        animation--item
+        {% if has_grid_reveal -%} animation--item-initial {%- endif %}
+      ">
+        <div class="grid-collection-item__inner title-collection-inner
+          {% if section.settings.heading_alignment == 'left' %}
+            ta-l
+          {% elsif section.settings.heading_alignment == 'center' %}
+            ta-c
+          {% elsif section.settings.heading_alignment == 'right' %}
+            ta-r
+          {% endif %}
+          "
+        style="--ratio: {{ ratio }}; --bg: {{ section.settings.background_color | default: '#fff' }}; --text: {{ section.settings.text_color | default: '#111' }};"
+        >
+          <{{ section.settings.heading_tag }} class="grid-collection-grid__heading ff-heading fs-heading-1-base section-introduction__heading">
+            {{ section.settings.title }}
+          </{{ section.settings.heading_tag }}>
+        </div>
+      </div>
+    {%- endunless -%}
+
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'product' %}
+          {% render 'grid-collection-item', block: block,
+            has_grid_reveal: true,
+            product_columns_desktop: section.settings.columns_desktop,
+            product_columns_mobile: section.settings.columns_mobile,
+            product_listing_aspect_ratio: section.settings.product_listing_aspect_ratio
+          %}
+        {% when 'image' %}
+          {% liquid
+            case section.settings.columns_desktop
+              when '5'
+                assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 5), 270px' | replace: '[[mcc]]', section.settings.columns_mobile
+              when '3'
+                assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 3), 450px' | replace: '[[mcc]]', section.settings.columns_mobile
+              when '2'
+                assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 2), 690px' | replace: '[[mcc]]', section.settings.columns_mobile
+              else
+                # Using a 4 item grid as default for sizes
+                assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 4), 304px' | replace: '[[mcc]]', section.settings.columns_mobile
+            endcase
+          %}
+
+          <div class="collection-grid-item image-collection-grid-item
+            animation
+            animation--item
+            {% if has_grid_reveal -%} animation--item-initial {%- endif %}
+          " style="--column-pos: {{ block.settings.column_pos }}; --row-pos: {{  block.settings.row_pos }};">
+            <div class="grid-collection-item__inner image-collection-inner">
+              {% if block.settings.image != blank %}
+                {% render 'image',
+                  image: block.settings.image,
+                  wrapper_class: '"grid-collection-item-image',
+                  object_fit: 'cover',
+                  include_placeholder: true,
+                  sizes: sizes,
+                  src_set_type: 'grid'
+                %}
+              {% endif %}
+            </div>
+          </div>
+      {% endcase %}
+
     {% endfor %}
   </div>
 </div>
@@ -30,9 +104,78 @@
     column-gap: var(--desktop-column-gap);
     row-gap: var(--desktop-row-gap);
 
+    .grid-collection-item__meta {
+      padding-top: var(--spacing-2);
+    }
+
     @media (max-width: 959px) {
+      grid-template-columns: repeat(var(--mobile-columns), 1fr);
       column-gap: var(--mobile-column-gap);
       row-gap: var(--mobile-row-gap);
+
+      &[style*="--mobile-columns: 1;"] {
+        grid-template-columns: 1;
+        column-gap: 0px;
+      }
+
+      > .collection-grid-item:first-child {
+        grid-column: span var(--mobile-columns);
+      }
+    }
+  }
+
+  .title-collection-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    aspect-ratio: var(--aspect-ratio);
+    width: 100%;
+    background: var(--bg);
+    color: var(--text);
+
+    @media (min-width: 960px) {
+      aspect-ratio: var(--ratio);
+    }
+  }
+
+  .collection-grid-item {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .image-collection-grid-item {
+    grid-column-start: var(--column-pos);
+    grid-column-end: span 1; /* always 1 */
+    
+    grid-row-start: var(--row-pos);
+    grid-row-end: span 2; 
+
+    @media (max-width: 959px) {
+        /* reset custom spans on mobile */
+        grid-column-start: auto;
+        grid-row-start: auto;
+        grid-column-end: auto;
+        grid-row-end: auto;
+    }
+  }
+
+  .image-collection-inner .image img {
+    object-fit: var(--object-fit);
+    height: 100%;
+  }
+
+  .image-collection-inner, .image-collection-inner .image {
+    height: 100%;
+  }
+
+  @media (max-width: 959px) {
+    .title-collection-inner .fs-heading-1-base {
+      font-size: var(--font-size-heading-3-base);
+      text-align: center;
+    }
+    .title-collection-inner {
+      padding: 1rem;
     }
   }
 {% endstylesheet %}
@@ -100,6 +243,16 @@
       ]
     },
     {
+      "type": "color",
+      "id": "background_color",
+      "label": "Heading background color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Heading text color"
+    },
+    {
       "type": "select",
       "id": "columns",
       "label": "t:sections.multi_column.settings.columns.label",
@@ -144,10 +297,6 @@
         {
           "value": "2",
           "label": "t:sections.multi_column.settings.columns.option_2"
-        },
-        {
-          "value": "3",
-          "label": "3"
         }
       ]
     },
@@ -202,10 +351,6 @@
       "default": "portrait",
       "options": [
         {
-          "value": "natural",
-          "label": "t:shared.settings.aspect_ratio.option_natural"
-        },
-        {
           "value": "square",
           "label": "t:shared.settings.aspect_ratio.option_square"
         },
@@ -216,6 +361,10 @@
         {
           "value": "landscape",
           "label": "t:shared.settings.aspect_ratio.option_landscape"
+        },
+        {
+          "value": "short",
+          "label": "Short"
         }
       ]
     },
@@ -287,6 +436,68 @@
       "name": "Image",
       "limit": 2,
       "settings": [
+        {
+          "type": "select",
+          "id": "column_pos",
+          "label": "Column position",
+          "options": [
+            {
+              "value": "1",
+              "label": "1"
+            },
+            {
+              "value": "2",
+              "label": "2 (only if desktop columns are 2)"
+            },
+            {
+              "value": "3",
+              "label": "3 (only if desktop columns are 3)"
+            },
+            {
+              "value": "4",
+              "label": "4 (only if desktop columns are 4)"
+            },
+            {
+              "value": "5",
+              "label": "5 (only if desktop columns are 5)"
+            },
+            {
+              "value": "6",
+              "label": "6 (only if desktop columns are 5)"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "row_pos",
+          "label": "Row position",
+          "options": [
+            {
+              "value": "1",
+              "label": "1"
+            },
+            {
+              "value": "2",
+              "label": "2 (only if desktop columns are 2)"
+            },
+            {
+              "value": "3",
+              "label": "3 (only if desktop columns are 3)"
+            },
+            {
+              "value": "4",
+              "label": "4 (only if desktop columns are 4)"
+            },
+            {
+              "value": "5",
+              "label": "5 (only if desktop columns are 5)"
+            },
+            {
+              "value": "6",
+              "label": "6 (only if desktop columns are 5)"
+            }
+          ]
+        },
         {
           "type": "image_picker",
           "id": "image",
