@@ -64,6 +64,31 @@
     {%- render 'theme-globals' -%}
 
     {{ content_for_header }}
+    <!-- Klaviyo integration script from Consentmo GDPR app -->
+    <script id="consentmo-klaviyo-integration-script">
+      function checkConsentForKlaviyo(isMarketingEnabled) {
+        if (isMarketingEnabled) {
+          console.log('exec klaviyo');
+          document.cookie = "__kla_off=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        } else {
+          console.log('blocked klaviyo');
+          document.cookie = "__kla_off=true"; 
+        }
+      }
+
+      document.addEventListener('consentmoSignal_onLoad', function(eventData) {
+        const csmLoadSignal = eventData.detail || {isActive:false};
+
+        if (!csmLoadSignal.isActive) {
+          checkConsentForKlaviyo(true);
+        } else {
+          document.addEventListener('consentmoSignal', function(event) {
+            const csmPreferences = event.detail.preferences;
+            checkConsentForKlaviyo(csmPreferences.marketing);
+          });
+        }
+      });
+    </script>
   </head>
 
   <body class="template-{{ request.page_type | handle }}">
