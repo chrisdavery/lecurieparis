@@ -49,50 +49,60 @@
       </div>
     {%- endunless -%}
 
+    {% for product in section.settings.collection.products %}
+      {% render 'grid-collection-item', prod: product,
+        has_grid_reveal: true,
+        product_columns_desktop: section.settings.columns_desktop,
+        product_columns_mobile: section.settings.columns_mobile,
+        product_listing_aspect_ratio: section.settings.product_listing_aspect_ratio,
+        product_listing_media_fit: section.settings.product_listing_media_fit
+      %}
+    {% endfor %}
+
     {% for block in section.blocks %}
       {% case block.type %}
-        {% when 'product' %}
-          {% render 'grid-collection-item', block: block,
-            has_grid_reveal: true,
-            product_columns_desktop: section.settings.columns_desktop,
-            product_columns_mobile: section.settings.columns_mobile,
-            product_listing_aspect_ratio: section.settings.product_listing_aspect_ratio
-          %}
         {% when 'image' %}
-          {% liquid
-            case section.settings.columns_desktop
-              when '5'
-                assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 5), 270px' | replace: '[[mcc]]', section.settings.columns_mobile
-              when '3'
-                assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 3), 450px' | replace: '[[mcc]]', section.settings.columns_mobile
-              when '2'
-                assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 2), 690px' | replace: '[[mcc]]', section.settings.columns_mobile
-              else
-                # Using a 4 item grid as default for sizes
-                assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 4), 304px' | replace: '[[mcc]]', section.settings.columns_mobile
-            endcase
-          %}
+            {% liquid
+              case section.settings.columns_desktop
+                when '5'
+                  assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 5), 270px' | replace: '[[mcc]]', section.settings.columns_mobile
+                when '3'
+                  assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 3), 450px' | replace: '[[mcc]]', section.settings.columns_mobile
+                when '2'
+                  assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 2), 690px' | replace: '[[mcc]]', section.settings.columns_mobile
+                else
+                  # Using a 4 item grid as default for sizes
+                  assign sizes = '(max-width: 720px) calc((90vw - 12px) /[[mcc]]), (max-width: 1400px) calc((93.4vw - (12px * 3)) / 4), 304px' | replace: '[[mcc]]', section.settings.columns_mobile
+              endcase
+            %}
 
-          <div class="collection-grid-item image-collection-grid-item
-            animation
-            animation--item
-            {% if has_grid_reveal -%} animation--item-initial {%- endif %}
-          " style="--column-pos: {{ block.settings.column_pos }}; --row-pos: {{  block.settings.row_pos }};">
-            <div class="grid-collection-item__inner image-collection-inner">
-              {% if block.settings.image != blank %}
-                {% render 'image',
-                  image: block.settings.image,
-                  wrapper_class: '"grid-collection-item-image',
-                  object_fit: 'cover',
-                  include_placeholder: true,
-                  sizes: sizes,
-                  src_set_type: 'grid'
-                %}
-              {% endif %}
+            <div class="collection-grid-item image-collection-grid-item
+              animation
+              animation--item
+              {% if has_grid_reveal -%} animation--item-initial {%- endif %}
+            " style="--column-pos: {{ block.settings.column_pos }}; --row-pos: {{  block.settings.row_pos }}; --row-pos-mobile: {{ block.settings.row_pos_mobile }};">
+              <div class="grid-collection-item__inner image-collection-inner">
+                {% if block.settings.image != blank %}
+                  {% render 'image',
+                    image: block.settings.image,
+                    wrapper_class: '"grid-collection-item-image',
+                    object_fit: 'cover',
+                    include_placeholder: true,
+                    sizes: sizes,
+                    src_set_type: 'grid'
+                  %}
+                {% endif %}
+
+                {% if block.settings.text != blank %}
+                  <div class="grid-collection-item__meta">
+                    <div class="grid-collection-item__text ta-c">
+                      <h4 class="{% if block.settings.use_italic_font == true %}aparajita-font{% endif %} ff-heading fs-heading-4-base">{{ block.settings.text }}</h4>
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
             </div>
-          </div>
       {% endcase %}
-
     {% endfor %}
   </div>
 </div>
@@ -105,7 +115,7 @@
     row-gap: var(--desktop-row-gap);
 
     .grid-collection-item__meta {
-      padding-top: var(--spacing-2);
+      padding-top: var(--spacing-3);
     }
 
     @media (max-width: 959px) {
@@ -120,6 +130,11 @@
 
       > .collection-grid-item:first-child {
         grid-column: span var(--mobile-columns);
+      }
+
+      .product-item__slider__content .scrollbar {
+        max-width: 2rem;
+        bottom: 0;
       }
     }
   }
@@ -152,12 +167,16 @@
     grid-row-end: span 2; 
 
     @media (max-width: 959px) {
-        /* reset custom spans on mobile */
-        grid-column-start: auto;
-        grid-row-start: auto;
-        grid-column-end: auto;
-        grid-row-end: auto;
+      /* reset custom spans on mobile */
+      grid-column: 1 / -1;
+      grid-row-start: var(--row-pos-mobile);
+      grid-row-end: auto;
     }
+  }
+
+  .image-collection-inner {
+    display: flex;
+    flex-direction: column;
   }
 
   .image-collection-inner .image img {
@@ -188,6 +207,11 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
     {
       "type": "text",
       "id": "title",
@@ -337,7 +361,7 @@
     {
       "type": "range",
       "id": "mobile_row_spacing",
-      "label": "Row column spacing",
+      "label": "Mobile row spacing",
       "min": 4,
       "max": 48,
       "step": 4,
@@ -364,7 +388,7 @@
         },
         {
           "value": "short",
-          "label": "Short"
+          "label": "Short (16:9)"
         }
       ]
     },
@@ -463,7 +487,7 @@
             },
             {
               "value": "6",
-              "label": "6 (only if desktop columns are 5)"
+              "label": "6 (only if desktop columns are 6)"
             }
           ]
         },
@@ -494,25 +518,57 @@
             },
             {
               "value": "6",
-              "label": "6 (only if desktop columns are 5)"
+              "label": "6 (only if desktop columns are 6)"
             }
           ]
         },
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        }
-      ]
-    },
-    {
-      "type": "product",
-      "name": "Product",
-      "settings": [
+          "type": "header",
+          "content": "Mobile row position"
+        },
         {
-          "type": "product",
-          "id": "product",
-          "label": "Product"
+          "type": "select",
+          "id": "row_pos_mobile",
+          "label": "Row position (mobile)",
+          "default":  "2",
+          "options": [
+            {
+              "value": "2",
+              "label": "2 (only if rows are 2 and above)"
+            },
+            {
+              "value": "3",
+              "label": "3 (only if rows are 3 and above)"
+            },
+            {
+              "value": "4",
+              "label": "4 (only if rows are 4 and above)"
+            },
+            {
+              "value": "5",
+              "label": "5 (only if rows are 5 and above)"
+            },
+            {
+              "value": "6",
+              "label": "6 (only if rows are 6 and above)"
+            },
+            {
+              "value": "7",
+              "label": "7 (only if rows are 7 and above)"
+            },
+            {
+              "value": "8",
+              "label": "8 (only if rows are 8 and above)"
+            },
+            {
+              "value": "9",
+              "label": "9 (only if rows are 9 and above)"
+            },
+            {
+              "value": "10",
+              "label": "10 (only if rows are 10 and above)"
+            }
+          ]
         },
         {
           "type": "image_picker",
@@ -521,8 +577,14 @@
         },
         {
           "type": "inline_richtext",
-          "id": "title",
-          "label": "Title"
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_italic_font",
+          "label": "Use italic font",
+          "default": true
         }
       ]
     }

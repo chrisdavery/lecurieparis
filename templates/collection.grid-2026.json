@@ -72,7 +72,7 @@
         "heading_BmRKYN"
       ],
       "custom_css": [
-        ".image-with-text-split {padding-inline: 4vw;}",
+        ".image-with-text-split {padding-inline: var(--space-outer);}",
         ".image-with-text-split__image-container {aspect-ratio: 5 / 2; background: #025740;}",
         ".image {height: auto !important; max-width: 3rem; margin: auto;}",
         ".image-with-text-split__image-container {display: flex; align-items: center; justify-content: center;}",
@@ -141,180 +141,15 @@
     "grid_collection_2026_6JrgTm": {
       "type": "grid-collection-2026",
       "blocks": {
-        "product_yXtg6i": {
-          "type": "product",
-          "settings": {
-            "product": "riviera-smoke-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_cyFyE6": {
-          "type": "product",
-          "settings": {
-            "product": "riviera-teak-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_Mpcjt3": {
-          "type": "product",
-          "settings": {
-            "product": "riviera-fire-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_LG8jXx": {
-          "type": "product",
-          "settings": {
-            "product": "riviera-black-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_PQEEPC": {
-          "type": "product",
-          "settings": {
-            "product": "victor-fire-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_R4bUjQ": {
-          "type": "product",
-          "settings": {
-            "product": "victor-smoke-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_7zkPTm": {
-          "type": "product",
-          "settings": {
-            "product": "victor-black-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_UkbecA": {
-          "type": "product",
-          "settings": {
-            "product": "victor-teak-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_qtGWUF": {
-          "type": "product",
-          "settings": {
-            "product": "george-black-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_HqjYC6": {
-          "type": "product",
-          "settings": {
-            "product": "george-smoke-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_7PzdyW": {
-          "type": "product",
-          "settings": {
-            "product": "george-translucent-smoke-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_aQJ3HN": {
-          "type": "product",
-          "settings": {
-            "product": "elsa-dark-tortoise-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_hd63MQ": {
-          "type": "product",
-          "settings": {
-            "product": "elsa-blonde-tortoise-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_kmRJpW": {
-          "type": "product",
-          "settings": {
-            "product": "elsa-amber-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_6WTUJy": {
-          "type": "product",
-          "settings": {
-            "product": "emmanuelle-black-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_h6txqK": {
-          "type": "product",
-          "settings": {
-            "product": "emmanuelle-amber-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_KMVhAJ": {
-          "type": "product",
-          "settings": {
-            "product": "emmanuelle-nude-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_KBxWdV": {
-          "type": "product",
-          "settings": {
-            "product": "emmanuelle-vintage-tortoise",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_n9FUjh": {
-          "type": "product",
-          "settings": {
-            "product": "charlotte-black-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_TcKHqh": {
-          "type": "product",
-          "settings": {
-            "product": "charlotte-jupiter-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
-        "product_TLFGyj": {
-          "type": "product",
-          "settings": {
-            "product": "charlotte-fire-acetate",
-            "image": "{{ block.settings.product.featured_image }}",
-            "title": "{{ block.settings.product.title }}"
-          }
-        },
         "image_bMj7jk": {
           "type": "image",
           "settings": {
             "column_pos": "3",
             "row_pos": "2",
-            "image": "shopify://shop_images/insta3.jpg"
+            "row_pos_mobile": "3",
+            "image": "shopify://shop_images/insta3.jpg",
+            "text": "Jay is wearing \"VICTOR\"",
+            "use_italic_font": true
           }
         },
         "image_ePQEBq": {
@@ -322,38 +157,21 @@
           "settings": {
             "column_pos": "1",
             "row_pos": "5",
-            "image": "shopify://shop_images/insta3.jpg"
+            "row_pos_mobile": "6",
+            "image": "shopify://shop_images/media.jpg",
+            "text": "Jenny is wearing \"ELSA\"",
+            "use_italic_font": true
           }
         }
       },
       "block_order": [
-        "product_yXtg6i",
-        "product_cyFyE6",
-        "product_Mpcjt3",
-        "product_LG8jXx",
-        "product_PQEEPC",
-        "product_R4bUjQ",
-        "product_7zkPTm",
-        "product_UkbecA",
-        "product_qtGWUF",
-        "product_HqjYC6",
-        "product_7PzdyW",
-        "product_aQJ3HN",
-        "product_hd63MQ",
-        "product_kmRJpW",
-        "product_6WTUJy",
-        "product_h6txqK",
-        "product_KMVhAJ",
-        "product_KBxWdV",
-        "product_n9FUjh",
-        "product_TcKHqh",
-        "product_TLFGyj",
         "image_bMj7jk",
         "image_ePQEBq"
       ],
       "name": "Grid Collection 2026",
       "settings": {
-        "title": "ACETATE SUNGLASSES",
+        "collection": "acetate-sunglasses",
+        "title": "{{ section.settings.collection.title }}",
         "heading_tag": "h2",
         "heading_alignment": "left",
         "background_color": "#8a633a",
@@ -363,7 +181,133 @@
         "column_spacing": 12,
         "row_spacing": 24,
         "mobile_column_spacing": 8,
-        "mobile_row_spacing": 8,
+        "mobile_row_spacing": 12,
+        "product_listing_aspect_ratio": "short",
+        "product_listing_media_fit": "cover",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "grid_collection_2026_gpMNxa": {
+      "type": "grid-collection-2026",
+      "blocks": {
+        "image_HJzKjF": {
+          "type": "image",
+          "settings": {
+            "column_pos": "3",
+            "row_pos": "2",
+            "row_pos_mobile": "3",
+            "image": "shopify://shop_images/insta3.jpg",
+            "text": "ERIC is wearing \"PANAME\"",
+            "use_italic_font": true
+          }
+        },
+        "image_7ijxQC": {
+          "type": "image",
+          "settings": {
+            "column_pos": "2",
+            "row_pos": "5",
+            "row_pos_mobile": "6",
+            "image": "shopify://shop_images/media.jpg",
+            "text": "Danny is wearing \"LEO\"",
+            "use_italic_font": true
+          }
+        }
+      },
+      "block_order": [
+        "image_HJzKjF",
+        "image_7ijxQC"
+      ],
+      "name": "Grid Collection 2026",
+      "settings": {
+        "collection": "titanium-sunglasses",
+        "title": "{{ section.settings.collection.title }}",
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "background_color": "#8a633a",
+        "text_color": "#ffffff",
+        "columns": "3",
+        "columns_mobile": "2",
+        "column_spacing": 12,
+        "row_spacing": 24,
+        "mobile_column_spacing": 8,
+        "mobile_row_spacing": 12,
+        "product_listing_aspect_ratio": "landscape",
+        "product_listing_media_fit": "cover",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "grid_collection_2026_9GxhG8": {
+      "type": "grid-collection-2026",
+      "blocks": {
+        "image_krjLEr": {
+          "type": "image",
+          "settings": {
+            "column_pos": "2",
+            "row_pos": "3",
+            "row_pos_mobile": "4",
+            "image": "shopify://shop_images/media.jpg",
+            "text": "ERIC is wearing \"PANAME\"",
+            "use_italic_font": true
+          }
+        }
+      },
+      "block_order": [
+        "image_krjLEr"
+      ],
+      "name": "Grid Collection 2026",
+      "settings": {
+        "collection": "optical-acetate",
+        "title": "{{ section.settings.collection.title }}",
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "background_color": "#611114",
+        "text_color": "#ffffff",
+        "columns": "3",
+        "columns_mobile": "2",
+        "column_spacing": 12,
+        "row_spacing": 24,
+        "mobile_column_spacing": 8,
+        "mobile_row_spacing": 12,
+        "product_listing_aspect_ratio": "landscape",
+        "product_listing_media_fit": "cover",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "grid_collection_2026_mPAwUd": {
+      "type": "grid-collection-2026",
+      "blocks": {
+        "image_dGkAGW": {
+          "type": "image",
+          "settings": {
+            "column_pos": "1",
+            "row_pos": "2",
+            "row_pos_mobile": "4",
+            "image": "shopify://shop_images/media.jpg",
+            "text": "ERIC is wearing \"PANAME\"",
+            "use_italic_font": true
+          }
+        }
+      },
+      "block_order": [
+        "image_dGkAGW"
+      ],
+      "name": "Grid Collection 2026",
+      "settings": {
+        "collection": "optical-titanium",
+        "title": "{{ section.settings.collection.title }}",
+        "heading_tag": "h2",
+        "heading_alignment": "left",
+        "background_color": "#611114",
+        "text_color": "#ffffff",
+        "columns": "3",
+        "columns_mobile": "2",
+        "column_spacing": 12,
+        "row_spacing": 24,
+        "mobile_column_spacing": 8,
+        "mobile_row_spacing": 12,
         "product_listing_aspect_ratio": "landscape",
         "product_listing_media_fit": "cover",
         "divider_style": "none",
@@ -376,6 +320,9 @@
     "product-grid",
     "image_with_text_split_c4EWLV",
     "rich_text_xFndcg",
-    "grid_collection_2026_6JrgTm"
+    "grid_collection_2026_6JrgTm",
+    "grid_collection_2026_gpMNxa",
+    "grid_collection_2026_9GxhG8",
+    "grid_collection_2026_mPAwUd"
   ]
 }
