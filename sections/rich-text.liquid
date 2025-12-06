@@ -43,19 +43,19 @@
           {%- endunless -%}
         {%- when 'heading' -%}
           {%- unless block.settings.title == blank -%}
-            <{{ block.settings.heading_tag }} class="rich-text__heading ff-heading {{ block.settings.heading_font_class }} section-blocks__heading">
+            <{{ block.settings.heading_tag }} class="rich-text__heading ff-heading {% if block.settings.set_to_italic == true %} aparajita-font{% endif %} {{ block.settings.heading_font_class }} section-blocks__heading">
               {{ block.settings.title | newline_to_br }}
             </{{ block.settings.heading_tag }}>
           {%- endunless -%}
         {%- when 'subheading' -%}
           {%- unless block.settings.subheading == blank -%}
-            <{{ block.settings.subheading_tag }} class="rich-text__subheading ff-subheading {{ block.settings.subheading_font_class }} section-blocks__subheading">
+            <{{ block.settings.subheading_tag }} class="rich-text__subheading ff-subheading {% if block.settings.set_to_italic == true %} aparajita-font{% endif %} {{ block.settings.subheading_font_class }} section-blocks__subheading">
               {{ block.settings.subheading }}
             </{{ block.settings.subheading_tag }}>
           {%- endunless -%}
         {%- when 'text' -%}
           {%- unless block.settings.text == blank -%}
-            <div class="rich-text__text rte ff-body {{ block.settings.text_font_class }} section-blocks__subheading">
+            <div class="rich-text__text rte ff-body {% if block.settings.set_to_italic == true %} aparajita-font{% endif %} {{ block.settings.text_font_class }} section-blocks__subheading">
               {{ block.settings.text }}
             </div>
           {%- endunless -%}
@@ -276,8 +276,22 @@
             {
               "value": "fs-heading-1-base",
               "label": "t:shared.settings.heading_font_class.option_large"
+            },
+            {
+              "value": "fs-heading-display-1",
+              "label": "XXL"
+            },
+            {
+              "value": "fs-heading-display-0",
+              "label": "Jumbo"
             }
           ]
+        },
+        {
+          "type": "checkbox",
+          "id": "set_to_italic",
+          "label": "Set to italic",
+          "default": false
         }
       ]
     },
@@ -342,6 +356,12 @@
               "label": "t:shared.settings.subheading_font_class.option_large"
             }
           ]
+        },
+        {
+          "type": "checkbox",
+          "id": "set_to_italic",
+          "label": "Set to italic",
+          "default": false
         }
       ]
     },
@@ -374,6 +394,12 @@
               "label": "t:shared.settings.text_font_class.option_small"
             }
           ]
+        },
+        {
+          "type": "checkbox",
+          "id": "set_to_italic",
+          "label": "Set to italic",
+          "default": false
         }
       ]
     },
