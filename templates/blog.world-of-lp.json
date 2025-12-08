@@ -36,7 +36,7 @@
         "image_padding": "none",
         "image": "shopify://shop_images/lp-logo.png",
         "aspect_ratio": "natural",
-        "image_background_color": "#025740",
+        "image_background_color": "#86281a",
         "focal_point": "image_presentation",
         "content_alignment": "left",
         "background_color": "",
@@ -53,7 +53,7 @@
         "heading_4iTDfj": {
           "type": "heading",
           "settings": {
-            "title": "\"‘‘Alone we can do so little,together we can do so much.\"",
+            "title": "‘‘Alone we can do so little, together we can do so much.’’",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-1-base",
             "set_to_italic": true
@@ -168,7 +168,7 @@
       "type": "main-blog",
       "custom_css": [
         ".blog__header {display: none;}",
-        "@media (min-width: 960px) {.blog {padding-top: 0;}}"
+        "@media (min-width: 960px) {.blog {padding-top: 0; }}"
       ],
       "settings": {
         "show_tag_nav": false,

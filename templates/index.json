@@ -12,7 +12,7 @@
     "image_hero_Tc7dCY": {
       "type": "image-hero",
       "custom_css": [
-        "{padding-left: 4vw; padding-right: 4vw;}",
+        "{padding-left: var(--space-outer); padding-right: var(--space-outer);}",
         "section {padding-top: 0; padding-bottom: 0;}"
       ],
       "name": "t:sections.image_hero.presets.name",
@@ -45,7 +45,8 @@
           "settings": {
             "title": "SHOP THE COLLECTION",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": false
           }
         }
       },
@@ -53,7 +54,7 @@
         "heading_4p9XUk"
       ],
       "custom_css": [
-        ".rich-text {max-width: 100%; padding: 0 4vw var(--spacing-10);}",
+        ".rich-text {max-width: 100%; padding: 0 var(--space-outer) var(--spacing-10);}",
         "section {padding-top: 0;}",
         ".rich-text__inner {background-color: #8a633a; color: white; text-align: center; padding: 50px 0;}",
         "h2 {font-size: 24px;}"
@@ -84,7 +85,7 @@
       "custom_css": [
         ".product-item__price {display: none;}",
         ".product-item__product-title {margin: 0;}",
-        ".featured-collection-grid {max-width: 100%; padding: 0 4vw;}",
+        ".featured-collection-grid {max-width: 100%; padding: 0 var(--space-outer);}",
         "@media (min-width: 960px) {.featured-collection-grid__product {width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); max-width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); }}"
       ],
       "name": "t:sections.featured_collection_grid.presets.name",
@@ -111,7 +112,8 @@
           "settings": {
             "title": "OUR SELECTION",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base"
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
           }
         }
       },
@@ -287,7 +289,7 @@
         "image_column_TGViDj"
       ],
       "custom_css": [
-        ".multi-column__inner {padding: 0 4vw var(--spacing-10); max-width: 100%;}"
+        ".multi-column__inner {padding: 0 var(--space-outer) var(--spacing-10); max-width: 100%;}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
@@ -326,7 +328,8 @@
           "settings": {
             "title": "INSTA BOARD",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base"
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
           }
         }
       },
@@ -351,7 +354,7 @@
     "image_hero_qQM6C3": {
       "type": "image-hero",
       "custom_css": [
-        "{padding-left: 4vw; padding-right: 4vw;}",
+        "{padding-left: var(--space-outer); padding-right: var(--space-outer);}",
         "section {padding-top: 0; padding-bottom: 0;}"
       ],
       "name": "t:sections.image_hero.presets.name",
@@ -384,7 +387,8 @@
           "settings": {
             "title": "ABOUT US",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": false
           }
         }
       },
@@ -392,7 +396,7 @@
         "heading_kbEbwK"
       ],
       "custom_css": [
-        ".rich-text {max-width: 100%; padding: 0 4vw var(--spacing-10);}",
+        ".rich-text {max-width: 100%; padding: 0 var(--space-outer) var(--spacing-10);}",
         "section {padding-top: 0;}",
         ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 50px 0;}",
         "h2 {font-size: 24px;}"

@@ -768,8 +768,8 @@ inbox-online-store-chat#ShopifyChat {
 } */
 /* Add left/right padding to "Image with text split" sections on the home page */
 .template-index main .shopify-section [data-section-type="image-with-text-split"] {
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: var(--space-outer);
+    padding-right: var(--space-outer);
     box-sizing: border-box;
 }
 /* ===== L'ÉCURIE – FOOTER LAYOUT ===== */
@@ -778,7 +778,7 @@ inbox-online-store-chat#ShopifyChat {
 .footer.section[data-section-type="footer"] {
   background-color: #ffffff !important;
   max-width: 100%;
-  padding-inline: 4vw;
+  padding-inline: var(--space-outer);
 }
 
 /* Brown block with 4vw left/right "white borders" */
@@ -786,7 +786,7 @@ inbox-online-store-chat#ShopifyChat {
   background-color: #8a633a !important;  /* brown */
   color: #ffffff;
   margin: 0;                         /* white on left/right */
-  padding: 70px 4vw 80px;                /* inner padding (top | LR | bottom) */
+  padding: 70px var(--space-outer) 80px;                /* inner padding (top | LR | bottom) */
   box-sizing: border-box;
 }
 
@@ -854,4 +854,8 @@ header nav a,
 
 .article__rte h2:has(em), .article__rte h3:has(em) {
     text-transform: unset !important;
+}
+
+.blog {
+    max-width: 100%;
 }
