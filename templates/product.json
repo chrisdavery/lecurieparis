@@ -60,7 +60,7 @@
       "settings": {
         "container_width": 500,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-bottom-only"
       }
     },
     "main": {
