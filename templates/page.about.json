@@ -88,7 +88,7 @@
         ".rich-text__inner {max-width: 28rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
         "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
-        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .ff-subheading {margin: 0; }}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -99,11 +99,281 @@
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
       }
+    },
+    "image_with_text_split_KWdq7n": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "text_gPANTU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One. More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, technical skill, and performance.</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "text_gPANTU"
+      ],
+      "custom_css": [
+        "[data-section-type=\"image-with-text-split\"] {padding-left: var(--space-outer); padding-right: var(--space-outer); box-sizing: border-box;}",
+        ".image-with-text-split__text-container {border: 1.5px solid var(--color-text);}",
+        ".rte > * {font-size: var(--font-size-heading-2-base); line-height: var(--line-height-heading); font-family: Aparajita, serif; font-style: italic; font-weight: 400; text-transform: unset;}",
+        "@media (max-width: 959px) {.rte * {font-size: var(--font-size-heading-4-base); }}"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "section_link": "",
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/png_-_2025-12-08T195550.360.png",
+        "aspect_ratio": "tall",
+        "text_below_image": true,
+        "title": "ORIGIN",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-display-3",
+        "heading_alignment": "center",
+        "below_background_color": "#824d3d",
+        "below_text_color": "#ffffff",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#e9e2d5",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_h7HkGq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qfyfHB": {
+          "type": "heading",
+          "settings": {
+            "title": "‘‘I accept the great adventure of being me.’’",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": true
+          }
+        },
+        "subheading_McTDy4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Simone de Beauvoir",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qfyfHB",
+        "subheading_McTDy4"
+      ],
+      "custom_css": [
+        ".rich-text__inner {max-width: 23rem;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .ff-subheading {margin: 0; }}"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "image_with_text_split_y3XmRA": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "text_gniAcw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris. He is the designer behind each new collection. Obsessed with design and because of an emotional connection to beauty since a young age, Lionel went to Art school in Paris where he perfected his craft. He moved to Los Angeles in 2010. This is where he build his first company, specialized in sport and leisure clothing, providing designs and manufacturing services to many american and international clients Because of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "text_gniAcw"
+      ],
+      "custom_css": [
+        "[data-section-type=\"image-with-text-split\"] {padding-left: var(--space-outer); padding-right: var(--space-outer); box-sizing: border-box;}",
+        ".image-with-text-split__text-container {border: 1.5px solid var(--color-text);}",
+        ".rte > * {font-size: var(--font-size-heading-2-base); line-height: var(--line-height-heading); font-family: Aparajita, serif; font-style: italic; font-weight: 400; text-transform: unset;}",
+        "@media (max-width: 959px) {.rte * {font-size: var(--font-size-heading-4-base); }}"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "section_link": "",
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/png_-_2025-12-08T195550.360.png",
+        "aspect_ratio": "tall",
+        "text_below_image": true,
+        "title": "LIONEL MOROY",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-display-3",
+        "heading_alignment": "center",
+        "below_background_color": "#0f5845",
+        "below_text_color": "#ffffff",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#e9e2d5",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_tR7fVd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fJAkYc": {
+          "type": "heading",
+          "settings": {
+            "title": "‘‘Alone we can do so little, together we can do so much.’’",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": true
+          }
+        },
+        "subheading_kgVJcW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Helen Keller",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fJAkYc",
+        "subheading_kgVJcW"
+      ],
+      "custom_css": [
+        ".rich-text__inner {max-width: 29rem;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .ff-subheading {margin: 0; }}"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "image_with_text_split_KrP6eT": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "text_icgmzj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Japan is world-renowned for the manufacture of high-quality, meticulously crafted eyewear. Committed to delivering impeccable quality to each model and becoming a leading luxury brand, it was only natural that Lionel Moroy, our artistic director, chose to have all his creations manufactured in the Sabae region. This region owes its reputation to precise craftsmanship and the innovative use of high-end materials such as ultra-lightweight titanium, resistant to all types of corrosion, Takiron acetate, hypoallergenic 18-carat gold-plated or 14-carat white gold, and Zeiss or Inui lenses, all featuring maximum UV protection, vibrant colors, and anti-reflective properties. With such high-end production,</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "text_icgmzj"
+      ],
+      "custom_css": [
+        "[data-section-type=\"image-with-text-split\"] {padding-left: var(--space-outer); padding-right: var(--space-outer); box-sizing: border-box;}",
+        ".image-with-text-split__text-container {border: 1.5px solid var(--color-text);}",
+        ".rte > * {font-size: var(--font-size-heading-2-base); line-height: var(--line-height-heading); font-family: Aparajita, serif; font-style: italic; font-weight: 400; text-transform: unset;}",
+        "@media (max-width: 959px) {.rte * {font-size: var(--font-size-heading-4-base); } .image-with-text-split {padding-bottom: 0; }}"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "section_link": "",
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/png_-_2025-12-08T195550.360.png",
+        "aspect_ratio": "tall",
+        "text_below_image": true,
+        "title": "MADE IN JAPAN",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-display-3",
+        "heading_alignment": "center",
+        "below_background_color": "#5b050a",
+        "below_text_color": "#ffffff",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#e9e2d5",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "image_with_text_split_fBcJHR": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "text_y9K6Jf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris. He is the designer behind each new collection. Obsessed with design and because of an emotional connection to beauty since a young age, Lionel went to Art school in Paris where he perfected his craft. He moved to Los Angeles in 2010. This is where he build his first company, specialized in sport and leisure clothing, providing designs and manufacturing services to many american and international clients Because of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "text_y9K6Jf"
+      ],
+      "custom_css": [
+        "[data-section-type=\"image-with-text-split\"] {padding-left: var(--space-outer); padding-right: var(--space-outer); box-sizing: border-box;}",
+        ".image-with-text-split__text-container {border: 1.5px solid var(--color-text);}",
+        ".rte > * {font-size: var(--font-size-heading-2-base); line-height: var(--line-height-heading); font-family: Aparajita, serif; font-style: italic; font-weight: 400; text-transform: unset;}",
+        "@media (max-width: 959px) {.rte * {font-size: var(--font-size-heading-4-base); }}"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "section_link": "",
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/png_-_2025-12-08T195550.360.png",
+        "aspect_ratio": "tall",
+        "text_below_image": true,
+        "title": "COLLABS",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-display-3",
+        "heading_alignment": "center",
+        "below_background_color": "#5b050a",
+        "below_text_color": "#ffffff",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#e9e2d5",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
     }
   },
   "order": [
     "main",
     "page_title_jmfJrA",
-    "rich_text_Q3pUxB"
+    "rich_text_Q3pUxB",
+    "image_with_text_split_KWdq7n",
+    "rich_text_h7HkGq",
+    "image_with_text_split_y3XmRA",
+    "rich_text_tR7fVd",
+    "image_with_text_split_KrP6eT",
+    "image_with_text_split_fBcJHR"
   ]
 }

@@ -50,6 +50,22 @@
         animate: true,
         prioritize_loading: prioritize_loading
       -%}
+
+      {% if section.settings.text_below_image == true and section.settings.title != blank %}
+        <div class="text-below-image-split
+          {% if section.settings.heading_alignment == 'left' %}
+            ta-l
+          {% elsif section.settings.heading_alignment == 'center' %}
+            ta-c
+          {% elsif section.settings.heading_alignment == 'right' %}
+            ta-r
+          {% endif %}
+        " style="--color-background: {{ section.settings.below_background_color }}; --color-text: {{ section.settings.below_text_color }};">
+          <{{ section.settings.heading_tag }} class="image-with-text-split__text-container-heading ff-heading {{ section.settings.heading_font_class }} section-blocks__heading">
+            {{ section.settings.title }}
+          </{{ section.settings.heading_tag }}>
+        </div>
+      {% endif %}
     </div>
     <div class="image-with-text-split__text-container">
       <div class="image-with-text-split__text-container-inner section-blocks animation--section-blocks">
@@ -207,6 +223,10 @@
           "label": "t:shared.settings.aspect_ratio.option_square"
         },
         {
+          "value": "tall",
+          "label": "Tall (4:5)"
+        },
+        {
           "value": "portrait",
           "label": "t:shared.settings.aspect_ratio.option_portrait"
         },
@@ -215,6 +235,126 @@
           "label": "t:shared.settings.aspect_ratio.option_landscape"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "text_below_image",
+      "label": "Text below image",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Text below Image (optional)",
+      "visible_if": "{{ section.settings.text_below_image == true }}"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "t:sections.image_with_text_split.blocks.title.settings.title.label",
+      "default": "Image with text split",
+      "visible_if": "{{ section.settings.text_below_image == true }}"
+    },
+    {
+      "id": "heading_tag",
+      "type": "select",
+      "label": "t:shared.section_blocks.heading.settings.heading_tag.label",
+      "default": "h2",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h2"
+        },
+        {
+          "value": "h3",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h3"
+        },
+        {
+          "value": "h4",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h4"
+        },
+        {
+          "value": "h5",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h5"
+        },
+        {
+          "value": "h6",
+          "label": "t:shared.section_blocks.heading.settings.heading_tag.options.h6"
+        }
+      ],
+      "visible_if": "{{ section.settings.text_below_image == true }}"
+    },
+    {
+      "type": "paragraph",
+      "content": "t:shared.section_blocks.heading.settings.heading_tag.info",
+      "visible_if": "{{ section.settings.text_below_image == true }}"
+    },
+    {
+      "type": "select",
+      "id": "heading_font_class",
+      "label": "t:shared.settings.heading_font_class.label",
+      "default": "fs-heading-display-3",
+      "options": [
+        {
+          "value": "fs-heading-1-base",
+          "label": "t:shared.settings.heading_font_class.option_small"
+        },
+        {
+          "value": "fs-heading-display-3",
+          "label": "t:shared.settings.heading_font_class.option_medium"
+        },
+        {
+          "value": "fs-heading-display-2",
+          "label": "t:shared.settings.heading_font_class.option_large"
+        },
+        {
+          "value": "fs-heading-display-1",
+          "label": "Extra Large"
+        },
+        {
+          "value": "fs-heading-display-0",
+          "label": "Jumbo"
+        }
+      ],
+      "visible_if": "{{ section.settings.text_below_image == true }}"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "t:sections.multi_column.settings.heading_alignment.label",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:shared.settings.alignment_horizontal.option_left"
+        },
+        {
+          "value": "center",
+          "label": "t:shared.settings.alignment_horizontal.option_center"
+        },
+        {
+          "value": "right",
+          "label": "t:shared.settings.alignment_horizontal.option_right"
+        }
+      ],
+      "visible_if": "{{ section.settings.text_below_image == true }}"
+    },
+    {
+      "type": "color",
+      "id": "below_background_color",
+      "label": "t:shared.settings.background_color.label",
+      "default": "#D9A49C",
+      "visible_if": "{{ section.settings.text_below_image == true }}"
+    },
+    {
+      "type": "color",
+      "id": "below_text_color",
+      "label": "t:sections.image_with_text_split.settings.text_color.label",
+      "default": "#000000",
+      "visible_if": "{{ section.settings.text_below_image == true }}"
     },
     {
       "id": "focal_point",
@@ -618,6 +758,10 @@
             {
               "value": "square",
               "label": "t:shared.settings.aspect_ratio.option_square"
+            },
+            {
+              "value": "tall",
+              "label": "Tall (4:5)"
             },
             {
               "value": "portrait",
