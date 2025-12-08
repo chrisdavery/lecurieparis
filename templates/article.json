@@ -12,22 +12,22 @@
     "main": {
       "type": "main-article",
       "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_tags": false,
+            "show_author": false,
+            "show_date": false
+          }
+        },
         "featured_image": {
           "type": "featured_image",
           "settings": {
             "enable_full_width_image": false,
-            "image_aspect": "custom",
+            "image_aspect": "original",
             "desktop_height": 75,
             "mobile_height": 45,
             "focal_point": "image_presentation"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "show_tags": true,
-            "show_author": true,
-            "show_date": true
           }
         },
         "content": {
@@ -46,11 +46,14 @@
         }
       },
       "block_order": [
-        "featured_image",
         "title",
+        "featured_image",
         "content",
         "social_sharing_ePYrP7",
         "pagination"
+      ],
+      "custom_css": [
+        ".article__inner {max-width: 50rem; margin: auto;}"
       ],
       "settings": {
         "content_width": "custom",

@@ -1,5 +1,5 @@
 :root {
-    --font-heading: 'Helvetica Neue LT Pro', sans-serif !important;
+    --font-heading: 'Helvetica Neue', sans-serif !important;
     --font-heading-weight: bold !important;
     /* --font-body: 'Baron Neue', sans-serif; */
 }
@@ -691,6 +691,14 @@ inbox-online-store-chat#ShopifyChat {
         right: 10px;
         top: 9px;
     }
+
+    .article__header, .article .article__header {
+        margin: var(--spacing-8) 0 0 !important;
+    }
+
+    .article__image {
+        margin: var(--spacing-6) auto !important;
+    }
 }
 
 @media (min-width: 720px) {
@@ -810,4 +818,19 @@ header nav a,
     font-family: var(--font-heading) !important;
     font-weight: var(--font-heading-weight) !important;
     font-style: var(--font-heading-style) !important;
+}
+
+
+.article__rte > * {
+    font-size: var(--font-size-heading-4-base);
+}
+
+.article__rte > *:has(em) {
+    line-height: var(--line-height-heading);
+    font-family: Aparajita, serif;
+    font-style: italic;
+}
+
+.article__rte h2:has(em), .article__rte h3:has(em) {
+    text-transform: unset !important;
 }
