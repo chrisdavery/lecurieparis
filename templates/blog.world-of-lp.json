@@ -9,23 +9,80 @@
  */
 {
   "sections": {
-    "rich_text_y68i8t": {
-      "type": "rich-text",
+    "page_title_dgFf4i": {
+      "type": "page-title",
       "blocks": {
-        "text_ARYHgf": {
-          "type": "text",
+        "heading_8YBM6e": {
+          "type": "heading",
           "settings": {
-            "text": "<p><a href=\"/pages/lp-campaign-2\" title=\"LP Campaign 2\">LP CAMPAIGN</a>   , <a href=\"/blogs/news\" title=\"LUXURY STORIES\">LUXURIE STORIES</a></p>",
-            "text_font_class": "fs-body-100"
+            "title": "EVENTS & MEDIAS",
+            "heading_tag": "h1",
+            "heading_font_class": "fs-heading-display-0"
           }
         }
       },
       "block_order": [
-        "text_ARYHgf"
+        "heading_8YBM6e"
       ],
-      "disabled": true,
+      "custom_css": [
+        "@media (min-width: 960px) {.fs-heading-display-0 {font-size: 100px; }}",
+        "@media (max-width: 959px) {.image-with-text-split {padding-bottom: 0; }}"
+      ],
+      "name": "Page Title",
       "settings": {
-        "alignment": "center_center",
+        "section_link": "",
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/lp-logo.png",
+        "aspect_ratio": "natural",
+        "image_background_color": "#025740",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "rich_text_CBVAd8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4iTDfj": {
+          "type": "heading",
+          "settings": {
+            "title": "\"‘‘Alone we can do so little,together we can do so much.\"",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": true
+          }
+        },
+        "subheading_4kiA78": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Helen Keller",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4iTDfj",
+        "subheading_4kiA78"
+      ],
+      "custom_css": [
+        ".rich-text__inner {max-width: 34rem;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; }}"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
@@ -45,7 +102,8 @@
           "type": "text",
           "settings": {
             "text": "<p>Explore the artistry, craftsmanship, and innovation behind L’Écurie Paris. <br/>Dive into stories of inspiration, the meticulous process of creating each pair of sunglasses, <br/>and the latest updates from our luxury eyewear maison. <br/>Immerse yourself in the world of sophisticated design and timeless elegance.</p>",
-            "text_font_class": "fs-body-100"
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
           }
         },
         "image_jM7nPR": {
@@ -63,7 +121,9 @@
         "text_9RVrRi",
         "image_jM7nPR"
       ],
+      "disabled": true,
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -110,11 +170,11 @@
         "show_tag_nav": true,
         "article_per_page": 12,
         "show_tags": true,
-        "show_author": true,
+        "show_author": false,
         "show_date": false,
         "show_excerpt": false,
         "show_featured_image": true,
-        "aspect_ratio": "square",
+        "aspect_ratio": "tall",
         "enable_animation": false
       }
     },
@@ -193,7 +253,8 @@
     }
   },
   "order": [
-    "rich_text_y68i8t",
+    "page_title_dgFf4i",
+    "rich_text_CBVAd8",
     "rich_text_3ArGjg",
     "blog_posts_3mdbDF",
     "main",

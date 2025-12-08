@@ -546,6 +546,22 @@ inbox-online-store-chat#ShopifyChat {
     aspect-ratio: var(--aspect-ratio-widescreen);
     object-fit: var(--object-fit, cover);
 }
+.aspect-ratio--tall > * {
+    --aspect-ratio-tall: 4 / 5;
+    aspect-ratio: var(--aspect-ratio-tall);
+    object-fit: var(--object-fit, cover);
+}
+.article-item {
+    box-sizing: border-box;
+    border: 1.5px solid var(--color-text);
+    height: 100%;
+}
+
+.article-item__content {
+    margin-top: var(--spacing-4) !important;
+    margin-bottom: var(--spacing-6) !important;
+    padding-inline: var(--spacing-4) !important;
+}
 
 @media (min-width: 960px) {
     .large-up-hide {
@@ -601,6 +617,11 @@ inbox-online-store-chat#ShopifyChat {
     .product__meta {
         max-width: 412px;
         margin: auto;
+    }
+    .article-item__content {
+        margin-top: var(--spacing-6) !important;
+        margin-bottom: var(--spacing-8) !important;
+        padding-inline: var(--spacing-4) !important;
     }
 }
 
