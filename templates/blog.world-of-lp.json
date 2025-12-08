@@ -166,6 +166,9 @@
     },
     "main": {
       "type": "main-blog",
+      "custom_css": [
+        ".blog__header {display: none;}"
+      ],
       "settings": {
         "show_tag_nav": false,
         "article_per_page": 12,
