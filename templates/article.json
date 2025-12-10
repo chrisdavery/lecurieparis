@@ -63,6 +63,7 @@
     },
     "blog_posts_nh3ery": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "heading": "Latest news",
         "subheading": "",
