@@ -145,6 +145,37 @@
         "content_width": "custom"
       }
     },
+    "rich_text_qA8wDM": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pXQUEU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>‘‘I accept the great adventure of being me.’’</em></p>",
+            "text_font_class": "fs-body-200",
+            "set_to_italic": true
+          }
+        },
+        "accent_nBmnQD": {
+          "type": "accent",
+          "settings": {
+            "accent": "Simone de Beauvoir"
+          }
+        }
+      },
+      "block_order": [
+        "text_pXQUEU",
+        "accent_nBmnQD"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "image_with_text_split_6nenUR": {
       "type": "image-with-text-split",
       "blocks": {
@@ -193,25 +224,22 @@
         "heading_DgWRnm": {
           "type": "heading",
           "settings": {
-            "title": "Lead with Passion for beauty",
+            "title": "‘‘I accept the greatadventure of being me.’’",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-2-base",
             "set_to_italic": false
           }
         },
-        "text_VJLttG": {
-          "type": "text",
-          "disabled": true,
+        "accent_f7683F": {
+          "type": "accent",
           "settings": {
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
+            "accent": "Accent"
           }
         }
       },
       "block_order": [
         "heading_DgWRnm",
-        "text_VJLttG"
+        "accent_f7683F"
       ],
       "disabled": true,
       "settings": {
@@ -374,6 +402,7 @@
     "custom_liquid_BjyVN7",
     "page_navigation_PDz7cq",
     "rich_text_mzW6x6",
+    "rich_text_qA8wDM",
     "image_with_text_split_6nenUR",
     "rich_text_wQKXTD",
     "multi_column_38GGpP",
