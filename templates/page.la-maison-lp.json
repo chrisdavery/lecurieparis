@@ -83,50 +83,25 @@
     "rich_text_mzW6x6": {
       "type": "rich-text",
       "blocks": {
-        "spacer_F8M8Ug": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "heading_VP4iAB": {
-          "type": "heading",
-          "settings": {
-            "title": "La Maison l'Écurie Paris",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-3-base",
-            "set_to_italic": false
-          }
-        },
-        "spacer_J3qHnR": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "accent_8mNmtL": {
-          "type": "accent",
-          "settings": {
-            "accent": "Meaning of the word L'Écurie"
-          }
-        },
         "text_BCdexH": {
           "type": "text",
           "settings": {
-            "text": "<p>L'Écurie is is a very old French word that comes from Écuyer, <br/>a brave squire that travel the world on his horse. Time when the life of a horse was more important than a human.<br/><br/>The term \"écurie,\" rooted in the French language, evokes an image of elegance and refinement, <br/>traditionally referring to a stable designed for the care and housing of horses. In the world of luxury, <br/>the concept of an écurie has transcended its equestrian origins to symbolize a lifestyle characterized by sophistication and exclusivity.</p><p>L'Écurie is associated with the meticulous attention to detail found in high-end accessories. <br/>The idea of an écurie conjures visions of artisanal goods, and bespoke items, each embodying the same care and precision as a well-tended horse.<br/>A narrative of heritage, elegance, and the seamless blend of functionality with artistry. <br/>This connection not only honors the traditional craftsmanship associated with equestrian life but also elevates to those who appreciate the finer things in life.</p>",
-            "text_font_class": "fs-body-75",
-            "set_to_italic": false
+            "text": "<p><em>‘‘Details make perfection and perfection is not a detail.’’</em></p>",
+            "text_font_class": "fs-body-200",
+            "set_to_italic": true
+          }
+        },
+        "accent_hPrVHT": {
+          "type": "accent",
+          "settings": {
+            "accent": "Leonardo Da Vinci"
           }
         }
       },
       "block_order": [
-        "spacer_F8M8Ug",
-        "heading_VP4iAB",
-        "spacer_J3qHnR",
-        "accent_8mNmtL",
-        "text_BCdexH"
+        "text_BCdexH",
+        "accent_hPrVHT"
       ],
-      "disabled": true,
       "settings": {
         "section_link": "",
         "alignment": "center_center",
