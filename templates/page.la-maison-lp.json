@@ -158,7 +158,7 @@
         "section_link": "shopify://collections/optical",
         "image_position": "left",
         "image_mobile_position": "above-content",
-        "image_padding": "none",
+        "image_padding": "all-sides",
         "image": "shopify://shop_images/INTERNET-ABOUT-US-LECURIE.jpg",
         "aspect_ratio": "portrait",
         "text_below_image": false,
