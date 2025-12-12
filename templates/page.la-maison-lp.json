@@ -20,6 +20,14 @@
         "custom_content_width": 700
       }
     },
+    "custom_liquid_BjyVN7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #e6dfd0;\n}\n.header {\n--color-background-header:#e6dfd0;\n}\n\n\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "page_title_tnNTyH": {
       "type": "page-title",
       "blocks": {
@@ -52,14 +60,6 @@
         "button_text_color": "#ffffff",
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-only"
-      }
-    },
-    "custom_liquid_BjyVN7": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #e6dfd0;\n}\n.header {\n--color-background-header:#e6dfd0;\n}\n\n\n</style>",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
       }
     },
     "page_navigation_PDz7cq": {
@@ -135,6 +135,9 @@
       "block_order": [
         "text_BCdexH",
         "accent_hPrVHT"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
       ],
       "settings": {
         "section_link": "",
@@ -214,6 +217,9 @@
         "text_pXQUEU",
         "accent_nBmnQD"
       ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -292,6 +298,9 @@
         "text_8mhby3",
         "accent_9LqFQU"
       ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -346,8 +355,8 @@
   },
   "order": [
     "main",
-    "page_title_tnNTyH",
     "custom_liquid_BjyVN7",
+    "page_title_tnNTyH",
     "page_navigation_PDz7cq",
     "rich_text_mzW6x6",
     "image_with_text_split_6nenUR",
