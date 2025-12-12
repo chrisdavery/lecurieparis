@@ -13,7 +13,7 @@
 /* All other sections: no extra padding on top */
 /* .template-index main .shopify-section:not(:first-of-type) [data-section-type] {
     width: 100%;
-    padding-top: 0;
+    padding-top: 20;
 } */
 
 
