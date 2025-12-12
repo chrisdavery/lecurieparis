@@ -182,7 +182,7 @@
         "text_K8RxYM"
       ],
       "custom_css": [
-        "p {font-size: 25px;}"
+        "p {font-size: 22px;}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
@@ -294,7 +294,7 @@
         "text_A6Kfcz"
       ],
       "custom_css": [
-        "p {font-size: 25px;}"
+        "p {font-size: 22px;}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
@@ -399,7 +399,7 @@
         "text_eykzyd"
       ],
       "custom_css": [
-        "p {font-size: 25px;}"
+        "p {font-size: 22px;}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
@@ -502,6 +502,9 @@
       },
       "block_order": [
         "text_e6qVmG"
+      ],
+      "custom_css": [
+        "p {font-size: 22px;}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
