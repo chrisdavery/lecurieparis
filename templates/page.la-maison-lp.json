@@ -170,7 +170,7 @@
         "below_text_color": "#000000",
         "focal_point": "image_presentation",
         "content_alignment": "center",
-        "background_color": "#e6dfd0",
+        "background_color": "rgba(0,0,0,0)",
         "text_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
