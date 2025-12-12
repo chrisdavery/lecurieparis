@@ -43,7 +43,6 @@
     image-hero--text-{{ text_position_modifier }}
     image-hero--text-mobile-{{ text_position_modifier_mobile }}
     section
-    section--full-width
     {{ section.settings.section_padding }}
     {% if settings.enable_section_animations and section.settings.enable_animation %}
       animation
@@ -187,7 +186,6 @@
 {
   "name": "t:sections.image_hero.name",
   "tag": "section",
-  "class": "shopify-section--full-width",
   "disabled_on": {
     "groups": ["header", "custom.overlay"]
   },

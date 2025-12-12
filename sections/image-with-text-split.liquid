@@ -13,7 +13,6 @@
     image-with-text-split--image-padding-{{ section.settings.image_padding }}
     image-with-text-split--content-align-{{ section.settings.content_alignment }}
     section
-    section--full-width
     {{ section.settings.section_padding }}
     {% if settings.enable_section_animations and section.settings.enable_animation %}
       animation
@@ -140,7 +139,6 @@
 {
   "name": "t:sections.image_with_text_split.name",
   "tag": "section",
-  "class": "shopify-section--full-width",
   "disabled_on": {
     "groups": ["header", "custom.overlay"]
   },

@@ -12,7 +12,6 @@
     "image_hero_Tc7dCY": {
       "type": "image-hero",
       "custom_css": [
-        "{padding-left: var(--space-outer); padding-right: var(--space-outer);}",
         "section {padding-top: 0; padding-bottom: 0;}"
       ],
       "name": "t:sections.image_hero.presets.name",
@@ -54,7 +53,7 @@
         "heading_4p9XUk"
       ],
       "custom_css": [
-        ".rich-text {max-width: 100%; padding: 0 var(--space-outer) var(--spacing-10);}",
+        ".rich-text {padding-bottom: var(--spacing-10);}",
         "section {padding-top: 0;}",
         ".rich-text__inner {background-color: #8a633a; color: white; text-align: center; padding: 100px 0;}",
         "h2 {font-size: 24px;}"
@@ -85,7 +84,7 @@
       "custom_css": [
         ".product-item__price {display: none;}",
         ".product-item__product-title {margin: 0;}",
-        ".featured-collection-grid {max-width: 100%; padding: 0 var(--space-outer);}",
+        ".featured-collection-grid {padding-block: 0;}",
         "@media (min-width: 960px) {.featured-collection-grid__product {width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); max-width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); } h4 {font-family: helvetica; font-size: 16px; }}"
       ],
       "name": "t:sections.featured_collection_grid.presets.name",
@@ -315,7 +314,7 @@
         "image_column_TGViDj"
       ],
       "custom_css": [
-        ".multi-column__inner {padding: 0 var(--space-outer) var(--spacing-10); max-width: 100%;}"
+        ".multi-column__inner {padding-top: 0; padding-bottom: var(--spacing-10);}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
@@ -392,7 +391,6 @@
     "image_hero_qQM6C3": {
       "type": "image-hero",
       "custom_css": [
-        "{padding-left: var(--space-outer); padding-right: var(--space-outer);}",
         "section {padding-top: 0; padding-bottom: 0;}"
       ],
       "name": "t:sections.image_hero.presets.name",
@@ -434,7 +432,7 @@
         "heading_kbEbwK"
       ],
       "custom_css": [
-        ".rich-text {max-width: 100%; padding: 0 var(--space-outer) var(--spacing-10);}",
+        ".rich-text {padding-block: 0;}",
         "section {padding-top: 0;}",
         ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 100px 0;}",
         "h2 {font-size: 24px;}"

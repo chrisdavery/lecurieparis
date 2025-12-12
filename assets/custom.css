@@ -1,6 +1,7 @@
 :root {
     --font-heading: 'Helvetica Neue', sans-serif !important;
     --font-heading-weight: bold !important;
+    --max-width: 1240px !important;
     /* --font-body: 'Baron Neue', sans-serif; */
 }
 
@@ -589,8 +590,6 @@ inbox-online-store-chat#ShopifyChat {
 /* Make the overall footer background white */
 .footer.section[data-section-type="footer"] {
   background-color: #ffffff !important;
-  max-width: 100%;
-  padding-inline: var(--space-outer);
 }
 
 /* Brown block with 4vw left/right "white borders" */
@@ -666,10 +665,6 @@ header nav a,
 
 .article__rte h2:has(em), .article__rte h3:has(em) {
     text-transform: unset !important;
-}
-
-.blog {
-    max-width: 100%;
 }
 
 .image-with-text-split__image-container:has(.text-below-image-split) .image__img {
@@ -748,6 +743,14 @@ header nav a,
         margin-top: var(--spacing-6) !important;
         margin-bottom: var(--spacing-8) !important;
         padding-inline: var(--spacing-4) !important;
+    }
+    
+    .image-with-text-split.image-with-text-split--image-position-right.image-with-text-split--image-padding-all-sides .image-with-text-split__image-container {
+        padding-inline: 0;
+    }
+
+    .image-with-text-split.image-with-text-split--image-position-left.image-with-text-split--image-padding-all-sides .image-with-text-split__image-container {
+        padding-inline: 0;
     }
 }
 
