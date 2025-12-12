@@ -151,8 +151,7 @@
         "text_K8RxYM"
       ],
       "custom_css": [
-        "h2 {display: block; font-size: 32px;}",
-        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
+        "p {font-size: 30px;}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
