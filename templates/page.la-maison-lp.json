@@ -506,7 +506,7 @@
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
         "section_link": "shopify://collections/optical",
-        "image_position": "left",
+        "image_position": "right",
         "image_mobile_position": "above-content",
         "image_padding": "all-sides",
         "image": "shopify://shop_images/timless-elegance.jpg",
