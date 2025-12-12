@@ -43,6 +43,10 @@
       "block_order": [
         "heading_DcdAxA"
       ],
+      "custom_css": [
+        "@media (min-width: 960px) {.fs-heading-display-0 {font-size: 100px; }}",
+        "@media (max-width: 959px) {.image-with-text-split {padding-bottom: 0; }}"
+      ],
       "name": "Page Title",
       "settings": {
         "section_link": "",
