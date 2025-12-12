@@ -412,7 +412,7 @@
       "custom_css": [
         ".rich-text {max-width: 100%; padding: 0 var(--space-outer) var(--spacing-10);}",
         "section {padding-top: 0;}",
-        ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 50px 0;}",
+        ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 100px 0;}",
         "h2 {font-size: 24px;}"
       ],
       "name": "t:sections.rich_text.presets.name",
