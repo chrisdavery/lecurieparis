@@ -209,13 +209,30 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "rich_text_eghBG8": {
+      "type": "rich-text",
+      "blocks": {
+        "border_bzqVtB": {
+          "type": "border",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "border_bzqVtB"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "rich_text_EJaXXP": {
       "type": "rich-text",
       "blocks": {
-        "border_PyAgFK": {
-          "type": "border",
-          "settings": {}
-        },
         "spacer_7mnddL": {
           "type": "spacer",
           "settings": {
@@ -242,7 +259,6 @@
         }
       },
       "block_order": [
-        "border_PyAgFK",
         "spacer_7mnddL",
         "heading_bDkqbE",
         "subheading_cijzh9"
@@ -305,19 +321,30 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "rich_text_U4KXYd": {
+      "type": "rich-text",
+      "blocks": {
+        "border_QEy6gp": {
+          "type": "border",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "border_QEy6gp"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "rich_text_ryU9Fq": {
       "type": "rich-text",
       "blocks": {
-        "border_maAgT4": {
-          "type": "border",
-          "settings": {}
-        },
-        "spacer_83jMGT": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
         "heading_ALxHEk": {
           "type": "heading",
           "settings": {
@@ -338,8 +365,6 @@
         }
       },
       "block_order": [
-        "border_maAgT4",
-        "spacer_83jMGT",
         "heading_ALxHEk",
         "subheading_3fyxLk"
       ],
@@ -409,8 +434,10 @@
     "page_navigation_PDz7cq",
     "rich_text_Twch7r",
     "image_with_text_split_6nenUR",
+    "rich_text_eghBG8",
     "rich_text_EJaXXP",
     "image_with_text_split_zCFH8G",
+    "rich_text_U4KXYd",
     "rich_text_ryU9Fq",
     "image_with_text_split_mQm4gx"
   ]
