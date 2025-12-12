@@ -20,6 +20,40 @@
         "custom_content_width": 700
       }
     },
+    "page_title_tnNTyH": {
+      "type": "page-title",
+      "blocks": {
+        "heading_DcdAxA": {
+          "type": "heading",
+          "settings": {
+            "title": "ABOUT US",
+            "heading_tag": "h1",
+            "heading_font_class": "fs-heading-display-0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DcdAxA"
+      ],
+      "name": "Page Title",
+      "settings": {
+        "section_link": "",
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/lp-logo.png",
+        "aspect_ratio": "natural",
+        "image_background_color": "#86281a",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
     "custom_liquid_BjyVN7": {
       "type": "custom-liquid",
       "settings": {
@@ -336,6 +370,7 @@
   },
   "order": [
     "main",
+    "page_title_tnNTyH",
     "custom_liquid_BjyVN7",
     "page_navigation_PDz7cq",
     "rich_text_mzW6x6",
