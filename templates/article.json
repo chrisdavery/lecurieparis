@@ -52,12 +52,9 @@
         "social_sharing_ePYrP7",
         "pagination"
       ],
-      "custom_css": [
-        ".article__inner {max-width: 50rem; margin: auto;}"
-      ],
       "settings": {
         "content_width": "custom",
-        "custom_content_width": 750,
+        "custom_content_width": 1170,
         "enable_animation": false
       }
     },

@@ -261,7 +261,7 @@
   padding:0 3.3vw;
   padding:0 var(--space-outer);
 }
-.article__block-inner{
+.article__inner {
   width:100%;
   max-width:var(--content-width);
   margin:0 auto;
@@ -274,7 +274,9 @@
     display:grid;
     grid-template-columns:repeat(24, 1fr)
 } */
-
+.article__inner article > * {
+  padding-inline: 0;
+}
     .article-item.article-item--has-no-image{
       display:block;
     }
