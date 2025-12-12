@@ -150,7 +150,10 @@
       "block_order": [
         "text_K8RxYM"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h2 {display: block; font-size: 32px;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
+      ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
         "section_link": "shopify://collections/optical",
