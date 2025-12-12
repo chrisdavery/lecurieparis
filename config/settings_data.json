@@ -9,7 +9,6 @@
  */
 {
   "current": {
-    "custom_content_width": 1240,
     "article_categories": "LP Stories, They talk about LP",
     "color_background_body": "#ffffff",
     "color_text_link": "#000000",
@@ -96,6 +95,7 @@
     "social_twitter_link": "https://twitter.com/lecurieparis",
     "social_youtube_link": "https://www.youtube.com/@lecurieparis",
     "favicon": "shopify://shop_images/faviconlp.jpg",
+    "custom_content_width": 1240,
     "content_for_index": [],
     "blocks": {
       "2153490007123654574": {
