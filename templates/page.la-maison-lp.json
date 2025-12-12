@@ -114,30 +114,38 @@
         "section_padding": "section--vertical-padding-top-only"
       }
     },
-    "rich_text_mzW6x6": {
+    "rich_text_Twch7r": {
       "type": "rich-text",
       "blocks": {
-        "text_BCdexH": {
-          "type": "text",
+        "spacer_i9JXky": {
+          "type": "spacer",
           "settings": {
-            "text": "<p><em>‘‘Details make perfection and perfection is not a detail.’’</em></p>",
-            "text_font_class": "fs-body-200",
+            "space": 12
+          }
+        },
+        "heading_eKcVCP": {
+          "type": "heading",
+          "settings": {
+            "title": "‘‘Details make perfection and perfection is not a detail.’’",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-1-base",
             "set_to_italic": true
           }
         },
-        "subheading_dMYDKX": {
+        "subheading_NJVJV8": {
           "type": "subheading",
           "settings": {
             "subheading": "Leonardo Da Vinci",
-            "subheading_tag": "h3",
+            "subheading_tag": "h4",
             "subheading_font_class": "fs-heading-5-base",
             "set_to_italic": false
           }
         }
       },
       "block_order": [
-        "text_BCdexH",
-        "subheading_dMYDKX"
+        "spacer_i9JXky",
+        "heading_eKcVCP",
+        "subheading_NJVJV8"
       ],
       "custom_css": [
         ".rich-text__inner {max-width: 34rem;}",
@@ -145,10 +153,11 @@
         "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
         "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
       ],
+      "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
+        "alignment": "left_left",
+        "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
@@ -364,7 +373,7 @@
     "custom_liquid_BjyVN7",
     "page_title_tnNTyH",
     "page_navigation_PDz7cq",
-    "rich_text_mzW6x6",
+    "rich_text_Twch7r",
     "image_with_text_split_6nenUR",
     "rich_text_qA8wDM",
     "image_with_text_split_zCFH8G",
