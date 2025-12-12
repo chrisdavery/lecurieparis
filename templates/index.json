@@ -115,10 +115,22 @@
             "heading_font_class": "fs-heading-2-base",
             "set_to_italic": false
           }
+        },
+        "spacer_ey7wR8": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "border_pfmMQ9": {
+          "type": "border",
+          "settings": {}
         }
       },
       "block_order": [
-        "heading_YwN8yh"
+        "heading_YwN8yh",
+        "spacer_ey7wR8",
+        "border_pfmMQ9"
       ],
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}",
