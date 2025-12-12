@@ -205,40 +205,55 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "rich_text_qA8wDM": {
+    "rich_text_EJaXXP": {
       "type": "rich-text",
       "blocks": {
-        "border_h8DkK3": {
+        "border_PyAgFK": {
           "type": "border",
           "settings": {}
         },
-        "text_pXQUEU": {
-          "type": "text",
+        "spacer_7mnddL": {
+          "type": "spacer",
           "settings": {
-            "text": "<p><em>‘‘I accept the great adventure of being me.’’</em></p>",
-            "text_font_class": "fs-body-200",
+            "space": 12
+          }
+        },
+        "heading_bDkqbE": {
+          "type": "heading",
+          "settings": {
+            "title": "‘‘I accept the great adventure of being me.’’",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-1-base",
             "set_to_italic": true
           }
         },
-        "accent_nBmnQD": {
-          "type": "accent",
+        "subheading_cijzh9": {
+          "type": "subheading",
           "settings": {
-            "accent": "Simone de Beauvoir"
+            "subheading": "Simone de Beauvoir",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
           }
         }
       },
       "block_order": [
-        "border_h8DkK3",
-        "text_pXQUEU",
-        "accent_nBmnQD"
+        "border_PyAgFK",
+        "spacer_7mnddL",
+        "heading_bDkqbE",
+        "subheading_cijzh9"
       ],
       "custom_css": [
-        "p {font-size: 20px;}"
+        ".rich-text__inner {max-width: 34rem;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
       ],
+      "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
+        "alignment": "left_left",
+        "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
@@ -286,40 +301,55 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "rich_text_X6XHYY": {
+    "rich_text_ryU9Fq": {
       "type": "rich-text",
       "blocks": {
-        "border_E3hXxM": {
+        "border_maAgT4": {
           "type": "border",
           "settings": {}
         },
-        "text_8mhby3": {
-          "type": "text",
+        "spacer_83jMGT": {
+          "type": "spacer",
           "settings": {
-            "text": "<p><em>‘‘Alone we can do so little, together we can do so much.’’</em></p>",
-            "text_font_class": "fs-body-200",
+            "space": 12
+          }
+        },
+        "heading_ALxHEk": {
+          "type": "heading",
+          "settings": {
+            "title": "‘‘Alone we can do so little, together we can do so much.’’",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-1-base",
             "set_to_italic": true
           }
         },
-        "accent_9LqFQU": {
-          "type": "accent",
+        "subheading_3fyxLk": {
+          "type": "subheading",
           "settings": {
-            "accent": "Helen Keller"
+            "subheading": "Helen Keller",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
           }
         }
       },
       "block_order": [
-        "border_E3hXxM",
-        "text_8mhby3",
-        "accent_9LqFQU"
+        "border_maAgT4",
+        "spacer_83jMGT",
+        "heading_ALxHEk",
+        "subheading_3fyxLk"
       ],
       "custom_css": [
-        "p {font-size: 20px;}"
+        ".rich-text__inner {max-width: 34rem;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
       ],
+      "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
+        "alignment": "left_left",
+        "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
@@ -375,9 +405,9 @@
     "page_navigation_PDz7cq",
     "rich_text_Twch7r",
     "image_with_text_split_6nenUR",
-    "rich_text_qA8wDM",
+    "rich_text_EJaXXP",
     "image_with_text_split_zCFH8G",
-    "rich_text_X6XHYY",
+    "rich_text_ryU9Fq",
     "image_with_text_split_mQm4gx"
   ]
 }
