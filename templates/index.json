@@ -357,10 +357,22 @@
             "heading_font_class": "fs-heading-2-base",
             "set_to_italic": false
           }
+        },
+        "spacer_7wgEiH": {
+          "type": "spacer",
+          "settings": {
+            "space": 36
+          }
+        },
+        "border_krMUa9": {
+          "type": "border",
+          "settings": {}
         }
       },
       "block_order": [
-        "heading_F47fLY"
+        "heading_F47fLY",
+        "spacer_7wgEiH",
+        "border_krMUa9"
       ],
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}",
