@@ -21,6 +21,10 @@
     padding-top: calc(var(--height-header) * -1);
 } */
 
+.section {
+    max-width: 72rem !important;
+}
+
 .aparajita-font {
     font-family: 'Aparajita', serif;
     font-style: italic;
