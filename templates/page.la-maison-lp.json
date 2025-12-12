@@ -191,7 +191,7 @@
         "text_K8RxYM"
       ],
       "custom_css": [
-        "p {font-size: 30px;}"
+        "p {font-size: 20px;}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
