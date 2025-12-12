@@ -64,6 +64,9 @@
       "block_order": [
         "full_width_meganav_z8CDFa"
       ],
+      "custom_css": [
+        "h1 {font-size: 20px;}"
+      ],
       "settings": {
         "layout": "logo-center_nav-split",
         "enable_sticky_header": false,
