@@ -342,10 +342,10 @@
         "content_width": "custom"
       }
     },
-    "rich_text_ryU9Fq": {
+    "rich_text_yLnFcV": {
       "type": "rich-text",
       "blocks": {
-        "heading_ALxHEk": {
+        "heading_tKFfkr": {
           "type": "heading",
           "settings": {
             "title": "‘‘Alone we can do so little, together we can do so much.’’",
@@ -354,7 +354,7 @@
             "set_to_italic": true
           }
         },
-        "subheading_3fyxLk": {
+        "subheading_GUyBGT": {
           "type": "subheading",
           "settings": {
             "subheading": "Helen Keller",
@@ -365,8 +365,8 @@
         }
       },
       "block_order": [
-        "heading_ALxHEk",
-        "subheading_3fyxLk"
+        "heading_tKFfkr",
+        "subheading_GUyBGT"
       ],
       "custom_css": [
         ".rich-text__inner {max-width: 34rem;}",
@@ -425,6 +425,108 @@
         "enable_animation": false,
         "section_padding": "section--vertical-padding-none"
       }
+    },
+    "rich_text_wfXKDj": {
+      "type": "rich-text",
+      "blocks": {
+        "border_dwcq6F": {
+          "type": "border",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "border_dwcq6F"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "rich_text_ryU9Fq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ALxHEk": {
+          "type": "heading",
+          "settings": {
+            "title": "\"Being sexy means that you are well aware of and have control over what, mentally or physically, can trigger your seductive power\"",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": true
+          }
+        },
+        "subheading_3fyxLk": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Milan Vukmirovic",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ALxHEk",
+        "subheading_3fyxLk"
+      ],
+      "custom_css": [
+        ".rich-text__inner {max-width: 34rem;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "image_with_text_split_KK7Pqy": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "text_e6qVmG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At L’Écurie Paris, we celebrate both men and women because true style transcends gender and becomes an attitude. <br/>Our Maison is built on the belief that elegance is universal, rooted in confidence, character, and authenticity rather than trends. <br/>We draw inspiration from classic codes tailoring, equestrian heritage, and timeless design reinterpreted for modern life. Respect for classic elegance guides every creative decision, from frame proportions to materials and finishes. <br/>This philosophy allows our eyewear to complement individuality rather than overpower it. <br/>In our images and campaigns, men and women are portrayed with the same strength, poise, and quiet refinement. <br/>Each visual story reflects balance, restraint, and intention. <br/>Through this lens, L’Écurie Paris expresses a shared language of style where elegance is enduring and deeply human.</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "text_e6qVmG"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "section_link": "shopify://collections/optical",
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "all-sides",
+        "image": "shopify://shop_images/timless-elegance.jpg",
+        "aspect_ratio": "portrait",
+        "text_below_image": false,
+        "title": "Image with text split",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-display-3",
+        "heading_alignment": "left",
+        "below_background_color": "#d9a49c",
+        "below_text_color": "#000000",
+        "focal_point": "image_presentation",
+        "content_alignment": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-none"
+      }
     }
   },
   "order": [
@@ -438,7 +540,10 @@
     "rich_text_EJaXXP",
     "image_with_text_split_zCFH8G",
     "rich_text_U4KXYd",
+    "rich_text_yLnFcV",
+    "image_with_text_split_mQm4gx",
+    "rich_text_wfXKDj",
     "rich_text_ryU9Fq",
-    "image_with_text_split_mQm4gx"
+    "image_with_text_split_KK7Pqy"
   ]
 }
