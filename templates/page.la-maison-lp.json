@@ -145,44 +145,13 @@
         "content_width": "custom"
       }
     },
-    "rich_text_qA8wDM": {
-      "type": "rich-text",
-      "blocks": {
-        "text_pXQUEU": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>‘‘I accept the great adventure of being me.’’</em></p>",
-            "text_font_class": "fs-body-200",
-            "set_to_italic": true
-          }
-        },
-        "accent_nBmnQD": {
-          "type": "accent",
-          "settings": {
-            "accent": "Simone de Beauvoir"
-          }
-        }
-      },
-      "block_order": [
-        "text_pXQUEU",
-        "accent_nBmnQD"
-      ],
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "image_with_text_split_6nenUR": {
       "type": "image-with-text-split",
       "blocks": {
         "text_K8RxYM": {
           "type": "text",
           "settings": {
-            "text": "<p><em>The word “écurie” comes from</em></p><p><em>French and originally referred to</em></p><p><em>all the staff and horses of a princely</em></p><p><em>house, whose service was entrus-</em></p><p><em>ted to the squires. The meaning then</em></p><p><em>evolved to refer to the building where</em></p><p><em>horses are housed and, by exten-</em></p><p><em>sion, it is now used to describe sports</em></p><p><em>teams, particularly in Formula One.</em></p><p><em>More simply this word is now also</em></p><p><em>used to refer to a team that performs</em></p><p><em>at the highest level in its field, with</em></p><p><em>the highest level of expertise, techni-</em></p><p><em>cal skill, and performance.</em></p>",
+            "text": "<p><em>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. <br/>The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.<br/>More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</em></p>",
             "text_font_class": "fs-body-200"
           }
         }
@@ -191,7 +160,7 @@
         "text_K8RxYM"
       ],
       "custom_css": [
-        "p {font-size: 20px;}"
+        "p {font-size: 25px;}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
@@ -218,30 +187,33 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "rich_text_wQKXTD": {
+    "rich_text_qA8wDM": {
       "type": "rich-text",
       "blocks": {
-        "heading_DgWRnm": {
-          "type": "heading",
+        "border_h8DkK3": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_pXQUEU": {
+          "type": "text",
           "settings": {
-            "title": "‘‘I accept the greatadventure of being me.’’",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
+            "text": "<p><em>‘‘I accept the great adventure of being me.’’</em></p>",
+            "text_font_class": "fs-body-200",
+            "set_to_italic": true
           }
         },
-        "accent_f7683F": {
+        "accent_nBmnQD": {
           "type": "accent",
           "settings": {
-            "accent": "Accent"
+            "accent": "Simone de Beauvoir"
           }
         }
       },
       "block_order": [
-        "heading_DgWRnm",
-        "accent_f7683F"
+        "border_h8DkK3",
+        "text_pXQUEU",
+        "accent_nBmnQD"
       ],
-      "disabled": true,
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -251,148 +223,46 @@
         "content_width": "custom"
       }
     },
-    "multi_column_38GGpP": {
-      "type": "multi-column",
+    "image_with_text_split_zCFH8G": {
+      "type": "image-with-text-split",
       "blocks": {
-        "image_column_gx7Rwi": {
-          "type": "image_column",
+        "text_A6Kfcz": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/lionelmoroy-web_6a56c3d2-bb9d-4982-be99-eeb78a69f167.jpg",
-            "image_width": 50,
-            "aspect_ratio": "natural",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "Lionel Moroy, Founder Designer",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "<p><em> “</em>My French heritage instilled in me a deep passion for beauty, and my ultimate aim is to create and share a product that embodies both soul and meaning<em>”</em></p>",
-            "text_font_class": "fs-body-100",
-            "text_max_width": 68,
-            "link": "https://www.instagram.com/lionelmoroy/",
-            "link_text": "@lionelmoroy",
-            "button_style": "btn--primary"
+            "text": "<p>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris. <br/>He is the designer behind each new collection.<br/>Obsessed with design and because<br/>of an emotional connection to beauty<br/>since a young age, Lionel went to Art<br/>school in Paris where he perfected<br/>his craft. <br/>He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clients<br/>Because of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience.</p>",
+            "text_font_class": "fs-body-200"
           }
         }
       },
       "block_order": [
-        "image_column_gx7Rwi"
+        "text_A6Kfcz"
       ],
-      "disabled": true,
+      "custom_css": [
+        "p {font-size: 25px;}"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
-        "title": "",
+        "section_link": "shopify://collections/optical",
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "all-sides",
+        "image": "shopify://shop_images/IMG_1859.jpg",
+        "aspect_ratio": "portrait",
+        "text_below_image": false,
+        "title": "Image with text split",
         "heading_tag": "h2",
-        "subheading": "",
-        "heading_font_class": "fs-heading-3-base",
-        "heading_alignment": "center",
-        "content_vertical_alignment": "top",
-        "content_background_padding": "small",
-        "columns": "1",
-        "column_spacing": 8,
-        "row_spacing": 8,
-        "column_alignment": "center",
-        "enable_slider_mobile": false,
-        "columns_mobile": "1",
-        "column_spacing_mobile": 20,
-        "row_spacing_mobile": 20,
-        "column_alignment_mobile": "center",
-        "background_behind_columns": false,
-        "background_color": "#000000",
-        "text_color": "#ffffff",
+        "heading_font_class": "fs-heading-display-3",
+        "heading_alignment": "left",
+        "below_background_color": "#d9a49c",
+        "below_text_color": "#000000",
+        "focal_point": "image_presentation",
+        "content_alignment": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "css_class": ""
-      }
-    },
-    "multi_column_k3Y4aL": {
-      "type": "multi-column",
-      "blocks": {
-        "image_column_3kpyJp": {
-          "type": "image_column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-1.jpg",
-            "image_width": 50,
-            "aspect_ratio": "square",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "<p>At L'Écurie Paris, the design and craftsmanship excellence are taken to new heights.<br/>We elevate the art of eyewear by ensuring each detail is thoughtfully considered and meticulously executed. </p>",
-            "text_font_class": "fs-body-75",
-            "text_max_width": 100,
-            "link": "shopify://pages/craftmanship",
-            "link_text": "read more",
-            "button_style": "btn--primary"
-          }
-        },
-        "image_column_GXGWnx": {
-          "type": "image_column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/new-L_Ecurie-2294.jpg",
-            "image_width": 50,
-            "aspect_ratio": "natural",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "image_column_3kpyJp",
-        "image_column_GXGWnx"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "heading_font_class": "fs-heading-3-base",
-        "heading_alignment": "center",
-        "content_vertical_alignment": "center",
-        "content_background_padding": "small",
-        "columns": "1",
-        "column_spacing": 4,
-        "row_spacing": 48,
-        "column_alignment": "center",
-        "enable_slider_mobile": false,
-        "columns_mobile": "1",
-        "column_spacing_mobile": 8,
-        "row_spacing_mobile": 16,
-        "column_alignment_mobile": "center",
-        "background_behind_columns": false,
-        "background_color": "#000000",
-        "text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "css_class": ""
+        "section_padding": "section--vertical-padding-none"
       }
     }
   },
@@ -402,10 +272,8 @@
     "custom_liquid_BjyVN7",
     "page_navigation_PDz7cq",
     "rich_text_mzW6x6",
-    "rich_text_qA8wDM",
     "image_with_text_split_6nenUR",
-    "rich_text_wQKXTD",
-    "multi_column_38GGpP",
-    "multi_column_k3Y4aL"
+    "rich_text_qA8wDM",
+    "image_with_text_split_zCFH8G"
   ]
 }
