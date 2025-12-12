@@ -23,9 +23,9 @@
     "custom_liquid_BjyVN7": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: #000;\n}\n.header {\n--color-background-header:#000;\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #e6dfd0;\n}\n.header {\n--color-background-header:#e6dfd0;\n}\n\n\n</style>",
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "page_navigation_PDz7cq": {
@@ -74,6 +74,7 @@
         "link_qT676c",
         "link_TfBnAa"
       ],
+      "disabled": true,
       "settings": {
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only"
@@ -93,7 +94,8 @@
           "settings": {
             "title": "La Maison l'Écurie Paris",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-3-base"
+            "heading_font_class": "fs-heading-3-base",
+            "set_to_italic": false
           }
         },
         "spacer_J3qHnR": {
@@ -112,7 +114,8 @@
           "type": "text",
           "settings": {
             "text": "<p>L'Écurie is is a very old French word that comes from Écuyer, <br/>a brave squire that travel the world on his horse. Time when the life of a horse was more important than a human.<br/><br/>The term \"écurie,\" rooted in the French language, evokes an image of elegance and refinement, <br/>traditionally referring to a stable designed for the care and housing of horses. In the world of luxury, <br/>the concept of an écurie has transcended its equestrian origins to symbolize a lifestyle characterized by sophistication and exclusivity.</p><p>L'Écurie is associated with the meticulous attention to detail found in high-end accessories. <br/>The idea of an écurie conjures visions of artisanal goods, and bespoke items, each embodying the same care and precision as a well-tended horse.<br/>A narrative of heritage, elegance, and the seamless blend of functionality with artistry. <br/>This connection not only honors the traditional craftsmanship associated with equestrian life but also elevates to those who appreciate the finer things in life.</p>",
-            "text_font_class": "fs-body-75"
+            "text_font_class": "fs-body-75",
+            "set_to_italic": false
           }
         }
       },
@@ -124,6 +127,7 @@
         "text_BCdexH"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": false,
         "divider_style": "none",
@@ -139,7 +143,8 @@
           "settings": {
             "title": "Lead with Passion for beauty",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base"
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
           }
         },
         "text_VJLttG": {
@@ -147,7 +152,8 @@
           "disabled": true,
           "settings": {
             "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_class": "fs-body-100"
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
           }
         }
       },
@@ -156,6 +162,7 @@
         "text_VJLttG"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": false,
         "divider_style": "none",
