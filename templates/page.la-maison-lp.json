@@ -133,18 +133,11 @@
             "subheading_font_class": "fs-heading-5-base",
             "set_to_italic": false
           }
-        },
-        "accent_hPrVHT": {
-          "type": "accent",
-          "settings": {
-            "accent": "Leonardo Da Vinci"
-          }
         }
       },
       "block_order": [
         "text_BCdexH",
-        "subheading_dMYDKX",
-        "accent_hPrVHT"
+        "subheading_dMYDKX"
       ],
       "custom_css": [
         ".rich-text__inner {max-width: 34rem;}",
