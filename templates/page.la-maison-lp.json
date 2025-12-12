@@ -137,7 +137,10 @@
         "accent_hPrVHT"
       ],
       "custom_css": [
-        "p {font-size: 20px;}"
+        ".rich-text__inner {max-width: 34rem;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
       ],
       "settings": {
         "section_link": "",
