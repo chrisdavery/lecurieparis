@@ -126,6 +126,7 @@
         "accent_8mNmtL",
         "text_BCdexH"
       ],
+      "disabled": true,
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -133,6 +134,45 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
+      }
+    },
+    "image_with_text_split_6nenUR": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "text_K8RxYM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>The word “écurie” comes from</em></p><p><em>French and originally referred to</em></p><p><em>all the staff and horses of a princely</em></p><p><em>house, whose service was entrus-</em></p><p><em>ted to the squires. The meaning then</em></p><p><em>evolved to refer to the building where</em></p><p><em>horses are housed and, by exten-</em></p><p><em>sion, it is now used to describe sports</em></p><p><em>teams, particularly in Formula One.</em></p><p><em>More simply this word is now also</em></p><p><em>used to refer to a team that performs</em></p><p><em>at the highest level in its field, with</em></p><p><em>the highest level of expertise, techni-</em></p><p><em>cal skill, and performance.</em></p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "text_K8RxYM"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "section_link": "shopify://collections/optical",
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/INTERNET-ABOUT-US-LECURIE.jpg",
+        "aspect_ratio": "portrait",
+        "text_below_image": false,
+        "title": "Image with text split",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-display-3",
+        "heading_alignment": "left",
+        "below_background_color": "#d9a49c",
+        "below_text_color": "#000000",
+        "focal_point": "image_presentation",
+        "content_alignment": "center",
+        "background_color": "#e6dfd0",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "rich_text_wQKXTD": {
@@ -161,6 +201,7 @@
         "heading_DgWRnm",
         "text_VJLttG"
       ],
+      "disabled": true,
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -200,6 +241,7 @@
       "block_order": [
         "image_column_gx7Rwi"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_tag": "h2",
@@ -284,6 +326,7 @@
         "image_column_3kpyJp",
         "image_column_GXGWnx"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_tag": "h2",
@@ -318,6 +361,7 @@
     "custom_liquid_BjyVN7",
     "page_navigation_PDz7cq",
     "rich_text_mzW6x6",
+    "image_with_text_split_6nenUR",
     "rich_text_wQKXTD",
     "multi_column_38GGpP",
     "multi_column_k3Y4aL"

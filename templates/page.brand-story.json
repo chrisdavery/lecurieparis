@@ -164,14 +164,16 @@
           "settings": {
             "title": "Rich text",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base"
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
           }
         },
         "template--15163675213867__35eb5364-1c17-4a2d-9a76-0003039a07e4-16875639031269da69-1": {
           "type": "text",
           "settings": {
             "text": "<p>\"In 2018 I decided to look back at my French heritage, and celebrate beauty, pure elegance through design.<br/>My ultimate desire was to create and deliver a product that has a soul and meaning.<br/>I love when people feel an emotion when they touch and wear our products, when it gives them a real experience.<br/>I wanted to design eyewear, as this is one of the most personal items. The one we choose to represent ourselves.<br/>We can either hide behind our glasses, or proudly own their style, blending with our personality.<br/>It’s a way to reaffirm our own self-confidence.\"</p><p></p><p>Lionel Moroy.</p>",
-            "text_font_class": "fs-body-100"
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
           }
         }
       },
@@ -180,6 +182,7 @@
         "template--15163675213867__35eb5364-1c17-4a2d-9a76-0003039a07e4-16875639031269da69-1"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
