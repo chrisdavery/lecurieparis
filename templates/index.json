@@ -480,7 +480,7 @@
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
-        "section_link": "",
+        "section_link": "shopify://pages/lp-campaign-2025",
         "image_position": "left",
         "image_mobile_position": "above-content",
         "image_padding": "none",
@@ -534,7 +534,7 @@
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
-        "section_link": "",
+        "section_link": "shopify://blogs/news",
         "image_position": "right",
         "image_mobile_position": "above-content",
         "image_padding": "none",
