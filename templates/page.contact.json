@@ -32,6 +32,15 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "custom_liquid_BDFVTx": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #e6dfd0;\n}\n.header {\n--color-background-header:#e6dfd0;\n--color-text-header:#e6dfd0;\n}\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -52,7 +61,8 @@
           "settings": {
             "title": "Contact us",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": false
           }
         },
         "block-1": {
@@ -66,7 +76,8 @@
           "type": "text",
           "settings": {
             "text": "<p>We are here to help provide information and advice on your purchases.</p><p>You can also submit your request to become part of our exclusive ambassadors team.</p><p>Email us at <a href=\"https://online-store-web.shopifyapps.com/admin/online-store/pages/experience@lecurieparis.com\">experience@lecurieparis.com</a></p><p>Email Lionel Moroy, Designer <a href=\"mailto:lionel@lecurieparis.com\" target=\"_blank\" title=\"mailto:lionel@lecurieparis.com\">Lionel@lecurieparis.com</a></p>",
-            "text_font_class": "fs-body-100"
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
           }
         }
       },
@@ -77,6 +88,7 @@
       ],
       "disabled": true,
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -171,6 +183,7 @@
   },
   "order": [
     "image_hero_4HhBk8",
+    "custom_liquid_BDFVTx",
     "main",
     "rich-text-1",
     "contact-form"
