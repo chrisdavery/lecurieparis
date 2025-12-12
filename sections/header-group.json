@@ -65,7 +65,7 @@
         "full_width_meganav_z8CDFa"
       ],
       "custom_css": [
-        "h1 {font-size: 20px;}"
+        ".header a,.header nav a,.header .list-menu a,.header .menu a,.header .navigation a,.header .header__menu a,.header .header__menu-item,.header .header__menu-item a,.header .header__menu-item span {font-size: 14px !important;}"
       ],
       "settings": {
         "layout": "logo-center_nav-split",
