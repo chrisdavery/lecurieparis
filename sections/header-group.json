@@ -37,33 +37,6 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "full_width_meganav_z8CDFa": {
-          "type": "full_width_meganav",
-          "settings": {
-            "dropdown_parent_link": "LA MAISON LP",
-            "column_count": 3,
-            "show_column_borders": false,
-            "show_promo": true,
-            "promo_width": 390,
-            "promo_height": 310,
-            "secondary_position": "right",
-            "image": "shopify://shop_images/lissa2_07d436ae-06d7-48a2-9411-6655b5c85a9b.jpg",
-            "focal_point": "image_presentation",
-            "promo_text": "Newest Releases",
-            "link": "shopify://collections/all",
-            "link_text": "Discover",
-            "text_position": "flex-end_flex-end",
-            "text_color": "#ffffff",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 14
-          }
-        }
-      },
-      "block_order": [
-        "full_width_meganav_z8CDFa"
-      ],
       "custom_css": [
         ".header a,.header nav a,.header .list-menu a,.header .menu a,.header .navigation a,.header .header__menu a,.header .header__menu-item,.header .header__menu-item a,.header .header__menu-item span {font-size: 14px !important;}"
       ],
