@@ -60,7 +60,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "section_link": "shopify://collections/designer-sunglasses",
+        "section_link": "shopify://collections/the-collection",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
