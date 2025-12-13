@@ -36,7 +36,7 @@
       "type": "custom-liquid",
       "custom_css": [],
       "settings": {
-        "custom_liquid": "<style>\n/* 1) Make header background transparent */\n.shopify-section-header,\nheader.header,\n.header,\n.header-wrapper,\n.header__wrapper {\n  background: transparent !important;\n}\n\n/* 2) Force menu text to white (common Shopify menu selectors) */\n.header * ,\n.header a,\n.header a span,\n.header__menu-item,\n.header__menu-item a,\n.header__inline-menu a,\n.list-menu__item,\n.list-menu__item a,\n.site-nav__link,\n.navigation__link,\nnav a {\n  color: #fff !important;\n}\n\n/* 3) Force icons to white */\n.header svg,\n.header svg * {\n  stroke: #fff !important;\n}\n</style>",
+        "custom_liquid": "<style>\n/* Menu hover → black */\n.header a:hover,\n.header a:hover span,\n.header__menu-item:hover,\n.header__menu-item a:hover,\n.header__inline-menu a:hover,\n.list-menu__item a:hover,\n.site-nav__link:hover,\n.navigation__link:hover,\nnav a:hover {\n  color: #000000 !important;\n}\n\n/* Optional: icons hover → black */\n.header a:hover svg,\n.header a:hover svg * {\n  fill: #000000 !import",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       }
