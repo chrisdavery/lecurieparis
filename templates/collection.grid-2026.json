@@ -11,7 +11,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_breadcrumbs": false,
         "show_collection_description": true,
@@ -71,6 +70,7 @@
       "block_order": [
         "heading_qABLLR"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 959px) {.image-with-text-split {padding-bottom: 0; }}"
       ],
