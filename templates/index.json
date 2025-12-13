@@ -380,7 +380,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "section_link": "",
+        "section_link": "https://www.instagram.com/lecurieparis",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
