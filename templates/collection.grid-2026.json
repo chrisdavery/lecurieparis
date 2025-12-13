@@ -228,7 +228,7 @@
         "row_spacing": 24,
         "mobile_column_spacing": 8,
         "mobile_row_spacing": 12,
-        "product_listing_aspect_ratio": "short",
+        "product_listing_aspect_ratio": "landscape",
         "product_listing_media_fit": "cover",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"

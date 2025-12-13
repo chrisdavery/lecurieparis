@@ -134,7 +134,7 @@
 
       .product-item__slider__content .scrollbar {
         max-width: 2rem;
-        bottom: 0;
+        bottom: 1rem;
       }
     }
   }
@@ -186,6 +186,12 @@
 
   .image-collection-inner, .image-collection-inner .image {
     height: 100%;
+  }
+
+  @media (min-width: 960px) {
+    .grid-collection-item__inner {
+        aspect-ratio: var(--ratio);
+    }
   }
 
   @media (max-width: 959px) {
