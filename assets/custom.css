@@ -617,7 +617,7 @@ inbox-online-store-chat#ShopifyChat {
 .footer.section[data-section-type="footer"] .footer__groups a,
 .footer.section[data-section-type="footer"] .footer__groups p,
 .footer.section[data-section-type="footer"] .footer__groups li {
-  color: #ffffff;
+  color:rgb(0, 0, 0);
   font-weight: 500;
   text-decoration: none;
 }
