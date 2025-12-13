@@ -14,15 +14,19 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "b546e980-eb44-470e-a9df-f688907ead25": {
-          "type": "links",
+        "text_9U3kke": {
+          "type": "text",
           "settings": {
-            "desktop_width": 22,
-            "desktop_padding": 4,
+            "desktop_width": 30,
+            "desktop_padding": 2,
             "collapse_on_mobile": true,
-            "title": "L'Écurie Paris",
+            "title": "Contact US",
             "show_title_on_desktop": true,
-            "link_list": "philosophy"
+            "text": "<p><a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:experience@lecurieparis.com\">experience@lecurieparis.com</a></p><p> &lt;br&gt;</p><p><strong>PRESS</strong></p><p><a href=\"mailto:info@brooklynpr.com\" title=\"mailto:info@brooklynpr.com\">INFO@BROOKLYNPR</a></p>",
+            "image_max_width": 200,
+            "image_placement": "below_text",
+            "show_social_icons": false,
+            "enable_follow_on_shop": false
           }
         },
         "footer-3": {
@@ -65,7 +69,7 @@
         }
       },
       "block_order": [
-        "b546e980-eb44-470e-a9df-f688907ead25",
+        "text_9U3kke",
         "footer-3",
         "footer-2",
         "footer-0"
