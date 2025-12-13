@@ -663,6 +663,12 @@ header nav a,
     font-weight: var(--font-heading-weight) !important;
     font-style: var(--font-heading-style) !important;
 }
+#HeaderMenu .list-menu--disclosure a,
+#HeaderMenu .site-nav__dropdown a,
+.header .dropdown-menu a,
+.header .submenu a {
+    font-weight: 400 !important; /* normal */
+}
 
 
 .article__rte > * {
