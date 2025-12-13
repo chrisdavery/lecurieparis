@@ -597,13 +597,9 @@ inbox-online-store-chat#ShopifyChat {
     padding-right: var(--space-outer);
     box-sizing: border-box;
 }
-/* Text + links inside brown block */
-.footer.section[data-section-type="footer"] .footer__groups a,
-.footer.section[data-section-type="footer"] .footer__groups p,
-.footer.section[data-section-type="footer"] .footer__groups li {
-  color: #ffffff;
-  font-weight: 500;
-  text-decoration: none;
+.footer.section[data-section-type="footer"] .footer__bottom a,
+.footer.section[data-section-type="footer"] .footer__bottom span {
+  color: #000000;
 }
 
 .article__rte > * {
