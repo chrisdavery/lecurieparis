@@ -609,8 +609,7 @@ inbox-online-store-chat#ShopifyChat {
   background-color: #edd6b9 !important;  /* brown */
   color: #ffffff;
   margin: 0;                         /* white on left/right */
-  padding: 70px 0 80px;
-                /* inner padding (top | LR | bottom) */
+  padding: 70px var(--space-outer) 80px;                /* inner padding (top | LR | bottom) */
   box-sizing: border-box;
 }
 
