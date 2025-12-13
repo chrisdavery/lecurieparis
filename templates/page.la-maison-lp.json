@@ -23,7 +23,7 @@
     "custom_liquid_BjyVN7": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #e6dfd0;\n}\n.header {\n--color-background-header:#e6dfd0;\n}\n\n\n</style>",
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #e2dbce;\n}\n.header {\n--color-background-header:#e2dbce;\n}\n\n\n</style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       }
@@ -495,7 +495,7 @@
         "text_e6qVmG": {
           "type": "text",
           "settings": {
-            "text": "<p>At L’Écurie Paris, we celebrate both men and women because true style transcends gender and becomes an attitude. <br/>Our Maison is built on the belief that elegance is universal, rooted in confidence, character, and authenticity rather than trends. <br/>We draw inspiration from classic codes tailoring, equestrian heritage, and timeless design reinterpreted for modern life. Respect for classic elegance guides every creative decision, from frame proportions to materials and finishes. <br/>This philosophy allows our eyewear to complement individuality rather than overpower it. <br/>In our images and campaigns, men and women are portrayed with the same strength, poise, and quiet refinement. <br/>Each visual story reflects balance, restraint, and intention. <br/>Through this lens, L’Écurie Paris expresses a shared language of style where elegance is enduring and deeply human.</p>",
+            "text": "<p><em>At L’Écurie Paris, we celebrate both men and women because true style transcends gender and becomes an attitude. <br/>Our Maison is built on the belief that elegance is universal, rooted in confidence, character, and authenticity rather than trends. <br/>We draw inspiration from classic codes tailoring, equestrian heritage, and timeless design reinterpreted for modern life. Respect for classic elegance guides every creative decision, from frame proportions to materials and finishes. <br/>This philosophy allows our eyewear to complement individuality rather than overpower it. <br/>In our images and campaigns, men and women are portrayed with the same strength, poise, and quiet refinement. <br/>Each visual story reflects balance, restraint, and intention. <br/>Through this lens, L’Écurie Paris expresses a shared language of style where elegance is enduring and deeply human.</em></p>",
             "text_font_class": "fs-body-200"
           }
         }
