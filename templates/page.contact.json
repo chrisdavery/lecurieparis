@@ -32,70 +32,6 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "custom_liquid_BDFVTx": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "settings": {
-        "custom_liquid": "<style>\n/* Menu hover → black */\n.header a:hover,\n.header a:hover span,\n.header__menu-item:hover,\n.header__menu-item a:hover,\n.header__inline-menu a:hover,\n.list-menu__item a:hover,\n.site-nav__link:hover,\n.navigation__link:hover,\nnav a:hover {\n  color: #000000 !important;\n}\n\n/* Optional: icons hover → black */\n.header a:hover svg,\n.header a:hover svg * {\n  fill: #000000 !import",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "bg_color": "#ffffff",
-        "content_color": "",
-        "enable_animation": false,
-        "content_width": "full",
-        "custom_content_width": 700
-      }
-    },
-    "rich-text-1": {
-      "type": "rich-text",
-      "blocks": {
-        "block-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Contact us",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base",
-            "set_to_italic": false
-          }
-        },
-        "block-1": {
-          "type": "spacer",
-          "disabled": true,
-          "settings": {
-            "space": 12
-          }
-        },
-        "block-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We are here to help provide information and advice on your purchases.</p><p>You can also submit your request to become part of our exclusive ambassadors team.</p><p>Email us at <a href=\"https://online-store-web.shopifyapps.com/admin/online-store/pages/experience@lecurieparis.com\">experience@lecurieparis.com</a></p><p>Email Lionel Moroy, Designer <a href=\"mailto:lionel@lecurieparis.com\" target=\"_blank\" title=\"mailto:lionel@lecurieparis.com\">Lionel@lecurieparis.com</a></p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "block-0",
-        "block-1",
-        "block-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only",
-        "content_width": "custom"
-      }
-    },
     "contact-form": {
       "type": "contact-form",
       "blocks": {
@@ -179,13 +115,78 @@
         "content_width": "custom",
         "custom_content_width": 500
       }
+    },
+    "custom_liquid_BDFVTx": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<style>\n/* Menu hover → black */\n.header a:hover,\n.header a:hover span,\n.header__menu-item:hover,\n.header__menu-item a:hover,\n.header__inline-menu a:hover,\n.list-menu__item a:hover,\n.site-nav__link:hover,\n.navigation__link:hover,\nnav a:hover {\n  color: #000000 !important;\n}\n\n/* Optional: icons hover → black */\n.header a:hover svg,\n.header a:hover svg * {\n  fill: #000000 !import",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "content_color": "",
+        "enable_animation": false,
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Contact us",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": false
+          }
+        },
+        "block-1": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space": 12
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are here to help provide information and advice on your purchases.</p><p>You can also submit your request to become part of our exclusive ambassadors team.</p><p>Email us at <a href=\"https://online-store-web.shopifyapps.com/admin/online-store/pages/experience@lecurieparis.com\">experience@lecurieparis.com</a></p><p>Email Lionel Moroy, Designer <a href=\"mailto:lionel@lecurieparis.com\" target=\"_blank\" title=\"mailto:lionel@lecurieparis.com\">Lionel@lecurieparis.com</a></p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom"
+      }
     }
   },
   "order": [
     "image_hero_4HhBk8",
+    "contact-form",
     "custom_liquid_BDFVTx",
     "main",
-    "rich-text-1",
-    "contact-form"
+    "rich-text-1"
   ]
 }
