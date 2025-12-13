@@ -16,19 +16,40 @@ class="
     </div>
 
     {% if product.media.size > 1 %}
-      <div class="product-media-cascade">
+      <div class="product-media-cascade {% if section.settings.enable_product_lightbox %} lightbox-media-container{% endif %}">
         {% for media in product.media %}
           {% unless forloop.first and product.media.size > 1%}
             <div class="product-section-block product-section-block-image">
                 {%- capture image_sizes -%}
                     (min-width: 720px) calc(calc(50vw - calc(2 * clamp(18px, 3.3vw, 3.3vw)))), calc(100vw - calc(2 * 3.3vw))
                 {%- endcapture -%}
-                {%- render 'image',
-                    wrapper_class: 'section-block-product__image',
-                    image: media,
-                    aspect_ratio: 'natural',
-                    sizes: image_sizes
-                -%}
+
+                {%- capture media_link_element -%}
+                  {%- if section.settings.enable_product_lightbox == true -%}
+                      a
+                  {%- else -%}
+                      div
+                  {%- endif -%}
+                {%- endcapture -%}
+
+                {% if section.settings.enable_product_lightbox == true %}
+                  {%- capture media_atributes -%}
+                      href="{{ media.src | image_url }}" class="lightbox-image no-transition"
+                      data-pswp-src="{{- media.src | image_url -}}"
+                      data-pswp-width="{{- media.width -}}"
+                      data-pswp-height="{{ media.height }}"
+                      data-cropped="true"
+                  {%- endcapture -%}
+                {%- endif -%}
+
+                <{{ media_link_element }} {{ media_atributes }}>
+                  {%- render 'image',
+                      wrapper_class: 'section-block-product__image',
+                      image: media,
+                      aspect_ratio: 'natural',
+                      sizes: image_sizes
+                  -%}
+                </{{ media_link_element }}>
             </div>
           {% endunless %}
         {% endfor %}
@@ -179,6 +200,12 @@ class="
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_product_lightbox",
+      "label": "Enable zoom",
+      "default": true
+    },
     {
         "type": "range",
         "id": "container_width",
