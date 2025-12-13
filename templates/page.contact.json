@@ -36,7 +36,7 @@
       "type": "custom-liquid",
       "custom_css": [],
       "settings": {
-        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #e6dfd0;\n}\n.header {\n--color-background-header:#e6dfd0;\n--color-text-header:#000000;\n}\n</style>",
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #e2dbce;\n}\n.header {\n--color-background-header:#e6dfd0;\n--color-text-header:#000000;\n}\n</style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       }
