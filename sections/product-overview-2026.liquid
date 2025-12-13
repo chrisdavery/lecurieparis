@@ -109,12 +109,35 @@
                         {%- capture image_sizes -%}
                             (min-width: 720px) calc(calc(50vw - calc(2 * clamp(18px, 3.3vw, 3.3vw)))), calc(100vw - calc(2 * 3.3vw))
                         {%- endcapture -%}
-                        {%- render 'image',
-                            wrapper_class: 'featured-product__image',
-                            image: block.settings.image,
-                            sizes: image_sizes,
-                            aspect_ratio: block.settings.aspect_ratio,
-                        -%}
+
+                        {%- capture media_link_element -%}
+                            {%- if block.settings.enable_product_lightbox == true -%}
+                                a
+                            {%- else -%}
+                                div
+                            {%- endif -%}
+                        {%- endcapture -%}
+
+                        {% if block.settings.enable_product_lightbox == true %}
+                            {%- capture media_atributes -%}
+                                href="{{ block.settings.image.src | image_url }}" class="lightbox-image no-transition"
+                                data-pswp-src="{{- block.settings.image.src | image_url -}}"
+                                data-pswp-width="{{- block.settings.image.width -}}"
+                                data-pswp-height="{{ block.settings.image.height }}"
+                                data-cropped="true"
+                            {%- endcapture -%}
+                        {%- endif -%}
+
+                        <div class="featured-image-block {% if block.settings.enable_product_lightbox %} lightbox-media-container{% endif %}">
+                            <{{ media_link_element }} {{ media_atributes }}>
+                                {%- render 'image',
+                                    wrapper_class: 'featured-product__image',
+                                    image: block.settings.image,
+                                    sizes: image_sizes,
+                                    aspect_ratio: block.settings.aspect_ratio,
+                                -%}
+                            </{{ media_link_element }}>
+                        </div>
                     {% when 'variant_title_price' %}
                         <div class="product__block--product-variant-title" {{ block.shopify_attributes }}>
                             <div class="
@@ -467,6 +490,12 @@
                     "label": "t:shared.settings.aspect_ratio.option_landscape"
                     }
                 ]
+            },
+            {
+                "type": "checkbox",
+                "id": "enable_product_lightbox",
+                "label": "Enable zoom",
+                "default": true
             }
         ]
     },
