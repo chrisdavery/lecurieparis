@@ -597,21 +597,9 @@ inbox-online-store-chat#ShopifyChat {
     padding-right: var(--space-outer);
     box-sizing: border-box;
 }
-/* FORCE HEADER MENU BOLD */
-header a,
-header nav a,
-.header a,
-.header nav a,
-.nav a,
-.menu a,
-.navigation a,
-#HeaderMenu a,
-.site-nav a {
-    font-family: var(--font-heading) !important;
-    font-weight: var(--font-heading-weight) !important;
-    font-style: var(--font-heading-style) !important;
+.footer.section[data-section-type="footer"] {
+  background-color: #ffffff !important;
 }
-
 
 .article__rte > * {
     font-size: var(--font-size-heading-4-base);
