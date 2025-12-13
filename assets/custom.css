@@ -535,7 +535,7 @@ inbox-online-store-chat#ShopifyChat {
 }
 
 .footer .disclosure__toggle {
-    color: c1c1c1;
+    color: inherit;
 }
 
 .section-link {
