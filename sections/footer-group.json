@@ -14,17 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "links_RiMBKA": {
-          "type": "links",
-          "settings": {
-            "desktop_width": 20,
-            "desktop_padding": 4,
-            "collapse_on_mobile": true,
-            "title": "STORES LOCATOR",
-            "show_title_on_desktop": true,
-            "link_list": "store-locator"
-          }
-        },
         "footer-3": {
           "type": "links",
           "settings": {
@@ -47,6 +36,17 @@
             "link_list": "general-information"
           }
         },
+        "links_RiMBKA": {
+          "type": "links",
+          "settings": {
+            "desktop_width": 20,
+            "desktop_padding": 4,
+            "collapse_on_mobile": true,
+            "title": "STORES LOCATOR",
+            "show_title_on_desktop": true,
+            "link_list": "store-locator"
+          }
+        },
         "text_9U3kke": {
           "type": "text",
           "settings": {
@@ -64,9 +64,9 @@
         }
       },
       "block_order": [
-        "links_RiMBKA",
         "footer-3",
         "footer-2",
+        "links_RiMBKA",
         "text_9U3kke"
       ],
       "custom_css": [],
