@@ -597,10 +597,21 @@ inbox-online-store-chat#ShopifyChat {
     padding-right: var(--space-outer);
     box-sizing: border-box;
 }
-.footer.section[data-section-type="footer"] .footer__bottom a,
-.footer.section[data-section-type="footer"] .footer__bottom span {
-  color: #000000;
+/* FORCE HEADER MENU BOLD */
+header a,
+header nav a,
+.header a,
+.header nav a,
+.nav a,
+.menu a,
+.navigation a,
+#HeaderMenu a,
+.site-nav a {
+    font-family: var(--font-heading) !important;
+    font-weight: var(--font-heading-weight) !important;
+    font-style: var(--font-heading-style) !important;
 }
+
 
 .article__rte > * {
     font-size: var(--font-size-heading-4-base);
