@@ -606,7 +606,7 @@ inbox-online-store-chat#ShopifyChat {
 
 /* Brown block with 4vw left/right "white borders" */
 .footer.section[data-section-type="footer"] .footer__groups {
-  background-color: #8a633a !important;  /* brown */
+  background-color:rgb(224, 204, 183) !important;  /* brown */
   color: #ffffff;
   margin: 0;                         /* white on left/right */
   padding: 70px var(--space-outer) 80px;                /* inner padding (top | LR | bottom) */
