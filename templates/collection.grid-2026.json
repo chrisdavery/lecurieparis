@@ -125,6 +125,13 @@
         "image_padding": "none",
         "image": "shopify://shop_images/lp-logo.png",
         "aspect_ratio": "natural",
+        "text_below_image": false,
+        "title": "Image with text split",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-display-3",
+        "heading_alignment": "left",
+        "below_background_color": "#d9a49c",
+        "below_text_color": "#000000",
         "focal_point": "image_presentation",
         "content_alignment": "left",
         "background_color": "#ffffff",
@@ -186,8 +193,8 @@
             "column_pos": "3",
             "row_pos": "2",
             "row_pos_mobile": "3",
-            "image": "shopify://shop_images/insta3.jpg",
-            "text": "Jay is wearing \"VICTOR\"",
+            "image": "shopify://shop_images/l_ecurie__31_LEV_G.jpg",
+            "text": "Zizi is wearing \"Elsa\"",
             "use_italic_font": true
           }
         },
@@ -198,7 +205,7 @@
             "row_pos": "5",
             "row_pos_mobile": "6",
             "image": "shopify://shop_images/media.jpg",
-            "text": "Jenny is wearing \"ELSA\"",
+            "text": "Jack is wearing \"George\"",
             "use_italic_font": true
           }
         }
