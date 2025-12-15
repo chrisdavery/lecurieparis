@@ -388,49 +388,6 @@
         "content_width": "custom"
       }
     },
-    "image_with_text_split_mQm4gx": {
-      "type": "image-with-text-split",
-      "blocks": {
-        "text_eykzyd": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Japan is world-renowned for the manufacture of high-quality, meticulously<br/>crafted eyewear. Committed to delivering impeccable quality to each model and becoming a leading luxury brand,it was only natural that Lionel Moroy,our artistic director, chose to have all his creations manufactured in the Sabae region. This region owes its reputation to precise craftsmanship and the innovative use of high-end materials such as ultra-lightweight titanium, resistant to all types of corrosion, Takiron acetate,hypoallergenic 18-carat gold-plated or 14-carat white gold, and Zeiss or Inui lenses, all featuring maximum UV protection, vibrant colors, and anti-reflective properties. With such high-end production.</em></p>",
-            "text_font_class": "fs-body-200"
-          }
-        }
-      },
-      "block_order": [
-        "text_eykzyd"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "p {font-size: 22px;}"
-      ],
-      "name": "t:sections.image_with_text_split.presets.name",
-      "settings": {
-        "section_link": "shopify://collections/optical",
-        "image_position": "left",
-        "image_mobile_position": "above-content",
-        "image_padding": "all-sides",
-        "image": "shopify://shop_images/madeinjapan-LP_495f20f8-ce0c-44a1-b58b-e2207da63ec3.jpg",
-        "aspect_ratio": "portrait",
-        "text_below_image": false,
-        "title": "Image with text split",
-        "heading_tag": "h2",
-        "heading_font_class": "fs-heading-display-3",
-        "heading_alignment": "left",
-        "below_background_color": "#d9a49c",
-        "below_text_color": "#000000",
-        "focal_point": "image_presentation",
-        "content_alignment": "center",
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
     "image_with_text_J3YN6H": {
       "type": "image-with-text",
       "blocks": {
@@ -593,7 +550,6 @@
     "rich_text_EJaXXP",
     "rich_text_U4KXYd",
     "rich_text_yLnFcV",
-    "image_with_text_split_mQm4gx",
     "image_with_text_J3YN6H",
     "rich_text_wfXKDj",
     "rich_text_ryU9Fq",
