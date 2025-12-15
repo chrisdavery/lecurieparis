@@ -24,6 +24,7 @@
       "block_order": [
         "heading_8YBM6e"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (min-width: 960px) {.fs-heading-display-0 {font-size: 100px; }}",
         "@media (max-width: 959px) {.image-with-text-split {padding-bottom: 0; }}"
