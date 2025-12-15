@@ -169,6 +169,7 @@
         "heading_UKTebP",
         "subheading_94tDjm"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__inner {max-width: 28rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
