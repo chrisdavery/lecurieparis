@@ -182,7 +182,7 @@
         "text_YxJB4M": {
           "type": "text",
           "settings": {
-            "text": "<p>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</p>",
+            "text": "<p><em>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</em></p>",
             "text_font_class": "fs-body-200"
           }
         }
@@ -191,6 +191,7 @@
         "heading_PEVTPD",
         "text_YxJB4M"
       ],
+      "custom_css": [],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
