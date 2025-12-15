@@ -168,47 +168,90 @@
         "content_width": "custom"
       }
     },
-    "image_with_text_split_6nenUR": {
-      "type": "image-with-text-split",
+    "image_with_text_tAqXLD": {
+      "type": "image-with-text",
       "blocks": {
-        "text_K8RxYM": {
+        "heading_PEVTPD": {
+          "type": "heading",
+          "settings": {
+            "title": "Meaning of L'Écurie",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_YxJB4M": {
           "type": "text",
           "settings": {
-            "text": "<p><em>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. <br/>The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.<br/>More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</em></p>",
+            "text": "<p>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</p>",
             "text_font_class": "fs-body-200"
           }
         }
       },
       "block_order": [
-        "text_K8RxYM"
+        "heading_PEVTPD",
+        "text_YxJB4M"
       ],
-      "disabled": true,
-      "custom_css": [
-        "p {font-size: 22px;}"
-      ],
-      "name": "t:sections.image_with_text_split.presets.name",
+      "name": "t:sections.image_with_text.presets.name",
       "settings": {
-        "section_link": "shopify://collections/optical",
         "image_position": "left",
-        "image_mobile_position": "above-content",
-        "image_padding": "all-sides",
+        "text_alignment": "center",
         "image": "shopify://shop_images/Origin-LP.jpg",
         "aspect_ratio": "portrait",
-        "text_below_image": false,
-        "title": "Image with text split",
-        "heading_tag": "h2",
-        "heading_font_class": "fs-heading-display-3",
-        "heading_alignment": "left",
-        "below_background_color": "#d9a49c",
-        "below_text_color": "#000000",
         "focal_point": "image_presentation",
-        "content_alignment": "center",
-        "background_color": "rgba(0,0,0,0)",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
         "text_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "section_padding": "section--vertical-padding-none"
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_T7KLm7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9Tp4zx": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_GtrLhf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris.He is the designer behind each new collection.Obsessed with design and becauseof an emotional connection to beautysince a young age, Lionel went to Artschool in Paris where he perfectedhis craft.He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clientsBecause of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience.</em></p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Tp4zx",
+        "text_GtrLhf"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/lionelmoroy-lp.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "rich_text_eghBG8": {
@@ -279,48 +322,6 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
-      }
-    },
-    "image_with_text_split_zCFH8G": {
-      "type": "image-with-text-split",
-      "blocks": {
-        "text_A6Kfcz": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris. <br/>He is the designer behind each new collection.<br/>Obsessed with design and because<br/>of an emotional connection to beauty<br/>since a young age, Lionel went to Art<br/>school in Paris where he perfected<br/>his craft. <br/>He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clients<br/>Because of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience.</em></p>",
-            "text_font_class": "fs-body-200"
-          }
-        }
-      },
-      "block_order": [
-        "text_A6Kfcz"
-      ],
-      "custom_css": [
-        "p {font-size: 22px;}"
-      ],
-      "name": "t:sections.image_with_text_split.presets.name",
-      "settings": {
-        "section_link": "shopify://collections/optical",
-        "image_position": "right",
-        "image_mobile_position": "above-content",
-        "image_padding": "all-sides",
-        "image": "shopify://shop_images/lionelmoroy-lp.jpg",
-        "aspect_ratio": "portrait",
-        "text_below_image": false,
-        "title": "Image with text split",
-        "heading_tag": "h2",
-        "heading_font_class": "fs-heading-display-3",
-        "heading_alignment": "left",
-        "below_background_color": "#d9a49c",
-        "below_text_color": "#000000",
-        "focal_point": "image_presentation",
-        "content_alignment": "center",
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "section_padding": "section--vertical-padding-none"
       }
     },
     "rich_text_U4KXYd": {
@@ -400,6 +401,7 @@
       "block_order": [
         "text_eykzyd"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 22px;}"
       ],
@@ -426,6 +428,49 @@
         "button_text_color": "#ffffff",
         "enable_animation": false,
         "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_J3YN6H": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3C8HAp": {
+          "type": "heading",
+          "settings": {
+            "title": "MADE IN JAPAN",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_Rj4rpr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Japan is world-renowned for the manufacture of high-quality, meticulouslycrafted eyewear. Committed to delivering impeccable quality to each model and becoming a leading luxury brand,it was only natural that Lionel Moroy,our artistic director, chose to have all his creations manufactured in the Sabae region. This region owes its reputation to precise craftsmanship and the innovative use of high-end materials such as ultra-lightweight titanium, resistant to all types of corrosion, Takiron acetate,hypoallergenic 18-carat gold-plated or 14-carat white gold, and Zeiss or Inui lenses, all featuring maximum UV protection, vibrant colors, and anti-reflective properties. With such high-end production.</em></p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3C8HAp",
+        "text_Rj4rpr"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/madeinjapan-LP_495f20f8-ce0c-44a1-b58b-e2207da63ec3.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "rich_text_wfXKDj": {
@@ -491,10 +536,18 @@
         "content_width": "custom"
       }
     },
-    "image_with_text_split_KK7Pqy": {
-      "type": "image-with-text-split",
+    "image_with_text_Wb34kc": {
+      "type": "image-with-text",
       "blocks": {
-        "text_e6qVmG": {
+        "heading_Fc3a8V": {
+          "type": "heading",
+          "settings": {
+            "title": "Timeless Elegance",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_inckXK": {
           "type": "text",
           "settings": {
             "text": "<p><em>At L’Écurie Paris, we celebrate both men and women because true style transcends gender and becomes an attitude. <br/>Our Maison is built on the belief that elegance is universal, rooted in confidence, character, and authenticity rather than trends. <br/>We draw inspiration from classic codes tailoring, equestrian heritage, and timeless design reinterpreted for modern life. Respect for classic elegance guides every creative decision, from frame proportions to materials and finishes. <br/>This philosophy allows our eyewear to complement individuality rather than overpower it. <br/>In our images and campaigns, men and women are portrayed with the same strength, poise, and quiet refinement. <br/>Each visual story reflects balance, restraint, and intention. <br/>Through this lens, L’Écurie Paris expresses a shared language of style where elegance is enduring and deeply human.</em></p>",
@@ -503,64 +556,14 @@
         }
       },
       "block_order": [
-        "text_e6qVmG"
-      ],
-      "custom_css": [
-        "p {font-size: 22px;}"
-      ],
-      "name": "t:sections.image_with_text_split.presets.name",
-      "settings": {
-        "section_link": "shopify://collections/optical",
-        "image_position": "right",
-        "image_mobile_position": "above-content",
-        "image_padding": "all-sides",
-        "image": "shopify://shop_images/timless-elegance.jpg",
-        "aspect_ratio": "portrait",
-        "text_below_image": false,
-        "title": "Image with text split",
-        "heading_tag": "h2",
-        "heading_font_class": "fs-heading-display-3",
-        "heading_alignment": "left",
-        "below_background_color": "#d9a49c",
-        "below_text_color": "#000000",
-        "focal_point": "image_presentation",
-        "content_alignment": "center",
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "image_with_text_tAqXLD": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_PEVTPD": {
-          "type": "heading",
-          "settings": {
-            "title": "Meaning of L'Écurie",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
-          }
-        },
-        "text_YxJB4M": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</p>",
-            "text_font_class": "fs-body-200"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PEVTPD",
-        "text_YxJB4M"
+        "heading_Fc3a8V",
+        "text_inckXK"
       ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
         "text_alignment": "center",
-        "image": "shopify://shop_images/Origin-LP.jpg",
+        "image": "shopify://shop_images/timless-elegance.jpg",
         "aspect_ratio": "portrait",
         "focal_point": "image_presentation",
         "image_caption": "",
@@ -583,16 +586,16 @@
     "page_title_tnNTyH",
     "page_navigation_PDz7cq",
     "rich_text_Twch7r",
-    "image_with_text_split_6nenUR",
+    "image_with_text_tAqXLD",
+    "image_with_text_T7KLm7",
     "rich_text_eghBG8",
     "rich_text_EJaXXP",
-    "image_with_text_split_zCFH8G",
     "rich_text_U4KXYd",
     "rich_text_yLnFcV",
     "image_with_text_split_mQm4gx",
+    "image_with_text_J3YN6H",
     "rich_text_wfXKDj",
     "rich_text_ryU9Fq",
-    "image_with_text_split_KK7Pqy",
-    "image_with_text_tAqXLD"
+    "image_with_text_Wb34kc"
   ]
 }
