@@ -23,7 +23,7 @@
     "custom_liquid_BjyVN7": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f2e8da;\n}\n.header {\n--color-background-header:#f2e8da;\n}\n\n\n</style>",
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n\n\n</style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       }
