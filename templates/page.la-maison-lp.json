@@ -195,7 +195,9 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
-        "text_alignment": "center",
+        "shrink_image_column": true,
+        "shrink_image_width": 40,
+        "text_alignment": "left",
         "image": "shopify://shop_images/Origin-LP.jpg",
         "aspect_ratio": "portrait",
         "focal_point": "image_presentation",
@@ -206,50 +208,7 @@
         "background_color": "",
         "text_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "image_with_text_T7KLm7": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_9Tp4zx": {
-          "type": "heading",
-          "settings": {
-            "title": "About Us",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
-          }
-        },
-        "text_GtrLhf": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris.He is the designer behind each new collection.Obsessed with design and becauseof an emotional connection to beautysince a young age, Lionel went to Artschool in Paris where he perfectedhis craft.He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clientsBecause of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience.</em></p>",
-            "text_font_class": "fs-body-200"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9Tp4zx",
-        "text_GtrLhf"
-      ],
-      "name": "t:sections.image_with_text.presets.name",
-      "settings": {
-        "image_position": "right",
-        "text_alignment": "center",
-        "image": "shopify://shop_images/lionelmoroy-lp.jpg",
-        "aspect_ratio": "portrait",
-        "focal_point": "image_presentation",
-        "image_caption": "",
-        "show_small_image": false,
-        "image_small_aspect_ratio": "square",
-        "image_small_focal_point": "image_presentation",
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
+        "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
@@ -323,6 +282,51 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
+      }
+    },
+    "image_with_text_T7KLm7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9Tp4zx": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_GtrLhf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris.He is the designer behind each new collection.Obsessed with design and becauseof an emotional connection to beautysince a young age, Lionel went to Artschool in Paris where he perfectedhis craft.He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clientsBecause of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience.</em></p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Tp4zx",
+        "text_GtrLhf"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "image_position": "right",
+        "shrink_image_column": false,
+        "shrink_image_width": 50,
+        "text_alignment": "center",
+        "image": "shopify://shop_images/lionelmoroy-lp.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "rich_text_U4KXYd": {
@@ -414,6 +418,8 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
+        "shrink_image_column": false,
+        "shrink_image_width": 50,
         "text_alignment": "center",
         "image": "shopify://shop_images/madeinjapan-LP_495f20f8-ce0c-44a1-b58b-e2207da63ec3.jpg",
         "aspect_ratio": "portrait",
@@ -425,7 +431,7 @@
         "background_color": "",
         "text_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
+        "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
@@ -520,6 +526,8 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
+        "shrink_image_column": false,
+        "shrink_image_width": 50,
         "text_alignment": "center",
         "image": "shopify://shop_images/timless-elegance.jpg",
         "aspect_ratio": "portrait",
@@ -531,7 +539,7 @@
         "background_color": "",
         "text_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
+        "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"

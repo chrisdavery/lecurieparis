@@ -33,6 +33,9 @@
     image-with-text
     image-with-text--justify-{{ section.settings.text_alignment }}
     image-with-text--image-{{ section.settings.image_position }}
+    {% if section.settings.shrink_image_column == true %}
+     image-with-text-shrink-image
+    {% endif %}
     {% unless section.settings.image_caption == blank %}
       image-with-text--has-image-caption
     {% endunless %}
@@ -57,6 +60,10 @@
     --text-alignment: {{ section.settings.text_alignment }};
     --small-image-placeholder-color: {{ settings.color_text | color_modify: 'alpha', 0.7 }};
     {% render 'overlay-button-vars' with color_button_text: section.settings.button_text_color, color_button_background: section.settings.button_background_color %}
+    {% if section.settings.shrink_image_column == true %}
+     --shrink-img-width: {{ section.settings.shrink_image_width }}%;
+     --shrink-text-width: {{ 100 | minus: section.settings.shrink_image_width }}%;
+    {% endif %}
   "
 >
   <div
@@ -207,6 +214,23 @@
           "label": "t:sections.image_with_text.settings.image_position.option_right"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "shrink_image_column",
+      "label": "Shrink Image column",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "shrink_image_width",
+      "label": "Image column width",
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "step": 1,
+      "default": 50,
+      "visible_if": "{{ section.settings.shrink_image_column == true }}"
     },
     {
       "type": "select",
