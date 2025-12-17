@@ -164,7 +164,8 @@
       "custom_css": [
         "h2 {display: block; font-size: 32px;}",
         ".image-with-text-split {padding-top: 0; padding-bottom: 0;}",
-        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
+        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}",
+        "@media (max-width: 1600px) {{--aspect-ratio-portrait: 5.8 / 6; }}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
@@ -173,7 +174,7 @@
         "image_mobile_position": "above-content",
         "image_padding": "none",
         "image": "shopify://shop_images/l_ecurie__31_LEV_G.jpg",
-        "aspect_ratio": "portrait",
+        "aspect_ratio": "natural",
         "text_below_image": false,
         "title": "Image with text split",
         "heading_tag": "h2",
