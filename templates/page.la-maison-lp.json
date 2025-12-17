@@ -254,7 +254,7 @@
           "settings": {
             "title": "‘‘I accept the great adventure of being me.’’",
             "heading_tag": "h3",
-            "heading_font_class": "fs-heading-1-base",
+            "heading_font_class": "fs-heading-2-base",
             "set_to_italic": true
           }
         },
@@ -369,7 +369,7 @@
           "settings": {
             "title": "‘‘Alone we can do so little, together we can do so much.’’",
             "heading_tag": "h3",
-            "heading_font_class": "fs-heading-1-base",
+            "heading_font_class": "fs-heading-2-base",
             "set_to_italic": true
           }
         },
@@ -483,7 +483,7 @@
           "settings": {
             "title": "\"Being sexy means that you are well aware of and have control over what, mentally or physically, can trigger your seductive power\"",
             "heading_tag": "h3",
-            "heading_font_class": "fs-heading-1-base",
+            "heading_font_class": "fs-heading-2-base",
             "set_to_italic": true
           }
         },
