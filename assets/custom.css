@@ -612,15 +612,13 @@ inbox-online-store-chat#ShopifyChat {
   padding: 70px var(--space-outer) 80px;                /* inner padding (top | LR | bottom) */
   box-sizing: border-box;
   justify-content: center;
-  footer__group:last-child {
-    padding-right: 0 !important;
-}
-
+  
 }
 @media (min-width: 1200px) {
 .footer__group {
     --desktop-width: fit !important;
     --desktop-padding: 12% !important;
+    
 }
 }
 
