@@ -24,6 +24,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -47,7 +48,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom_liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div id=\"progus-store-locator\"></div><script>(function(p,r,o,g,u,s){var a=p.createElement(r);var b=\"?shop=lecuriesport.myshopify.com&lang=\" +(typeof Shopify!==`undefined`?Shopify.locale:``) +\"&tags=\"+g+\"&city=\"+u+\"&groups=\"+s;a.src=o+b;a.allowfullscreen=!0;a.allow=\"geolocation\";a.frameborder=0;a.setAttribute(\"frameBorder\",\"0\");a.setAttribute(\"allowfullscreen\",\"\");a.width=\"100%\";a.height=\"500px\";p.querySelector(\"#progus-store-locator\").appendChild(a);window.addEventListener(\"message\",(e)=>{if(e.data.pslheight){a.style.height=e.data.pslheight}})})(document,\"iframe\",\"https://sl-widget.proguscommerce.com/main\")</script>",
+        "custom_liquid": "<!-- Start Stockist.co widget -->\n<stockist-store-locator data-stockist-widget-tag=\"map_g3y5znz3\">\n  Loading store locator from <a href=\"https://stockist.co\">Stockist store locator</a>...\n</stockist-store-locator>\n<script async src=\"https://stockist.co/embed/v1/widget.min.js\"></script>\n<!-- End Stockist.co widget -->",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
