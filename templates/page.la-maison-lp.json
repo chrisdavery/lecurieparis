@@ -23,7 +23,7 @@
     "custom_liquid_BjyVN7": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n{\n  --max-width: 1000px !important;\n}\n\n</style>",
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n\n</style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       }
@@ -227,6 +227,9 @@
       "block_order": [
         "border_bzqVtB"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "",
@@ -309,6 +312,9 @@
         "heading_9Tp4zx",
         "text_GtrLhf"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "right",
@@ -341,6 +347,9 @@
       },
       "block_order": [
         "border_QEy6gp"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -450,6 +459,9 @@
       "block_order": [
         "border_dwcq6F"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "",
@@ -490,7 +502,8 @@
         ".rich-text__inner {max-width: 34rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
         "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
-        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}",
+        " {--max-width: 1000px !important;}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -524,6 +537,9 @@
       "block_order": [
         "heading_Fc3a8V",
         "text_inckXK"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
       ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
