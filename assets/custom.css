@@ -613,6 +613,11 @@ inbox-online-store-chat#ShopifyChat {
   box-sizing: border-box;
   justify-content: center;
 }
+@media (min-width: 960px) {
+.footer__group {
+    --desktop-width: fit !important;
+}
+}
 
 /* Text + links inside brown block */
 .footer.section[data-section-type="footer"] .footer__groups a,
