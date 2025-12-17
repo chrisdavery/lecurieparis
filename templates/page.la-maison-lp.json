@@ -311,7 +311,7 @@
       "settings": {
         "image_position": "right",
         "shrink_image_column": true,
-        "shrink_image_width": 26,
+        "shrink_image_width": 30,
         "text_alignment": "left",
         "image": "shopify://shop_images/lionelmoroy-lp.jpg",
         "aspect_ratio": "portrait",
