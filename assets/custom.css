@@ -620,10 +620,11 @@ inbox-online-store-chat#ShopifyChat {
     --desktop-padding: 12% !important;
     
 }
-}
 footer__group:last-child {
     padding-right: 0 !important;
 }
+}
+
 
 /* Text + links inside brown block */
 .footer.section[data-section-type="footer"] .footer__groups a,
