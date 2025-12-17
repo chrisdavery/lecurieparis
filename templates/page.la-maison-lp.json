@@ -310,8 +310,8 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "right",
-        "shrink_image_column": false,
-        "shrink_image_width": 50,
+        "shrink_image_column": true,
+        "shrink_image_width": 40,
         "text_alignment": "center",
         "image": "shopify://shop_images/lionelmoroy-lp.jpg",
         "aspect_ratio": "portrait",
@@ -418,8 +418,8 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
-        "shrink_image_column": false,
-        "shrink_image_width": 50,
+        "shrink_image_column": true,
+        "shrink_image_width": 40,
         "text_alignment": "center",
         "image": "shopify://shop_images/madeinjapan-LP_495f20f8-ce0c-44a1-b58b-e2207da63ec3.jpg",
         "aspect_ratio": "portrait",
@@ -526,8 +526,8 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
-        "shrink_image_column": false,
-        "shrink_image_width": 50,
+        "shrink_image_column": true,
+        "shrink_image_width": 40,
         "text_alignment": "center",
         "image": "shopify://shop_images/timless-elegance.jpg",
         "aspect_ratio": "portrait",
