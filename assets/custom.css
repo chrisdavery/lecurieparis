@@ -616,7 +616,7 @@ inbox-online-store-chat#ShopifyChat {
 @media (min-width: 1200px) {
 .footer__group {
     --desktop-width: fit !important;
-    --desktop-padding: 20% !important;
+    --desktop-padding: 12% !important;
 }
 }
 
