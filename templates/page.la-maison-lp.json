@@ -448,7 +448,7 @@
         "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "rich_text_wfXKDj": {
