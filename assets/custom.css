@@ -913,6 +913,11 @@ header nav a,
         width: var(--shrink-text-width);
         padding-left: var(--spacing-16);
     }
+
+    .image-with-text-shrink-image.image-with-text--image-right {
+        padding-left: 0;
+        padding-right: var(--spacing-16);
+    }
 }
 
 @media (max-width: 719px) {
