@@ -614,12 +614,15 @@ inbox-online-store-chat#ShopifyChat {
   justify-content: center;
   
 }
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
 .footer__group {
     --desktop-width: fit !important;
     --desktop-padding: 12% !important;
     
 }
+}
+footer__group:last-child {
+    padding-right: 0 !important;
 }
 
 /* Text + links inside brown block */
