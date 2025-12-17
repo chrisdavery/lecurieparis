@@ -613,7 +613,7 @@ inbox-online-store-chat#ShopifyChat {
   box-sizing: border-box;
   justify-content: center;
 }
-@media (min-width: 960px) {
+@media (min-width: 1200px) {
 .footer__group {
     --desktop-width: fit !important;
 }
