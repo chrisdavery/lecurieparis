@@ -426,6 +426,9 @@
         "heading_3C8HAp",
         "text_Rj4rpr"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
