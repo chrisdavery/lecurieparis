@@ -191,7 +191,9 @@
         "heading_PEVTPD",
         "text_YxJB4M"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "{--max-width: 900px !important;}"
+      ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
