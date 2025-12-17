@@ -12,7 +12,8 @@
     "image_hero_Tc7dCY": {
       "type": "image-hero",
       "custom_css": [
-        "section {padding-top: 0; padding-bottom: 0;}"
+        "section {padding-top: 0; padding-bottom: 0;}",
+        "@media (max-width: 1600px) {{--aspect-ratio-portrait: 5.8 / 6;}}"
       ],
       "name": "t:sections.image_hero.presets.name",
       "settings": {
