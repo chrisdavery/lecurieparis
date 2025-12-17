@@ -187,9 +187,9 @@
       {%- endif -%}
 
       {%- unless is_quick -%}
-        <div class="product-form__shop-pay fs-body-75">
+        {% comment %} <div class="product-form__shop-pay fs-body-75">
           {{- form | payment_terms -}}
-        </div>
+        </div> {% endcomment %}
       {%- endunless -%}
 
       {%- unless is_quick -%}
