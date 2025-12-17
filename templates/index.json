@@ -17,12 +17,12 @@
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "custom",
-        "desktop_height": 100,
-        "mobile_height": 100,
+        "desktop_height": 85,
+        "mobile_height": 80,
         "image": "shopify://shop_images/l_ecurie__1_LEV_G.jpg",
         "image_mobile": "shopify://shop_images/l_ecurie__1_LEV_G.jpg",
-        "focal_point": "image_presentation",
-        "mobile_focal_point": "image_presentation",
+        "focal_point": "center",
+        "mobile_focal_point": "center",
         "media_link": "shopify://collections/the-collection",
         "text_position": "center_flex-end",
         "text_position_mobile": "center_flex-end",
@@ -247,7 +247,7 @@
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
             "image_position": "above_text",
-            "image_link": "https://www.instagram.com/lecurieparis",
+            "image_link": "",
             "small_caption": "",
             "accent": "",
             "heading": "",
@@ -270,7 +270,7 @@
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
             "image_position": "above_text",
-            "image_link": "https://www.instagram.com/lecurieparis",
+            "image_link": "",
             "small_caption": "",
             "accent": "",
             "heading": "",
@@ -293,7 +293,7 @@
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
             "image_position": "above_text",
-            "image_link": "https://www.instagram.com/lecurieparis",
+            "image_link": "",
             "small_caption": "",
             "accent": "",
             "heading": "",
@@ -348,8 +348,17 @@
     "rich_text_bKi9BR": {
       "type": "rich-text",
       "blocks": {
+        "text_QdCgED": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><a href=\"https://www.instagram.com/lecurieparis\" target=\"_blank\" title=\"https://www.instagram.com/lecurieparis\">INSTA BOARD</a></h1>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
         "heading_F47fLY": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "INSTA BOARD",
             "heading_tag": "h2",
@@ -369,6 +378,7 @@
         }
       },
       "block_order": [
+        "text_QdCgED",
         "heading_F47fLY",
         "spacer_7wgEiH",
         "border_krMUa9"
@@ -380,7 +390,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "section_link": "https://www.instagram.com/lecurieparis",
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
