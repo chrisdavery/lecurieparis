@@ -298,7 +298,7 @@
         "text_GtrLhf": {
           "type": "text",
           "settings": {
-            "text": "<p><em>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris.He is the designer behind each new collection.Obsessed with design and becauseof an emotional connection to beautysince a young age, Lionel went to Artschool in Paris where he perfectedhis craft.He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clientsBecause of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience.</em></p>",
+            "text": "<p><em>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris.<br/>He is the designer behind each new collection.<br/>Obsessed with design and becauseof an emotional connection to beauty since a young age, Lionel went to Artschool in Paris where he perfected his craft.<br/>He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clientsBecause of his love for luxury craftsmanship and his passion for vintage sunglasses and cars.<br/>L’Ecurie is the result of Lionel’s 30+ years design experience.</em></p>",
             "text_font_class": "fs-body-200"
           }
         }
