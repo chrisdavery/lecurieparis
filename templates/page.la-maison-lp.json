@@ -419,7 +419,7 @@
       "settings": {
         "image_position": "left",
         "shrink_image_column": true,
-        "shrink_image_width": 40,
+        "shrink_image_width": 30,
         "text_alignment": "left",
         "image": "shopify://shop_images/madeinjapan-LP_495f20f8-ce0c-44a1-b58b-e2207da63ec3.jpg",
         "aspect_ratio": "portrait",
