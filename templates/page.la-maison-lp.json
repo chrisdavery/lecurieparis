@@ -196,7 +196,7 @@
       "settings": {
         "image_position": "left",
         "shrink_image_column": true,
-        "shrink_image_width": 40,
+        "shrink_image_width": 30,
         "text_alignment": "left",
         "image": "shopify://shop_images/Origin-LP.jpg",
         "aspect_ratio": "portrait",
@@ -298,7 +298,7 @@
         "text_GtrLhf": {
           "type": "text",
           "settings": {
-            "text": "<p><em>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris.He is the designer behind each new collection.Obsessed with design and becauseof an emotional connection to beautysince a young age, Lionel went to Artschool in Paris where he perfectedhis craft.He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clientsBecause of his love for luxury craftsmanship and his passion for vintage sunglasses and cars, L’Ecurie is the result of Lionel’s 30+ years design experience.</em></p>",
+            "text": "<p><em>French born, Lionel Moroy is the Owner, Founder and Creative Director of l’Ecurie Paris.<br/>He is the designer behind each new collection.<br/>Obsessed with design and becauseof an emotional connection to beauty since a young age, Lionel went to Artschool in Paris where he perfected his craft.<br/>He moved to Los Angeles in 2010. This is where he build his first company, specialized in leisure clothing, providing designs and manufacturing services to many american and international clientsBecause of his love for luxury craftsmanship and his passion for vintage sunglasses and cars.<br/>L’Ecurie is the result of Lionel’s 30+ years design experience.</em></p>",
             "text_font_class": "fs-body-200"
           }
         }
@@ -310,9 +310,9 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "right",
-        "shrink_image_column": false,
-        "shrink_image_width": 50,
-        "text_alignment": "center",
+        "shrink_image_column": true,
+        "shrink_image_width": 30,
+        "text_alignment": "left",
         "image": "shopify://shop_images/lionelmoroy-lp.jpg",
         "aspect_ratio": "portrait",
         "focal_point": "image_presentation",
@@ -418,9 +418,9 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
-        "shrink_image_column": false,
-        "shrink_image_width": 50,
-        "text_alignment": "center",
+        "shrink_image_column": true,
+        "shrink_image_width": 30,
+        "text_alignment": "left",
         "image": "shopify://shop_images/madeinjapan-LP_495f20f8-ce0c-44a1-b58b-e2207da63ec3.jpg",
         "aspect_ratio": "portrait",
         "focal_point": "image_presentation",
@@ -525,10 +525,10 @@
       ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
-        "image_position": "left",
-        "shrink_image_column": false,
-        "shrink_image_width": 50,
-        "text_alignment": "center",
+        "image_position": "right",
+        "shrink_image_column": true,
+        "shrink_image_width": 30,
+        "text_alignment": "left",
         "image": "shopify://shop_images/timless-elegance.jpg",
         "aspect_ratio": "portrait",
         "focal_point": "image_presentation",
