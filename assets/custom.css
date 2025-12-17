@@ -914,7 +914,7 @@ header nav a,
         padding-left: var(--spacing-16);
     }
 
-    .image-with-text-shrink-image.image-with-text--image-right {
+    .image-with-text-shrink-image.image-with-text--image-right  .image-with-text__text-container {
         padding-left: 0;
         padding-right: var(--spacing-16);
     }
