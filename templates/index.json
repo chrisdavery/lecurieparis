@@ -348,8 +348,17 @@
     "rich_text_bKi9BR": {
       "type": "rich-text",
       "blocks": {
+        "text_QdCgED": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><a href=\"https://www.instagram.com/lecurieparis\" target=\"_blank\" title=\"https://www.instagram.com/lecurieparis\">INSTA BOARD</a></h1>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
         "heading_F47fLY": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "INSTA BOARD",
             "heading_tag": "h2",
@@ -369,6 +378,7 @@
         }
       },
       "block_order": [
+        "text_QdCgED",
         "heading_F47fLY",
         "spacer_7wgEiH",
         "border_krMUa9"
