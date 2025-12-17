@@ -527,7 +527,7 @@
       "settings": {
         "image_position": "right",
         "shrink_image_column": true,
-        "shrink_image_width": 40,
+        "shrink_image_width": 30,
         "text_alignment": "left",
         "image": "shopify://shop_images/timless-elegance.jpg",
         "aspect_ratio": "portrait",
