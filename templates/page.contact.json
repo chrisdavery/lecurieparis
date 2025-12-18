@@ -61,7 +61,7 @@
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only",
+        "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
       }
     },
@@ -148,21 +148,11 @@
         "content_width": "custom",
         "custom_content_width": 500
       }
-    },
-    "custom_liquid_NTxcgH": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.name",
-      "settings": {
-        "custom_liquid": "",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
     }
   },
   "order": [
     "main",
     "rich-text-1",
-    "contact-form",
-    "custom_liquid_NTxcgH"
+    "contact-form"
   ]
 }
