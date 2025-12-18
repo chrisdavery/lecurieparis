@@ -9,27 +9,15 @@
  */
 {
   "sections": {
-    "image_hero_4HhBk8": {
-      "type": "image-hero",
+    "main": {
+      "type": "main-page",
+      "disabled": true,
       "settings": {
-        "image_aspect": "original",
-        "desktop_height": 70,
-        "mobile_height": 50,
-        "image": "shopify://shop_images/new-1R9A1791.jpg",
-        "image_mobile": "shopify://shop_images/new-1R9A1791.jpg",
-        "focal_point": "image_presentation",
-        "mobile_focal_point": "image_presentation",
-        "media_link": "",
-        "text_position": "center_center",
-        "text_position_mobile": "center_center",
-        "text_color": "#ffffff",
-        "button_background_color": "#ffffff",
-        "button_text_color": "#000000",
-        "color_overlay": "#000000",
-        "color_overlay_gradient": "",
-        "overlay_opacity": 15,
+        "bg_color": "#ffffff",
+        "content_color": "",
         "enable_animation": false,
-        "section_padding": "section--vertical-padding-none"
+        "content_width": "full",
+        "custom_content_width": 700
       }
     },
     "contact-form": {
@@ -104,7 +92,7 @@
       ],
       "settings": {
         "alignment": "center_center",
-        "heading": "Contact us",
+        "heading": "",
         "heading_tag": "h2",
         "heading_font_class": "fs-heading-3-base",
         "text": "<p>We are here to help provide information and advice on your purchases.<br/>You can also submit your request to become part of our exclusive ambassadors team.<br/><br/>Email us at <a href=\"mailto:contact@lecurieparis.com\" title=\"mailto:contact@lecurieparis.com\">experience@lecurieparis.com</a><br/></p>",
@@ -114,27 +102,6 @@
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom",
         "custom_content_width": 500
-      }
-    },
-    "custom_liquid_BDFVTx": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "custom_liquid": "<style>\n/* Menu hover → black */\n.header a:hover,\n.header a:hover span,\n.header__menu-item:hover,\n.header__menu-item a:hover,\n.header__inline-menu a:hover,\n.list-menu__item a:hover,\n.site-nav__link:hover,\n.navigation__link:hover,\nnav a:hover {\n  color: #000000 !important;\n}\n\n/* Optional: icons hover → black */\n.header a:hover svg,\n.header a:hover svg * {\n  fill: #000000 !import",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "bg_color": "#ffffff",
-        "content_color": "",
-        "enable_animation": false,
-        "content_width": "full",
-        "custom_content_width": 700
       }
     },
     "rich-text-1": {
@@ -183,10 +150,8 @@
     }
   },
   "order": [
-    "image_hero_4HhBk8",
-    "contact-form",
-    "custom_liquid_BDFVTx",
     "main",
+    "contact-form",
     "rich-text-1"
   ]
 }
