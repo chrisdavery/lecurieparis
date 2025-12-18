@@ -176,7 +176,9 @@
         "subheading_VzciLB",
         "text_99NEU6"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "right",
