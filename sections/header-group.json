@@ -56,7 +56,7 @@
         "secondary_menu": "explore-lp",
         "right_menu": "right-menu-2024",
         "enable_transparent_on_home": false,
-        "enable_transparent_template_list": "page.contact",
+        "enable_transparent_template_list": "",
         "logo_transparent": "shopify://shop_images/white-transparent.png",
         "color_text_transparent": "#000000",
         "color_count_transparent": "#000000"
