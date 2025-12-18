@@ -20,6 +20,42 @@
         "custom_content_width": 700
       }
     },
+    "page_navigation_4f3DFa": {
+      "type": "page-navigation",
+      "blocks": {
+        "link_CkjFGH": {
+          "type": "link",
+          "settings": {
+            "text": "CAMPAIGN 2025",
+            "link": "https://lecurieparis.com/pages/lp-campaign-2025"
+          }
+        },
+        "link_VV6JVF": {
+          "type": "link",
+          "settings": {
+            "text": "CAMPAIGN 2024",
+            "link": "https://lecurieparis.com/pages/lp-campaign-beverly-hills"
+          }
+        },
+        "link_bydPUQ": {
+          "type": "link",
+          "settings": {
+            "text": "CAMPAIGN 2023",
+            "link": "https://lecurieparis.com/pages/lp-campaign-rancho-palos-verdes"
+          }
+        }
+      },
+      "block_order": [
+        "link_CkjFGH",
+        "link_VV6JVF",
+        "link_bydPUQ"
+      ],
+      "name": "Page navigation",
+      "settings": {
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "custom_liquid_R6iTxj": {
       "type": "custom-liquid",
       "settings": {
@@ -47,7 +83,8 @@
           "type": "text",
           "settings": {
             "text": "<p>A LONG WAY HOME.<br/>Stunning campaign with the L'Écurie Paris eyewear collection <br/>and a Porsche 911S of 1967.</p>",
-            "text_font_class": "fs-body-100"
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
           }
         }
       },
@@ -57,6 +94,7 @@
         "text_UmqngE"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -232,7 +270,8 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Eyewear Design<br/></strong>Lionel Moroy<br/><strong>Creative director<br/></strong>Tamara LeeCarroll<br/><strong>Fashion Models<br/></strong>Camille Balsamo<br/>Jed Bernard<br/><strong>Video</strong><br/>Keenan Reed<br/><strong>Photo</strong><br/>Tamara LeeCarroll</p>",
-            "text_font_class": "fs-body-100"
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
           }
         },
         "image_XTPnh9": {
@@ -250,6 +289,7 @@
         "image_XTPnh9"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -260,6 +300,7 @@
   },
   "order": [
     "main",
+    "page_navigation_4f3DFa",
     "custom_liquid_R6iTxj",
     "rich_text_mLJE4n",
     "video_cpkd9Y",
