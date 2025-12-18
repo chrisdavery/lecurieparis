@@ -135,6 +135,9 @@
         "block-4",
         "block-5"
       ],
+      "custom_css": [
+        "{padding-top: 150px; }"
+      ],
       "settings": {
         "alignment": "center_center",
         "heading": "",
