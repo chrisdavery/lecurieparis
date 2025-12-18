@@ -135,8 +135,9 @@
         "block-4",
         "block-5"
       ],
+      "disabled": true,
       "custom_css": [
-        "{padding-top: 150px; }"
+        "{padding-top: 150px;}"
       ],
       "settings": {
         "alignment": "center_center",
@@ -151,11 +152,60 @@
         "content_width": "custom",
         "custom_content_width": 500
       }
+    },
+    "image_with_text_ALJqJY": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_VzciLB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Contact us:",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-4-base"
+          }
+        },
+        "text_99NEU6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are here to help provide information and advice on your purchases.<br/>You can also submit your request to become part of our exclusive ambassadors team.<br/><br/>Email us at <a href=\"mailto:contact@lecurieparis.com\" title=\"mailto:contact@lecurieparis.com\">experience@lecurieparis.com</a></p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VzciLB",
+        "text_99NEU6"
+      ],
+      "custom_css": [
+        "{padding-top: 150px;}"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "image_position": "right",
+        "shrink_image_column": false,
+        "shrink_image_width": 50,
+        "text_alignment": "center",
+        "image": "shopify://shop_images/PORTS_WINTER_HORSES_NO_WRITING18.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
     "main",
     "rich-text-1",
-    "contact-form"
+    "contact-form",
+    "image_with_text_ALJqJY"
   ]
 }
