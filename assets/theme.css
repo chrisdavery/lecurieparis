@@ -12892,7 +12892,7 @@ html:not(.no-js) .navigation__submenu-trigger[aria-expanded="true"]{
   flex-direction:column;
   width:100vw;
   height:calc(100 * var(--vh));
-  padding-top:calc(var(--height-header) + var(--announcement-height));
+  padding-top:calc(var(--height-header) + var(--announcement-height, 0px));
   color:var(--color-text-header);
   background-color:var(--color-background-header);
   z-index:100;
