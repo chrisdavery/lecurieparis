@@ -200,12 +200,47 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
+    },
+    "video_9wWiqe": {
+      "type": "video",
+      "blocks": {
+        "play_button_XDLHLy": {
+          "type": "play-button",
+          "settings": {
+            "text": "Watch now",
+            "button_layout": "full",
+            "icon_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "play_button_XDLHLy"
+      ],
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "video_source": "shopify",
+        "video": "shopify://files/videos/Cuba.MP4",
+        "video_url": "",
+        "loop": false,
+        "media_aspect_ratio": "landscape_wide_alt",
+        "focal_point": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center",
+        "button_background_color": "#FFF",
+        "color_overlay": "#000",
+        "color_overlay_text": "#FFF",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
     "main",
     "rich-text-1",
     "contact-form",
-    "image_with_text_ALJqJY"
+    "image_with_text_ALJqJY",
+    "video_9wWiqe"
   ]
 }
