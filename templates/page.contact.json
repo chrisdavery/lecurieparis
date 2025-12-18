@@ -167,7 +167,7 @@
         "text_99NEU6": {
           "type": "text",
           "settings": {
-            "text": "<p>We are here to help provide information and advice on your purchases.<br/>You can also submit your request to become part of our exclusive ambassadors team.<br/><br/>Email us at <a href=\"mailto:contact@lecurieparis.com\" title=\"mailto:contact@lecurieparis.com\">experience@lecurieparis.com</a></p>",
+            "text": "<p>We are here to help provide information and advice on your purchases.<br/>You can also submit your request to become part of our exclusive ambassadors team.<br/><br/>Email us at:</p><p><a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:EXPERIENCE@LECURIEPARIS.COM\">EXPERIENCE@LECURIEPARIS.COM</a></p><p><strong>PRESS<br/></strong><a href=\"mailto:info@brooklynpr.com\" title=\"mailto:info@brooklynpr.com\">INFO@BROOKLYNPR.COM</a></p>",
             "text_font_class": "fs-body-100"
           }
         }
