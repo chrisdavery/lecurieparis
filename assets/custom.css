@@ -663,19 +663,21 @@ inbox-online-store-chat#ShopifyChat {
 }
 
 /* FORCE HEADER MENU BOLD */
-header a,
 header nav a,
-.header a,
-.header nav a,
-.nav a,
-.menu a,
-.navigation a,
-#HeaderMenu a,
-.site-nav a {
+.drawer-menu__link {
+    font-family: var(--font-heading) !important;
+    font-weight: 400 !important;
+    font-style: var(--font-heading-style) !important;
+}
+
+header nav a:hover,
+a.drawer-menu__link.active,
+header nav a.active {
     font-family: var(--font-heading) !important;
     font-weight: var(--font-heading-weight) !important;
     font-style: var(--font-heading-style) !important;
 }
+
 #HeaderMenu .list-menu--disclosure a,
 #HeaderMenu .site-nav__dropdown a,
 .header .dropdown-menu a,
