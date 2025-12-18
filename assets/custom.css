@@ -674,7 +674,7 @@ header nav a:hover,
 a.drawer-menu__link.active,
 header nav a.active {
     font-family: var(--font-heading) !important;
-    font-weight: 400 !important;
+    font-weight: bold !important;
     font-style: var(--font-heading-style) !important;
 }
 
