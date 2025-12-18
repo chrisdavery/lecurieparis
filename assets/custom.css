@@ -685,6 +685,10 @@ header nav a.active {
     font-weight: 400 !important; /* normal */
 }
 
+.drawer-menu__item {
+    border: 0 !important;
+}
+
 
 .article__rte > * {
     font-size: var(--font-size-heading-4-base);
