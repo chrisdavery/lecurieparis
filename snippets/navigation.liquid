@@ -80,9 +80,9 @@
           aria-controls="{{ sub_menu_id }}"
           {{ trigger_additional_attributes }}
         >
-          <span class="link-hover">
-            {{ link.title }}
-          </span>
+          {{ link.title }}
+          {% comment %} <span class="link-hover">
+          </span> {% endcomment %}
           <span class="header__links-icon">
             {% render 'icon' with icon: 'chevron-small' %}
           </span>
@@ -113,9 +113,9 @@
             aria-current="page"
           {% endif %}
         >
-          <span class="link-hover">
-            {{ link.title }}
-          </span>
+          {{ link.title }}
+          {% comment %} <span class="link-hover">
+          </span> {% endcomment %}
         </a>
       {%- endif -%}
     </li>
