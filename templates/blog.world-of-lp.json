@@ -132,50 +132,16 @@
         "content_width": "custom"
       }
     },
-    "blog_posts_3mdbDF": {
-      "type": "blog-posts",
-      "blocks": {
-        "article_a3PqWx": {
-          "type": "article",
-          "settings": {
-            "article": "news/discover-the-essence-of-french-elegance-with-papillon-designer-eyewear"
-          }
-        }
-      },
-      "block_order": [
-        "article_a3PqWx"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Latest news",
-        "subheading": "",
-        "button_link": "",
-        "link_text": "",
-        "display_type": "all",
-        "blog": "news",
-        "max_articles": 2,
-        "show_tags": true,
-        "show_author": false,
-        "show_date": false,
-        "show_excerpt": true,
-        "show_featured_image": true,
-        "aspect_ratio": "square",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".blog__header {display: none;}",
         "@media (min-width: 960px) {.blog {padding-top: 0; }}"
       ],
       "settings": {
-        "show_tag_nav": false,
+        "show_tag_nav": true,
         "article_per_page": 12,
-        "show_tags": false,
-        "show_author": false,
+        "show_tags": true,
+        "show_author": true,
         "show_date": false,
         "show_excerpt": false,
         "show_featured_image": true,
@@ -261,7 +227,6 @@
     "page_title_dgFf4i",
     "rich_text_CBVAd8",
     "rich_text_3ArGjg",
-    "blog_posts_3mdbDF",
     "main",
     "newsletter_iq3en9"
   ]
