@@ -85,7 +85,7 @@
         "link_cYcQCz": {
           "type": "link",
           "settings": {
-            "text": "THE DESIGNER",
+            "text": "THE STORY",
             "link": "shopify://pages/a-design-story"
           }
         },
@@ -149,7 +149,7 @@
       "settings": {
         "title": "",
         "heading_tag": "h2",
-        "subheading": "<h1>The story</h1>",
+        "subheading": "",
         "heading_font_class": "fs-heading-3-base",
         "heading_alignment": "center",
         "content_vertical_alignment": "center",
