@@ -343,6 +343,7 @@
         "spacer_KFzTUU",
         "image_Tn3E9X"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
