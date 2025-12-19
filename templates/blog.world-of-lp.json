@@ -96,6 +96,7 @@
         "heading_4iTDfj",
         "subheading_4kiA78"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__inner {max-width: 34rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
@@ -162,7 +163,7 @@
       ],
       "settings": {
         "show_tag_nav": true,
-        "article_per_page": 12,
+        "article_per_page": 36,
         "show_tags": true,
         "show_author": false,
         "show_date": false,
