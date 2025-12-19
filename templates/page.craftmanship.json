@@ -299,7 +299,7 @@
         "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
+        "section_padding": "section--vertical-padding-bottom-only"
       }
     },
     "rich_text_KgwNgz": {
