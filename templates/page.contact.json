@@ -186,9 +186,9 @@
       "custom_css": [],
       "settings": {
         "alignment": "center_center",
-        "heading": "",
+        "heading": "Contact Form:",
         "heading_tag": "h2",
-        "heading_font_class": "fs-heading-3-base",
+        "heading_font_class": "fs-heading-4-base",
         "text": "",
         "show_recaptcha_terms": true,
         "enable_animation": false,
