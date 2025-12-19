@@ -283,6 +283,9 @@
         "item_V8qmLw",
         "item_npjyL6"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "settings": {
         "heading": "",
         "heading_tag": "h2",
@@ -311,6 +314,9 @@
         "text_pekaTp"
       ],
       "disabled": true,
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -390,6 +396,9 @@
       },
       "block_order": [
         "text_iAK7FL"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
       ],
       "settings": {
         "section_link": "",
