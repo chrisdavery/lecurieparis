@@ -468,9 +468,6 @@ slider-collection-item .swiper-slide {
     width: 100% !important;
 }
 
-inbox-online-store-chat#ShopifyChat {
-    z-index: calc(var(--z-index-modal) - 1px) !important;
-}
 
 [data-enable-sticky-filter-sidebar=true] .filter-sidebar [data-sticky-container] {
     top: calc(var(--sticky-filter-bar-height, 0) * 2) !important;
@@ -615,14 +612,18 @@ inbox-online-store-chat#ShopifyChat {
   
 }
 @media (min-width: 960px) {
-.footer__group {
-    --desktop-width: fit !important;
-    --desktop-padding: 12% !important;
-    
-}
-.footer__group:last-child {
-    padding-right: 0 !important;
-}
+    .footer__group {
+        --desktop-width: fit !important;
+        --desktop-padding: 12% !important;
+        
+    }
+    .footer__group:last-child {
+        padding-right: 0 !important;
+    }
+
+    inbox-online-store-chat#ShopifyChat {
+        z-index: calc(var(--z-index-modal) - 1px) !important;
+    }
 }
 
 
