@@ -62,18 +62,6 @@
     "rich_text_mLJE4n": {
       "type": "rich-text",
       "blocks": {
-        "accent_RqdqYp": {
-          "type": "accent",
-          "settings": {
-            "accent": "Campaign LP 2023"
-          }
-        },
-        "spacer_DTL3mt": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
         "text_UmqngE": {
           "type": "text",
           "settings": {
@@ -84,8 +72,6 @@
         }
       },
       "block_order": [
-        "accent_RqdqYp",
-        "spacer_DTL3mt",
         "text_UmqngE"
       ],
       "settings": {
