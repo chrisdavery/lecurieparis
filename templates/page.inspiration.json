@@ -66,9 +66,54 @@
         "link_qT676c",
         "link_KmhrJi"
       ],
+      "disabled": true,
       "settings": {
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "page_navigation_8QAUAq": {
+      "type": "page-navigation",
+      "blocks": {
+        "link_X3KTVJ": {
+          "type": "link",
+          "settings": {
+            "text": "ORIGIN",
+            "link": "shopify://pages/la-maison-lecurie-paris"
+          }
+        },
+        "link_aWLi4r": {
+          "type": "link",
+          "settings": {
+            "text": "THE DESIGNER",
+            "link": "shopify://pages/a-design-story"
+          }
+        },
+        "link_XyQ3zz": {
+          "type": "link",
+          "settings": {
+            "text": "INSPIRATION",
+            "link": "shopify://pages/inspiration"
+          }
+        },
+        "link_mPecGq": {
+          "type": "link",
+          "settings": {
+            "text": "MADE IN JAPAN",
+            "link": "shopify://pages/craftmanship"
+          }
+        }
+      },
+      "block_order": [
+        "link_X3KTVJ",
+        "link_aWLi4r",
+        "link_XyQ3zz",
+        "link_mPecGq"
+      ],
+      "name": "Page navigation",
+      "settings": {
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "rich_text_VDL3Wd": {
@@ -78,7 +123,8 @@
           "type": "text",
           "settings": {
             "text": "<p>French design often embraces a timeless, chic style. <br/>This can be seen in the use of classic colors, refined materials, and meticulous attention to detail.</p><p>Art, fashion, and cuisine profoundly influence French design, leading to a fusion of styles that reflect contemporary trends while honoring tradition.</p>",
-            "text_font_class": "fs-body-75"
+            "text_font_class": "fs-body-75",
+            "set_to_italic": false
           }
         }
       },
@@ -86,6 +132,7 @@
         "text_YGNaag"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": false,
         "divider_style": "none",
@@ -185,7 +232,8 @@
           "type": "text",
           "settings": {
             "text": "<p>Horses have had a significant influence on French fashion, reflecting the country’s rich equestrian culture and historical ties to nobility.<br/>Horses represent freedom and empowerment, qualities that resonate deeply in women's fashion.</p>",
-            "text_font_class": "fs-body-75"
+            "text_font_class": "fs-body-75",
+            "set_to_italic": false
           }
         }
       },
@@ -193,6 +241,7 @@
         "text_YKhiP8"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -293,7 +342,8 @@
           "type": "text",
           "settings": {
             "text": "<p>How not to admire the parisian streets and monument.<br/>Paris has long been regarded as the fashion capital of the world, influencing global trends and setting the standard for style.</p>",
-            "text_font_class": "fs-body-75"
+            "text_font_class": "fs-body-75",
+            "set_to_italic": false
           }
         }
       },
@@ -301,6 +351,7 @@
         "text_pekaTp"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -367,7 +418,8 @@
           "type": "text",
           "settings": {
             "text": "<p>Classic cars, much like high fashion and equestrian style, embody a sense of timeless elegance.<br/>The curves and lines of vintage vehicles often mirror the silhouettes found in classic fashion and riding attire.</p>",
-            "text_font_class": "fs-body-75"
+            "text_font_class": "fs-body-75",
+            "set_to_italic": false
           }
         }
       },
@@ -375,6 +427,7 @@
         "text_iAK7FL"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -472,6 +525,7 @@
   "order": [
     "main",
     "page_navigation_PDz7cq",
+    "page_navigation_8QAUAq",
     "rich_text_VDL3Wd",
     "grid_XdJTWE",
     "rich_text_JMGMXF",
