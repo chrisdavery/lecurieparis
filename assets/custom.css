@@ -596,20 +596,14 @@ slider-collection-item .swiper-slide {
 }
 /* ===== L'ÉCURIE – FOOTER LAYOUT ===== */
 
-/* Make the overall footer background white */
-.footer.section[data-section-type="footer"] {
-  background-color: #ffffff !important;
-}
+
 
 /* Brown block with 4vw left/right "white borders" */
 .footer.section[data-section-type="footer"] .footer__groups {
-  background-color: #ffffff !important;  /* brown */
-  color: #ffffff;
   margin: 0;                         /* white on left/right */
   padding: 70px var(--space-outer) 80px;                /* inner padding (top | LR | bottom) */
   box-sizing: border-box;
   justify-content: center;
-  
 }
 
 .page-nav {
@@ -666,7 +660,6 @@ header.blog__header {
 .footer.section[data-section-type="footer"] .footer__groups a,
 .footer.section[data-section-type="footer"] .footer__groups p,
 .footer.section[data-section-type="footer"] .footer__groups li {
-  color:rgb(0, 0, 0);
   font-weight: 500;
   text-decoration: none;
 }
@@ -675,7 +668,6 @@ header.blog__header {
 .footer.section[data-section-type="footer"] .footer__groups h2,
 .footer.section[data-section-type="footer"] .footer__groups h3,
 .footer.section[data-section-type="footer"] .footer__groups h4 {
-  color: #000000;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -683,19 +675,12 @@ header.blog__header {
 
 /* Bottom copyright / selector strip – white, full width */
 .footer.section[data-section-type="footer"] .footer__bottom {
-  background-color: #ffffff;
-  color: #000000;
   margin-top: 40px;
   padding: 18px 1vw 22px;                /* same 4vw left/right */
   box-sizing: border-box;
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-}
-
-.footer.section[data-section-type="footer"] .footer__bottom a,
-.footer.section[data-section-type="footer"] .footer__bottom span {
-  color: #000000;
 }
 
 /* FORCE HEADER MENU BOLD */
