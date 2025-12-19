@@ -252,11 +252,14 @@
         "heading_HtHzT8",
         "text_A3ACQt"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "left",
         "shrink_image_column": true,
-        "shrink_image_width": 30,
+        "shrink_image_width": 35,
         "text_alignment": "left",
         "image": "shopify://shop_images/lionelmoroy-lp.jpg",
         "aspect_ratio": "portrait",
