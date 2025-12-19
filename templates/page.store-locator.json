@@ -12,15 +12,17 @@
     "rich_text_8P9VeH": {
       "type": "rich-text",
       "blocks": {
-        "accent_69Rjct": {
-          "type": "accent",
+        "text_tY3BDF": {
+          "type": "text",
           "settings": {
-            "accent": "A curated collection of distinguished fashion and eyewear boutiques."
+            "text": "<p>Each boutique is a carefully chosen partner, selected for its excellence, discretion, and refined sense of service. <br/>These distinguished establishments share our devotion to craftsmanship and ensure that every client enjoys <br/>an experience as exceptional and personal as the eyewear itself.</p>",
+            "text_font_class": "fs-body-75",
+            "set_to_italic": true
           }
         }
       },
       "block_order": [
-        "accent_69Rjct"
+        "text_tY3BDF"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
