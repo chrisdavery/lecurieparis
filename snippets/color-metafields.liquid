@@ -16,6 +16,11 @@
                         --color-text-footer: {{ page.metafields.custom.body_custom_text_color }} !important;
                     {% endif %}
                 }
+                {% if page.metafields.custom.body_custom_text_color != blank %}
+                    .footer {
+                        color: {{ page.metafields.custom.body_custom_text_color }} !important;
+                    }
+                {% endif %}
 
             {% if page.metafields.custom.header_custom_background_color.value != blank %}
                 .header {
