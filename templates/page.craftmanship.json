@@ -20,56 +20,12 @@
         "custom_content_width": 700
       }
     },
-    "page_navigation_34QzHg": {
-      "type": "page-navigation",
-      "blocks": {
-        "link_En7Xtp": {
-          "type": "link",
-          "settings": {
-            "text": "LA MAISON",
-            "link": "shopify://pages/la-maison-lecurie-paris"
-          }
-        },
-        "link_Uw4HyH": {
-          "type": "link",
-          "settings": {
-            "text": "THE STORY",
-            "link": "shopify://pages/a-design-story"
-          }
-        },
-        "link_NMEFK8": {
-          "type": "link",
-          "settings": {
-            "text": "FRENCH DESIGN",
-            "link": "shopify://pages/french-design"
-          }
-        },
-        "link_78wrdL": {
-          "type": "link",
-          "settings": {
-            "text": "INSPIRATION",
-            "link": "shopify://pages/inspiration"
-          }
-        },
-        "link_WQwAMN": {
-          "type": "link",
-          "settings": {
-            "text": "CRAFTSMANSHIP",
-            "link": "shopify://pages/craftmanship"
-          }
-        }
-      },
-      "block_order": [
-        "link_En7Xtp",
-        "link_Uw4HyH",
-        "link_NMEFK8",
-        "link_78wrdL",
-        "link_WQwAMN"
-      ],
-      "disabled": true,
+    "custom_liquid_mRbjpJ": {
+      "type": "custom-liquid",
       "settings": {
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n\n</style>",
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "page_navigation_MQHXbf": {
@@ -117,14 +73,6 @@
       "settings": {
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "custom_liquid_mRbjpJ": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n\n</style>",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
       }
     },
     "rich_text_bMtenr": {
@@ -259,7 +207,7 @@
         "subheading_UMQUiP": {
           "type": "subheading",
           "settings": {
-            "subheading": "The Legacy of Japanese manufacturing",
+            "subheading": "The heritage of a \"savoir faire\"",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-6-base"
           }
@@ -599,9 +547,8 @@
   },
   "order": [
     "main",
-    "page_navigation_34QzHg",
-    "page_navigation_MQHXbf",
     "custom_liquid_mRbjpJ",
+    "page_navigation_MQHXbf",
     "rich_text_bMtenr",
     "rich_text_X4TJmg",
     "image_with_text_h7n9tG",
