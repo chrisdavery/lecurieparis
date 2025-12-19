@@ -93,10 +93,10 @@
       ],
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
-        "image_position": "right",
+        "image_position": "left",
         "shrink_image_column": true,
         "shrink_image_width": 41,
-        "text_alignment": "center",
+        "text_alignment": "left",
         "image": "shopify://shop_images/Elsa2_50da2db5-04d2-494a-89d6-265782526b9b.jpg",
         "aspect_ratio": "square",
         "focal_point": "image_presentation",
