@@ -39,7 +39,9 @@
         "link_fiAGqE",
         "link_aMYyyF"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "{padding-top: 40px;}"
+      ],
       "name": "Page navigation",
       "settings": {
         "divider_style": "none",

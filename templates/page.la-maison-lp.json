@@ -58,6 +58,9 @@
         "link_kR8VqR",
         "link_yrz6Cp"
       ],
+      "custom_css": [
+        "{padding-top: 40px;}"
+      ],
       "name": "Page navigation",
       "settings": {
         "divider_style": "none",
