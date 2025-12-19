@@ -235,7 +235,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Horses have long influenced French fashion, reflecting the country’s rich equestrian heritage and historic ties to nobility. <br/>As symbols of freedom and empowerment, they resonate deeply within women’s fashion, embodying strength, grace, and independence.</p>",
-            "text_font_class": "fs-body-75",
+            "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
         }
@@ -423,7 +423,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Classic cars, much like high fashion and equestrian style, embody a sense of timeless elegance. <br/>The curves and lines of vintage automobiles often echo the refined silhouettes found in classic fashion and riding attire.</p>",
-            "text_font_class": "fs-body-75",
+            "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
         }
