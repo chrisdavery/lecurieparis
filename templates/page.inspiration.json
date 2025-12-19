@@ -70,12 +70,6 @@
     "rich_text_hUNWCY": {
       "type": "rich-text",
       "blocks": {
-        "spacer_hDMkxM": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
         "heading_TaNAiH": {
           "type": "heading",
           "settings": {
@@ -93,19 +87,11 @@
             "subheading_font_class": "fs-heading-5-base",
             "set_to_italic": false
           }
-        },
-        "spacer_hW4BKT": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
         }
       },
       "block_order": [
-        "spacer_hDMkxM",
         "heading_TaNAiH",
-        "subheading_Bm97N7",
-        "spacer_hW4BKT"
+        "subheading_Bm97N7"
       ],
       "custom_css": [
         ".rich-text__inner {max-width: 33rem;}",
