@@ -248,6 +248,14 @@
             "heading_font_class": "fs-heading-1-base"
           }
         },
+        "subheading_UMQUiP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The Legacy of Japanese manufacturing",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
         "text_xGJfFi": {
           "type": "text",
           "settings": {
@@ -258,6 +266,7 @@
       },
       "block_order": [
         "heading_AGMWjL",
+        "subheading_UMQUiP",
         "text_xGJfFi"
       ],
       "custom_css": [
