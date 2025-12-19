@@ -110,6 +110,9 @@
         "link_b3Ee3c",
         "link_yezqWx"
       ],
+      "custom_css": [
+        "{padding-top: 20px;}"
+      ],
       "name": "Page navigation",
       "settings": {
         "divider_style": "none",
