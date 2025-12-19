@@ -361,6 +361,9 @@
         "item_cdNVLd"
       ],
       "disabled": true,
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "settings": {
         "heading": "",
         "heading_tag": "h2",
