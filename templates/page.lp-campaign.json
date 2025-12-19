@@ -281,7 +281,7 @@
     "custom_liquid_R6iTxj": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\nbody {\ncolor: var(--color-background);\n}\nbody>.page {\n    background-color: #000;\n}\n.header {\n--color-background-header:#000;\n--color-text-header: var(--color-background);\n}\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
+        "custom_liquid": "<style>\nbody {\n\n\n.header--has-transparent-logo .transparent-logo {\n    display: block;\n}\n.header--has-transparent-logo .regular-logo {\n    display: none;\n}\n</style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
