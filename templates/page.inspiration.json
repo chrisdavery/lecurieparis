@@ -112,7 +112,7 @@
     "custom_liquid_HmwAAx": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n\n</style>",
+        "custom_liquid": "",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       }
