@@ -238,6 +238,7 @@
         "heading_PEVTPD",
         "text_YxJB4M"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
@@ -263,6 +264,64 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "multi_column_HXKUXy": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_dBDkyw": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Origin-LP.jpg",
+            "image_width": 50,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><em>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</em></p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 65,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_dBDkyw"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 44,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "css_class": ""
+      }
+    },
     "rich_text_eghBG8": {
       "type": "rich-text",
       "blocks": {
@@ -274,6 +333,7 @@
       "block_order": [
         "border_bzqVtB"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
@@ -320,6 +380,7 @@
         "heading_bDkqbE",
         "subheading_cijzh9"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__inner {max-width: 34rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
@@ -359,6 +420,7 @@
         "heading_9Tp4zx",
         "text_GtrLhf"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
@@ -395,6 +457,7 @@
       "block_order": [
         "border_QEy6gp"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
@@ -434,6 +497,7 @@
         "heading_tKFfkr",
         "subheading_GUyBGT"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__inner {max-width: 34rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
@@ -473,6 +537,7 @@
         "heading_3C8HAp",
         "text_Rj4rpr"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
@@ -526,30 +591,16 @@
     "rich_text_ryU9Fq": {
       "type": "rich-text",
       "blocks": {
-        "heading_ALxHEk": {
-          "type": "heading",
+        "spacer_D9Cn6d": {
+          "type": "spacer",
           "settings": {
-            "title": "\"Being sexy means that you are well aware of and have control over what, mentally or physically, can trigger your seductive power\"",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": true
-          }
-        },
-        "subheading_3fyxLk": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Milan Vukmirovic",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "set_to_italic": false
+            "space": 12
           }
         }
       },
       "block_order": [
-        "heading_ALxHEk",
-        "subheading_3fyxLk"
+        "spacer_D9Cn6d"
       ],
-      "disabled": true,
       "custom_css": [
         ".rich-text__inner {max-width: 34rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
@@ -625,6 +676,7 @@
     "page_navigation_PDz7cq",
     "rich_text_Twch7r",
     "image_with_text_tAqXLD",
+    "multi_column_HXKUXy",
     "rich_text_eghBG8",
     "rich_text_EJaXXP",
     "image_with_text_T7KLm7",
