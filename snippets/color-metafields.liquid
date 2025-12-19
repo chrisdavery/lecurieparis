@@ -1,16 +1,20 @@
 {% if template.name == 'page' %}
     {% if page.metafields.custom.body_custom_background_color != blank 
+        or page.metafields.custom.body_custom_text_color != blank 
         or page.metafields.custom.footer_custom_background_color != blank
         or page.metafields.custom.header_custom_background_color != blank
         or page.metafields.custom.footer_custom_text_color != blank
     %}
         {% style %}
 
-            {% if page.metafields.custom.body_custom_background_color.value != blank %}
                 :root {
-                    --color-background: {{ page.metafields.custom.body_custom_background_color.value }} !important;
+                    {% if page.metafields.custom.body_custom_background_color.value != blank %}
+                        --color-background: {{ page.metafields.custom.body_custom_background_color.value }} !important;
+                    {% endif %}
+                    {% if page.metafields.custom.body_custom_text_color != blank %}
+                        --color-text: {{ page.metafields.custom.body_custom_text_color }} !important;
+                    {% endif %}
                 }
-            {% endif %}
 
             {% if page.metafields.custom.header_custom_background_color.value != blank %}
                 .header {
