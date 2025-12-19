@@ -422,7 +422,7 @@
         "text_iAK7FL": {
           "type": "text",
           "settings": {
-            "text": "<p>Classic cars, much like high fashion and equestrian style, embody a sense of timeless elegance.<br/>The curves and lines of vintage vehicles often mirror the silhouettes found in classic fashion and riding attire.</p>",
+            "text": "<p>Classic cars, much like high fashion and equestrian style, embody a sense of timeless elegance. <br/>The curves and lines of vintage automobiles often echo the refined silhouettes found in classic fashion and riding attire.</p>",
             "text_font_class": "fs-body-75",
             "set_to_italic": false
           }
