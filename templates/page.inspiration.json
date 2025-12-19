@@ -125,8 +125,8 @@
         "text_YGNaag": {
           "type": "text",
           "settings": {
-            "text": "<p>French design often embraces a timeless, chic style. <br/>This can be seen in the use of classic colors, refined materials, and meticulous attention to detail.</p><p>Art, fashion, and cuisine profoundly influence French design, leading to a fusion of styles that reflect contemporary trends while honoring tradition.</p>",
-            "text_font_class": "fs-body-75",
+            "text": "<p>French design embodies a sense of timeless elegance and understated chic.<br/> It is expressed through the use of classic color palettes, refined materials, and a meticulous attention to detail.</p><p>Deeply influenced by art, fashion, and cuisine, French design naturally blends contemporary sensibilities with tradition,<br/>creating a distinctive balance between modern expression and heritage.</p>",
+            "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
         }
