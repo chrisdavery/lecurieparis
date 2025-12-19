@@ -245,7 +245,7 @@
       "settings": {
         "image_position": "left",
         "shrink_image_column": true,
-        "shrink_image_width": 30,
+        "shrink_image_width": 35,
         "text_alignment": "left",
         "image": "shopify://shop_images/Origin-LP.jpg",
         "aspect_ratio": "portrait",
