@@ -20,58 +20,6 @@
         "custom_content_width": 700
       }
     },
-    "page_navigation_PDz7cq": {
-      "type": "page-navigation",
-      "blocks": {
-        "link_bDmVhL": {
-          "type": "link",
-          "settings": {
-            "text": "LA MAISON",
-            "link": "shopify://pages/la-maison-lecurie-paris"
-          }
-        },
-        "link_X8bCYN": {
-          "type": "link",
-          "settings": {
-            "text": "THE STORY",
-            "link": "shopify://pages/a-design-story"
-          }
-        },
-        "link_X63kAL": {
-          "type": "link",
-          "settings": {
-            "text": "FRENCH DESIGN",
-            "link": "shopify://pages/french-design"
-          }
-        },
-        "link_qT676c": {
-          "type": "link",
-          "settings": {
-            "text": "INSPIRATION",
-            "link": "shopify://pages/inspiration"
-          }
-        },
-        "link_KmhrJi": {
-          "type": "link",
-          "settings": {
-            "text": "CRAFTSMANSHIP",
-            "link": "shopify://pages/craftmanship"
-          }
-        }
-      },
-      "block_order": [
-        "link_bDmVhL",
-        "link_X8bCYN",
-        "link_X63kAL",
-        "link_qT676c",
-        "link_KmhrJi"
-      ],
-      "disabled": true,
-      "settings": {
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-only"
-      }
-    },
     "page_navigation_8QAUAq": {
       "type": "page-navigation",
       "blocks": {
@@ -133,6 +81,9 @@
       },
       "block_order": [
         "text_YGNaag"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
       ],
       "settings": {
         "section_link": "",
@@ -216,6 +167,9 @@
         "item_JR9TFW",
         "item_cXYpNt"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "settings": {
         "heading": "",
         "heading_tag": "h2",
@@ -242,6 +196,9 @@
       },
       "block_order": [
         "text_YKhiP8"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
       ],
       "settings": {
         "section_link": "",
@@ -514,14 +471,17 @@
         "item_W9BMBy",
         "item_Q4T6Ek"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "settings": {
         "heading": "",
         "heading_tag": "h2",
         "subheading": "",
         "content_alignment": "left",
-        "enable_animation": true,
+        "enable_animation": false,
         "full_width": false,
-        "spacing": 24,
+        "spacing": 9,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
@@ -529,7 +489,6 @@
   },
   "order": [
     "main",
-    "page_navigation_PDz7cq",
     "page_navigation_8QAUAq",
     "rich_text_VDL3Wd",
     "grid_XdJTWE",
