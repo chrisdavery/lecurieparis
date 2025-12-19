@@ -15,8 +15,8 @@
         "text_tY3BDF": {
           "type": "text",
           "settings": {
-            "text": "<p>Each boutique is a carefully chosen partner, selected for its excellence, discretion, and refined sense of service. <br/>These distinguished establishments share our devotion to craftsmanship and ensure that every client enjoys <br/>an experience as exceptional and personal as the eyewear itself.</p>",
-            "text_font_class": "fs-body-75",
+            "text": "<p><em>Each boutique is a carefully chosen partner, selected for its excellence, discretion, and refined sense of service. <br/>These distinguished establishments share our devotion to craftsmanship and ensure that every client enjoys <br/>an experience as exceptional and personal as the eyewear itself.</em></p>",
+            "text_font_class": "fs-body-100",
             "set_to_italic": true
           }
         }
