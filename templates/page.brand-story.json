@@ -218,7 +218,9 @@
         "subheading_WrcmzE",
         "spacer_qG4K7a"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "",
