@@ -62,6 +62,7 @@
       "block_order": [
         "link_L3tGFi"
       ],
+      "disabled": true,
       "name": "Page navigation",
       "settings": {
         "divider_style": "none",

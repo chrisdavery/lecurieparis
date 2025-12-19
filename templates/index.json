@@ -19,8 +19,8 @@
         "image_aspect": "original",
         "desktop_height": 100,
         "mobile_height": 80,
-        "image": "shopify://shop_images/home_cf7d9d5d-bdcd-4f46-b9dd-92aefca1d273.jpg",
-        "image_mobile": "shopify://shop_images/home_49538072-aec6-4a24-82eb-288aa12fa38b.jpg",
+        "image": "shopify://shop_images/home_762534d2-cd9c-4586-a82f-7d4ca78f14a2.jpg",
+        "image_mobile": "shopify://shop_images/home_762534d2-cd9c-4586-a82f-7d4ca78f14a2.jpg",
         "focal_point": "center",
         "mobile_focal_point": "center",
         "media_link": "shopify://collections/the-collection",
@@ -33,7 +33,7 @@
         "color_overlay_gradient": "",
         "overlay_opacity": 0,
         "enable_animation": false,
-        "section_padding": "section--vertical-padding-none"
+        "section_padding": "section--vertical-padding-bottom-only"
       }
     },
     "rich_text_ghzTcf": {
@@ -52,6 +52,7 @@
       "block_order": [
         "heading_4p9XUk"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text {padding-bottom: var(--spacing-10);}",
         "section {padding-top: 0;}",
