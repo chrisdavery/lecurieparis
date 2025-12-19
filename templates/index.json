@@ -54,6 +54,7 @@
       "blocks": {
         "heading_4p9XUk": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "SHOP THE COLLECTION",
             "heading_tag": "h2",
