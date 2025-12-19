@@ -56,31 +56,6 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "rich_text_NQxijt": {
-      "type": "rich-text",
-      "blocks": {
-        "text_CRAE9F": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"/pages/lp-campaign-2\" title=\"LP Campaign 2\">LP CAMPAIGN</a>   , <a href=\"/blogs/news\" title=\"LUXURY STORIES\">LUXURIE STORIES</a></p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "text_CRAE9F"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -669,7 +644,6 @@
   "order": [
     "page_navigation_J7kim6",
     "custom_liquid_3fqUDw",
-    "rich_text_NQxijt",
     "main",
     "rich_text_KDnTin",
     "video_cpkd9Y",
