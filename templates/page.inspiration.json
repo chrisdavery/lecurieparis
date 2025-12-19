@@ -109,6 +109,14 @@
         "content_width": "custom"
       }
     },
+    "custom_liquid_HmwAAx": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "rich_text_VDL3Wd": {
       "type": "rich-text",
       "blocks": {
@@ -545,6 +553,7 @@
     "main",
     "page_navigation_8QAUAq",
     "rich_text_hUNWCY",
+    "custom_liquid_HmwAAx",
     "rich_text_VDL3Wd",
     "grid_XdJTWE",
     "rich_text_JMGMXF",
