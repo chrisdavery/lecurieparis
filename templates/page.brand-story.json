@@ -66,9 +66,54 @@
         "link_qT676c",
         "link_eyjUh3"
       ],
+      "disabled": true,
       "settings": {
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "page_navigation_pkcDLd": {
+      "type": "page-navigation",
+      "blocks": {
+        "link_UDQCgb": {
+          "type": "link",
+          "settings": {
+            "text": "ORIGIN",
+            "link": "shopify://pages/la-maison-lecurie-paris"
+          }
+        },
+        "link_cYcQCz": {
+          "type": "link",
+          "settings": {
+            "text": "THE DESIGNER",
+            "link": "shopify://pages/a-design-story"
+          }
+        },
+        "link_hU9CrJ": {
+          "type": "link",
+          "settings": {
+            "text": "INSPIRATION",
+            "link": "shopify://pages/inspiration"
+          }
+        },
+        "link_XJmhQR": {
+          "type": "link",
+          "settings": {
+            "text": "MADE IN JAPAN",
+            "link": "shopify://pages/craftmanship"
+          }
+        }
+      },
+      "block_order": [
+        "link_UDQCgb",
+        "link_cYcQCz",
+        "link_hU9CrJ",
+        "link_XJmhQR"
+      ],
+      "name": "Page navigation",
+      "settings": {
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "34e57fcd-392a-4878-9386-12f0e1caef09": {
@@ -194,6 +239,7 @@
   "order": [
     "main",
     "page_navigation_PDz7cq",
+    "page_navigation_pkcDLd",
     "34e57fcd-392a-4878-9386-12f0e1caef09",
     "quote",
     "35eb5364-1c17-4a2d-9a76-0003039a07e4"
