@@ -611,6 +611,41 @@ slider-collection-item .swiper-slide {
   justify-content: center;
   
 }
+
+.page-nav {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 0;
+}
+
+.page-nav a {
+    line-height: 1.2em;
+    display: block;
+}
+
+.page-nav a.active {
+    font-weight: bold;
+}
+
+@media (max-width: 959px) {
+    .page-nav {
+        gap: 0.5rem 1rem;
+        flex-wrap: wrap;
+    }
+}
+
+header.blog__header {
+    padding-top: var(--spacing-10);
+}
+
+.blog__header .page-nav a {
+    text-transform: uppercase;
+}
+
 @media (min-width: 960px) {
     .footer__group {
         --desktop-width: fit !important;

@@ -56,46 +56,32 @@
   >
     <div class="blog__inner">
       <header class="blog__header page__header animation--blog-header">
-        <h1 class="blog__heading ff-heading fs-heading-2-base fs-heading-1-base-ns ta-c">
+        <h1 class="blog__heading ff-heading fs-heading-2-base fs-heading-1-base-ns ta-c" hidden>
           {{ blog.title }}
         </h1>
 
         {%- if tag_list.size > 0 -%}
-          <div class="blog__nav">
-            <ul class="blog__nav-list" data-current="{{ current_tags }}">
-              <li class="blog__nav-item">
+          <ul class="page-nav">
+            <li>
+              <a
+                href="{{ blog.url }}"
+                {% if current_tags == blank %}class="active"{% endif %}
+              >
+                {{ 'blogs.general.all' | t }}
+              </a>
+            </li>
+
+            {% for tag in blog.all_tags %}
+              <li>
                 <a
-                  href="{{ blog.url }}"
-                  class="
-                    blog__nav-link
-                    {% if current_tags == blank %} blog__nav-link--active{% endif %}
-                    ff-heading
-                    fs-body-150
-                  "
+                  href="{{ blog.url }}/tagged/{{ tag | handle }}"
+                  {% if current_tags contains tag %}class="active"{% endif %}
                 >
-                  {{ 'blogs.general.all' | t }}
+                  {{ tag }}
                 </a>
               </li>
-              {{ tag_list }}
-            </ul>
-
-            {%- if tag_select_options.size > 0 -%}
-              <div class="blog__nav-mobile--wrapper select-wrapper">
-                <select name="blog-mobile-nav" id="blog-mobile-nav" class="blog__nav-mobile input">
-                  <option
-                    value="{{ blog.url }}"
-                    {% if current_tags == blank %}
-                      selected="selected"
-                    {% endif %}
-                  >
-                    {{ 'blogs.general.all' | t }}
-                  </option>
-                  {{ tag_select_options }}
-                </select>
-                {% render 'icon', icon: 'chevron-small' %}
-              </div>
-            {%- endif -%}
-          </div>
+            {% endfor %}
+          </ul>
         {%- endif -%}
       </header>
 
