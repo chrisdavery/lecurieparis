@@ -195,7 +195,7 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom",
-        "custom_content_width": 500
+        "custom_content_width": 850
       }
     },
     "video_9wWiqe": {
@@ -213,6 +213,7 @@
       "block_order": [
         "play_button_XDLHLy"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "video_source": "shopify",
