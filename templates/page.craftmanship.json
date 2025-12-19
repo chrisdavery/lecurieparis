@@ -267,7 +267,7 @@
         "text_xGJfFi": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Japan is world-renowned for the manufacture of high-quality, meticulouslycrafted eyewear. <br/>Committed to delivering impeccable quality to each model and becoming a leading luxury brand,it was only natural that Lionel Moroy,our artistic director, chose to have all his creations manufactured in the Sabae region. <br/>This region owes its reputation to precise craftsmanship and the innovative use of high-end materials such as ultra-lightweight titanium, resistant to all types of corrosion, Takiron acetate,hypoallergenic Titanium metal 18-carat gold-plated or Titanium 14-carat white gold, and Zeiss or Inui lenses, all featuring maximum UV protection, vibrant colors, and anti-reflective properties. With such high-end production.</em></p>",
+            "text": "<p>Craftsmanship is more than a tradition in Japan, it is a revered art, particularly in Sabae, where our eyewear is meticulously handcrafted. In these world-renowned workshops, artisans apply extraordinary skills passed down through generations, merging ancient techniques with modern innovation to achieve an exceptional level of precision and artistry.</p><p>Japan is globally recognized for the manufacture of high-quality eyewear, and it was only natural that Lionel Moroy, Artistic Director of L’Écurie Paris, chose the Sabae region for the production of all his creations. This region owes its reputation to its uncompromising standards and the innovative use of high-end materials, including ultra-lightweight, corrosion-resistant titanium, Takiron acetate, hypoallergenic titanium plated in 18-carat gold or 14-carat white gold, and Zeiss or Inui lenses offering maximum UV protection, vibrant colors, and anti-reflective properties.</p><p>The care invested in every detail ensures that each pair of eyewear is not only aesthetically refined but also built to last, embodying the enduring excellence of Japanese craftsmanship.</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -351,7 +351,6 @@
         "spacer_KFzTUU",
         "image_Tn3E9X"
       ],
-      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
