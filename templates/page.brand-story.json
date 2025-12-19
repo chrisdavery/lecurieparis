@@ -149,6 +149,7 @@
       "block_order": [
         "fb0f851a-3122-4368-af8b-8a7c99a19e46"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_tag": "h2",
@@ -203,6 +204,51 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "image_with_text_XNyC6h": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HtHzT8": {
+          "type": "heading",
+          "settings": {
+            "title": "THE STORY",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_A3ACQt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"I grew up a few miles from Paris and moved to Los Angeles in 2010.</p><p>Design has been in my blood my whole life. At 6 years old, girls from my classroom where asking me for drawings of a wolf I loved to draw..<br/>I always felt a deep emotional connection to beauty since a young age, and used it as an escape.<br/><br/>I went to art school in the 18th district of Paris, and this has been a revelation. It opened my eyes about life and art, and allowed me to be around other artists.<br/>I admired Yves Saint Laurent creations, and grew up immersed in Parisian architecture, art, fashion, and decorative motifs.<br/>I started my professional career at 23 years old, designing for companies in the apparel and lifestyle industry.<br/>But creating and designing is not a job for me, it's a fantastic life long experience.</p><p>\"In 2018 I decided to look back at my French heritage, and celebrate beauty, pure elegance through design.<br/>My ultimate desire was to create and deliver a product that has a soul and meaning.<br/>I love when people feel an emotion when they touch and wear our products, when it gives them a real experience.<br/>I wanted to design eyewear, as this is one of the most personal items. The one we choose to represent ourselves.<br/>We can either hide behind our glasses, or proudly own their style, blending with our personality.<br/>It’s a way to reaffirm our own self-confidence.\"</p><p></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HtHzT8",
+        "text_A3ACQt"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "image_position": "left",
+        "shrink_image_column": true,
+        "shrink_image_width": 30,
+        "text_alignment": "left",
+        "image": "shopify://shop_images/lionelmoroy-lp.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "35eb5364-1c17-4a2d-9a76-0003039a07e4": {
       "type": "rich-text",
       "blocks": {
@@ -229,6 +275,7 @@
         "template--15163675213867__35eb5364-1c17-4a2d-9a76-0003039a07e4-16875639031269da69-0",
         "template--15163675213867__35eb5364-1c17-4a2d-9a76-0003039a07e4-16875639031269da69-1"
       ],
+      "disabled": true,
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -245,6 +292,7 @@
     "page_navigation_pkcDLd",
     "34e57fcd-392a-4878-9386-12f0e1caef09",
     "quote",
+    "image_with_text_XNyC6h",
     "35eb5364-1c17-4a2d-9a76-0003039a07e4"
   ]
 }
