@@ -50,6 +50,9 @@
         "link_VV6JVF",
         "link_bydPUQ"
       ],
+      "custom_css": [
+        "{padding-top: 40px;}"
+      ],
       "name": "Page navigation",
       "settings": {
         "divider_style": "none",
