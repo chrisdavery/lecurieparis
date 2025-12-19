@@ -168,7 +168,9 @@
         "text_hUjDgn",
         "image_cdCe6x"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -226,6 +228,9 @@
         "text_hNYd4m",
         "spacer_KFzTUU",
         "image_Tn3E9X"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
       ],
       "settings": {
         "section_link": "",
