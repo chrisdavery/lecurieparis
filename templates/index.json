@@ -11,6 +11,19 @@
   "sections": {
     "image_hero_Tc7dCY": {
       "type": "image-hero",
+      "blocks": {
+        "button_xxxRPx": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/the-collection",
+            "link_text": "SHOP THE COLLECTION",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "button_xxxRPx"
+      ],
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}"
       ],
@@ -19,8 +32,8 @@
         "image_aspect": "original",
         "desktop_height": 100,
         "mobile_height": 80,
-        "image": "shopify://shop_images/home_762534d2-cd9c-4586-a82f-7d4ca78f14a2.jpg",
-        "image_mobile": "shopify://shop_images/home_762534d2-cd9c-4586-a82f-7d4ca78f14a2.jpg",
+        "image": "shopify://shop_images/home_cf7d9d5d-bdcd-4f46-b9dd-92aefca1d273.jpg",
+        "image_mobile": "shopify://shop_images/home_cf7d9d5d-bdcd-4f46-b9dd-92aefca1d273.jpg",
         "focal_point": "center",
         "mobile_focal_point": "center",
         "media_link": "shopify://collections/the-collection",
