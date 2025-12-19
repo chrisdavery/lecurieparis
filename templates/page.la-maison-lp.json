@@ -20,6 +20,50 @@
         "custom_content_width": 700
       }
     },
+    "page_navigation_UhadMJ": {
+      "type": "page-navigation",
+      "blocks": {
+        "link_9JqtfV": {
+          "type": "link",
+          "settings": {
+            "text": "ORIGIN",
+            "link": "https://lecurieparis.com/pages/lp-campaign-2025"
+          }
+        },
+        "link_NcB4jV": {
+          "type": "link",
+          "settings": {
+            "text": "THE DESIGNER",
+            "link": ""
+          }
+        },
+        "link_kR8VqR": {
+          "type": "link",
+          "settings": {
+            "text": "MADE IN JAPAN",
+            "link": "https://lecurieparis.com/pages/lp-campaign-beverly-hills"
+          }
+        },
+        "link_yrz6Cp": {
+          "type": "link",
+          "settings": {
+            "text": "TIMELESS ELEGANCE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "link_9JqtfV",
+        "link_NcB4jV",
+        "link_kR8VqR",
+        "link_yrz6Cp"
+      ],
+      "name": "Page navigation",
+      "settings": {
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "custom_liquid_BjyVN7": {
       "type": "custom-liquid",
       "settings": {
@@ -569,6 +613,7 @@
   },
   "order": [
     "main",
+    "page_navigation_UhadMJ",
     "custom_liquid_BjyVN7",
     "page_title_tnNTyH",
     "page_navigation_PDz7cq",
