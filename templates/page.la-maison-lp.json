@@ -37,26 +37,26 @@
             "link": "shopify://pages/a-design-story"
           }
         },
-        "link_kR8VqR": {
-          "type": "link",
-          "settings": {
-            "text": "MADE IN JAPAN",
-            "link": "shopify://pages/craftmanship"
-          }
-        },
         "link_yrz6Cp": {
           "type": "link",
           "settings": {
             "text": "INSPIRATION",
             "link": "shopify://pages/inspiration"
           }
+        },
+        "link_kR8VqR": {
+          "type": "link",
+          "settings": {
+            "text": "MADE IN JAPAN",
+            "link": "shopify://pages/craftmanship"
+          }
         }
       },
       "block_order": [
         "link_9JqtfV",
         "link_NcB4jV",
-        "link_kR8VqR",
-        "link_yrz6Cp"
+        "link_yrz6Cp",
+        "link_kR8VqR"
       ],
       "custom_css": [
         "{padding-top: 40px;}"
@@ -509,6 +509,7 @@
       "block_order": [
         "border_dwcq6F"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
@@ -548,6 +549,7 @@
         "heading_ALxHEk",
         "subheading_3fyxLk"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__inner {max-width: 34rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
@@ -588,6 +590,7 @@
         "heading_Fc3a8V",
         "text_inckXK"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
