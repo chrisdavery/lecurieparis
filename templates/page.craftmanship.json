@@ -119,6 +119,56 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "rich_text_bMtenr": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_t7Pf9w": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "heading_yWUAaw": {
+          "type": "heading",
+          "settings": {
+            "title": "Alone we can do so little,together we can do so much",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base",
+            "set_to_italic": true
+          }
+        },
+        "subheading_qEq4ek": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Helen Keller",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
+        "spacer_tDrDVW": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        }
+      },
+      "block_order": [
+        "spacer_t7Pf9w",
+        "heading_yWUAaw",
+        "subheading_qEq4ek",
+        "spacer_tDrDVW"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "rich_text_X4TJmg": {
       "type": "rich-text",
       "blocks": {
@@ -475,6 +525,7 @@
     "main",
     "page_navigation_34QzHg",
     "page_navigation_MQHXbf",
+    "rich_text_bMtenr",
     "rich_text_X4TJmg",
     "rich_text_KgwNgz",
     "image_with_text_t7WmFr",
