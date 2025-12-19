@@ -234,6 +234,14 @@
         "content_width": "custom"
       }
     },
+    "custom_liquid_hRzmEp": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n\n</style>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "image_with_text_XNyC6h": {
       "type": "image-with-text",
       "blocks": {
@@ -325,6 +333,7 @@
     "page_navigation_pkcDLd",
     "34e57fcd-392a-4878-9386-12f0e1caef09",
     "rich_text_DWiFGi",
+    "custom_liquid_hRzmEp",
     "image_with_text_XNyC6h",
     "35eb5364-1c17-4a2d-9a76-0003039a07e4"
   ]
