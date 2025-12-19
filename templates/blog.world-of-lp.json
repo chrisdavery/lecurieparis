@@ -164,7 +164,7 @@
       "settings": {
         "show_tag_nav": true,
         "article_per_page": 36,
-        "show_tags": true,
+        "show_tags": false,
         "show_author": false,
         "show_date": false,
         "show_excerpt": false,
