@@ -157,7 +157,8 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        "@media (min-width: 960px) {.blog {padding-top: 0; }}"
+        "@media (min-width: 960px) {.blog {padding-top: 0; }}",
+        "{--max-width: 1000px !important;}"
       ],
       "settings": {
         "show_tag_nav": true,
