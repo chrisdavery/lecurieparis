@@ -20,6 +20,41 @@
         "custom_content_width": 700
       }
     },
+    "rich_text_VtnreX": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_9cc4RD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "La Maison L'Écurie Paris",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
+        "text_yE9C4p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rooted in French design and shaped by Japanese craftsmanship, <br/>L’Écurie Paris expresses a vision of modern luxury inspired by art, fashion, refined design, and exceptional materials,</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9cc4RD",
+        "text_yE9C4p"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "page_navigation_pkcDLd": {
       "type": "page-navigation",
       "blocks": {
@@ -174,6 +209,7 @@
   },
   "order": [
     "main",
+    "rich_text_VtnreX",
     "page_navigation_pkcDLd",
     "rich_text_DWiFGi",
     "image_with_text_XNyC6h"
