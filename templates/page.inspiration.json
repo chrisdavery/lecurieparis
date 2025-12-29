@@ -23,18 +23,18 @@
     "page_navigation_8QAUAq": {
       "type": "page-navigation",
       "blocks": {
-        "link_X3KTVJ": {
-          "type": "link",
-          "settings": {
-            "text": "ORIGIN",
-            "link": "shopify://pages/la-maison-lecurie-paris"
-          }
-        },
         "link_aWLi4r": {
           "type": "link",
           "settings": {
             "text": "THE STORY",
             "link": "shopify://pages/a-design-story"
+          }
+        },
+        "link_X3KTVJ": {
+          "type": "link",
+          "settings": {
+            "text": "ORIGIN",
+            "link": "shopify://pages/la-maison-lecurie-paris"
           }
         },
         "link_XyQ3zz": {
@@ -53,8 +53,8 @@
         }
       },
       "block_order": [
-        "link_X3KTVJ",
         "link_aWLi4r",
+        "link_X3KTVJ",
         "link_XyQ3zz",
         "link_mPecGq"
       ],
