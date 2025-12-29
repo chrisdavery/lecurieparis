@@ -131,68 +131,6 @@
         "content_width": "custom"
       }
     },
-    "rich_text_X4TJmg": {
-      "type": "rich-text",
-      "blocks": {
-        "accent_9aaKhd": {
-          "type": "accent",
-          "settings": {
-            "accent": "JAPANESE MANUFACTURING"
-          }
-        },
-        "heading_G9cYdq": {
-          "type": "heading",
-          "settings": {
-            "title": "The heritage of a \"savoir faire\"",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        },
-        "spacer_DwXmqg": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "text_hUjDgn": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Japan is world-renowned for the manufacture of high-quality, meticulouslycrafted eyewear. <br/>Committed to delivering impeccable quality to each model and becoming a leading luxury brand.<br/>It was only natural that Lionel Moroy,our artistic director, chose to have all his creations manufactured in the Sabae region.<br/>This region owes its reputation to precise craftsmanship and the innovative use of high-end materials such as ultra-lightweight titanium, <br/>resistant to all types of corrosion, Takiron acetate,hypoallergenic Titanium 18-carat gold-plated or Titanium 14-carat white gold, and Zeiss or Inui lenses, <br/>all featuring maximum UV protection, vibrant colors, and anti-reflective properties. <br/>With such high-end production.</em></p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        },
-        "image_cdCe6x": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
-            "content_width": "custom",
-            "image_size": 590,
-            "image_size_mobile": 320
-          }
-        }
-      },
-      "block_order": [
-        "accent_9aaKhd",
-        "heading_G9cYdq",
-        "spacer_DwXmqg",
-        "text_hUjDgn",
-        "image_cdCe6x"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "{--max-width: 1000px !important;}"
-      ],
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "image_with_text_h7n9tG": {
       "type": "image-with-text",
       "blocks": {
@@ -250,6 +188,60 @@
         "section_padding": "section--vertical-padding-bottom-only"
       }
     },
+    "rich_text_X4TJmg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G9cYdq": {
+          "type": "heading",
+          "settings": {
+            "title": "Attention to details",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
+          }
+        },
+        "spacer_DwXmqg": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_hUjDgn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Japan is world-renowned for the manufacture of high-quality, meticulouslycrafted eyewear. <br/>Committed to delivering impeccable quality to each model and becoming a leading luxury brand.<br/>It was only natural that Lionel Moroy,our artistic director, chose to have all his creations manufactured in the Sabae region.<br/>This region owes its reputation to precise craftsmanship and the innovative use of high-end materials such as ultra-lightweight titanium, <br/>resistant to all types of corrosion, Takiron acetate,hypoallergenic Titanium 18-carat gold-plated or Titanium 14-carat white gold, and Zeiss or Inui lenses, <br/>all featuring maximum UV protection, vibrant colors, and anti-reflective properties. <br/>With such high-end production.</em></p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
+        "image_cdCe6x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
+            "content_width": "custom",
+            "image_size": 590,
+            "image_size_mobile": 320
+          }
+        }
+      },
+      "block_order": [
+        "heading_G9cYdq",
+        "spacer_DwXmqg",
+        "text_hUjDgn",
+        "image_cdCe6x"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "rich_text_KgwNgz": {
       "type": "rich-text",
       "blocks": {
@@ -299,7 +291,6 @@
         "spacer_KFzTUU",
         "image_Tn3E9X"
       ],
-      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
@@ -310,238 +301,6 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
-      }
-    },
-    "image_with_text_t7WmFr": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_7e3mkE": {
-          "type": "heading",
-          "settings": {
-            "title": "Only the Finest Materials",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
-          }
-        },
-        "spacer_JHdhCc": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "text_3YJxfL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At L’Écurie Paris, we are committed to using only the finest materials for our eyewear in the world.</p><p>We partner with renowned Japanese experts from Fukui to Sabae, <br/>regions synonymous with the highest standards of eyewear creation. </p><p>Collaborating with masters like Hamamoto, we source the highest quality Takiron Acetate and Titanium materials celebrated for their stunning strength and luminous finish. </p><p>Each frame is meticulously adorned with 18K or 14K gold, imbuing it with a subtle yet distinctive luxury. Combined with the precision of Japanese craftsmanship, these materials ensure that every pair of our eyewear is as enduring as it is elegant.</p>",
-            "text_font_class": "fs-body-75"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7e3mkE",
-        "spacer_JHdhCc",
-        "text_3YJxfL"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_position": "right",
-        "shrink_image_column": false,
-        "shrink_image_width": 50,
-        "text_alignment": "center",
-        "image": "shopify://shop_images/lecurieparis-manufacturing-japan4.jpg",
-        "aspect_ratio": "square",
-        "focal_point": "image_presentation",
-        "image_caption": "",
-        "show_small_image": false,
-        "image_small_aspect_ratio": "portrait",
-        "image_small_focal_point": "image_presentation",
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "rich_text_hWgTgp": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GneW76": {
-          "type": "heading",
-          "settings": {
-            "title": "Only the Finest Materials",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        },
-        "text_f9VY3a": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At L’Écurie Paris, we are committed to using only the finest materials for our eyewear in the world.</p><p>We partner with renowned Japanese experts from Fukui to Sabae,<br/>regions synonymous with the highest standards of eyewear creation.</p><p>Collaborating with masters like Hamamoto, <br/>we source the highest quality Takiron Acetate and Titanium materials <br/>celebrated for their stunning strength and luminous finish.</p><p>Each frame is meticulously adorned with 18K or 14K gold, <br/>imbuing it with a subtle yet distinctive luxury. <br/>Combined with the precision of Japanese craftsmanship, <br/>these materials ensure that every pair of our eyewear is as enduring as it is elegant.</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        },
-        "spacer_NfUa7i": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "image_fEirdA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan4.jpg",
-            "content_width": "custom",
-            "image_size": 770,
-            "image_size_mobile": 350
-          }
-        },
-        "spacer_F8YCU4": {
-          "type": "spacer",
-          "settings": {
-            "space": 44
-          }
-        },
-        "heading_7KfQx7": {
-          "type": "heading",
-          "settings": {
-            "title": "A Commitment to Perfection",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        },
-        "spacer_gdNnCG": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "text_Uwk7Kj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>L’Écurie Paris is committed to uncompromising quality. </p><p>Each pair of glasses is carefully crafted in limited quantities,<br/>ensuring every piece reflects the highest level of craftsmanship and attention to detail. </p><p>This dedication to perfection is evident in every aspect of our eyewear, <br/>from the finest materials to the final touches. </p><p>Wearing L’Écurie Paris is more than just eyewear, it’s an immersion into luxury, where style, comfort,<br/> and durability are seamlessly integrated. <br/>Discover the unmatched craftsmanship of L’Écurie Paris and experience true elegance.</p>",
-            "text_font_class": "fs-body-75",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_GneW76",
-        "text_f9VY3a",
-        "spacer_NfUa7i",
-        "image_fEirdA",
-        "spacer_F8YCU4",
-        "heading_7KfQx7",
-        "spacer_gdNnCG",
-        "text_Uwk7Kj"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
-    "rich_text_pj8X7Y": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Gr3qnJ": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Rich text",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        },
-        "text_49jJRG": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Luxury Designer Eyewear</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        },
-        "image_QU4fdB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LP-GOLD.jpg",
-            "content_width": "custom",
-            "image_size": 120,
-            "image_size_mobile": 90
-          }
-        }
-      },
-      "block_order": [
-        "heading_Gr3qnJ",
-        "text_49jJRG",
-        "image_QU4fdB"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "solid",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
-    "image_with_text_g4ULVV": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_CJXHCp": {
-          "type": "heading",
-          "settings": {
-            "title": "MADE IN JAPAN",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
-          }
-        },
-        "text_MCNXnf": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Japan is world-renowned for the manufacture of high-quality, meticulouslycrafted eyewear. Committed to delivering impeccable quality to each model and becoming a leading luxury brand,it was only natural that Lionel Moroy,our artistic director, chose to have all his creations manufactured in the Sabae region. This region owes its reputation to precise craftsmanship and the innovative use of high-end materials such as ultra-lightweight titanium, resistant to all types of corrosion, Takiron acetate,hypoallergenic 18-carat gold-plated or 14-carat white gold, and Zeiss or Inui lenses, all featuring maximum UV protection, vibrant colors, and anti-reflective properties. With such high-end production.</em></p>",
-            "text_font_class": "fs-body-200"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CJXHCp",
-        "text_MCNXnf"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "{--max-width: 1000px !important;}"
-      ],
-      "name": "t:sections.image_with_text.presets.name",
-      "settings": {
-        "image_position": "left",
-        "shrink_image_column": true,
-        "shrink_image_width": 30,
-        "text_alignment": "left",
-        "image": "shopify://shop_images/madeinjapan-LP_495f20f8-ce0c-44a1-b58b-e2207da63ec3.jpg",
-        "aspect_ratio": "portrait",
-        "focal_point": "image_presentation",
-        "image_caption": "",
-        "show_small_image": false,
-        "image_small_aspect_ratio": "square",
-        "image_small_focal_point": "image_presentation",
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
       }
     }
   },
@@ -550,12 +309,8 @@
     "custom_liquid_mRbjpJ",
     "page_navigation_MQHXbf",
     "rich_text_bMtenr",
-    "rich_text_X4TJmg",
     "image_with_text_h7n9tG",
-    "rich_text_KgwNgz",
-    "image_with_text_t7WmFr",
-    "rich_text_hWgTgp",
-    "rich_text_pj8X7Y",
-    "image_with_text_g4ULVV"
+    "rich_text_X4TJmg",
+    "rich_text_KgwNgz"
   ]
 }
