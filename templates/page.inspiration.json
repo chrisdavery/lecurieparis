@@ -123,7 +123,7 @@
         "text_YGNaag": {
           "type": "text",
           "settings": {
-            "text": "<p>French design embodies a sense of timeless elegance and understated chic.<br/> It is expressed through the use of classic color palettes, refined materials, and a meticulous attention to detail.</p><p>Deeply influenced by art, fashion, and cuisine, French design naturally blends contemporary sensibilities with tradition,<br/>creating a distinctive balance between modern expression and heritage.</p>",
+            "text": "<p>French design embodies a sense of timeless elegance and understated chic. <br/>It is expressed through classic color palettes, refined materials, and meticulous attention to detail. <br/><br/>Deeply influenced by art and fashion, French design seamlessly blends contemporary sensibilities with tradition, creating a distinctive balance between modern expression and heritage.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
@@ -238,7 +238,7 @@
         "text_YKhiP8": {
           "type": "text",
           "settings": {
-            "text": "<p>Horses have long influenced French fashion, reflecting the country’s rich equestrian heritage and historic ties to nobility. <br/>As symbols of freedom and empowerment, they resonate deeply within women’s fashion, embodying strength, grace, and independence.</p>",
+            "text": "<p>Horses have long influenced French fashion, reflecting a heritage shaped by elegance and nobility. <br/>As symbols of freedom and empowerment, they resonate deeply within women’s fashion, embodying strength, grace, and independence.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
@@ -354,7 +354,7 @@
         "text_iAK7FL": {
           "type": "text",
           "settings": {
-            "text": "<p>Classic cars, much like high fashion and equestrian style, embody a sense of timeless elegance. <br/>The curves and lines of vintage automobiles often echo the refined silhouettes found in classic fashion and riding attire.</p>",
+            "text": "<p>Classic cars, like high fashion and equestrian style, embody a timeless sense of elegance. The sculptural curves and lines of vintage automobiles echo the refined silhouettes found in classic fashion and riding attire.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
