@@ -20,73 +20,21 @@
         "custom_content_width": 700
       }
     },
-    "page_navigation_PDz7cq": {
-      "type": "page-navigation",
-      "blocks": {
-        "link_X8bCYN": {
-          "type": "link",
-          "settings": {
-            "text": "THE STORY",
-            "link": "shopify://pages/a-design-story"
-          }
-        },
-        "link_bDmVhL": {
-          "type": "link",
-          "settings": {
-            "text": "LA MAISON",
-            "link": "shopify://pages/la-maison-lecurie-paris"
-          }
-        },
-        "link_X63kAL": {
-          "type": "link",
-          "settings": {
-            "text": "FRENCH DESIGN",
-            "link": "shopify://pages/french-design"
-          }
-        },
-        "link_qT676c": {
-          "type": "link",
-          "settings": {
-            "text": "INSPIRATION",
-            "link": "shopify://pages/inspiration"
-          }
-        },
-        "link_eyjUh3": {
-          "type": "link",
-          "settings": {
-            "text": "CRAFTSMANSHIP",
-            "link": "shopify://pages/craftmanship"
-          }
-        }
-      },
-      "block_order": [
-        "link_X8bCYN",
-        "link_bDmVhL",
-        "link_X63kAL",
-        "link_qT676c",
-        "link_eyjUh3"
-      ],
-      "disabled": true,
-      "settings": {
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-only"
-      }
-    },
     "page_navigation_pkcDLd": {
       "type": "page-navigation",
       "blocks": {
-        "link_UDQCgb": {
-          "type": "link",
-          "settings": {
-            "text": "ORIGIN",
-            "link": "shopify://pages/la-maison-lecurie-paris"
-          }
-        },
         "link_cYcQCz": {
           "type": "link",
           "settings": {
             "text": "THE STORY",
             "link": "shopify://pages/a-design-story"
+          }
+        },
+        "link_UDQCgb": {
+          "type": "link",
+          "settings": {
+            "text": "ORIGIN",
+            "link": "shopify://pages/la-maison-lecurie-paris"
           }
         },
         "link_hU9CrJ": {
@@ -105,8 +53,8 @@
         }
       },
       "block_order": [
-        "link_UDQCgb",
         "link_cYcQCz",
+        "link_UDQCgb",
         "link_hU9CrJ",
         "link_XJmhQR"
       ],
@@ -117,65 +65,6 @@
       "settings": {
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "34e57fcd-392a-4878-9386-12f0e1caef09": {
-      "type": "multi-column",
-      "blocks": {
-        "fb0f851a-3122-4368-af8b-8a7c99a19e46": {
-          "type": "image_column",
-          "settings": {
-            "image": "shopify://shop_images/lionelmoroy-lp.jpg",
-            "image_width": 50,
-            "aspect_ratio": "natural",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "Lionel Moroy - Creative Director of L'Écurie Paris.",
-            "accent": "",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "<p></p><p>\"I grew up a few miles from Paris and moved to Los Angeles in 2010.</p><p>Design has been in my blood my whole life. At 6 years old, girls from my classroom where asking me for drawings of a wolf I loved to draw..<br/>I always felt a deep emotional connection to beauty since a young age, and used it as an escape.<br/><br/>I went to art school in the 18th district of Paris, and this has been a revelation. It opened my eyes about life and art, and allowed me to be around other artists.<br/>I admired Yves Saint Laurent creations, and grew up immersed in Parisian architecture, art, fashion, and decorative motifs.<br/></p><p>I started my professional career at 23 years old, designing for companies in the apparel and lifestyle industry.</p><p>But creating and designing is not a job for me, it's a fantastic life long experience.</p><p>I love this quote from Leonard Cohen who dedicated his entire life to his art:</p>",
-            "text_font_class": "fs-body-100",
-            "text_max_width": 72,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "fb0f851a-3122-4368-af8b-8a7c99a19e46"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "heading_font_class": "fs-heading-3-base",
-        "heading_alignment": "center",
-        "content_vertical_alignment": "center",
-        "content_background_padding": "small",
-        "columns": "1",
-        "column_spacing": 44,
-        "row_spacing": 28,
-        "column_alignment": "center",
-        "enable_slider_mobile": false,
-        "columns_mobile": "1",
-        "column_spacing_mobile": 20,
-        "row_spacing_mobile": 20,
-        "column_alignment_mobile": "center",
-        "background_behind_columns": false,
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "css_class": ""
       }
     },
     "rich_text_DWiFGi": {
@@ -234,15 +123,6 @@
         "content_width": "custom"
       }
     },
-    "custom_liquid_hRzmEp": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n\nbody>.page {\n    background-color: #f9f4ed;\n}\n.header {\n--color-background-header:#f9f4ed;\n}\n\n</style>",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
     "image_with_text_XNyC6h": {
       "type": "image-with-text",
       "blocks": {
@@ -294,11 +174,8 @@
   },
   "order": [
     "main",
-    "page_navigation_PDz7cq",
     "page_navigation_pkcDLd",
-    "34e57fcd-392a-4878-9386-12f0e1caef09",
     "rich_text_DWiFGi",
-    "custom_liquid_hRzmEp",
     "image_with_text_XNyC6h"
   ]
 }
