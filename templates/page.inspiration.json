@@ -123,14 +123,30 @@
         "text_YGNaag": {
           "type": "text",
           "settings": {
-            "text": "<p>French design embodies a sense of timeless elegance and understated chic. <br/>It is expressed through classic color palettes, refined materials, and meticulous attention to detail. <br/><br/>Deeply influenced by art and fashion, French design seamlessly blends contemporary sensibilities with tradition, creating a distinctive balance between modern expression and heritage.</p>",
+            "text": "<p>French interior design embodies timeless elegance and understated chic. Defined by classic color palettes, refined materials, and meticulous attention to detail, it reflects a harmonious balance between tradition and contemporary expression. <br/>Deeply influenced by art and fashion, this aesthetic creates spaces—and objects—where refinement feels natural, enduring, and effortless.</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
+        "spacer_KhteDM": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_peRPtR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Women are a constant source of inspiration through their strength, confidence, and individuality. Their duality with both powerful and graceful shapes a vision of modern luxury that is expressive yet refined. <br/>Each creation is designed to celebrate independence, elegance, and personal identity.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
         }
       },
       "block_order": [
-        "text_YGNaag"
+        "text_YGNaag",
+        "spacer_KhteDM",
+        "text_peRPtR"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
@@ -238,7 +254,7 @@
         "text_YKhiP8": {
           "type": "text",
           "settings": {
-            "text": "<p>Horses have long influenced French fashion, reflecting a heritage shaped by elegance and nobility. <br/>As symbols of freedom and empowerment, they resonate deeply within women’s fashion, embodying strength, grace, and independence.</p>",
+            "text": "<p>Horses have long influenced French fashion, symbolizing freedom, strength, and nobility. <br/>Their fluid movement and commanding presence translate into designs that express grace, balance, and empowerment. This inspiration resonates deeply within women’s fashion, embodying confidence and timeless allure.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
@@ -354,7 +370,7 @@
         "text_iAK7FL": {
           "type": "text",
           "settings": {
-            "text": "<p>Classic cars, like high fashion and equestrian style, embody a timeless sense of elegance. The sculptural curves and lines of vintage automobiles echo the refined silhouettes found in classic fashion and riding attire.</p>",
+            "text": "<p>Classic cars represent a pure expression of timeless elegance. <br/>Their sculptural curves and precise lines echo the refined silhouettes found in high fashion and equestrian style. <br/>Vintage automobiles inspire a design language rooted in craftsmanship, proportion, and enduring beauty.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
