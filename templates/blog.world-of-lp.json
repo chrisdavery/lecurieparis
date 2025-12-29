@@ -48,71 +48,6 @@
         "section_padding": "section--vertical-padding-top-only"
       }
     },
-    "page_navigation_CWDjtW": {
-      "type": "page-navigation",
-      "blocks": {
-        "link_L3tGFi": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "text": "MEDIA",
-            "link": "shopify://blogs/news"
-          }
-        }
-      },
-      "block_order": [
-        "link_L3tGFi"
-      ],
-      "disabled": true,
-      "name": "Page navigation",
-      "settings": {
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "rich_text_CBVAd8": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4iTDfj": {
-          "type": "heading",
-          "settings": {
-            "title": "‘‘Alone we can do so little, together we can do so much.’’",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-3-base",
-            "set_to_italic": true
-          }
-        },
-        "subheading_4kiA78": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Helen Keller",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_4iTDfj",
-        "subheading_4kiA78"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".rich-text__inner {max-width: 34rem;}",
-        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
-        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
-        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
-      ],
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "section_link": "",
-        "alignment": "left_left",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "rich_text_3ArGjg": {
       "type": "rich-text",
       "blocks": {
@@ -145,7 +80,6 @@
         "text_9RVrRi",
         "image_jM7nPR"
       ],
-      "disabled": true,
       "settings": {
         "section_link": "",
         "alignment": "center_center",
@@ -249,8 +183,6 @@
   },
   "order": [
     "page_title_dgFf4i",
-    "page_navigation_CWDjtW",
-    "rich_text_CBVAd8",
     "rich_text_3ArGjg",
     "main",
     "newsletter_iq3en9"
