@@ -219,52 +219,72 @@
         "content_width": "custom"
       }
     },
-    "image_with_text_VwHa8w": {
-      "type": "image-with-text",
+    "rich_text_AyDGLw": {
+      "type": "rich-text",
       "blocks": {
-        "heading_7QeTqU": {
+        "accent_TPLpQb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Ancient french word"
+          }
+        },
+        "heading_cbd6HF": {
           "type": "heading",
           "settings": {
             "title": "Origin of \"Écurie\"",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
           }
         },
-        "text_KTynQJ": {
+        "spacer_jPrJNh": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_pLpH4K": {
           "type": "text",
           "settings": {
             "text": "<p><em>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</em></p>",
-            "text_font_class": "fs-body-200"
+            "text_font_class": "fs-body-100",
+            "set_to_italic": true
+          }
+        },
+        "spacer_98WzY4": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "image_8MtNkz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lionelmoroy-lecurieparis_6169379f-3b9a-40e5-be32-6ad3d61a1d0c.jpg",
+            "content_width": "custom",
+            "image_size": 520,
+            "image_size_mobile": 200
           }
         }
       },
       "block_order": [
-        "heading_7QeTqU",
-        "text_KTynQJ"
+        "accent_TPLpQb",
+        "heading_cbd6HF",
+        "spacer_jPrJNh",
+        "text_pLpH4K",
+        "spacer_98WzY4",
+        "image_8MtNkz"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
-      "name": "t:sections.image_with_text.presets.name",
       "settings": {
-        "image_position": "right",
-        "shrink_image_column": true,
-        "shrink_image_width": 35,
-        "text_alignment": "left",
-        "image": "shopify://shop_images/Origin-LP.jpg",
-        "aspect_ratio": "portrait",
-        "focal_point": "image_presentation",
-        "image_caption": "",
-        "show_small_image": false,
-        "image_small_aspect_ratio": "square",
-        "image_small_focal_point": "image_presentation",
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": false,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
       }
     }
   },
@@ -275,6 +295,6 @@
     "rich_text_DWiFGi",
     "rich_text_BgFycd",
     "rich_text_Txikgw",
-    "image_with_text_VwHa8w"
+    "rich_text_AyDGLw"
   ]
 }
