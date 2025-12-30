@@ -72,25 +72,25 @@
             "link": "shopify://pages/a-design-story"
           }
         },
-        "link_hU9CrJ": {
-          "type": "link",
-          "settings": {
-            "text": "INSPIRATION",
-            "link": "shopify://pages/inspiration"
-          }
-        },
         "link_XJmhQR": {
           "type": "link",
           "settings": {
             "text": "MADE IN JAPAN",
             "link": "shopify://pages/craftmanship"
           }
+        },
+        "link_hU9CrJ": {
+          "type": "link",
+          "settings": {
+            "text": "INSPIRATION",
+            "link": "shopify://pages/inspiration"
+          }
         }
       },
       "block_order": [
         "link_cYcQCz",
-        "link_hU9CrJ",
-        "link_XJmhQR"
+        "link_XJmhQR",
+        "link_hU9CrJ"
       ],
       "custom_css": [
         "{padding-top: 20px;}"
