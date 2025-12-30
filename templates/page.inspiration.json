@@ -442,6 +442,33 @@
         "section_padding": "section--vertical-padding-none",
         "css_class": ""
       }
+    },
+    "rich_text_fgQyEH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_y7VxXM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Interior design inspires Lionel Moroy through its mastery of materials, volumes, and atmosphere. <br/>Each piece reflects a sense of structure and refinement drawn from well-composed spaces. <br/>This approach creates eyewear defined by balance, elegance, and lasting presence.</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "text_y7VxXM"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
     }
   },
   "order": [
@@ -454,6 +481,7 @@
     "rich_text_JMGMXF",
     "grid_hThaXz",
     "rich_text_xxgcxc",
-    "multi_column_TRGVAL"
+    "multi_column_TRGVAL",
+    "rich_text_fgQyEH"
   ]
 }
