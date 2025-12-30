@@ -196,12 +196,6 @@
     "rich_text_ybwQYJ": {
       "type": "rich-text",
       "blocks": {
-        "accent_dpAtHP": {
-          "type": "accent",
-          "settings": {
-            "accent": "The heritage of a \"savoir faire\""
-          }
-        },
         "heading_RVp34h": {
           "type": "heading",
           "settings": {
@@ -242,7 +236,6 @@
         }
       },
       "block_order": [
-        "accent_dpAtHP",
         "heading_RVp34h",
         "spacer_8wWnfB",
         "text_kQHVAi",
@@ -273,18 +266,24 @@
             "set_to_italic": false
           }
         },
-        "spacer_nXb3fk": {
+        "spacer_mWkQyn": {
           "type": "spacer",
           "settings": {
-            "space": 12
+            "space": 24
           }
         },
         "text_CFqfDw": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Japan is world-renowned for the manufacture of high-quality, meticulouslycrafted eyewear. <br/>Committed to delivering impeccable quality to each model and becoming a leading luxury brand.<br/>It was only natural that Lionel Moroy,our artistic director, chose to have all his creations manufactured in the Sabae region.<br/>This region owes its reputation to precise craftsmanship and the innovative use of high-end materials such as ultra-lightweight titanium, <br/>resistant to all types of corrosion, Takiron acetate,hypoallergenic Titanium 18-carat gold-plated or Titanium 14-carat white gold, and Zeiss or Inui lenses, <br/>all featuring maximum UV protection, vibrant colors, and anti-reflective properties. <br/>With such high-end production.</em></p>",
+            "text": "<p>Each piece undergoes rigorous quality control at every stage of production. <br/>From structure and alignment to finish and comfort, no detail is overlooked. <br/>This final inspection ensures that every L’Écurie Paris creation meets the highest standards of craftsmanship, durability, and refinement.</p><p>Polishing is a crucial stage carried out entirely by hand. <br/>Through multiple, meticulous steps, surfaces are refined to achieve a smooth, luminous finish. <br/>This process enhances both the visual depth of the materials and the tactile experience, revealing the precision and care invested in every frame.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
+          }
+        },
+        "spacer_nXb3fk": {
+          "type": "spacer",
+          "settings": {
+            "space": 24
           }
         },
         "image_7i4Ydn": {
@@ -299,8 +298,9 @@
       },
       "block_order": [
         "heading_et73ed",
-        "spacer_nXb3fk",
+        "spacer_mWkQyn",
         "text_CFqfDw",
+        "spacer_nXb3fk",
         "image_7i4Ydn"
       ],
       "custom_css": [
