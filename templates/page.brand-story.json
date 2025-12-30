@@ -209,6 +209,9 @@
       "block_order": [
         "border_z6kfU6"
       ],
+      "custom_css": [
+        "{--max-width: 800px !important;}"
+      ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "",
