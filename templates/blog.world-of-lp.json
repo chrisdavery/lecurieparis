@@ -54,14 +54,14 @@
         "accent_efjinR": {
           "type": "accent",
           "settings": {
-            "accent": "LUXURY STORIES, Event, campaign, new products"
+            "accent": "EVENT, REVIEWS, PRESS"
           }
         },
         "text_9RVrRi": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore the artistry, craftsmanship, and innovation behind L’Écurie Paris. <br/>Dive into stories of inspiration, the meticulous process of creating each pair of sunglasses, <br/>and the latest updates from our luxury eyewear maison. <br/>Immerse yourself in the world of sophisticated design and timeless elegance.</p>",
-            "text_font_class": "fs-body-100",
+            "text": "<p>Latest updates from our luxury eyewear maison. </p>",
+            "text_font_class": "fs-body-200",
             "set_to_italic": false
           }
         },
@@ -81,7 +81,6 @@
         "text_9RVrRi",
         "image_jM7nPR"
       ],
-      "disabled": true,
       "settings": {
         "section_link": "",
         "alignment": "center_center",
