@@ -430,6 +430,12 @@
             "space": 32
           }
         },
+        "accent_6NCKUi": {
+          "type": "accent",
+          "settings": {
+            "accent": "A State of the art"
+          }
+        },
         "heading_RVp34h": {
           "type": "heading",
           "settings": {
@@ -471,6 +477,7 @@
       },
       "block_order": [
         "spacer_iqDtbE",
+        "accent_6NCKUi",
         "heading_RVp34h",
         "spacer_8wWnfB",
         "text_kQHVAi",
