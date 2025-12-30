@@ -234,13 +234,22 @@
         "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-none",
+        "section_padding": "section--vertical-padding-bottom-only",
         "css_class": ""
       }
     },
     "rich_text_JMGMXF": {
       "type": "rich-text",
       "blocks": {
+        "subheading_7qYnGr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Equine Elegance",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
         "text_YKhiP8": {
           "type": "text",
           "settings": {
@@ -251,6 +260,7 @@
         }
       },
       "block_order": [
+        "subheading_7qYnGr",
         "text_YKhiP8"
       ],
       "custom_css": [
