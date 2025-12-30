@@ -381,93 +381,66 @@
         "content_width": "custom"
       }
     },
-    "grid_XPDzFg": {
-      "type": "grid",
+    "multi_column_TRGVAL": {
+      "type": "multi-column",
       "blocks": {
-        "item_W9BMBy": {
-          "type": "item",
+        "image_column_WQz99U": {
+          "type": "image_column",
           "settings": {
-            "width": "33",
-            "height": 800,
-            "mobile_height": 500,
-            "image": "shopify://shop_images/new-L_Ecurie-2010.jpg",
-            "mobile_image": "shopify://shop_images/new-L_Ecurie-2010.jpg",
-            "media_fit": "cover",
+            "image": "shopify://shop_images/steve-mcqueen-ferrari1-2.jpg",
+            "image_width": 100,
+            "aspect_ratio": "landscape",
+            "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_center",
-            "accent": "",
-            "title": "",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "Serge Gainsbourg, Parisian Interior",
+            "heading": "",
             "heading_tag": "h3",
-            "heading_font_class": "fs-heading-2-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
+            "heading_font_class": "fs-heading-4-base",
             "text": "",
             "text_font_class": "fs-body-100",
+            "text_max_width": 100,
             "link": "",
             "link_text": "",
-            "button_style": "btn--primary",
-            "background_color": "",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
-          }
-        },
-        "item_Q4T6Ek": {
-          "type": "item",
-          "settings": {
-            "width": "33",
-            "height": 500,
-            "mobile_height": 500,
-            "image": "shopify://shop_images/new-L_Ecurie-1840.jpg",
-            "mobile_image": "shopify://shop_images/new-L_Ecurie-1840.jpg",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_center",
-            "accent": "",
-            "title": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-2-base",
-            "subheading": "",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary",
-            "background_color": "",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
+            "button_style": "btn--primary"
           }
         }
       },
       "block_order": [
-        "item_W9BMBy",
-        "item_Q4T6Ek"
+        "image_column_WQz99U"
       ],
       "custom_css": [
-        "{--max-width: 1500px !important;}"
+        "{--max-width: 1000px !important;}"
       ],
+      "name": "t:sections.multi_column.presets.name",
       "settings": {
-        "heading": "",
+        "title": "",
         "heading_tag": "h2",
         "subheading": "",
-        "content_alignment": "left",
-        "enable_animation": false,
-        "full_width": false,
-        "spacing": 9,
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none",
+        "css_class": ""
       }
     }
   },
@@ -481,6 +454,6 @@
     "rich_text_JMGMXF",
     "grid_hThaXz",
     "rich_text_xxgcxc",
-    "grid_XPDzFg"
+    "multi_column_TRGVAL"
   ]
 }
