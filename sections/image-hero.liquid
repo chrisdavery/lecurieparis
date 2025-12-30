@@ -48,6 +48,9 @@
       animation
       animation--image-hero
     {% endif %}
+    {% if section.settings.full_width %}
+      section--full-width
+    {% endif %}
   "
   data-section-id="{{ section.id }}"
   data-section-type="image-hero"
@@ -340,6 +343,12 @@
       "label": "t:shared.settings.section_style.enable_animation.label",
       "info": "t:shared.settings.section_style.enable_animation.info",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "t:shared.settings.section_style.full_width.label",
+      "default": false
     },
     {
       "type": "select",
