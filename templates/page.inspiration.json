@@ -30,11 +30,11 @@
             "link": "shopify://pages/a-design-story"
           }
         },
-        "link_X3KTVJ": {
+        "link_mPecGq": {
           "type": "link",
           "settings": {
-            "text": "ORIGIN",
-            "link": "shopify://pages/la-maison-lecurie-paris"
+            "text": "MADE IN JAPAN",
+            "link": "shopify://pages/craftmanship"
           }
         },
         "link_XyQ3zz": {
@@ -43,20 +43,12 @@
             "text": "INSPIRATION",
             "link": "shopify://pages/inspiration"
           }
-        },
-        "link_mPecGq": {
-          "type": "link",
-          "settings": {
-            "text": "MADE IN JAPAN",
-            "link": "shopify://pages/craftmanship"
-          }
         }
       },
       "block_order": [
         "link_aWLi4r",
-        "link_X3KTVJ",
-        "link_XyQ3zz",
-        "link_mPecGq"
+        "link_mPecGq",
+        "link_XyQ3zz"
       ],
       "custom_css": [
         "{padding-top: 20px;}"
