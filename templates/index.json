@@ -464,7 +464,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "section_link": "shopify://pages/la-maison-lecurie-paris",
+        "section_link": "shopify://pages/a-design-story",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
