@@ -187,7 +187,7 @@
         "image_38AEtj"
       ],
       "custom_css": [
-        "{--max-width: 1000px !important;}"
+        "{--max-width: 900px !important;}"
       ],
       "settings": {
         "section_link": "",
