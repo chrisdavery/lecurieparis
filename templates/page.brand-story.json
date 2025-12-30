@@ -72,13 +72,6 @@
             "link": "shopify://pages/a-design-story"
           }
         },
-        "link_UDQCgb": {
-          "type": "link",
-          "settings": {
-            "text": "ORIGIN",
-            "link": "shopify://pages/la-maison-lecurie-paris"
-          }
-        },
         "link_hU9CrJ": {
           "type": "link",
           "settings": {
@@ -96,7 +89,6 @@
       },
       "block_order": [
         "link_cYcQCz",
-        "link_UDQCgb",
         "link_hU9CrJ",
         "link_XJmhQR"
       ],
@@ -212,6 +204,54 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-bottom-only"
       }
+    },
+    "image_with_text_VwHa8w": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7QeTqU": {
+          "type": "heading",
+          "settings": {
+            "title": "Origin of \"Écurie\"",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_KTynQJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>The word “écurie” comes from French and originally referred to all the staff and horses of a princely house, whose service was entrusted to the squires. The meaning then evolved to refer to the building where horses are housed and, by extension, it is now used to describe sports teams, particularly in Formula One.More simply this word is now also used to refer to a team that performs at the highest level in its field, with the highest level of expertise, techni cal skill, and performance.</em></p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7QeTqU",
+        "text_KTynQJ"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "image_position": "right",
+        "shrink_image_column": true,
+        "shrink_image_width": 35,
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Origin-LP.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
@@ -219,6 +259,7 @@
     "rich_text_VtnreX",
     "page_navigation_pkcDLd",
     "rich_text_DWiFGi",
-    "image_with_text_XNyC6h"
+    "image_with_text_XNyC6h",
+    "image_with_text_VwHa8w"
   ]
 }
