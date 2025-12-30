@@ -92,7 +92,6 @@
         "heading_yWUAaw",
         "subheading_qEq4ek"
       ],
-      "disabled": true,
       "custom_css": [
         ".rich-text__inner {max-width: 40rem;}",
         ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
