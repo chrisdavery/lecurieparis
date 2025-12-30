@@ -262,10 +262,16 @@
             "space": 32
           }
         },
+        "accent_kJcKYA": {
+          "type": "accent",
+          "settings": {
+            "accent": "Avec de bons ingrédients, on fait de la bonne cuisine."
+          }
+        },
         "heading_fa3rgi": {
           "type": "heading",
           "settings": {
-            "title": "Japanese Acetate and Titanium",
+            "title": "Japanese Materials",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-2-base",
             "set_to_italic": false
@@ -288,6 +294,7 @@
       },
       "block_order": [
         "spacer_AyjTjB",
+        "accent_kJcKYA",
         "heading_fa3rgi",
         "spacer_UjpHLV",
         "text_hNYd4m"
