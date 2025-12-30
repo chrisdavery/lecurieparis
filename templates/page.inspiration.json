@@ -357,6 +357,15 @@
     "rich_text_xxgcxc": {
       "type": "rich-text",
       "blocks": {
+        "subheading_73EzmL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The Enduring Beauty of Classic Cars",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
         "text_iAK7FL": {
           "type": "text",
           "settings": {
@@ -367,6 +376,7 @@
         }
       },
       "block_order": [
+        "subheading_73EzmL",
         "text_iAK7FL"
       ],
       "custom_css": [
@@ -446,6 +456,15 @@
     "rich_text_fgQyEH": {
       "type": "rich-text",
       "blocks": {
+        "subheading_rc9aY3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Interior Design",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
         "text_y7VxXM": {
           "type": "text",
           "settings": {
@@ -456,6 +475,7 @@
         }
       },
       "block_order": [
+        "subheading_rc9aY3",
         "text_y7VxXM"
       ],
       "custom_css": [
