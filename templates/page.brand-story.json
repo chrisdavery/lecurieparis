@@ -130,6 +130,65 @@
         "content_width": "custom"
       }
     },
+    "rich_text_BgFycd": {
+      "type": "rich-text",
+      "blocks": {
+        "accent_gkhDQd": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "The heritage of a \"savoir faire\""
+          }
+        },
+        "heading_Vg9txC": {
+          "type": "heading",
+          "settings": {
+            "title": "LEAD BY BEAUTY",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
+          }
+        },
+        "spacer_ViBXDt": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_BMB4j9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>I grew up a few miles from Paris and moved to Los Angeles in 2010. Design has been in my blood my whole life. At six years old, girls in my classroom were already asking me to draw wolves one of my favorite animals.</em></p><p><em>I have always felt a deep emotional connection to beauty from a young age and used it as an escape. I studied at an art school in Paris’s 18th arrondissement, an experience that proved to be a true revelation. It opened my eyes to life and art and allowed me to be surrounded by other artists.</em></p><p><em>I admired the creations of Yves Saint Laurent and grew up immersed in Parisian architecture, art, fashion, and decorative motifs. I began my professional career at the age of 23, designing for companies in the apparel and lifestyle industries. But creating and designing has never felt like a job to meit is a lifelong, extraordinary experience.</em></p><p><em>In 2018, I decided to reconnect with my French heritage and celebrate beauty and pure elegance through design. My ultimate desire was to create and deliver products with soul and meaning. I love when people feel an emotion as they touch and wear our pieces, when the object offers a true experience.</em></p><p><em>I chose to design eyewear because it is one of the most personal items we wear, something we choose to represent ourselves. We can either hide behind our glasses or proudly own their style, allowing them to blend seamlessly with our personality.<br/>Eyewear is a way to reaffirm our self-confidence.<br/>I feel incredibly fortunate to work with such an amazing team at L’Écurie Paris and to bring to life products that genuinely feel right.</em></p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": true
+          }
+        },
+        "spacer_XMXLVp": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        }
+      },
+      "block_order": [
+        "accent_gkhDQd",
+        "heading_Vg9txC",
+        "spacer_ViBXDt",
+        "text_BMB4j9",
+        "spacer_XMXLVp"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "image_with_text_XNyC6h": {
       "type": "image-with-text",
       "blocks": {
@@ -153,6 +212,7 @@
         "heading_HtHzT8",
         "text_A3ACQt"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 1000px !important;}"
       ],
@@ -253,6 +313,7 @@
     "rich_text_VtnreX",
     "page_navigation_pkcDLd",
     "rich_text_DWiFGi",
+    "rich_text_BgFycd",
     "image_with_text_XNyC6h",
     "rich_text_Txikgw",
     "image_with_text_VwHa8w"
