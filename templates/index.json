@@ -328,6 +328,7 @@
         "image_column_d9NYNh",
         "image_column_TGViDj"
       ],
+      "disabled": true,
       "custom_css": [
         ".multi-column__inner {padding-top: 0; padding-bottom: var(--spacing-10);}"
       ],
@@ -398,6 +399,7 @@
         "spacer_7wgEiH",
         "border_krMUa9"
       ],
+      "disabled": true,
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}",
         "h2 {display: block; font-size: 36px; margin: var(--spacing-10) 0 0;}",
