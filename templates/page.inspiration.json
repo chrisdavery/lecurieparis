@@ -55,6 +55,7 @@
       ],
       "name": "Page navigation",
       "settings": {
+        "link_list": "la-maison-lp-navigation",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }

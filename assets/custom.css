@@ -624,6 +624,7 @@ slider-collection-item .swiper-slide {
 
 .page-nav a.active {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 @media (max-width: 959px) {

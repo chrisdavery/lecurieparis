@@ -22,47 +22,12 @@
     },
     "page_navigation_UhadMJ": {
       "type": "page-navigation",
-      "blocks": {
-        "link_NcB4jV": {
-          "type": "link",
-          "settings": {
-            "text": "THE STORY",
-            "link": "shopify://pages/a-design-story"
-          }
-        },
-        "link_kR8VqR": {
-          "type": "link",
-          "settings": {
-            "text": "MADE IN JAPAN",
-            "link": "shopify://pages/craftmanship"
-          }
-        },
-        "link_yrz6Cp": {
-          "type": "link",
-          "settings": {
-            "text": "INSPIRATION",
-            "link": "shopify://pages/inspiration"
-          }
-        },
-        "link_9JqtfV": {
-          "type": "link",
-          "settings": {
-            "text": "ORIGIN OF THE WORD",
-            "link": "shopify://pages/la-maison-lecurie-paris"
-          }
-        }
-      },
-      "block_order": [
-        "link_NcB4jV",
-        "link_kR8VqR",
-        "link_yrz6Cp",
-        "link_9JqtfV"
-      ],
       "custom_css": [
         "{padding-top: 20px;}"
       ],
       "name": "Page navigation",
       "settings": {
+        "link_list": "la-maison-lp-navigation",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }

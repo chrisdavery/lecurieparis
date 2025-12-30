@@ -5,15 +5,15 @@
     {{ section.settings.section_padding }}
     "
 >
-    <ul class="page-nav">
-        {% for block in section.blocks %}
-            {% if block.settings.text != blank %}
+    {% if section.settings.link_list.links.size > 0 %}
+        <ul class="page-nav">
+            {% for link in section.settings.link_list.links %}
                 <li>
-                    <a href="{{ block.settings.link }}" {% if page.url == block.settings.link %}class="active"{% endif %}>{{ block.settings.text }}</a>
+                    <a href="{{ link.url }}"{% if link.active %}class="active"{% endif %}>{{ link.title }}</a>
                 </li>
-            {% endif %}
-        {% endfor %}
-    </ul>
+            {% endfor %}
+        </ul>
+    {% endif %}
 </div>
   
 {% schema %}
@@ -24,6 +24,11 @@
       "groups": ["header", "custom.overlay"]
     },
     "settings": [
+        {
+          "id": "link_list",
+          "type": "link_list",
+          "label": "Links"
+        },
         {
             "type": "header",
             "content": "t:shared.settings.section_style.header_style.content"
@@ -66,24 +71,6 @@
                 "label": "t:shared.settings.section_style.section_padding.option_bottom",
                 "value": "section--vertical-padding-bottom-only"
             }
-            ]
-        }
-    ],
-    "blocks": [
-        {
-            "type": "link",
-            "name": "Link",
-            "settings": [
-                {
-                    "type": "text",
-                    "id": "text",
-                    "label": "Text"
-                },
-                {
-                    "type": "url",
-                    "id": "link",
-                    "label": "Link"
-                }
             ]
         }
     ],

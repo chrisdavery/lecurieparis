@@ -44,6 +44,7 @@
       ],
       "name": "Page navigation",
       "settings": {
+        "link_list": "lp-campaign-navigation",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
