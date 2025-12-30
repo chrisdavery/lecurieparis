@@ -259,7 +259,7 @@
         "text_pLpH4K"
       ],
       "custom_css": [
-        "{--max-width: 1000px !important;}"
+        "{--max-width: 800px !important;}"
       ],
       "settings": {
         "section_link": "",
