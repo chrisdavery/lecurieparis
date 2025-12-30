@@ -126,50 +126,6 @@
         "content_width": "custom"
       }
     },
-    "rich_text_mTXAwd": {
-      "type": "rich-text",
-      "blocks": {
-        "text_hEteUf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>French interior design embodies timeless elegance and understated chic. Defined by classic color palettes, refined materials, and meticulous attention to detail, it reflects a harmonious balance between tradition and contemporary expression. <br/>Deeply influenced by art and fashion, this aesthetic creates spaces—and objects—where refinement feels natural, enduring, and effortless.</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        },
-        "spacer_bWeBzn": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "text_7nFHyt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Women are a constant source of inspiration through their strength, confidence, and individuality. Their duality with both powerful and graceful shapes a vision of modern luxury that is expressive yet refined. <br/>Each creation is designed to celebrate independence, elegance, and personal identity.</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "text_hEteUf",
-        "spacer_bWeBzn",
-        "text_7nFHyt"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "{--max-width: 1000px !important;}"
-      ],
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "multi_column_BebqGt": {
       "type": "multi-column",
       "blocks": {
@@ -237,9 +193,9 @@
         "content_vertical_alignment": "center",
         "content_background_padding": "medium",
         "columns": "2",
-        "column_spacing": 28,
-        "row_spacing": 28,
-        "column_alignment": "left",
+        "column_spacing": 4,
+        "row_spacing": 4,
+        "column_alignment": "center",
         "enable_slider_mobile": false,
         "columns_mobile": "2",
         "column_spacing_mobile": 20,
@@ -648,7 +604,6 @@
     "rich_text_hUNWCY",
     "custom_liquid_HmwAAx",
     "rich_text_VDL3Wd",
-    "rich_text_mTXAwd",
     "multi_column_BebqGt",
     "rich_text_gaddUw",
     "rich_text_JMGMXF",
