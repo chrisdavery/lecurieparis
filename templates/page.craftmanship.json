@@ -125,6 +125,74 @@
         "content_width": "custom"
       }
     },
+    "rich_text_X4TJmg": {
+      "type": "rich-text",
+      "blocks": {
+        "accent_YfJztE": {
+          "type": "accent",
+          "settings": {
+            "accent": "The heritage of a \"savoir faire\""
+          }
+        },
+        "heading_G9cYdq": {
+          "type": "heading",
+          "settings": {
+            "title": "Sabae - Japan",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
+          }
+        },
+        "spacer_DwXmqg": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_hUjDgn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All L’Écurie Paris eyewear is handcrafted in the Fukui Prefecture, <br/>in the city of Sabae, internationally recognized as the heart of Japanese eyewear manufacturing. <br/>This region is renowned for its exceptional standards, technical mastery, <br/>and deep expertise developed over decades, making it a global reference for precision eyewear.</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
+        "spacer_CwUXdn": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "image_cdCe6x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sabae.jpg",
+            "content_width": "custom",
+            "image_size": 680,
+            "image_size_mobile": 320
+          }
+        }
+      },
+      "block_order": [
+        "accent_YfJztE",
+        "heading_G9cYdq",
+        "spacer_DwXmqg",
+        "text_hUjDgn",
+        "spacer_CwUXdn",
+        "image_cdCe6x"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "rich_text_ybwQYJ": {
       "type": "rich-text",
       "blocks": {
@@ -180,60 +248,6 @@
         "text_kQHVAi",
         "spacer_j49DfQ",
         "image_ExJRUY"
-      ],
-      "custom_css": [
-        "{--max-width: 1000px !important;}"
-      ],
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
-    "rich_text_X4TJmg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_G9cYdq": {
-          "type": "heading",
-          "settings": {
-            "title": "Sabae - Japan",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        },
-        "spacer_DwXmqg": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "text_hUjDgn": {
-          "type": "text",
-          "settings": {
-            "text": "<p>All L’Écurie Paris eyewear is handcrafted in the Fukui Prefecture, <br/>in the city of Sabae, internationally recognized as the heart of Japanese eyewear manufacturing. <br/>This region is renowned for its exceptional standards, technical mastery, <br/>and deep expertise developed over decades, making it a global reference for precision eyewear.</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        },
-        "image_cdCe6x": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
-            "content_width": "custom",
-            "image_size": 590,
-            "image_size_mobile": 320
-          }
-        }
-      },
-      "block_order": [
-        "heading_G9cYdq",
-        "spacer_DwXmqg",
-        "text_hUjDgn",
-        "image_cdCe6x"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
@@ -368,8 +382,8 @@
     "custom_liquid_mRbjpJ",
     "page_navigation_MQHXbf",
     "rich_text_bMtenr",
-    "rich_text_ybwQYJ",
     "rich_text_X4TJmg",
+    "rich_text_ybwQYJ",
     "rich_text_zqdaYN",
     "rich_text_KgwNgz"
   ]
