@@ -258,54 +258,37 @@
         "css_class": ""
       }
     },
-    "rich_text_ybwQYJ": {
+    "rich_text_KgwNgz": {
       "type": "rich-text",
       "blocks": {
-        "heading_RVp34h": {
+        "heading_fa3rgi": {
           "type": "heading",
           "settings": {
-            "title": "CRAFTMANSHIP",
+            "title": "Japanese Acetate and Titanium",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-2-base",
             "set_to_italic": false
           }
         },
-        "spacer_8wWnfB": {
+        "spacer_AyjTjB": {
           "type": "spacer",
           "settings": {
-            "space": 28
+            "space": 12
           }
         },
-        "text_kQHVAi": {
+        "text_hNYd4m": {
           "type": "text",
           "settings": {
-            "text": "<p>In Japan, craftsmanship is a disciplined art rooted in patience, precision, and respect for tradition. <br/>This savoir-faire, passed down through generations, reflects an uncompromising pursuit of excellence where every gesture has meaning. <br/>By combining ancestral techniques with modern innovation, artisans achieve a level of refinement and durability that defines true Japanese craftsmanship.</p>",
-            "text_font_class": "fs-body-100",
+            "text": "<p>Each creation is crafted using Takiron acetate, celebrated for its richness of color, durability, and comfort, combined with high-grade Japanese flexible titanium known for its lightness, strength, anti allergic property and corrosion resistance. <br/></p><p>These premium materials ensure eyewear that feels refined, balanced, and effortless to wear while maintaining long-term performance.</p>",
+            "text_font_class": "fs-body-75",
             "set_to_italic": false
-          }
-        },
-        "spacer_j49DfQ": {
-          "type": "spacer",
-          "settings": {
-            "space": 28
-          }
-        },
-        "image_ExJRUY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/japan1.jpg",
-            "content_width": "custom",
-            "image_size": 840,
-            "image_size_mobile": 320
           }
         }
       },
       "block_order": [
-        "heading_RVp34h",
-        "spacer_8wWnfB",
-        "text_kQHVAi",
-        "spacer_j49DfQ",
-        "image_ExJRUY"
+        "heading_fa3rgi",
+        "spacer_AyjTjB",
+        "text_hNYd4m"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
@@ -424,6 +407,67 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none",
         "css_class": ""
+      }
+    },
+    "rich_text_ybwQYJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RVp34h": {
+          "type": "heading",
+          "settings": {
+            "title": "CRAFTMANSHIP",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
+          }
+        },
+        "spacer_8wWnfB": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        },
+        "text_kQHVAi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In Japan, craftsmanship is a disciplined art rooted in patience, precision, and respect for tradition. <br/>This savoir-faire, passed down through generations, reflects an uncompromising pursuit of excellence where every gesture has meaning. <br/>By combining ancestral techniques with modern innovation, artisans achieve a level of refinement and durability that defines true Japanese craftsmanship.</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
+        "spacer_j49DfQ": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        },
+        "image_ExJRUY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/japan1.jpg",
+            "content_width": "custom",
+            "image_size": 840,
+            "image_size_mobile": 320
+          }
+        }
+      },
+      "block_order": [
+        "heading_RVp34h",
+        "spacer_8wWnfB",
+        "text_kQHVAi",
+        "spacer_j49DfQ",
+        "image_ExJRUY"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
       }
     },
     "rich_text_zqdaYN": {
@@ -552,50 +596,6 @@
         "section_padding": "section--vertical-padding-none",
         "css_class": ""
       }
-    },
-    "rich_text_KgwNgz": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fa3rgi": {
-          "type": "heading",
-          "settings": {
-            "title": "Japanese Acetate and Titanium",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        },
-        "spacer_AyjTjB": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "text_hNYd4m": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Each creation is crafted using Takiron acetate, celebrated for its richness of color, durability, and comfort, combined with high-grade Japanese flexible titanium known for its lightness, strength, anti allergic property and corrosion resistance. <br/></p><p>These premium materials ensure eyewear that feels refined, balanced, and effortless to wear while maintaining long-term performance.</p>",
-            "text_font_class": "fs-body-75",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_fa3rgi",
-        "spacer_AyjTjB",
-        "text_hNYd4m"
-      ],
-      "custom_css": [
-        "{--max-width: 1000px !important;}"
-      ],
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
     }
   },
   "order": [
@@ -604,10 +604,10 @@
     "rich_text_bMtenr",
     "rich_text_X4TJmg",
     "multi_column_jW6jNP",
+    "rich_text_KgwNgz",
     "multi_column_4pfVTn",
     "rich_text_ybwQYJ",
     "rich_text_zqdaYN",
-    "multi_column_KBGhVf",
-    "rich_text_KgwNgz"
+    "multi_column_KBGhVf"
   ]
 }
