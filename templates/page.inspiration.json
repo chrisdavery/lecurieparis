@@ -152,6 +152,50 @@
         "content_width": "custom"
       }
     },
+    "rich_text_mTXAwd": {
+      "type": "rich-text",
+      "blocks": {
+        "text_hEteUf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>French interior design embodies timeless elegance and understated chic. Defined by classic color palettes, refined materials, and meticulous attention to detail, it reflects a harmonious balance between tradition and contemporary expression. <br/>Deeply influenced by art and fashion, this aesthetic creates spaces—and objects—where refinement feels natural, enduring, and effortless.</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
+        "spacer_bWeBzn": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_7nFHyt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Women are a constant source of inspiration through their strength, confidence, and individuality. Their duality with both powerful and graceful shapes a vision of modern luxury that is expressive yet refined. <br/>Each creation is designed to celebrate independence, elegance, and personal identity.</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "text_hEteUf",
+        "spacer_bWeBzn",
+        "text_7nFHyt"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "multi_column_BebqGt": {
       "type": "multi-column",
       "blocks": {
@@ -478,7 +522,7 @@
         "text_y7VxXM": {
           "type": "text",
           "settings": {
-            "text": "<p>Interior design inspires Lionel Moroy through its mastery of materials, volumes, and atmosphere. <br/>Each piece reflects a sense of structure and refinement drawn from well-composed spaces. <br/>This approach creates eyewear defined by balance, elegance, and lasting presence.</p>",
+            "text": "<p>Interior design inspires Lionel Moroy through its mastery of materials, volumes, and atmosphere. <br/>Each piece reflects a sense of structure and refinement drawn from well-composed spaces. <br/>This approach creates eyewear defined by balance, elegance, and lasting presence. It reflects a harmonious balance between tradition and contemporary expression.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
@@ -507,6 +551,7 @@
     "rich_text_hUNWCY",
     "custom_liquid_HmwAAx",
     "rich_text_VDL3Wd",
+    "rich_text_mTXAwd",
     "multi_column_BebqGt",
     "rich_text_JMGMXF",
     "grid_hThaXz",
