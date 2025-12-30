@@ -112,11 +112,12 @@
     "rich_text_VDL3Wd": {
       "type": "rich-text",
       "blocks": {
-        "text_YGNaag": {
-          "type": "text",
+        "subheading_MT3yzD": {
+          "type": "subheading",
           "settings": {
-            "text": "<p>French interior design embodies timeless elegance and understated chic. Defined by classic color palettes, refined materials, and meticulous attention to detail, it reflects a harmonious balance between tradition and contemporary expression. <br/>Deeply influenced by art and fashion, this aesthetic creates spaces—and objects—where refinement feels natural, enduring, and effortless.</p>",
-            "text_font_class": "fs-body-100",
+            "subheading": "Femininity as an Art",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
             "set_to_italic": false
           }
         },
@@ -136,7 +137,7 @@
         }
       },
       "block_order": [
-        "text_YGNaag",
+        "subheading_MT3yzD",
         "spacer_KhteDM",
         "text_peRPtR"
       ],
@@ -199,29 +200,6 @@
     "multi_column_BebqGt": {
       "type": "multi-column",
       "blocks": {
-        "image_column_9zkaKp": {
-          "type": "image_column",
-          "settings": {
-            "image": "shopify://shop_images/GAINSBOURG_VERNEUIL.jpg",
-            "image_width": 100,
-            "aspect_ratio": "portrait",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "Serge Gainsbourg, Parisian Interior",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
-          }
-        },
         "image_column_qHnbB3": {
           "type": "image_column",
           "settings": {
@@ -244,11 +222,34 @@
             "link_text": "",
             "button_style": "btn--primary"
           }
+        },
+        "image_column_9zkaKp": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/belle-goss-jane-birkin-2.jpg",
+            "image_width": 100,
+            "aspect_ratio": "portrait",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "Jane Birkin - Don Juan (1973)",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
         }
       },
       "block_order": [
-        "image_column_9zkaKp",
-        "image_column_qHnbB3"
+        "image_column_qHnbB3",
+        "image_column_9zkaKp"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
