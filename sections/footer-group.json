@@ -72,7 +72,7 @@
             "text": "<p><a href=\"mailto:experience@lecurieparis.com\" title=\"mailto:EXPERIENCE@LECURIEPARIS.COM\">EXPERIENCE@LECURIEPARIS.COM</a></p><p>.</p><p><strong>PRESS<br/>.</strong></p><p><a href=\"mailto:info@brooklynpr.com\" title=\"mailto:info@brooklynpr.com\">INFO@BROOKLYNPR.COM</a></p>",
             "image_max_width": 200,
             "image_placement": "below_text",
-            "show_social_icons": false,
+            "show_social_icons": true,
             "enable_follow_on_shop": false
           }
         }
