@@ -218,7 +218,7 @@
         "subheading_ezKb97": {
           "type": "subheading",
           "settings": {
-            "subheading": "Fashion",
+            "subheading": "Inspired by Fashion",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-5-base",
             "set_to_italic": false
@@ -227,7 +227,7 @@
         "text_LBnTwr": {
           "type": "text",
           "settings": {
-            "text": "<p>Horses have long influenced French fashion, symbolizing freedom, strength, and nobility. <br/>Their fluid movement and commanding presence translate into designs that express grace, balance, and empowerment. This inspiration resonates deeply within women’s fashion, embodying confidence and timeless allure.</p>",
+            "text": "<p>Vintage fashion from the 1970s remains a powerful source of inspiration, defined by freedom, confidence, and effortless elegance. <br/>Designers such as Yves Saint Laurent redefined femininity through strong silhouettes and fluid tailoring, while Halston introduced a new vision of modern glamour rooted in simplicity and movement. <br/>The era also celebrated sensual ease through Diane von Fürstenberg’s iconic wrap dresses, embodying independence and femininity. Karl Lagerfeld’s work during the decade brought a refined balance between structure and softness, shaping a sophisticated yet expressive aesthetic. This period continues to inspire a timeless vision of fashion where elegance feels natural, bold, and enduring.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
@@ -596,6 +596,92 @@
         "section_padding": "section--vertical-padding-bottom-only",
         "css_class": ""
       }
+    },
+    "multi_column_WCg4yR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_q6qrP9": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/GAINSBOURG_VERNEUIL.jpg",
+            "image_width": 100,
+            "aspect_ratio": "portrait",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "Serge Gainsbourg, Parisian Interior, 70's.",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Bdkmcq": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/charles-2.jpg",
+            "image_width": 100,
+            "aspect_ratio": "portrait",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "Charles and Ray Eames in their Venice, California studio November, 1974.",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_q6qrP9",
+        "image_column_Bdkmcq"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "name": "t:sections.multi_column.presets.name",
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "2",
+        "column_spacing": 4,
+        "row_spacing": 4,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "css_class": ""
+      }
     }
   },
   "order": [
@@ -611,6 +697,7 @@
     "rich_text_xxgcxc",
     "multi_column_TRGVAL",
     "rich_text_fgQyEH",
-    "multi_column_TTpTWr"
+    "multi_column_TTpTWr",
+    "multi_column_WCg4yR"
   ]
 }
