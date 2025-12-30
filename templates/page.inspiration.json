@@ -283,43 +283,6 @@
         "css_class": ""
       }
     },
-    "rich_text_JMGMXF": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_7qYnGr": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Equine Elegance",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base",
-            "set_to_italic": false
-          }
-        },
-        "text_YKhiP8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Horses have long influenced French fashion, symbolizing freedom, strength, and nobility. <br/>Their fluid movement and commanding presence translate into designs that express grace, balance, and empowerment. This inspiration resonates deeply within women’s fashion, embodying confidence and timeless allure.</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading_7qYnGr",
-        "text_YKhiP8"
-      ],
-      "custom_css": [
-        "{--max-width: 1000px !important;}"
-      ],
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
     "rich_text_gaddUw": {
       "type": "rich-text",
       "blocks": {
@@ -344,6 +307,43 @@
       "block_order": [
         "subheading_ezKb97",
         "text_LBnTwr"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "rich_text_JMGMXF": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_7qYnGr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Equine Elegance",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
+        "text_YKhiP8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Horses have long influenced French fashion, symbolizing freedom, strength, and nobility. <br/>Their fluid movement and commanding presence translate into designs that express grace, balance, and empowerment. This inspiration resonates deeply within women’s fashion, embodying confidence and timeless allure.</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7qYnGr",
+        "text_YKhiP8"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
@@ -677,8 +677,8 @@
     "rich_text_VDL3Wd",
     "rich_text_mTXAwd",
     "multi_column_BebqGt",
-    "rich_text_JMGMXF",
     "rich_text_gaddUw",
+    "rich_text_JMGMXF",
     "grid_hThaXz",
     "rich_text_xxgcxc",
     "multi_column_TRGVAL",
