@@ -22,34 +22,6 @@
     },
     "page_navigation_MQHXbf": {
       "type": "page-navigation",
-      "blocks": {
-        "link_jbrMNA": {
-          "type": "link",
-          "settings": {
-            "text": "THE STORY",
-            "link": "shopify://pages/a-design-story"
-          }
-        },
-        "link_yezqWx": {
-          "type": "link",
-          "settings": {
-            "text": "MADE IN JAPAN",
-            "link": "shopify://pages/craftmanship"
-          }
-        },
-        "link_b3Ee3c": {
-          "type": "link",
-          "settings": {
-            "text": "INSPIRATION",
-            "link": "shopify://pages/inspiration"
-          }
-        }
-      },
-      "block_order": [
-        "link_jbrMNA",
-        "link_yezqWx",
-        "link_b3Ee3c"
-      ],
       "custom_css": [
         "{padding-top: 20px;}"
       ],
