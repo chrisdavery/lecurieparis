@@ -221,6 +221,9 @@
         "image_column_yrTEBH",
         "image_column_Gqagtj"
       ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
         "title": "",
@@ -371,6 +374,9 @@
         "image_column_6qKDyb",
         "image_column_EQ6K3D",
         "image_column_JrJNmd"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
@@ -559,6 +565,9 @@
       "block_order": [
         "image_column_YPetaW",
         "image_column_pAUW4V"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
