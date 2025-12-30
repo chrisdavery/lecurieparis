@@ -128,7 +128,7 @@
         "spacer_CwUXdn"
       ],
       "custom_css": [
-        "{--max-width: 1000px !important;}"
+        "{--max-width: 800px !important;}"
       ],
       "settings": {
         "section_link": "",
@@ -272,7 +272,7 @@
         "text_hNYd4m"
       ],
       "custom_css": [
-        "{--max-width: 1000px !important;}"
+        "{--max-width: 800px !important;}"
       ],
       "settings": {
         "section_link": "",
@@ -457,7 +457,7 @@
         "image_ExJRUY"
       ],
       "custom_css": [
-        "{--max-width: 1000px !important;}"
+        "{--max-width: 800px !important;}"
       ],
       "settings": {
         "section_link": "",
@@ -501,7 +501,7 @@
         "text_CFqfDw"
       ],
       "custom_css": [
-        "{--max-width: 1000px !important;}"
+        "{--max-width: 800px !important;}"
       ],
       "settings": {
         "section_link": "",
