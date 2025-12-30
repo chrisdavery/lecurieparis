@@ -256,6 +256,12 @@
     "rich_text_KgwNgz": {
       "type": "rich-text",
       "blocks": {
+        "spacer_AyjTjB": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        },
         "heading_fa3rgi": {
           "type": "heading",
           "settings": {
@@ -265,10 +271,10 @@
             "set_to_italic": false
           }
         },
-        "spacer_AyjTjB": {
+        "spacer_UjpHLV": {
           "type": "spacer",
           "settings": {
-            "space": 12
+            "space": 24
           }
         },
         "text_hNYd4m": {
@@ -281,8 +287,9 @@
         }
       },
       "block_order": [
-        "heading_fa3rgi",
         "spacer_AyjTjB",
+        "heading_fa3rgi",
+        "spacer_UjpHLV",
         "text_hNYd4m"
       ],
       "custom_css": [
@@ -410,6 +417,12 @@
     "rich_text_ybwQYJ": {
       "type": "rich-text",
       "blocks": {
+        "spacer_iqDtbE": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        },
         "heading_RVp34h": {
           "type": "heading",
           "settings": {
@@ -450,6 +463,7 @@
         }
       },
       "block_order": [
+        "spacer_iqDtbE",
         "heading_RVp34h",
         "spacer_8wWnfB",
         "text_kQHVAi",
