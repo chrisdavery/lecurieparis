@@ -103,7 +103,7 @@
         "text_peRPtR": {
           "type": "text",
           "settings": {
-            "text": "<p>Women are a constant source of inspiration through their strength, confidence, and individuality. Their duality with both powerful and graceful shapes a vision of modern luxury that is expressive yet refined. <br/>Each creation is designed to celebrate independence, elegance, and personal identity.</p>",
+            "text": "<p>Women are a constant source of inspiration through their strength, confidence, and individuality. <br/>Their duality with both powerful and graceful shapes a vision of modern luxury that is expressive yet refined. <br/>Each creation is designed to celebrate independence, elegance, and personal identity.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
