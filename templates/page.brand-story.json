@@ -176,6 +176,12 @@
             "image_size": 440,
             "image_size_mobile": 200
           }
+        },
+        "accent_KWJTac": {
+          "type": "accent",
+          "settings": {
+            "accent": "Lionel Moroy"
+          }
         }
       },
       "block_order": [
@@ -184,7 +190,8 @@
         "spacer_ViBXDt",
         "text_BMB4j9",
         "spacer_XMXLVp",
-        "image_38AEtj"
+        "image_38AEtj",
+        "accent_KWJTac"
       ],
       "custom_css": [
         "{--max-width: 800px !important;}"
