@@ -22,34 +22,6 @@
     },
     "page_navigation_4f3DFa": {
       "type": "page-navigation",
-      "blocks": {
-        "link_CkjFGH": {
-          "type": "link",
-          "settings": {
-            "text": "CAMPAIGN 2025",
-            "link": "https://lecurieparis.com/pages/lp-campaign-2025"
-          }
-        },
-        "link_VV6JVF": {
-          "type": "link",
-          "settings": {
-            "text": "CAMPAIGN 2024",
-            "link": "https://lecurieparis.com/pages/lp-campaign-beverly-hills"
-          }
-        },
-        "link_bydPUQ": {
-          "type": "link",
-          "settings": {
-            "text": "CAMPAIGN 2023",
-            "link": "https://lecurieparis.com/pages/lp-campaign-rancho-palos-verdes"
-          }
-        }
-      },
-      "block_order": [
-        "link_CkjFGH",
-        "link_VV6JVF",
-        "link_bydPUQ"
-      ],
       "custom_css": [
         "{padding-top: 40px;}"
       ],
