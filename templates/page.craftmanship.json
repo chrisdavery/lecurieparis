@@ -285,23 +285,13 @@
           "settings": {
             "space": 24
           }
-        },
-        "image_7i4Ydn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-2_69300e74-7daa-4727-91bb-dc47aa5cc270.jpg",
-            "content_width": "custom",
-            "image_size": 590,
-            "image_size_mobile": 320
-          }
         }
       },
       "block_order": [
         "heading_et73ed",
         "spacer_mWkQyn",
         "text_CFqfDw",
-        "spacer_nXb3fk",
-        "image_7i4Ydn"
+        "spacer_nXb3fk"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
@@ -321,7 +311,7 @@
         "heading_fa3rgi": {
           "type": "heading",
           "settings": {
-            "title": "The Legacy of japanese art",
+            "title": "Japanese Acetate and Titanium",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-2-base",
             "set_to_italic": false
@@ -336,7 +326,7 @@
         "text_hNYd4m": {
           "type": "text",
           "settings": {
-            "text": "<p>Craftsmanship is more than a tradition, <br/>It is a revered art in Sabae, Japan, where our sunglasses are meticulously handcrafted. </p><p>In these world-renowned workshops, <br/>artisans apply extraordinary skills passed down through generations to create each pair. </p><p>By merging ancient techniques with modern advancements, <br/>they achieve a level of precision and artistry that defines Japanese craftsmanship. </p><p>The care invested in every detail ensures that our eyewear is not only aesthetically exceptional <br/>but also built to last, embodying the renowned quality of Japanese craftsmanship.</p>",
+            "text": "<p>Each creation is crafted using Takiron acetate, celebrated for its richness of color, durability, and comfort, combined with high-grade Japanese flexible titanium known for its lightness, strength, anti allergic property and corrosion resistance. <br/></p><p>These premium materials ensure eyewear that feels refined, balanced, and effortless to wear while maintaining long-term performance.</p>",
             "text_font_class": "fs-body-75",
             "set_to_italic": false
           }
@@ -346,23 +336,13 @@
           "settings": {
             "space": 32
           }
-        },
-        "image_Tn3E9X": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lecurieparis-manufacturing-japan2-2_57847d44-2eaa-4811-a860-ecefa1c653e4.jpg",
-            "content_width": "custom",
-            "image_size": 590,
-            "image_size_mobile": 320
-          }
         }
       },
       "block_order": [
         "heading_fa3rgi",
         "spacer_AyjTjB",
         "text_hNYd4m",
-        "spacer_KFzTUU",
-        "image_Tn3E9X"
+        "spacer_KFzTUU"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
