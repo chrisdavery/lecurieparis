@@ -154,15 +154,6 @@
           "settings": {
             "space": 12
           }
-        },
-        "image_cdCe6x": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/sabae.jpg",
-            "content_width": "custom",
-            "image_size": 680,
-            "image_size_mobile": 320
-          }
         }
       },
       "block_order": [
@@ -170,8 +161,7 @@
         "heading_G9cYdq",
         "spacer_DwXmqg",
         "text_hUjDgn",
-        "spacer_CwUXdn",
-        "image_cdCe6x"
+        "spacer_CwUXdn"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
@@ -354,63 +344,12 @@
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
-        },
-        "spacer_nXb3fk": {
-          "type": "spacer",
-          "settings": {
-            "space": 24
-          }
         }
       },
       "block_order": [
         "heading_et73ed",
         "spacer_mWkQyn",
-        "text_CFqfDw",
-        "spacer_nXb3fk"
-      ],
-      "custom_css": [
-        "{--max-width: 1000px !important;}"
-      ],
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
-      }
-    },
-    "rich_text_KgwNgz": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fa3rgi": {
-          "type": "heading",
-          "settings": {
-            "title": "Japanese Acetate and Titanium",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        },
-        "spacer_AyjTjB": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
-        "text_hNYd4m": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Each creation is crafted using Takiron acetate, celebrated for its richness of color, durability, and comfort, combined with high-grade Japanese flexible titanium known for its lightness, strength, anti allergic property and corrosion resistance. <br/></p><p>These premium materials ensure eyewear that feels refined, balanced, and effortless to wear while maintaining long-term performance.</p>",
-            "text_font_class": "fs-body-75",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_fa3rgi",
-        "spacer_AyjTjB",
-        "text_hNYd4m"
+        "text_CFqfDw"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
@@ -506,6 +445,50 @@
         "section_padding": "section--vertical-padding-none",
         "css_class": ""
       }
+    },
+    "rich_text_KgwNgz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fa3rgi": {
+          "type": "heading",
+          "settings": {
+            "title": "Japanese Acetate and Titanium",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
+          }
+        },
+        "spacer_AyjTjB": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_hNYd4m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each creation is crafted using Takiron acetate, celebrated for its richness of color, durability, and comfort, combined with high-grade Japanese flexible titanium known for its lightness, strength, anti allergic property and corrosion resistance. <br/></p><p>These premium materials ensure eyewear that feels refined, balanced, and effortless to wear while maintaining long-term performance.</p>",
+            "text_font_class": "fs-body-75",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fa3rgi",
+        "spacer_AyjTjB",
+        "text_hNYd4m"
+      ],
+      "custom_css": [
+        "{--max-width: 1000px !important;}"
+      ],
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
     }
   },
   "order": [
@@ -516,7 +499,7 @@
     "multi_column_jW6jNP",
     "rich_text_ybwQYJ",
     "rich_text_zqdaYN",
-    "rich_text_KgwNgz",
-    "multi_column_KBGhVf"
+    "multi_column_KBGhVf",
+    "rich_text_KgwNgz"
   ]
 }
