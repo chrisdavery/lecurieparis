@@ -459,7 +459,7 @@
         "heading_kbEbwK"
       ],
       "custom_css": [
-        ".rich-text {padding-block: 0; margin-top: -1px;}",
+        ".rich-text {padding-block: 0;}",
         ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 100px 0;}",
         "h2 {font-size: 24px;}",
         "@media screen and (max-width: 768px) {.rich-text__inner {padding: 40px 0px; } h2 {font-size: 20px; }}"
