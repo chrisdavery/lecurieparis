@@ -165,7 +165,16 @@
         "spacer_XMXLVp": {
           "type": "spacer",
           "settings": {
-            "space": 12
+            "space": 40
+          }
+        },
+        "image_38AEtj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lionelmoroy-lecurieparis_6169379f-3b9a-40e5-be32-6ad3d61a1d0c.jpg",
+            "content_width": "custom",
+            "image_size": 520,
+            "image_size_mobile": 200
           }
         }
       },
@@ -174,7 +183,8 @@
         "heading_Vg9txC",
         "spacer_ViBXDt",
         "text_BMB4j9",
-        "spacer_XMXLVp"
+        "spacer_XMXLVp",
+        "image_38AEtj"
       ],
       "custom_css": [
         "{--max-width: 1000px !important;}"
@@ -186,55 +196,6 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom"
-      }
-    },
-    "image_with_text_XNyC6h": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_HtHzT8": {
-          "type": "heading",
-          "settings": {
-            "title": "THE STORY",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
-          }
-        },
-        "text_A3ACQt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>I grew up a few miles from Paris and moved to Los Angeles in 2010. Design has been in my blood my whole life. At six years old, girls in my classroom were already asking me to draw wolves one of my favorite animals.</p><p>I have always felt a deep emotional connection to beauty from a young age and used it as an escape. I studied at an art school in Paris’s 18th arrondissement, an experience that proved to be a true revelation. It opened my eyes to life and art and allowed me to be surrounded by other artists.</p><p>I admired the creations of Yves Saint Laurent and grew up immersed in Parisian architecture, art, fashion, and decorative motifs. I began my professional career at the age of 23, designing for companies in the apparel and lifestyle industries. But creating and designing has never felt like a job to meit is a lifelong, extraordinary experience.</p><p>In 2018, I decided to reconnect with my French heritage and celebrate beauty and pure elegance through design. My ultimate desire was to create and deliver products with soul and meaning. I love when people feel an emotion as they touch and wear our pieces, when the object offers a true experience.</p><p>I chose to design eyewear because it is one of the most personal items we wear, something we choose to represent ourselves. We can either hide behind our glasses or proudly own their style, allowing them to blend seamlessly with our personality. <br/>Eyewear is a way to reaffirm our self-confidence.<br/>I feel incredibly fortunate to work with such an amazing team at L’Écurie Paris and to bring to life products that genuinely feel right.</p><p></p>",
-            "text_font_class": "fs-body-75"
-          }
-        }
-      },
-      "block_order": [
-        "heading_HtHzT8",
-        "text_A3ACQt"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "{--max-width: 1000px !important;}"
-      ],
-      "name": "t:sections.image_with_text.presets.name",
-      "settings": {
-        "image_position": "left",
-        "shrink_image_column": true,
-        "shrink_image_width": 35,
-        "text_alignment": "left",
-        "image": "shopify://shop_images/lionelmoroy-lp.jpg",
-        "aspect_ratio": "portrait",
-        "focal_point": "image_presentation",
-        "image_caption": "",
-        "show_small_image": false,
-        "image_small_aspect_ratio": "square",
-        "image_small_focal_point": "image_presentation",
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only"
       }
     },
     "rich_text_Txikgw": {
@@ -313,7 +274,6 @@
     "page_navigation_pkcDLd",
     "rich_text_DWiFGi",
     "rich_text_BgFycd",
-    "image_with_text_XNyC6h",
     "rich_text_Txikgw",
     "image_with_text_VwHa8w"
   ]
