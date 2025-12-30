@@ -418,7 +418,7 @@
       "settings": {
         "image_aspect": "custom",
         "desktop_height": 85,
-        "mobile_height": 100,
+        "mobile_height": 70,
         "image": "shopify://shop_images/PORTS_WINTER_HORSES_NO_WRITING18.jpg",
         "image_mobile": "shopify://shop_images/INSTA-COUNTRY-SIDE-VERTICAL9_c0999ae5-0f7c-46c4-af34-1196e1b73647.jpg",
         "focal_point": "top",
