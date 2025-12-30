@@ -67,6 +67,7 @@
         },
         "image_jM7nPR": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/LP-GOLD.jpg",
             "content_width": "custom",
@@ -80,6 +81,7 @@
         "text_9RVrRi",
         "image_jM7nPR"
       ],
+      "disabled": true,
       "settings": {
         "section_link": "",
         "alignment": "center_center",
