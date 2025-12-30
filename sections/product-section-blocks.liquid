@@ -79,7 +79,15 @@ class="
                         endif
                     %}
 
-                    <div class="product-section-block fs-heading-4-base aparajita-font" style="
+                    <div class="product-section-block fs-heading-4-base aparajita-font
+                      {% if item.text_alignment == 'Left' %}
+                       ta-l
+                      {% elsif item.text_alignment == 'Center' %}
+                       ta-c
+                      {% elsif item.text_alignment == 'Right' %}
+                       ta-r
+                      {% endif %}
+                      " style="
                     --padding-top: {{ padding_top }}px;
                     --padding-bottom: {{ padding_bottom }}px;
                     line-height: 1.3em;
