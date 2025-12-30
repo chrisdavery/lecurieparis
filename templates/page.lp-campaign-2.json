@@ -11,34 +11,6 @@
   "sections": {
     "page_navigation_J7kim6": {
       "type": "page-navigation",
-      "blocks": {
-        "link_pFBBxJ": {
-          "type": "link",
-          "settings": {
-            "text": "CAMPAIGN 2025",
-            "link": "shopify://pages/lp-campaign-2025"
-          }
-        },
-        "link_jmTPaB": {
-          "type": "link",
-          "settings": {
-            "text": "CAMPAIGN 2024",
-            "link": "shopify://pages/lp-campaign-beverly-hills"
-          }
-        },
-        "link_biUt7n": {
-          "type": "link",
-          "settings": {
-            "text": "CAMPAIGN 2023",
-            "link": "shopify://pages/lp-campaign-rancho-palos-verdes"
-          }
-        }
-      },
-      "block_order": [
-        "link_pFBBxJ",
-        "link_jmTPaB",
-        "link_biUt7n"
-      ],
       "custom_css": [
         "{padding-top: 40px;}"
       ],
