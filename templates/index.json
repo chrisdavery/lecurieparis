@@ -53,8 +53,18 @@
     "rich_text_Ke8wJd": {
       "type": "rich-text",
       "blocks": {
+        "subheading_QeXdFM": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "OUR SELECTION",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-4-base",
+            "set_to_italic": false
+          }
+        },
         "heading_YwN8yh": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "OUR SELECTION",
             "heading_tag": "h2",
@@ -64,6 +74,7 @@
         }
       },
       "block_order": [
+        "subheading_QeXdFM",
         "heading_YwN8yh"
       ],
       "custom_css": [
