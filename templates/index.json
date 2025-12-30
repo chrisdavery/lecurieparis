@@ -460,7 +460,8 @@
         ".rich-text {padding-block: 0;}",
         "section {padding-top: 0;}",
         ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 100px 0;}",
-        "h2 {font-size: 24px;}"
+        "h2 {font-size: 24px;}",
+        "@media screen and (max-width: 768px) {.rich-text__inner {padding: 50px 20px; } h2 {font-size: 20px; }}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
