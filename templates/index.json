@@ -50,33 +50,37 @@
         "section_padding": "section--vertical-padding-bottom-only"
       }
     },
-    "rich_text_ghzTcf": {
+    "rich_text_Ke8wJd": {
       "type": "rich-text",
       "blocks": {
-        "heading_4p9XUk": {
+        "heading_YwN8yh": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "title": "SHOP THE COLLECTION",
+            "title": "OUR SELECTION",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base",
+            "heading_font_class": "fs-heading-2-base",
             "set_to_italic": false
+          }
+        },
+        "spacer_ey7wR8": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
           }
         }
       },
       "block_order": [
-        "heading_4p9XUk"
+        "heading_YwN8yh",
+        "spacer_ey7wR8"
       ],
-      "disabled": true,
       "custom_css": [
-        ".rich-text {padding-bottom: var(--spacing-10);}",
-        "section {padding-top: 0;}",
-        ".rich-text__inner {background-color: #8a633a; color: white; text-align: center; padding: 100px 0;}",
-        "h2 {font-size: 24px;}"
+        "section {padding-top: 0; padding-bottom: 0;}",
+        "h2 {font-size: 36px; font-weight: 700; margin: 24px 0 0;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 32px; }}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "section_link": "shopify://collections/the-collection",
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -117,49 +121,6 @@
         "enable_animation": false,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "rich_text_Ke8wJd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_YwN8yh": {
-          "type": "heading",
-          "settings": {
-            "title": "OUR SELECTION",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        },
-        "spacer_ey7wR8": {
-          "type": "spacer",
-          "settings": {
-            "space": 16
-          }
-        },
-        "border_pfmMQ9": {
-          "type": "border",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_YwN8yh",
-        "spacer_ey7wR8",
-        "border_pfmMQ9"
-      ],
-      "custom_css": [
-        "section {padding-top: 0; padding-bottom: 0;}",
-        "h2 {font-size: 36px; font-weight: 700; margin: 24px 0 0;}",
-        "@media (max-width: 959px) {h2 {display: block; font-size: 32px; }}"
-      ],
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only",
-        "content_width": "custom"
       }
     },
     "image_with_text_split_xhGDwL": {
@@ -610,9 +571,8 @@
   },
   "order": [
     "image_hero_Tc7dCY",
-    "rich_text_ghzTcf",
-    "featured_collection_grid_fmagTh",
     "rich_text_Ke8wJd",
+    "featured_collection_grid_fmagTh",
     "image_with_text_split_xhGDwL",
     "image_with_text_split_rhTwye",
     "multi_column_z4EQKz",
