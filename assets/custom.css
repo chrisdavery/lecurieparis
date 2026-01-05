@@ -27,11 +27,11 @@
     padding-inline: var(--space-outer);
 }
 
-@media (max-width: 959px) {
+/* @media (max-width: 959px) {
    .header__row .header__row-segment.left .header__icon-touch:first-child {
         margin-left: calc(-1 * var(--space-outer)) !important;
     }
-}
+} */
 .aparajita-font {
     font-family: 'Aparajita', serif;
     font-style: italic;
