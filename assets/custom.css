@@ -26,13 +26,10 @@
     max-width: calc(var(--max-width) + calc(var(--space-outer) * 2));
     padding-inline: var(--space-outer);
 }
-.icon-button-header-menu .icon-button__icon {
-    justify-content: flex-start;
-}
 
 @media (max-width: 959px) {
    .header__row .header__row-segment.left .header__icon-touch:first-child {
-        margin-left: 0 !important;
+        margin-left: calc(-1 * var(--space-outer)) !important;
     }
 }
 .aparajita-font {
