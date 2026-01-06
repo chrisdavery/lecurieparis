@@ -25,7 +25,7 @@
           "settings": {
             "enable_full_width_image": false,
             "image_aspect": "original",
-            "desktop_height": 75,
+            "desktop_height": 60,
             "mobile_height": 45,
             "focal_point": "image_presentation"
           }
@@ -55,7 +55,7 @@
       "settings": {
         "content_width": "custom",
         "custom_content_width": 790,
-        "enable_animation": false
+        "enable_animation": true
       }
     },
     "blog_posts_nh3ery": {
