@@ -22,6 +22,7 @@
         },
         "featured_image": {
           "type": "featured_image",
+          "disabled": true,
           "settings": {
             "enable_full_width_image": false,
             "image_aspect": "original",
