@@ -101,7 +101,7 @@
         "article_per_page": 36,
         "show_tags": false,
         "show_author": false,
-        "show_date": true,
+        "show_date": false,
         "show_excerpt": false,
         "show_featured_image": true,
         "aspect_ratio": "tall",
