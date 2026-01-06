@@ -798,7 +798,7 @@ header nav a.active {
     }
     .article-item__content {
         margin-top: var(--spacing-6) !important;
-        margin-bottom: var(--spacing-8) !important;
+        margin-bottom: var(--spacing-6) !important;
         padding-inline: var(--spacing-4) !important;
     }
     
