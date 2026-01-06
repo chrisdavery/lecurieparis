@@ -84,7 +84,9 @@
         "links_RiMBKA",
         "text_9U3kke"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".footer__inner {border-top: 1px solid #e1e1e1;}"
+      ],
       "settings": {
         "enable_locale_selector": false,
         "enable_country_selector": true,
