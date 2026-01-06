@@ -103,37 +103,10 @@
         "disabled": false,
         "settings": {}
       },
-      "5057006142565981955": {
-        "type": "shopify://apps/affirm-pay-over-time-messaging/blocks/cart-drawer-embed-block/6dce54be-130d-4d13-9636-1e8f611b3071",
-        "disabled": false,
-        "settings": {
-          "logo_align_drawer": "left",
-          "font_size_drawer": 16,
-          "logo_color_drawer": "blue",
-          "logo_type_drawer": "logo",
-          "public_api_key_drawer": "",
-          "cart_drawer_selector": "",
-          "cart_drawer_total_selector": "",
-          "add_to_cart_selector": "",
-          "adjacent_element_selector": ""
-        }
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
-      },
-      "11286895472990583310": {
-        "type": "shopify://apps/sitemapper/blocks/sitemap/f8fe1657-b243-4261-8f0f-cb2fd9da6ce0",
-        "disabled": false,
-        "settings": {
-          "googleCode": "",
-          "bingCode": "",
-          "baiduCode": "",
-          "yandexCode": "",
-          "noIndexBlogTag": false,
-          "noIndexProductTag": false
-        }
       },
       "7313114205116804392": {
         "type": "shopify://apps/propel-replays-surveys/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
@@ -158,6 +131,18 @@
         "type": "shopify://apps/google-analytics-4-ga4/blocks/google-analytics-4/25a47c90-9437-4f66-918c-3c9a15d7897f",
         "disabled": false,
         "settings": {}
+      },
+      "11286895472990583310": {
+        "type": "shopify://apps/sitemapper/blocks/sitemap/f8fe1657-b243-4261-8f0f-cb2fd9da6ce0",
+        "disabled": false,
+        "settings": {
+          "googleCode": "google-site-verification=O1vMwO2InhTci1Zt_A6uuPPqeUVulngkjdcNhXcB0S8",
+          "bingCode": "",
+          "baiduCode": "",
+          "yandexCode": "",
+          "noIndexBlogTag": false,
+          "noIndexProductTag": false
+        }
       }
     }
   },
