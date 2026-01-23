@@ -11,7 +11,7 @@ class="
 "
     style="--max-width: {{ section.settings.container_width | divided_by: 10 }}rem;"
 >
-    <div class="description-plain">
+    <div class="description-plain fs-body-350 aparajita-font">
       {{ product.description }}
     </div>
 
@@ -79,7 +79,7 @@ class="
                         endif
                     %}
 
-                    <div class="product-section-block fs-heading-4-base aparajita-font
+                    <div class="product-section-block fs-body-350 aparajita-font
                       {% if item.text_alignment == 'Left' %}
                        ta-l
                       {% elsif item.text_alignment == 'Center' %}
@@ -160,16 +160,14 @@ class="
       display: block;
     }
 
-    .description-plain h3:has(em) {
-      font-size: var(--font-size-heading-display-3);
-      line-height: var(--line-height-heading);
-      font-family: Aparajita, serif;
-      font-style: italic;
-      font-weight: 400;
-      text-transform: unset;
+    .product-section-block .metafield-rich_text_field > *:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    .description-plain, .product-section-block {
 
       @media (max-width: 959px) {
-        font-size: var(--font-size-heading-4-base);
+        font-size: var(--font-size-body-250);
       }
     }
 

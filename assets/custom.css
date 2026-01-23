@@ -34,9 +34,12 @@
 } */
 .aparajita-font {
     font-family: 'Aparajita', serif;
-    font-style: italic;
     font-weight: normal;
     text-transform: unset !important;
+}
+
+.italic, .italic > * {
+    font-style: italic;
 }
 
 .text-uppercase {
