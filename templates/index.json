@@ -12,6 +12,13 @@
     "image_hero_Tc7dCY": {
       "type": "image-hero",
       "blocks": {
+        "text_rra9kG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unique Frame, French Design, Made in Japan</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
         "button_xxxRPx": {
           "type": "button",
           "settings": {
@@ -22,6 +29,7 @@
         }
       },
       "block_order": [
+        "text_rra9kG",
         "button_xxxRPx"
       ],
       "custom_css": [
