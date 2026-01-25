@@ -22,8 +22,8 @@
         "button_xxxRPx": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/the-collection",
-            "link_text": "SHOP THE COLLECTION",
+            "link": "shopify://products/emmanuelle-black-acetate",
+            "link_text": "SHOP THE EMMANUELLE",
             "button_style": "btn--secondary"
           }
         }
