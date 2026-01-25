@@ -54,7 +54,7 @@
         "color_overlay_gradient": "",
         "overlay_opacity": 0,
         "enable_animation": false,
-        "full_width": true,
+        "full_width": false,
         "section_padding": "section--vertical-padding-bottom-only"
       }
     },
