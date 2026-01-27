@@ -263,20 +263,6 @@
         "enable_animation": false
       }
     },
-    "recommendations": {
-      "type": "recommended-products",
-      "disabled": true,
-      "settings": {
-        "title": "Recommended Products",
-        "subheading": "",
-        "maximum_products": 15,
-        "columns": "5",
-        "mobile_columns": "2",
-        "enable_animation": false,
-        "divider_style": "solid",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "multi_column_VbFptY": {
       "type": "multi-column",
       "blocks": {
@@ -360,13 +346,125 @@
         "section_padding": "section--vertical-padding-top-bottom",
         "css_class": ""
       }
+    },
+    "product_tabs_aj7CEb": {
+      "type": "product-tabs",
+      "blocks": {
+        "product_description_dGQB6T": {
+          "type": "product_description",
+          "settings": {
+            "tab_heading": "Product description",
+            "heading": "Product description",
+            "heading_font_class": "fs-heading-4-base",
+            "heading_tag": "h3",
+            "text_font_class": "fs-body-100",
+            "content_width": "custom",
+            "text_max_width": 700
+          }
+        },
+        "one_column_PVBFiD": {
+          "type": "one_column",
+          "settings": {
+            "tab_heading": "One column tab",
+            "heading_column_1": "One column tab",
+            "heading_font_class_column_1": "fs-heading-4-base",
+            "heading_tag_column_1": "h3",
+            "text_column_1": "<p>Add your tab content here.</p>",
+            "page_for_content_column_1": "",
+            "custom_liquid_column_1": "",
+            "text_font_class_column_1": "fs-body-100",
+            "content_width": "custom",
+            "text_max_width": 700,
+            "image_width_column_1": 100,
+            "image_position_column_1": "above_text"
+          }
+        },
+        "two_column_tab_peiYDn": {
+          "type": "two_column_tab",
+          "settings": {
+            "tab_heading": "Two column tab",
+            "content_vertical_alignment": "top",
+            "column_spacing": 28,
+            "heading_column_1": "First column",
+            "heading_font_class_column_1": "fs-heading-4-base",
+            "heading_tag_column_1": "h3",
+            "text_column_1": "<p>Add your tab content here.</p>",
+            "page_for_content_column_1": "",
+            "custom_liquid_column_1": "",
+            "text_font_class_column_1": "fs-body-100",
+            "image_width_column_1": 100,
+            "image_position_column_1": "above_text",
+            "heading_column_2": "Second column",
+            "heading_font_class_column_2": "fs-heading-4-base",
+            "heading_tag_column_2": "h3",
+            "text_column_2": "<p>Add your tab content here.</p>",
+            "page_for_content_column_2": "",
+            "custom_liquid_column_2": "",
+            "text_font_class_column_2": "fs-body-100",
+            "image_width_column_2": 100,
+            "image_position_column_2": "above_text"
+          }
+        },
+        "three_column_tab_NqePQi": {
+          "type": "three_column_tab",
+          "settings": {
+            "tab_heading": "Three column tab",
+            "content_vertical_alignment": "top",
+            "column_spacing": 28,
+            "heading_column_1": "First column",
+            "heading_font_class_column_1": "fs-heading-4-base",
+            "heading_tag_column_1": "h3",
+            "text_column_1": "<p>Add your tab content here.</p>",
+            "page_for_content_column_1": "",
+            "custom_liquid_column_1": "",
+            "text_font_class_column_1": "fs-body-100",
+            "image_width_column_1": 100,
+            "image_position_column_1": "above_text",
+            "heading_column_2": "Second column",
+            "heading_font_class_column_2": "fs-heading-4-base",
+            "heading_tag_column_2": "h3",
+            "text_column_2": "<p>Add your tab content here.</p>",
+            "page_for_content_column_2": "",
+            "custom_liquid_column_2": "",
+            "text_font_class_column_2": "fs-body-100",
+            "image_width_column_2": 100,
+            "image_position_column_2": "above_text",
+            "heading_column_3": "Third column",
+            "heading_font_class_column_3": "fs-heading-4-base",
+            "heading_tag_column_3": "h3",
+            "text_column_3": "<p>Add your tab content here.</p>",
+            "page_for_content_column_3": "",
+            "custom_liquid_column_3": "",
+            "text_font_class_column_3": "fs-body-100",
+            "image_width_column_3": 100,
+            "image_position_column_3": "above_text"
+          }
+        }
+      },
+      "block_order": [
+        "product_description_dGQB6T",
+        "one_column_PVBFiD",
+        "two_column_tab_peiYDn",
+        "three_column_tab_NqePQi"
+      ],
+      "name": "t:sections.product_tabs.presets.name",
+      "settings": {
+        "tab_alignment": "left",
+        "tab_spacing": 40,
+        "font_choice": "ff-heading",
+        "tab_font_size": "fs-body-150",
+        "background_color": "",
+        "text_color": "#000000",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
     "product_overview_2026_9DNz3H",
     "product_section_blocks_CrqG7i",
     "main",
-    "recommendations",
-    "multi_column_VbFptY"
+    "multi_column_VbFptY",
+    "product_tabs_aj7CEb"
   ]
 }
