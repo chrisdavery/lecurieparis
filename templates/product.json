@@ -318,7 +318,7 @@
         "column_pKULc7"
       ],
       "custom_css": [
-        "section {}"
+        "{padding-left: 100px; padding-right:100px}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
@@ -343,9 +343,9 @@
         "text_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
-        "enable_animation": true,
+        "enable_animation": false,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
+        "section_padding": "section--vertical-padding-none",
         "css_class": ""
       }
     }
