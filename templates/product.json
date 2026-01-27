@@ -317,9 +317,8 @@
         "column_6UgNDR",
         "column_pKULc7"
       ],
-      "disabled": true,
       "custom_css": [
-        "{padding-left: 100px; padding-right: 100px;}"
+        "{--max-width: 50rem;}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
