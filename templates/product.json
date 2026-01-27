@@ -20,7 +20,8 @@
           "type": "featured_image",
           "settings": {
             "image": "{{ product.featured_image }}",
-            "aspect_ratio": "landscape"
+            "aspect_ratio": "landscape",
+            "enable_product_lightbox": true
           }
         },
         "variant_title_price_dpR6CQ": {
@@ -58,6 +59,7 @@
       "type": "product-section-blocks",
       "name": "Product section blocks",
       "settings": {
+        "enable_product_lightbox": true,
         "container_width": 500,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-bottom-only"
@@ -274,12 +276,97 @@
         "divider_style": "solid",
         "section_padding": "section--vertical-padding-top-bottom"
       }
+    },
+    "multi_column_VbFptY": {
+      "type": "multi-column",
+      "blocks": {
+        "column_J97k9i": {
+          "type": "column",
+          "settings": {
+            "accent": "HANDMADE IN JAPAN",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><em>Master craftsmanship & precision finishing</em></p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_6UgNDR": {
+          "type": "column",
+          "settings": {
+            "accent": "LIFETIME WARRANTY",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><em>Crafted to endure, guaranteed for life</em></p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_pKULc7": {
+          "type": "column",
+          "settings": {
+            "accent": "COMPLIMENTARY EXPRESS DELIVERY",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><em>Worldwide, signature-required delivery</em></p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_J97k9i",
+        "column_6UgNDR",
+        "column_pKULc7"
+      ],
+      "custom_css": [],
+      "name": "t:sections.multi_column.presets.name",
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "3",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "css_class": ""
+      }
     }
   },
   "order": [
     "product_overview_2026_9DNz3H",
     "product_section_blocks_CrqG7i",
     "main",
-    "recommendations"
+    "recommendations",
+    "multi_column_VbFptY"
   ]
 }
