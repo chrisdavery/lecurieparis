@@ -318,8 +318,8 @@
         "column_pKULc7"
       ],
       "custom_css": [
-        "{padding-left: 100px; padding-right: 100px;}",
-        "@media screen and (max-width:768px)"
+        "{padding-left: 10px; padding-right: 10px;}",
+        "@media screen and (max-width: 768px);"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
