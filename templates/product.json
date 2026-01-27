@@ -317,6 +317,7 @@
         "column_6UgNDR",
         "column_pKULc7"
       ],
+      "disabled": true,
       "custom_css": [
         "{--max-width: 50rem;}"
       ],
