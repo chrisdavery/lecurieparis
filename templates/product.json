@@ -317,7 +317,9 @@
         "column_6UgNDR",
         "column_pKULc7"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "section {}"
+      ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
         "title": "",
