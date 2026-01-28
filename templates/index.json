@@ -41,7 +41,7 @@
         "desktop_height": 100,
         "mobile_height": 80,
         "image": "shopify://shop_images/L_ECURIE-PORTS-INTERNET-1.jpg",
-        "image_mobile": "shopify://shop_images/L_ECURIE-PORTS-INTERNET-hd.jpg",
+        "image_mobile": "shopify://shop_images/L_ECURIE-PORTS-INTERNET-m.jpg",
         "focal_point": "center",
         "mobile_focal_point": "center",
         "media_link": "shopify://collections/the-collection",
