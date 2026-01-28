@@ -221,7 +221,7 @@
         "collection": "acetate-sunglasses",
         "title": "{{ section.settings.collection.title }}",
         "heading_tag": "h2",
-        "heading_alignment": "left",
+        "heading_alignment": "center",
         "background_color": "#8d4d0b",
         "text_color": "#ffffff",
         "columns": "3",
