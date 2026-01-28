@@ -65,48 +65,6 @@
         "section_padding": "section--vertical-padding-bottom-only"
       }
     },
-    "rich_text_Ke8wJd": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_QeXdFM": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "OUR SELECTION",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-4-base",
-            "set_to_italic": false
-          }
-        },
-        "heading_YwN8yh": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "OUR SELECTION",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading_QeXdFM",
-        "heading_YwN8yh"
-      ],
-      "custom_css": [
-        "section {padding-top: 0; padding-bottom: 0;}",
-        "h2 {font-size: 36px; font-weight: 700; margin: 24px 0 0;}",
-        "@media (max-width: 959px) {h2 {display: block; font-size: 32px; }}"
-      ],
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "section_link": "",
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only",
-        "content_width": "custom"
-      }
-    },
     "featured_collection_grid_fmagTh": {
       "type": "featured-collection-grid",
       "blocks": {
@@ -167,6 +125,49 @@
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom"
+      }
+    },
+    "rich_text_Ke8wJd": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QeXdFM": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "OUR SELECTION",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-4-base",
+            "set_to_italic": false
+          }
+        },
+        "heading_YwN8yh": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "OUR SELECTION",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QeXdFM",
+        "heading_YwN8yh"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section {padding-top: 0; padding-bottom: 0;}",
+        "h2 {font-size: 36px; font-weight: 700; margin: 24px 0 0;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 32px; }}"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
         "content_width": "custom"
       }
     },
