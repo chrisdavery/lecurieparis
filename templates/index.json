@@ -22,7 +22,7 @@
         "button_xxxRPx": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/2025-lecurie-paris",
+            "link": "shopify://collections/the-collection",
             "link_text": "SHOP THE COLLECTION",
             "button_style": "btn--secondary"
           }
