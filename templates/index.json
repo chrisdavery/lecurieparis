@@ -15,8 +15,14 @@
         "text_rra9kG": {
           "type": "text",
           "settings": {
-            "text": "<p>Unique Eyewear, French Design, Crafted in Japan</p>",
-            "text_font_class": "fs-body-100"
+            "text": "<p>FINE DESIGNER EYEWEAR</p>",
+            "text_font_class": "fs-body-200"
+          }
+        },
+        "accent_VXpi6R": {
+          "type": "accent",
+          "settings": {
+            "accent": "Crafted with Discipline. Worn with Character."
           }
         },
         "button_xxxRPx": {
@@ -30,6 +36,7 @@
       },
       "block_order": [
         "text_rra9kG",
+        "accent_VXpi6R",
         "button_xxxRPx"
       ],
       "custom_css": [
