@@ -128,7 +128,7 @@
       ],
       "name": "t:sections.featured_collection_grid.presets.name",
       "settings": {
-        "layout": "grid",
+        "layout": "slider",
         "heading": "",
         "heading_tag": "h5",
         "subheading": "",
