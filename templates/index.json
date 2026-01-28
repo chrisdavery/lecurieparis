@@ -22,8 +22,8 @@
         "button_xxxRPx": {
           "type": "button",
           "settings": {
-            "link": "shopify://products/emmanuelle-black-acetate-optical",
-            "link_text": "SHOP THE EMMANUELLE OPTICAL",
+            "link": "shopify://collections/2025-lecurie-paris",
+            "link_text": "SHOP THE COLLECTION",
             "button_style": "btn--secondary"
           }
         }
