@@ -166,7 +166,7 @@
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only",
+        "section_padding": "section--vertical-padding-top-only",
         "content_width": "custom"
       }
     },
@@ -618,9 +618,9 @@
   },
   "order": [
     "image_hero_Tc7dCY",
-    "rich_text_Ke8wJd",
     "featured_collection_grid_fmagTh",
     "rich_text_4fnDxH",
+    "rich_text_Ke8wJd",
     "image_with_text_split_xhGDwL",
     "image_with_text_split_rhTwye",
     "multi_column_z4EQKz",
