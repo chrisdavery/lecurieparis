@@ -11,11 +11,13 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {font-size: 30px}"
+      ],
       "settings": {
         "show_breadcrumbs": false,
         "show_collection_description": true,
         "show_collection_image": false,
-        "image": "shopify://shop_images/george-studio-lecurieparis.jpg",
         "image_aspect": "original",
         "desktop_height": 50,
         "mobile_height": 50,
