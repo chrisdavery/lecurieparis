@@ -11,7 +11,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_breadcrumbs": false,
         "show_collection_description": true,
@@ -47,6 +46,7 @@
         "f0f04736-9482-42d1-8814-f093972b3e62"
       ],
       "settings": {
+        "section_link": "",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
