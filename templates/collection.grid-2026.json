@@ -9,8 +9,90 @@
  */
 {
   "sections": {
+    "rich_text_EQT3Vr": {
+      "type": "rich-text",
+      "blocks": {
+        "text_gmnTDn": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>DESIGNER EYEWEAR</h1>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
+        "text_EPBzj8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "text_gmnTDn",
+        "text_EPBzj8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-size: 30px;}"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
+    "rich_text_xFndcg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UKTebP": {
+          "type": "heading",
+          "settings": {
+            "title": "\"Details make perfection and perfection is not a detail.\"",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-1-base",
+            "set_to_italic": true
+          }
+        },
+        "subheading_94tDjm": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Leonardo Da Vinci",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UKTebP",
+        "subheading_94tDjm"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rich-text__inner {max-width: 28rem;}",
+        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
+        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
+        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
+      ],
+      "name": "Quote",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         "h1 {font-size: 30px;}"
       ],
@@ -164,49 +246,6 @@
         "button_text_color": "#ffffff",
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-only"
-      }
-    },
-    "rich_text_xFndcg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_UKTebP": {
-          "type": "heading",
-          "settings": {
-            "title": "\"Details make perfection and perfection is not a detail.\"",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-1-base",
-            "set_to_italic": true
-          }
-        },
-        "subheading_94tDjm": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Leonardo Da Vinci",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "set_to_italic": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_UKTebP",
-        "subheading_94tDjm"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".rich-text__inner {max-width: 28rem;}",
-        ".rich-text__subheading {text-align: right; font-family: \"Times New Roman\", serif; font-weight: normal;}",
-        "@media (min-width: 960px) {.rich-text {padding: var(--spacing-16) var(--space-outer); }}",
-        "@media (max-width: 959px) {.rich-text__heading {font-size: var(--font-size-heading-2-base); } .rich-text {padding-bottom: 0; } .ff-subheading {margin: 0; }}"
-      ],
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "section_link": "",
-        "alignment": "left_left",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom"
       }
     },
     "grid_collection_2026_6JrgTm": {
@@ -389,12 +428,13 @@
     }
   },
   "order": [
+    "rich_text_EQT3Vr",
+    "rich_text_xFndcg",
     "banner",
     "product-grid",
     "page_title_CwpraB",
     "page_title_W9pMJ8",
     "image_with_text_split_c4EWLV",
-    "rich_text_xFndcg",
     "grid_collection_2026_6JrgTm",
     "grid_collection_2026_gpMNxa",
     "grid_collection_2026_9GxhG8",
