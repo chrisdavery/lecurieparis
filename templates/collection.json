@@ -11,6 +11,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {font-size: 30px;}"
+      ],
       "settings": {
         "show_breadcrumbs": false,
         "show_collection_description": true,
