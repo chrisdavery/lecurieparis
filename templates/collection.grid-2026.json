@@ -11,14 +11,14 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_breadcrumbs": false,
         "show_collection_description": true,
         "show_collection_image": false,
+        "image": "shopify://shop_images/george-studio-lecurieparis.jpg",
         "image_aspect": "original",
         "desktop_height": 50,
-        "mobile_height": 100,
+        "mobile_height": 50,
         "focal_point": "image_presentation",
         "text_position": "center_center",
         "text_position_mobile": "center_center",
@@ -26,8 +26,8 @@
         "color_overlay": "#000000",
         "color_overlay_gradient": "linear-gradient(228deg, rgba(0, 0, 0, 1) 14%, rgba(255, 255, 255, 1) 83%)",
         "overlay_opacity": 0,
-        "enable_animation": true,
-        "section_padding": "section--vertical-padding-top-only"
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "product-grid": {
