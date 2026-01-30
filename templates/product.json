@@ -408,21 +408,22 @@
         "item_eJXHLc"
       ],
       "disabled": true,
+      "custom_css": [],
       "name": "t:sections.collapsible_row_list.presets.name",
       "settings": {
-        "title": "Accordion list",
+        "title": "Learn More",
         "heading_tag": "h2",
-        "heading_font_class": "fs-heading-3-base",
+        "heading_font_class": "fs-heading-4-base",
         "subheading": "",
-        "subheading_tag": "h3",
-        "subheading_font_class": "fs-heading-5-base",
+        "subheading_tag": "h5",
+        "subheading_font_class": "fs-heading-6-base",
         "heading_alignment": "left",
-        "item_heading_font": "heading",
-        "enable_animation": true,
+        "item_heading_font": "body",
+        "enable_animation": false,
         "divider_style": "solid",
         "section_padding": "section--vertical-padding-top-only",
         "content_width": "custom",
-        "custom_content_width": 700
+        "custom_content_width": 650
       }
     }
   },
