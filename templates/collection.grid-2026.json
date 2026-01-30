@@ -9,33 +9,21 @@
  */
 {
   "sections": {
-    "rich_text_EQT3Vr": {
+    "rich_text_Ew3wAH": {
       "type": "rich-text",
       "blocks": {
-        "text_gmnTDn": {
-          "type": "text",
+        "heading_WQ8at4": {
+          "type": "heading",
           "settings": {
-            "text": "<h1>{{ collection.title }}</h1>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
-          }
-        },
-        "text_EPBzj8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
+            "title": "{{ collection.title }}",
+            "heading_tag": "h1",
+            "heading_font_class": "fs-heading-3-base",
+            "set_to_italic": true
           }
         }
       },
       "block_order": [
-        "text_gmnTDn",
-        "text_EPBzj8"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h1 {font-size: 30px;}"
+        "heading_WQ8at4"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -43,7 +31,7 @@
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
+        "section_padding": "section--vertical-padding-top-only",
         "content_width": "custom"
       }
     },
@@ -415,7 +403,7 @@
     }
   },
   "order": [
-    "rich_text_EQT3Vr",
+    "rich_text_Ew3wAH",
     "rich_text_xFndcg",
     "banner",
     "product-grid",
