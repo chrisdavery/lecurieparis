@@ -269,9 +269,9 @@
         "column_J97k9i": {
           "type": "column",
           "settings": {
-            "accent": "HANDMADE IN JAPAN",
-            "heading": "",
-            "heading_tag": "h3",
+            "accent": "",
+            "heading": "HANDMADE IN JAPAN",
+            "heading_tag": "h6",
             "heading_font_class": "fs-heading-4-base",
             "text": "<p><em>Master craftsmanship & precision finishing</em></p>",
             "text_font_class": "fs-body-75",
@@ -284,8 +284,8 @@
         "column_6UgNDR": {
           "type": "column",
           "settings": {
-            "accent": "LIFETIME WARRANTY",
-            "heading": "",
+            "accent": "",
+            "heading": "LIFETIME WARRANTY",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
             "text": "<p><em>Crafted to endure, guaranteed for life</em></p>",
@@ -299,8 +299,8 @@
         "column_pKULc7": {
           "type": "column",
           "settings": {
-            "accent": "COMPLIMENTARY EXPRESS DELIVERY",
-            "heading": "",
+            "accent": "",
+            "heading": "EXPRESS DELIVERY",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
             "text": "<p><em>Worldwide, signature-required delivery</em></p>",
@@ -339,12 +339,12 @@
         "row_spacing_mobile": 20,
         "column_alignment_mobile": "center",
         "background_behind_columns": false,
-        "background_color": "",
-        "text_color": "#000000",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#454545",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "divider_style": "none",
+        "enable_animation": true,
+        "divider_style": "solid",
         "section_padding": "section--vertical-padding-none",
         "css_class": ""
       }
