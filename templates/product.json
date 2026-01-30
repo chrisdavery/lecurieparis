@@ -276,9 +276,9 @@
             "text": "<p><em>Master craftsmanship & precision finishing</em></p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
+            "link": "shopify://pages/craftmanship",
+            "link_text": "CRAFTSMANSHIP",
+            "button_style": "btn--callout"
           }
         },
         "column_6UgNDR": {
@@ -291,9 +291,9 @@
             "text": "<p><em>Crafted to endure, guaranteed for life</em></p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
+            "link": "shopify://pages/lifetime-warranty",
+            "link_text": "READ MORE",
+            "button_style": "btn--callout"
           }
         },
         "column_pKULc7": {
@@ -306,9 +306,9 @@
             "text": "<p><em>Worldwide, signature-required delivery</em></p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
+            "link": "shopify://pages/shipping-delivery",
+            "link_text": "MORE INFORMATIONS",
+            "button_style": "btn--callout"
           }
         }
       },
