@@ -22,7 +22,7 @@
         "button_ehdneN": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/designer-sunglasses",
+            "link": "shopify://collections/designer-glasses-1",
             "link_text": "DISCOVER THE COLLECTION",
             "button_style": "btn--callout"
           }
@@ -141,7 +141,7 @@
         "heading": "",
         "heading_tag": "h2",
         "subheading": "<p>DESIGNER EYEGLASSES FRAMES</p>",
-        "link": "shopify://collections/designer-sunglasses",
+        "link": "shopify://collections/designer-glasses-1",
         "link_text": "DISCOVER MORE",
         "maximum_collections": 12,
         "columns": "4",
