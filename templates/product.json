@@ -407,6 +407,7 @@
         "item_Je8qyw",
         "item_eJXHLc"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_row_list.presets.name",
       "settings": {
         "title": "Accordion list",
