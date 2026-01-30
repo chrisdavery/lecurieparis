@@ -57,6 +57,7 @@
     },
     "product_section_blocks_CrqG7i": {
       "type": "product-section-blocks",
+      "custom_css": [],
       "name": "Product section blocks",
       "settings": {
         "enable_product_lightbox": true,
