@@ -15,7 +15,7 @@
         "text_gmnTDn": {
           "type": "text",
           "settings": {
-            "text": "<h1>DESIGNER EYEWEAR</h1>",
+            "text": "<h1>{{ collection.title }}</h1>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
@@ -140,27 +140,6 @@
         "divider_style": "none"
       }
     },
-    "page_title_CwpraB": {
-      "type": "page-title",
-      "disabled": true,
-      "name": "Page Title",
-      "settings": {
-        "section_link": "",
-        "image_position": "right",
-        "image_mobile_position": "above-content",
-        "image_padding": "none",
-        "aspect_ratio": "square",
-        "image_background_color": "rgba(0,0,0,0)",
-        "focal_point": "image_presentation",
-        "content_alignment": "left",
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
-        "enable_animation": true,
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
     "page_title_W9pMJ8": {
       "type": "page-title",
       "blocks": {
@@ -171,10 +150,18 @@
             "heading_tag": "h1",
             "heading_font_class": "fs-heading-display-0"
           }
+        },
+        "text_BQiM7R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
+            "text_font_class": "fs-body-100"
+          }
         }
       },
       "block_order": [
-        "heading_qABLLR"
+        "heading_qABLLR",
+        "text_BQiM7R"
       ],
       "disabled": true,
       "custom_css": [
@@ -432,7 +419,6 @@
     "rich_text_xFndcg",
     "banner",
     "product-grid",
-    "page_title_CwpraB",
     "page_title_W9pMJ8",
     "image_with_text_split_c4EWLV",
     "grid_collection_2026_6JrgTm",
