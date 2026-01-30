@@ -34,7 +34,7 @@
             "desktop_width": 22,
             "desktop_padding": 4,
             "collapse_on_mobile": true,
-            "title": "Customer care",
+            "title": "CUSTOMER CARE",
             "show_title_on_desktop": true,
             "link_list": "footer"
           }
@@ -45,7 +45,7 @@
             "desktop_width": 22,
             "desktop_padding": 4,
             "collapse_on_mobile": true,
-            "title": "General Information",
+            "title": "GENERAL INFORMATION",
             "show_title_on_desktop": true,
             "link_list": "general-information"
           }
