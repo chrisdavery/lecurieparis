@@ -291,7 +291,7 @@
             "text": "<p><em>Crafted to endure, guaranteed for life</em></p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
-            "link": "shopify://pages/lifetime-warranty",
+            "link": "shopify://pages/warranty",
             "link_text": "READ MORE",
             "button_style": "btn--callout"
           }
