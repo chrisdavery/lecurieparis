@@ -383,7 +383,7 @@
       ],
       "name": "Grid Collection 2026",
       "settings": {
-        "collection": "optical-titanium",
+        "collection": "titanium-eyeglass-frames",
         "title": "{{ section.settings.collection.title }}",
         "heading_tag": "h2",
         "heading_alignment": "left",
