@@ -263,6 +263,18 @@
         "enable_animation": false
       }
     },
+    "rich_text_KzFnkD": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom"
+      }
+    },
     "multi_column_VbFptY": {
       "type": "multi-column",
       "blocks": {
@@ -343,10 +355,73 @@
         "text_color": "#454545",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "css_class": ""
+      }
+    },
+    "collapsible_row_list_acnmRa": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_x9h9Ar": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "This is an example of a question that a customer might ask",
+            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.</p>"
+          }
+        },
+        "item_aAPiND": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "This is an example of a question that a customer might ask",
+            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.</p>"
+          }
+        },
+        "item_Je8qyw": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "This is an example of a question that a customer might ask",
+            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.</p>"
+          }
+        },
+        "item_eJXHLc": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "This is an example of a question that a customer might ask",
+            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_x9h9Ar",
+        "item_aAPiND",
+        "item_Je8qyw",
+        "item_eJXHLc"
+      ],
+      "name": "t:sections.collapsible_row_list.presets.name",
+      "settings": {
+        "title": "Accordion list",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
         "enable_animation": true,
         "divider_style": "solid",
-        "section_padding": "section--vertical-padding-none",
-        "css_class": ""
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom",
+        "custom_content_width": 700
       }
     }
   },
@@ -354,6 +429,8 @@
     "product_overview_2026_9DNz3H",
     "product_section_blocks_CrqG7i",
     "main",
-    "multi_column_VbFptY"
+    "rich_text_KzFnkD",
+    "multi_column_VbFptY",
+    "collapsible_row_list_acnmRa"
   ]
 }
