@@ -78,6 +78,7 @@
     "product_listing_show_custom_badges": false,
     "product_listing_show_sold_out_badge": false,
     "product_listing_badge_position": "top_right",
+    "enable_confirmation_popup": false,
     "cart_item_aspect_ratio": "natural",
     "enable_free_shipping_bar": true,
     "free_shipping_threshold": "0",
