@@ -331,7 +331,7 @@
         "column_pKULc7"
       ],
       "custom_css": [
-        "{--max-width: 50rem;}"
+        "{--max-width:60rem;}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
