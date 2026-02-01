@@ -78,6 +78,10 @@
 
             {% if secondary_links %}
               <div class="drawer-menu__links-wrapper animation--drawer-menu-item">
+                {% if links_block.size > 0 %}
+                  {% render 'link-blocks', localization_dropdowns: localization_dropdowns, links_block: links_block, variant: 'stack' %}
+                {% endif %}
+
                 <ul
                   class="drawer-menu__secondary-links"
                   data-depth="0"
