@@ -115,6 +115,7 @@
 {%- assign logo_text_transform = settings.logo_text_transform -%}
 {%- comment -%} theme-check-enable UnusedAssign {%- endcomment -%}
 
+{%- assign mobile_menu_promo_images_blocks = section.blocks | where: 'type', 'full_width_meganav_images' -%}
 {%- assign mobile_menu_image_blocks = section.blocks | where: 'type', 'mobile_menu_images' -%}
 
 {%- capture header_logo -%}
@@ -490,6 +491,7 @@
     secondary_links: secondary_links,
     locale_selector: locale_selector,
     country_selector: country_selector,
+    mobile_menu_promo_images_blocks: mobile_menu_promo_images_blocks,
     mobile_menu_image_blocks: mobile_menu_image_blocks,
     social_icons_mobile: social_icons_mobile
   %}
@@ -1072,6 +1074,23 @@
           "unit": "px"
         },
         {
+          "type": "checkbox",
+          "id": "enable_on_mobile_menu",
+          "label": "Enable on mobile menu",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "promo_height_mobile",
+          "label": "Promo height mobile",
+          "min": 250,
+          "max": 600,
+          "step": 10,
+          "default": 250,
+          "unit": "px",
+          "visible_if": "{{ block.settings.enable_on_mobile_menu == true }}"
+        },
+        {
           "id": "focal_point",
           "type": "select",
           "label": "t:shared.settings.focal_point.label",
@@ -1121,12 +1140,6 @@
           "max": 100,
           "step": 1,
           "default": 30
-        },
-        {
-          "type": "checkbox",
-          "id": "enable_on_mobile_menu",
-          "label": "Enable on mobile menu",
-          "default": false
         },
         {
           "type": "header",

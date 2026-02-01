@@ -50,6 +50,27 @@
       assign has_children = true
     endif
 
+    
+    assign meganav_trigger_handle = nil
+    assign meganav_settings = nil
+    assign meganav_type = nil
+    assign meganav_handle = nil
+    assign meganav_shopify_attributes = nil
+
+    for mobile_menu_promo_images in mobile_menu_promo_images_blocks
+      assign meganav_trigger_handle = mobile_menu_promo_images.settings.dropdown_parent_link | handle | strip
+
+      if link.handle == meganav_trigger_handle and mobile_menu_promo_images.settings.enable_on_mobile_menu == true
+          assign meganav_settings = mobile_menu_promo_images.settings
+          assign meganav_type = block.type
+          assign meganav_handle = meganav_trigger_handle
+          assign meganav_shopify_attributes = block.shopify_attributes
+
+          assign has_children = true
+        break
+      endif
+    endfor
+
     assign child_is_active = false
     for link in link.links
       if link.active
@@ -108,7 +129,8 @@
     </a>
 
     {% # Render sub navigation %}
-    {%- if link.links.size > 0 -%}
+    {%- if link.links.size > 0 or has_children == true -%}
+
       <ul class="drawer-menu__list drawer-menu__list--sub drawer-menu-list--{{ menu_depth }}" aria-hidden="true">
         {% assign header_has_link = false %}
         {% if link.url != '#nolink' %}
@@ -132,13 +154,25 @@
             <span class="fs-body-300">{{ link.title }}</span>
           </a>
         </li>
-        {% render 'drawer-menu-list',
-          links: link.links,
-          depth: menu_depth,
-          has_mobile_menu_images: child_has_mobile_menu_images,
-          mobile_menu_image_aspect_ratio: child_mobile_menu_image_aspect_ratio,
-          mobile_menu_image_width: child_mobile_menu_image_width
-        %}
+        {% if meganav_settings != nil %}
+          {%-
+            render 'meganav-images'
+            with menu: link.handle,
+            block_variant: 'mobile',
+            meganav_settings: meganav_settings,
+            link: link,
+            shopify_attributes: meganav_shopify_attributes,
+            meganav_type: meganav_type
+          -%}
+        {% else %}
+          {% render 'drawer-menu-list',
+            links: link.links,
+            depth: menu_depth,
+            has_mobile_menu_images: child_has_mobile_menu_images,
+            mobile_menu_image_aspect_ratio: child_mobile_menu_image_aspect_ratio,
+            mobile_menu_image_width: child_mobile_menu_image_width
+          %}
+        {% endif %}
       </ul>
     {%- endif -%}
   </li>
