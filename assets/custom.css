@@ -723,6 +723,12 @@ inbox-online-store-chat#ShopifyChat {
 .meganav[data-meganav-type="full_width_meganav_images"] .meganav__inner {
     flex-direction: column;
 }
+
+.meganav[data-meganav-type="full_width_meganav_images"]  [aria-hidden=true] a {
+    pointer-events: none;
+    cursor: default;
+}
+
 .meganav[data-meganav-type="full_width_meganav_images"] {
     --color-dropdown: rgba(255, 255, 255, 1) !important;
 }
