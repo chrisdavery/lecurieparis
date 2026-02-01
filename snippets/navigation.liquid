@@ -13,14 +13,11 @@
         assign has_children = true
       endif
     -%}
+      
     {% assign show_meganav = false %}
     {% if blocks.size > 0 %}
       {% for block in blocks %}
         {% assign meganav_trigger_handle = block.settings.dropdown_parent_link | handle | strip %}
-        {% if block.type == 'full_width_meganav_images' %}
-          {% assign has_children = true %}
-        {% endif %}
-
         {% if link.handle == meganav_trigger_handle and has_children %}
           {% assign show_meganav = true %}
           {% assign meganav_settings = block.settings %}
