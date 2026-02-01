@@ -19,10 +19,19 @@
             "text_font_class": "fs-body-100",
             "set_to_italic": true
           }
+        },
+        "button_UQWLbE": {
+          "type": "button",
+          "settings": {
+            "link": "mailto:experience@lecurieparis.com",
+            "link_text": "Contact us",
+            "button_style": "btn--callout"
+          }
         }
       },
       "block_order": [
-        "text_tY3BDF"
+        "text_tY3BDF",
+        "button_UQWLbE"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
