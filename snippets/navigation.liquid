@@ -84,9 +84,9 @@
           {{ link.title }}
           {% comment %} <span class="link-hover">
           </span> {% endcomment %}
-          <span class="header__links-icon">
+          {% comment %} <span class="header__links-icon">
             {% render 'icon' with icon: 'chevron-small' %}
-          </span>
+          </span> {% endcomment %}
         </{{ trigger_tag }}>
 
         {%- if has_children and can_show_children -%}
