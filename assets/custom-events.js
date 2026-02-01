@@ -266,3 +266,11 @@ function throttle(fn, wait = 100) {
     }
   };
 }
+
+document.querySelectorAll('a[href*="#newsletter"]').forEach(e=> {
+  e.addEventListener('click', function(evt) {
+    evt.preventDefault()
+    window._klOnsite = window._klOnsite || [];
+    window._klOnsite.push(['openForm', 'UFPhGB']);
+  })
+})

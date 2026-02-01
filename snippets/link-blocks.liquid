@@ -1,0 +1,130 @@
+{% if links_block.size == 0 %}
+    {% break %}
+{% endif %}
+
+<div class="link-blocks link-blocks-{% if variant == 'row' %}row{% else %}stack{% endif %}">
+    {% if localization_dropdowns %}
+        <div>
+            {{ localization_dropdowns }}
+        </div>
+    {% endif %}
+
+    {% for i in (1..4) %}
+        {% assign icon_name = 'icon_' | append: i %}
+        {% assign text_name = 'link_text_' | append: i %}
+        {% assign url_name = 'link_url_' | append: i %}
+
+        {% assign icon = links_block[0].settings[icon_name] %}
+        {% assign text = links_block[0].settings[text_name] %}
+        {% assign url = links_block[0].settings[url_name] %}
+
+        {% if text != blank %}
+            <div class="link-block-item">
+                {% if icon != blank %}
+                    <div>
+                        {{ icon }}
+                    </div>
+                {% endif %}
+                {% if text != blank %}
+                    <div>
+                        {{ text }}
+                    </div>
+                {% endif %}
+                {% if url != blank %}
+                    <a href="{{ url }}"></a>
+                {% endif %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% stylesheet %}
+    .link-blocks {
+        display: flex;
+    }
+
+    .link-block-item {
+        position: relative;
+        font-size: var(--font-size-navigation-base);
+    }
+
+    .link-block-item a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .link-blocks-row {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .link-block-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .link-block-item:has(svg) {
+        gap: 0.2rem;
+    }
+
+    svg.news-icon {
+        height: .6rem;
+    }
+
+    .link-block-item svg {
+        display: block;
+        width: 1rem;
+        height: 0.8rem;
+        color: currentColor;
+    }
+    .link-blocks-stack {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-inline: var(--space-outer);
+        margin-bottom: 1.5rem;
+    }
+
+    .link-blocks-stack .link-block-item svg {
+        width: .75rem;
+        height: auto;
+    }
+
+    ul.drawer-menu__secondary-links .drawer-menu__item--account-item .icon {
+        width: .75rem;
+        height: auto;
+        margin: 0;
+    }
+    ul.drawer-menu__secondary-links .drawer-menu__link {
+        min-height: unset;
+    }
+
+    .link-blocks-stack .link-block-item:has(svg) {
+        gap: 0.5rem;
+    }
+
+    .drawer-menu:has(.link-blocks-stack) ul.drawer-menu__secondary-links .drawer-menu__item {
+        margin-block: 0;
+        gap: 0.5rem;
+    }
+
+    .drawer-menu:has(.link-blocks-stack) .drawer-menu__contents {
+        padding-bottom: 0 !important;
+    }
+
+    .drawer-menu__links-wrapper:has(.link-blocks-stack) {
+        padding-top: var(--spacing-6) !important;
+        padding-bottom: var(--spacing-12) !important;
+        background: #fafafa;
+    }
+
+    .drawer-menu__main:has(.link-blocks-stack) {
+        height: 100% !important;
+        overflow-y: auto !important;
+    }
+    .drawer-menu__contents:has(.link-blocks-stack) {
+        height: 100%;
+    }
+{% endstylesheet %}
