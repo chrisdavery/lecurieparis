@@ -112,7 +112,7 @@
                 </div>
                 {% if meganav_settings.bottom_button_text != blank %}
                     <div class="bottom-button-meganav ta-c">
-                        <a class="link" href="{{ meganav_settings.bottom_button_url }}">{{ meganav_settings.bottom_button_text }}</a>
+                        <a class="link" href="{{ meganav_settings.bottom_button_url }}" tabindex="-1">{{ meganav_settings.bottom_button_text }}</a>
                     </div>
                 {% endif %}
             </div>
@@ -193,7 +193,7 @@
                 {% endfor %}
                 {% if meganav_settings.bottom_button_text != blank %}
                     <div class="bottom-button-meganav ta-c">
-                        <a class="link" href="{{ meganav_settings.bottom_button_url }}">{{ meganav_settings.bottom_button_text }}</a>
+                        <a class="link" href="{{ meganav_settings.bottom_button_url }}" tabindex="-1">{{ meganav_settings.bottom_button_text }}</a>
                     </div>
                 {% endif %}
             </div>
