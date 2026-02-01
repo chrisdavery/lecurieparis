@@ -131,6 +131,14 @@
     "rich_text_4fnDxH": {
       "type": "rich-text",
       "blocks": {
+        "text_qXUwe6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/collections/the-collection\" title=\"The Collection\">DISCOVER THE COLLECTION</a></p>",
+            "text_font_class": "fs-body-200",
+            "set_to_italic": false
+          }
+        },
         "spacer_YcAYCf": {
           "type": "spacer",
           "settings": {
@@ -139,6 +147,7 @@
         }
       },
       "block_order": [
+        "text_qXUwe6",
         "spacer_YcAYCf"
       ],
       "custom_css": [
