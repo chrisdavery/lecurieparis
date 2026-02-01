@@ -38,6 +38,45 @@
     "header": {
       "type": "header",
       "blocks": {
+        "full_width_meganav_images_zz4Xqq": {
+          "type": "full_width_meganav_images",
+          "settings": {
+            "dropdown_parent_link": "CAMPAIGNS",
+            "column_count": 3,
+            "promo_height": 450,
+            "enable_on_mobile_menu": false,
+            "promo_height_mobile": 250,
+            "focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0,
+            "image_1": "shopify://shop_images/l_ecurie__18_LEV_G_d6d19733-e734-4859-8f2d-5a926f2761a7.jpg",
+            "promo_text_1": "CAMPAIGNS 2025",
+            "link_1": "shopify://pages/lp-campaign-2025",
+            "link_text_1": "Discover",
+            "image_2": "shopify://shop_images/wonen-lecurieparis.jpg",
+            "promo_text_2": "CAMPAIGNS 2024",
+            "link_2": "shopify://pages/lp-campaign-beverly-hills",
+            "link_text_2": "Discover",
+            "image_3": "shopify://shop_images/LECURIEPARIS056-LR.jpg",
+            "promo_text_3": "CAMPAIGN 2023",
+            "link_3": "shopify://pages/lp-campaign-rancho-palos-verdes",
+            "link_text_3": "Discover",
+            "promo_text_4": "Newest Releases",
+            "link_4": "shopify://collections/all",
+            "link_text_4": "Discover",
+            "promo_text_5": "Newest Releases",
+            "link_5": "shopify://collections/all",
+            "link_text_5": "Discover",
+            "promo_text_6": "Newest Releases",
+            "link_6": "shopify://collections/all",
+            "link_text_6": "Discover",
+            "bottom_button_text": "",
+            "bottom_button_url": ""
+          }
+        },
         "full_width_meganav_images_69XMit": {
           "type": "full_width_meganav_images",
           "settings": {
@@ -97,6 +136,7 @@
         }
       },
       "block_order": [
+        "full_width_meganav_images_zz4Xqq",
         "full_width_meganav_images_69XMit",
         "icon_links_rkQqB6"
       ],
