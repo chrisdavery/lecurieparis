@@ -46,7 +46,7 @@
             "promo_height": 420,
             "enable_on_mobile_menu": true,
             "promo_height_mobile": 250,
-            "focal_point": "center",
+            "focal_point": "image_presentation",
             "text_position": "center_flex-end",
             "text_color": "#ffffff",
             "color_overlay": "#000000",
