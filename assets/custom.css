@@ -6,22 +6,6 @@
     /* --font-body: 'Baron Neue', sans-serif; */
 }
 
-/* Only the first homepage section (hero) gets header padding */
-/* .template-index main .shopify-section:first-of-type [data-section-type] {
-    width: 100%;
-    padding-top: calc(var(--height-header));
-} */
-
-/* All other sections: no extra padding on top */
-/* .template-index main .shopify-section:not(:first-of-type) [data-section-type] {
-    width: 100%;
-    padding-top: 0;
-} */
-
-
-/* .swiper-creative .swiper-slide:first-child [data-section-type] {
-    padding-top: calc(var(--height-header) * -1);
-} */
 .header__inner {
     max-width: calc(var(--max-width) + calc(var(--space-outer) * 2));
     padding-inline: var(--space-outer);
@@ -238,32 +222,19 @@ body.overhidden {
 }
 
 .drawer-menu__item.drawer-menu__item--heading .drawer-menu__link {
-    min-height: unset;
-    margin: 0;
+    /* min-height: unset; */
     justify-content: center;
     align-items: center;
     min-width: unset;
     max-width: fit-content;
     margin: auto;
 }
-
-.drawer-promo-images {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.drawer-promo-li {
-    height: 100%;
-}
-
-.drawer-menu__list--sub:has(.drawer-promo-images) {
-    height: 100%;
-}
-
-.drawer-promo-images .meganav__secondary {
-    flex-grow: 1;
-    height: 100%;
+.drawer-menu__all-links[data-in-initial-position=false][data-depth="0"] .drawer-menu__form,
+.drawer-menu__all-links[data-in-initial-position=false] .drawer-menu__links-wrapper:has(.link-blocks-stack),
+.drawer-menu__all-links[data-in-initial-position=false][data-depth="0"] .drawer-menu__links-wrapper:has(.link-blocks-stack) {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
 }
 
 .drawer-menu__footer .localization-item-trigger>.drawer-menu__link {
@@ -275,8 +246,8 @@ body.overhidden {
     height: 16px;
 }
 
-.drawer-promo-images > * {
-    flex-grow: 1;
+.drawer-menu__list:not(.visible) .drawer-promo-images {
+    display: none;
 }
 
 .drawer-menu__item.drawer-menu__item--heading {

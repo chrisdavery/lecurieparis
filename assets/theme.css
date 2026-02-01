@@ -12084,7 +12084,7 @@ html.sticky-header-enabled[data-enable-sticky-announcement-bar*="mobile"]
   position:relative;
   overflow:hidden;
   flex-shrink:0;
-  height:100%;
+  height:var(--min-promo-height);
   width:100%;
   min-height:var(--min-promo-height);
 }
