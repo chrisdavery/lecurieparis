@@ -52,6 +52,7 @@
         "subheading_9cc4RD",
         "text_yE9C4p"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "",
