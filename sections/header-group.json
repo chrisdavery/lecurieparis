@@ -77,6 +77,45 @@
             "bottom_button_url": ""
           }
         },
+        "full_width_meganav_images_CxzCGP": {
+          "type": "full_width_meganav_images",
+          "settings": {
+            "dropdown_parent_link": "LA MAISON LP",
+            "column_count": 3,
+            "promo_height": 350,
+            "enable_on_mobile_menu": false,
+            "promo_height_mobile": 250,
+            "focal_point": "top",
+            "text_position": "center_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0,
+            "image_1": "shopify://shop_images/ORIGIN1.jpg",
+            "promo_text_1": "Our Story",
+            "link_1": "shopify://pages/a-design-story",
+            "link_text_1": "View Campaign",
+            "image_2": "shopify://shop_images/lens1.jpg",
+            "promo_text_2": "The source of the Beauty",
+            "link_2": "shopify://pages/craftmanship",
+            "link_text_2": "Craftmanship",
+            "image_3": "shopify://shop_images/01-2.jpg",
+            "promo_text_3": "Our background and culture",
+            "link_3": "shopify://pages/inspiration",
+            "link_text_3": "INSPIRATION",
+            "promo_text_4": "Newest Releases",
+            "link_4": "shopify://collections/all",
+            "link_text_4": "Discover",
+            "promo_text_5": "Newest Releases",
+            "link_5": "shopify://collections/all",
+            "link_text_5": "Discover",
+            "promo_text_6": "Newest Releases",
+            "link_6": "shopify://collections/all",
+            "link_text_6": "Discover",
+            "bottom_button_text": "",
+            "bottom_button_url": ""
+          }
+        },
         "full_width_meganav_images_69XMit": {
           "type": "full_width_meganav_images",
           "settings": {
@@ -137,6 +176,7 @@
       },
       "block_order": [
         "full_width_meganav_images_zz4Xqq",
+        "full_width_meganav_images_CxzCGP",
         "full_width_meganav_images_69XMit",
         "icon_links_rkQqB6"
       ],
