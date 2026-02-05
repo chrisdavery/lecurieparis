@@ -77,6 +77,14 @@
             "set_to_italic": false
           }
         },
+        "text_FLhijE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A Commitment to True Luxury</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
+          }
+        },
         "spacer_Vw9rLL": {
           "type": "spacer",
           "settings": {
@@ -86,6 +94,7 @@
       },
       "block_order": [
         "subheading_CEkUiP",
+        "text_FLhijE",
         "spacer_Vw9rLL"
       ],
       "custom_css": [
