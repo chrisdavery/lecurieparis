@@ -88,17 +88,34 @@
         "spacer_Vw9rLL": {
           "type": "spacer",
           "settings": {
-            "space": 12
+            "space": 36
+          }
+        },
+        "subheading_tekRhg": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "OUR CURATED SELECTION",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
+        "spacer_7fAJJq": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
           }
         }
       },
       "block_order": [
         "subheading_CEkUiP",
         "text_FLhijE",
-        "spacer_Vw9rLL"
+        "spacer_Vw9rLL",
+        "subheading_tekRhg",
+        "spacer_7fAJJq"
       ],
       "custom_css": [
-        "{--max-width: 800px !important;}"
+        "{--max-width: 850px !important;}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
