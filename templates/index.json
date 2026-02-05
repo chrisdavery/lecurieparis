@@ -753,11 +753,11 @@
         "column_XTXY7y": {
           "type": "column",
           "settings": {
-            "accent": "",
-            "heading": "HANDMADE IN JAPAN",
+            "accent": "HANDMADE IN JAPAN",
+            "heading": "",
             "heading_tag": "h6",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><em>Master craftsmanship & precision finishing</em></p>",
+            "text": "<p>Master craftsmanship & precision finishing</p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "shopify://pages/craftmanship",
@@ -768,11 +768,11 @@
         "column_qUCLRG": {
           "type": "column",
           "settings": {
-            "accent": "",
-            "heading": "LIFETIME WARRANTY",
+            "accent": "LIFETIME WARRANTY",
+            "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><em>Crafted to endure, guaranteed for life</em></p>",
+            "text": "<p>Crafted to endure, guaranteed for life</p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "shopify://pages/warranty",
@@ -783,15 +783,15 @@
         "column_aVxMnN": {
           "type": "column",
           "settings": {
-            "accent": "",
-            "heading": "EXPRESS FREE DELIVERY",
+            "accent": "EXPRESS FREE DELIVERY",
+            "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><em>Worldwide, signature-required delivery</em></p>",
+            "text": "<p>Worldwide, signature-required delivery</p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "shopify://pages/shipping-delivery",
-            "link_text": "MORE INFORMATIONS",
+            "link_text": "COMPLIMENTARY SHIPPING",
             "button_style": "btn--callout"
           }
         }
