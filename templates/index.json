@@ -668,7 +668,7 @@
         "image_column_TGViDj": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/BB-2.jpg",
+            "image": "shopify://shop_images/01-2.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
