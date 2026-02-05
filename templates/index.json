@@ -539,10 +539,19 @@
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-display-3"
           }
+        },
+        "button_JMKzkX": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/lp-campaign-2025",
+            "link_text": "See more",
+            "button_style": "btn--callout"
+          }
         }
       },
       "block_order": [
-        "heading_NCer4d"
+        "heading_NCer4d",
+        "button_JMKzkX"
       ],
       "custom_css": [
         "h2 {display: block; font-size: 32px;}",
@@ -568,7 +577,7 @@
         "content_alignment": "center",
         "background_color": "#301816",
         "text_color": "#ffffff",
-        "button_background_color": "#000000",
+        "button_background_color": "#ffffff",
         "button_text_color": "#ffffff",
         "enable_animation": false,
         "section_padding": "section--vertical-padding-top-bottom"
