@@ -83,11 +83,98 @@
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-only"
       }
+    },
+    "multi_column_MnBzM4": {
+      "type": "multi-column",
+      "blocks": {
+        "column_4WcWNg": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "HANDMADE IN JAPAN",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><em>Master craftsmanship & precision finishing</em></p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "shopify://pages/craftmanship",
+            "link_text": "CRAFTSMANSHIP",
+            "button_style": "btn--callout"
+          }
+        },
+        "column_3Xk7nG": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "LIFETIME WARRANTY",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><em>Crafted to endure, guaranteed for life</em></p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "shopify://pages/warranty",
+            "link_text": "READ MORE",
+            "button_style": "btn--callout"
+          }
+        },
+        "column_QYfnGF": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "EXPRESS DELIVERY",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><em>Worldwide, signature-required delivery</em></p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "shopify://pages/shipping-delivery",
+            "link_text": "MORE INFORMATIONS",
+            "button_style": "btn--callout"
+          }
+        }
+      },
+      "block_order": [
+        "column_4WcWNg",
+        "column_3Xk7nG",
+        "column_QYfnGF"
+      ],
+      "custom_css": [
+        "{--max-width: 70rem;}"
+      ],
+      "name": "t:sections.multi_column.presets.name",
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": true,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 48,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#454545",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "css_class": ""
+      }
     }
   },
   "order": [
     "rich_text_XnYqK7",
     "product-grid",
-    "banner"
+    "banner",
+    "multi_column_MnBzM4"
   ]
 }
