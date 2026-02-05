@@ -604,7 +604,7 @@
         "text_m6nXtL": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Story, Our Inspiration, Our Commitment</p>",
+            "text": "<p>Our Story, Our Inspiration, Our Commitment.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
