@@ -532,25 +532,16 @@
     "image_with_text_split_M88GGJ": {
       "type": "image-with-text-split",
       "blocks": {
-        "heading_YtHAgY": {
-          "type": "heading",
-          "settings": {
-            "title": "ADS",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-3"
-          }
-        },
         "heading_NCer4d": {
           "type": "heading",
           "settings": {
-            "title": "& CAMPAIGN",
+            "title": "CAMPAIGNS",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-display-3"
           }
         }
       },
       "block_order": [
-        "heading_YtHAgY",
         "heading_NCer4d"
       ],
       "custom_css": [
