@@ -68,6 +68,15 @@
     "rich_text_fcrnk9": {
       "type": "rich-text",
       "blocks": {
+        "subheading_CEkUiP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "A CURATED SELECTION",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
         "spacer_Vw9rLL": {
           "type": "spacer",
           "settings": {
@@ -76,6 +85,7 @@
         }
       },
       "block_order": [
+        "subheading_CEkUiP",
         "spacer_Vw9rLL"
       ],
       "custom_css": [
