@@ -63,7 +63,7 @@
         "enable_product_lightbox": true,
         "container_width": 500,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only"
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "main": {
