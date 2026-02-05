@@ -84,17 +84,29 @@
         "section_padding": "section--vertical-padding-top-only"
       }
     },
-    "multi_column_MnBzM4": {
+    "rich_text_kc4Hd6": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom"
+      }
+    },
+    "multi_column_eE6wGe": {
       "type": "multi-column",
       "blocks": {
-        "column_4WcWNg": {
+        "column_bCmi4y": {
           "type": "column",
           "settings": {
-            "accent": "",
-            "heading": "HANDMADE IN JAPAN",
+            "accent": "HANDMADE IN JAPAN",
+            "heading": "",
             "heading_tag": "h6",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><em>Master craftsmanship & precision finishing</em></p>",
+            "text": "<p>Master craftsmanship & precision finishing</p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "shopify://pages/craftmanship",
@@ -102,14 +114,14 @@
             "button_style": "btn--callout"
           }
         },
-        "column_3Xk7nG": {
+        "column_w8BGxk": {
           "type": "column",
           "settings": {
-            "accent": "",
-            "heading": "LIFETIME WARRANTY",
+            "accent": "LIFETIME WARRANTY",
+            "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><em>Crafted to endure, guaranteed for life</em></p>",
+            "text": "<p>Crafted to endure, guaranteed for life</p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "shopify://pages/warranty",
@@ -117,26 +129,26 @@
             "button_style": "btn--callout"
           }
         },
-        "column_QYfnGF": {
+        "column_grdPzV": {
           "type": "column",
           "settings": {
-            "accent": "",
-            "heading": "EXPRESS DELIVERY",
+            "accent": "EXPRESS FREE DELIVERY",
+            "heading": "",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p><em>Worldwide, signature-required delivery</em></p>",
+            "text": "<p>Worldwide, signature-required delivery</p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "shopify://pages/shipping-delivery",
-            "link_text": "MORE INFORMATIONS",
+            "link_text": "COMPLIMENTARY SHIPPING",
             "button_style": "btn--callout"
           }
         }
       },
       "block_order": [
-        "column_4WcWNg",
-        "column_3Xk7nG",
-        "column_QYfnGF"
+        "column_bCmi4y",
+        "column_w8BGxk",
+        "column_grdPzV"
       ],
       "custom_css": [
         "{--max-width: 70rem;}"
@@ -166,7 +178,7 @@
         "button_text_color": "#ffffff",
         "enable_animation": false,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
+        "section_padding": "section--vertical-padding-bottom-only",
         "css_class": ""
       }
     }
@@ -175,6 +187,7 @@
     "rich_text_XnYqK7",
     "product-grid",
     "banner",
-    "multi_column_MnBzM4"
+    "rich_text_kc4Hd6",
+    "multi_column_eE6wGe"
   ]
 }
