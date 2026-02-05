@@ -71,7 +71,7 @@
         "subheading_CEkUiP": {
           "type": "subheading",
           "settings": {
-            "subheading": "A CURATED SELECTION",
+            "subheading": "A COMMITMENT TO TRUE LUXURY",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-5-base",
             "set_to_italic": false
@@ -80,9 +80,9 @@
         "text_FLhijE": {
           "type": "text",
           "settings": {
-            "text": "<p>A Commitment to True Luxury</p>",
-            "text_font_class": "fs-body-100",
-            "set_to_italic": false
+            "text": "<p><em>A word about our quality: each frame is handmade in Japan with exceptional attention to detail. Our eyewear construction uses Japanese titanium, known for its strength, extreme durability, and hypoallergenic properties, finished with 0.5-micron gold plating.</em></p><p><em>Our acetate is sourced exclusively from Takiron in Japan. With up to 40% less humidity than traditional Italian acetate, it offers superior stability, durability, and a refined finish over time.</em></p><p><em>All L’Écurie Paris eyewear is produced in limited editions of 400 pieces per style. Each frame goes through multiple sampling stages to ensure exceptional fit and a flawless final product.<br/><br/>Each piece in our collection is a design statement—never mass-produced, never ordinary.</em></p><p><em><strong>Welcome to L’Écurie Paris.</strong></em></p>",
+            "text_font_class": "fs-body-200",
+            "set_to_italic": true
           }
         },
         "spacer_Vw9rLL": {
