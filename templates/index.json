@@ -157,7 +157,7 @@
         "maximum_collections": 3,
         "columns": "3",
         "mobile_columns": "3",
-        "enable_animation": false,
+        "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only"
       }
@@ -735,6 +735,18 @@
         "css_class": ""
       }
     },
+    "rich_text_9chxTF": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "",
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom"
+      }
+    },
     "multi_column_bDUJMt": {
       "type": "multi-column",
       "blocks": {
@@ -837,6 +849,7 @@
     "image_with_text_split_M88GGJ",
     "rich_text_gcCVEU",
     "multi_column_z4EQKz",
+    "rich_text_9chxTF",
     "multi_column_bDUJMt"
   ]
 }
