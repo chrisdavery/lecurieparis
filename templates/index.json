@@ -115,7 +115,7 @@
         "spacer_7fAJJq"
       ],
       "custom_css": [
-        "{--max-width: 850px !important;}"
+        "{--max-width: 900px !important;}"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
