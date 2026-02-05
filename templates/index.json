@@ -354,7 +354,7 @@
         "button_mUjAth": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/designer-glasses",
+            "link": "shopify://collections/designerprescriptionglasses",
             "link_text": "Shop the Collection",
             "button_style": "btn--callout"
           }
