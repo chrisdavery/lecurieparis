@@ -88,7 +88,7 @@
         "button_BmYEYk": {
           "type": "button",
           "settings": {
-            "link": "shopify://pages/boutique",
+            "link": "shopify://pages/store-locator-1",
             "link_text": "Available at select, top-tier luxury eyewear retailers.",
             "button_style": "btn--callout"
           }
