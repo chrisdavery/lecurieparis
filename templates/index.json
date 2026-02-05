@@ -599,21 +599,12 @@
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
-        },
-        "button_7KPp7d": {
-          "type": "button",
-          "settings": {
-            "link": "shopify://pages/a-design-story",
-            "link_text": "Read more",
-            "button_style": "btn--callout"
-          }
         }
       },
       "block_order": [
         "spacer_GRyLLC",
         "subheading_4Vn7gy",
-        "text_m6nXtL",
-        "button_7KPp7d"
+        "text_m6nXtL"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -638,7 +629,7 @@
             "focal_point": "image_presentation",
             "image_position": "above_text",
             "image_link": "shopify://pages/a-design-story",
-            "small_caption": "",
+            "small_caption": "DESIGN STORY",
             "accent": "",
             "heading": "",
             "heading_tag": "h3",
@@ -660,8 +651,8 @@
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
             "image_position": "above_text",
-            "image_link": "shopify://pages/a-design-story",
-            "small_caption": "",
+            "image_link": "shopify://pages/craftmanship",
+            "small_caption": "CRAFTMANSHIP",
             "accent": "",
             "heading": "",
             "heading_tag": "h3",
@@ -683,8 +674,8 @@
             "enable_image_crop_circle": false,
             "focal_point": "image_presentation",
             "image_position": "above_text",
-            "image_link": "shopify://pages/a-design-story",
-            "small_caption": "",
+            "image_link": "shopify://pages/inspiration",
+            "small_caption": "INSPIRATION",
             "accent": "",
             "heading": "",
             "heading_tag": "h3",
@@ -718,7 +709,7 @@
         "columns": "3",
         "column_spacing": 16,
         "row_spacing": 16,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "enable_slider_mobile": false,
         "columns_mobile": "3",
         "column_spacing_mobile": 20,
