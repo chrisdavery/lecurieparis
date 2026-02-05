@@ -370,7 +370,7 @@
       ],
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
-        "section_link": "shopify://collections/designereyeglasses",
+        "section_link": "shopify://collections/designer-eyeglasses",
         "image_position": "right",
         "image_mobile_position": "above-content",
         "image_padding": "none",
