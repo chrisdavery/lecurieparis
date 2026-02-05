@@ -62,7 +62,7 @@
         "overlay_opacity": 0,
         "enable_animation": false,
         "full_width": false,
-        "section_padding": "section--vertical-padding-bottom-only"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "rich_text_fcrnk9": {
