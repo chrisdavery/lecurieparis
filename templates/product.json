@@ -341,25 +341,10 @@
         "custom_content_width": 650
       }
     },
-    "multi_column_7f8TPA": {
+    "multi_column_f7BewE": {
       "type": "multi-column",
       "blocks": {
-        "column_PrRDMh": {
-          "type": "column",
-          "settings": {
-            "accent": "HANDMADE IN JAPAN",
-            "heading": "",
-            "heading_tag": "h6",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Master craftsmanship & precision finishing</p>",
-            "text_font_class": "fs-body-75",
-            "text_max_width": 100,
-            "link": "shopify://pages/craftmanship",
-            "link_text": "CRAFTSMANSHIP",
-            "button_style": "btn--callout"
-          }
-        },
-        "column_PxXiTi": {
+        "column_z7XVki": {
           "type": "column",
           "settings": {
             "accent": "LIFETIME WARRANTY",
@@ -374,7 +359,22 @@
             "button_style": "btn--callout"
           }
         },
-        "column_wiHnY7": {
+        "column_GznGCA": {
+          "type": "column",
+          "settings": {
+            "accent": "30 Days Return",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free Return for US Customer within 30 days</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "shopify://pages/hassle-free-exchange-returns",
+            "link_text": "RETURNS & EXCHANGES",
+            "button_style": "btn--callout"
+          }
+        },
+        "column_RgdieY": {
           "type": "column",
           "settings": {
             "accent": "EXPRESS FREE DELIVERY",
@@ -391,9 +391,9 @@
         }
       },
       "block_order": [
-        "column_PrRDMh",
-        "column_PxXiTi",
-        "column_wiHnY7"
+        "column_z7XVki",
+        "column_GznGCA",
+        "column_RgdieY"
       ],
       "custom_css": [
         "{--max-width: 70rem;}"
@@ -434,6 +434,6 @@
     "main",
     "rich_text_KzFnkD",
     "collapsible_row_list_acnmRa",
-    "multi_column_7f8TPA"
+    "multi_column_f7BewE"
   ]
 }

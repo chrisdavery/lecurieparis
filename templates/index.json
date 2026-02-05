@@ -765,6 +765,21 @@
             "button_style": "btn--callout"
           }
         },
+        "column_AHFdj8": {
+          "type": "column",
+          "settings": {
+            "accent": "30 Days Return",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free Return for US Customer within 30 days</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "shopify://pages/hassle-free-exchange-returns",
+            "link_text": "RETURNS & EXCHANGES",
+            "button_style": "btn--callout"
+          }
+        },
         "column_aVxMnN": {
           "type": "column",
           "settings": {
@@ -783,6 +798,7 @@
       },
       "block_order": [
         "column_qUCLRG",
+        "column_AHFdj8",
         "column_aVxMnN"
       ],
       "custom_css": [
@@ -797,7 +813,7 @@
         "heading_alignment": "center",
         "content_vertical_alignment": "center",
         "content_background_padding": "medium",
-        "columns": "2",
+        "columns": "3",
         "column_spacing": 28,
         "row_spacing": 28,
         "column_alignment": "center",

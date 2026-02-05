@@ -96,25 +96,10 @@
         "content_width": "custom"
       }
     },
-    "multi_column_eE6wGe": {
+    "multi_column_YfTKQd": {
       "type": "multi-column",
       "blocks": {
-        "column_bCmi4y": {
-          "type": "column",
-          "settings": {
-            "accent": "HANDMADE IN JAPAN",
-            "heading": "",
-            "heading_tag": "h6",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Master craftsmanship & precision finishing</p>",
-            "text_font_class": "fs-body-75",
-            "text_max_width": 100,
-            "link": "shopify://pages/craftmanship",
-            "link_text": "CRAFTSMANSHIP",
-            "button_style": "btn--callout"
-          }
-        },
-        "column_w8BGxk": {
+        "column_hgadqn": {
           "type": "column",
           "settings": {
             "accent": "LIFETIME WARRANTY",
@@ -129,7 +114,22 @@
             "button_style": "btn--callout"
           }
         },
-        "column_grdPzV": {
+        "column_NtJiw9": {
+          "type": "column",
+          "settings": {
+            "accent": "30 Days Return",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free Return for US Customer within 30 days</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "shopify://pages/hassle-free-exchange-returns",
+            "link_text": "RETURNS & EXCHANGES",
+            "button_style": "btn--callout"
+          }
+        },
+        "column_MLiReb": {
           "type": "column",
           "settings": {
             "accent": "EXPRESS FREE DELIVERY",
@@ -146,9 +146,9 @@
         }
       },
       "block_order": [
-        "column_bCmi4y",
-        "column_w8BGxk",
-        "column_grdPzV"
+        "column_hgadqn",
+        "column_NtJiw9",
+        "column_MLiReb"
       ],
       "custom_css": [
         "{--max-width: 70rem;}"
@@ -188,6 +188,6 @@
     "product-grid",
     "banner",
     "rich_text_kc4Hd6",
-    "multi_column_eE6wGe"
+    "multi_column_YfTKQd"
   ]
 }
