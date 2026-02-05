@@ -750,21 +750,6 @@
     "multi_column_bDUJMt": {
       "type": "multi-column",
       "blocks": {
-        "column_XTXY7y": {
-          "type": "column",
-          "settings": {
-            "accent": "HANDMADE IN JAPAN",
-            "heading": "",
-            "heading_tag": "h6",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Master craftsmanship & precision finishing</p>",
-            "text_font_class": "fs-body-75",
-            "text_max_width": 100,
-            "link": "shopify://pages/craftmanship",
-            "link_text": "CRAFTSMANSHIP",
-            "button_style": "btn--callout"
-          }
-        },
         "column_qUCLRG": {
           "type": "column",
           "settings": {
@@ -797,7 +782,6 @@
         }
       },
       "block_order": [
-        "column_XTXY7y",
         "column_qUCLRG",
         "column_aVxMnN"
       ],
@@ -813,7 +797,7 @@
         "heading_alignment": "center",
         "content_vertical_alignment": "center",
         "content_background_padding": "medium",
-        "columns": "3",
+        "columns": "2",
         "column_spacing": 28,
         "row_spacing": 28,
         "column_alignment": "center",
