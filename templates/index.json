@@ -257,7 +257,7 @@
           "type": "button",
           "settings": {
             "link": "shopify://collections/designersunglasses",
-            "link_text": "Shop the collection",
+            "link_text": "Shop the Collection",
             "button_style": "btn--callout"
           }
         }
@@ -306,10 +306,19 @@
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-display-3"
           }
+        },
+        "button_mUjAth": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/designer-glasses",
+            "link_text": "Shop the Collection",
+            "button_style": "btn--callout"
+          }
         }
       },
       "block_order": [
-        "heading_NW9Dyq"
+        "heading_NW9Dyq",
+        "button_mUjAth"
       ],
       "custom_css": [
         "h2 {display: block; font-size: 32px;}",
@@ -334,121 +343,10 @@
         "content_alignment": "center",
         "background_color": "#591817",
         "text_color": "#ffffff",
-        "button_background_color": "#000000",
+        "button_background_color": "#ffffff",
         "button_text_color": "#ffffff",
         "enable_animation": false,
         "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "multi_column_z4EQKz": {
-      "type": "multi-column",
-      "blocks": {
-        "image_column_G3i3QF": {
-          "type": "image_column",
-          "settings": {
-            "image": "shopify://shop_images/insta1.jpg",
-            "image_width": 100,
-            "aspect_ratio": "natural",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
-          }
-        },
-        "image_column_d9NYNh": {
-          "type": "image_column",
-          "settings": {
-            "image": "shopify://shop_images/insta2.jpg",
-            "image_width": 100,
-            "aspect_ratio": "natural",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
-          }
-        },
-        "image_column_TGViDj": {
-          "type": "image_column",
-          "settings": {
-            "image": "shopify://shop_images/insta3.jpg",
-            "image_width": 100,
-            "aspect_ratio": "natural",
-            "enable_image_crop_circle": false,
-            "focal_point": "image_presentation",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "",
-            "heading": "",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "image_column_G3i3QF",
-        "image_column_d9NYNh",
-        "image_column_TGViDj"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".multi-column__inner {padding-top: 0; padding-bottom: var(--spacing-10);}"
-      ],
-      "name": "t:sections.multi_column.presets.name",
-      "settings": {
-        "title": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "heading_font_class": "fs-heading-2-base",
-        "heading_alignment": "center",
-        "content_vertical_alignment": "center",
-        "content_background_padding": "medium",
-        "columns": "3",
-        "column_spacing": 16,
-        "row_spacing": 16,
-        "column_alignment": "left",
-        "enable_slider_mobile": false,
-        "columns_mobile": "3",
-        "column_spacing_mobile": 20,
-        "row_spacing_mobile": 20,
-        "column_alignment_mobile": "left",
-        "background_behind_columns": false,
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": false,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-only",
-        "css_class": ""
       }
     },
     "rich_text_bKi9BR": {
@@ -505,8 +403,64 @@
         "content_width": "custom"
       }
     },
+    "image_with_text_split_MBjAwP": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "heading_BtWEJ4": {
+          "type": "heading",
+          "settings": {
+            "title": "EVENT",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "heading_yAfT7p": {
+          "type": "heading",
+          "settings": {
+            "title": "& MEDIA",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BtWEJ4",
+        "heading_yAfT7p"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {display: block; font-size: 32px;}",
+        ".image-with-text-split {padding-bottom: 0;}",
+        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "section_link": "shopify://blogs/news",
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/INSTA-COUNTRY-SIDE-VERTICAL-2.jpg",
+        "aspect_ratio": "natural",
+        "text_below_image": false,
+        "title": "Image with text split",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "left",
+        "below_background_color": "#611014",
+        "below_text_color": "#ffffff",
+        "focal_point": "image_presentation",
+        "content_alignment": "center",
+        "background_color": "#611114",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "image_hero_qQM6C3": {
       "type": "image-hero",
+      "disabled": true,
       "custom_css": [
         "section {padding-top: 0; padding-bottom: 0;}"
       ],
@@ -549,6 +503,7 @@
       "block_order": [
         "heading_kbEbwK"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text {padding-block: 0;}",
         ".rich-text__inner {background-color: #8a281b; color: white; text-align: center; padding: 100px 0;}",
@@ -558,29 +513,6 @@
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "section_link": "shopify://pages/a-design-story",
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only",
-        "content_width": "custom"
-      }
-    },
-    "rich_text_gcCVEU": {
-      "type": "rich-text",
-      "blocks": {
-        "spacer_GRyLLC": {
-          "type": "spacer",
-          "settings": {
-            "space": 20
-          }
-        }
-      },
-      "block_order": [
-        "spacer_GRyLLC"
-      ],
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "section_link": "shopify://pages/la-maison-lecurie-paris",
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
@@ -623,8 +555,8 @@
         "image_position": "left",
         "image_mobile_position": "above-content",
         "image_padding": "none",
-        "image": "shopify://shop_images/LOVE.jpg",
-        "aspect_ratio": "natural",
+        "image": "shopify://shop_images/Papillon_78c1299a-ff01-485d-a7dd-f9e0257313e9.jpg",
+        "aspect_ratio": "square",
         "text_below_image": false,
         "title": "Image with text split",
         "heading_tag": "h2",
@@ -642,58 +574,156 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "image_with_text_split_MBjAwP": {
-      "type": "image-with-text-split",
+    "rich_text_gcCVEU": {
+      "type": "rich-text",
       "blocks": {
-        "heading_BtWEJ4": {
-          "type": "heading",
+        "spacer_GRyLLC": {
+          "type": "spacer",
           "settings": {
-            "title": "EVENT",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-3"
+            "space": 52
           }
         },
-        "heading_yAfT7p": {
-          "type": "heading",
+        "subheading_4Vn7gy": {
+          "type": "subheading",
           "settings": {
-            "title": "& MEDIA",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-3"
+            "subheading": "ABOUT US",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "set_to_italic": false
+          }
+        },
+        "text_m6nXtL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Story, Our Inspiration, Our Commitment</p>",
+            "text_font_class": "fs-body-100",
+            "set_to_italic": false
           }
         }
       },
       "block_order": [
-        "heading_BtWEJ4",
-        "heading_yAfT7p"
+        "spacer_GRyLLC",
+        "subheading_4Vn7gy",
+        "text_m6nXtL"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "section_link": "shopify://pages/la-maison-lecurie-paris",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom"
+      }
+    },
+    "multi_column_z4EQKz": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_G3i3QF": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/insta1.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "shopify://pages/a-design-story",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_d9NYNh": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/insta2.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "shopify://pages/a-design-story",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_TGViDj": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/insta3.jpg",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "shopify://pages/a-design-story",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_G3i3QF",
+        "image_column_d9NYNh",
+        "image_column_TGViDj"
       ],
       "custom_css": [
-        "h2 {display: block; font-size: 32px;}",
-        ".image-with-text-split {padding-bottom: 0;}",
-        "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
+        ".multi-column__inner {padding-top: 0; padding-bottom: var(--spacing-10);}"
       ],
-      "name": "t:sections.image_with_text_split.presets.name",
+      "name": "t:sections.multi_column.presets.name",
       "settings": {
-        "section_link": "shopify://blogs/news",
-        "image_position": "right",
-        "image_mobile_position": "above-content",
-        "image_padding": "none",
-        "image": "shopify://shop_images/INSTA-COUNTRY-SIDE-VERTICAL-2.jpg",
-        "aspect_ratio": "natural",
-        "text_below_image": false,
-        "title": "Image with text split",
+        "title": "",
         "heading_tag": "h2",
-        "heading_font_class": "fs-heading-1-base",
-        "heading_alignment": "left",
-        "below_background_color": "#611014",
-        "below_text_color": "#ffffff",
-        "focal_point": "image_presentation",
-        "content_alignment": "center",
-        "background_color": "#611114",
-        "text_color": "#ffffff",
+        "subheading": "",
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 16,
+        "row_spacing": 16,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "3",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "enable_animation": false,
-        "section_padding": "section--vertical-padding-top-bottom"
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "css_class": ""
       }
     }
   },
@@ -705,12 +735,12 @@
     "rich_text_Ke8wJd",
     "image_with_text_split_xhGDwL",
     "image_with_text_split_rhTwye",
-    "multi_column_z4EQKz",
     "rich_text_bKi9BR",
+    "image_with_text_split_MBjAwP",
     "image_hero_qQM6C3",
     "rich_text_JC7bfw",
-    "rich_text_gcCVEU",
     "image_with_text_split_M88GGJ",
-    "image_with_text_split_MBjAwP"
+    "rich_text_gcCVEU",
+    "multi_column_z4EQKz"
   ]
 }
