@@ -599,12 +599,21 @@
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
+        },
+        "button_7KPp7d": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/a-design-story",
+            "link_text": "Read more",
+            "button_style": "btn--callout"
+          }
         }
       },
       "block_order": [
         "spacer_GRyLLC",
         "subheading_4Vn7gy",
-        "text_m6nXtL"
+        "text_m6nXtL",
+        "button_7KPp7d"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
