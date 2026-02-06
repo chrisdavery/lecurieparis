@@ -39,6 +39,9 @@
 <div
   class="
     image-hero
+    {% if section.settings.include_header_height == true %}
+      image-hero--include-header 
+    {% endif %}
     image-hero--image-aspect-{{ section.settings.image_aspect }}
     image-hero--text-{{ text_position_modifier }}
     image-hero--text-mobile-{{ text_position_modifier_mobile }}
@@ -202,6 +205,13 @@
       { "value": "custom", "label": "t:sections.image_hero.settings.image_aspect.option_custom" }
       ],
       "default": "custom"
+    },
+    {
+      "type": "checkbox",
+      "id": "include_header_height",
+      "label": "Include header height",
+      "default": true,
+      "visible_if": "{{ section.settings.image_aspect == 'custom' }}"
     },
     {
       "type": "range",

@@ -1075,6 +1075,10 @@ header nav a.active {
         padding-left: 0;
         padding-right: var(--spacing-16);
     }
+
+    .image-hero.image-hero--include-header.image-hero--image-aspect-custom .image-hero__text-container-wrapper, .image-hero.image-hero--include-header.image-hero--image-aspect-custom .image-hero__image-container {
+        min-height: calc(var(--custom-height) - var(--height-header));
+    }
 }
 
 @media (max-width: 719px) {

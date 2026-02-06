@@ -40,11 +40,12 @@
         "button_xxxRPx"
       ],
       "custom_css": [
-        "section {padding-top: 0; padding-bottom: 0;}"
+        ".section--full-width {padding-right: var(--space-outer); padding-left: var(--space-outer);}"
       ],
       "name": "t:sections.image_hero.presets.name",
       "settings": {
-        "image_aspect": "original",
+        "image_aspect": "custom",
+        "include_header_height": true,
         "desktop_height": 100,
         "mobile_height": 80,
         "image": "shopify://shop_images/L_ECURIE-PORTS-INTERNET-hd3-copy.jpg",
@@ -61,7 +62,7 @@
         "color_overlay_gradient": "",
         "overlay_opacity": 0,
         "enable_animation": false,
-        "full_width": false,
+        "full_width": true,
         "section_padding": "section--vertical-padding-none"
       }
     },
@@ -511,6 +512,7 @@
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "custom",
+        "include_header_height": false,
         "desktop_height": 80,
         "mobile_height": 70,
         "image": "shopify://shop_images/ORIGIN_6e16d60d-f0bd-467f-94a2-4c926f1d179e.jpg",
