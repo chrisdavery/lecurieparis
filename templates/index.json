@@ -300,6 +300,7 @@
         },
         "button_zchq3B": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link": "shopify://collections/designersunglasses",
             "link_text": "Shop the Collection",
@@ -354,6 +355,7 @@
         },
         "button_mUjAth": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link": "shopify://collections/designerprescriptionglasses",
             "link_text": "Shop the Collection",
@@ -549,6 +551,7 @@
         },
         "button_JMKzkX": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link": "shopify://pages/lp-campaign-2025",
             "link_text": "See more",
