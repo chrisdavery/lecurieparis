@@ -1077,7 +1077,7 @@ header nav a.active {
     }
 
     .image-hero.image-hero--include-header.image-hero--image-aspect-custom .image-hero__text-container-wrapper, .image-hero.image-hero--include-header.image-hero--image-aspect-custom .image-hero__image-container {
-        min-height: calc(var(--custom-height) - var(--height-header));
+        min-height: calc(var(--custom-height) - var(--height-header) - 40px);
     }
 }
 
