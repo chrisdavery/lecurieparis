@@ -691,7 +691,7 @@
         "image_column_d9NYNh": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/lens1.jpg",
+            "image": "shopify://shop_images/lecurieparis-manufacturing-japan1-1.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
@@ -714,7 +714,7 @@
         "image_column_TGViDj": {
           "type": "image_column",
           "settings": {
-            "image": "shopify://shop_images/01-2.jpg",
+            "image": "shopify://shop_images/BB-2.jpg",
             "image_width": 100,
             "aspect_ratio": "portrait",
             "enable_image_crop_circle": false,
