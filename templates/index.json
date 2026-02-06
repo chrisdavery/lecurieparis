@@ -536,35 +536,6 @@
         "content_width": "custom"
       }
     },
-    "image_hero_qQM6C3": {
-      "type": "image-hero",
-      "custom_css": [
-        "section {padding-top: 0; padding-bottom: 0;}"
-      ],
-      "name": "t:sections.image_hero.presets.name",
-      "settings": {
-        "image_aspect": "custom",
-        "include_header_height": false,
-        "desktop_height": 80,
-        "mobile_height": 70,
-        "image": "shopify://shop_images/ORIGIN_6e16d60d-f0bd-467f-94a2-4c926f1d179e.jpg",
-        "image_mobile": "shopify://shop_images/ORIGIN1.jpg",
-        "focal_point": "center",
-        "mobile_focal_point": "image_presentation",
-        "media_link": "shopify://pages/a-design-story",
-        "text_position": "center_flex-end",
-        "text_position_mobile": "center_flex-end",
-        "text_color": "#ffffff",
-        "button_background_color": "#ffffff",
-        "button_text_color": "#000000",
-        "color_overlay": "#000000",
-        "color_overlay_gradient": "",
-        "overlay_opacity": 0,
-        "enable_animation": false,
-        "full_width": false,
-        "section_padding": "section--vertical-padding-bottom-only"
-      }
-    },
     "image_with_text_split_M88GGJ": {
       "type": "image-with-text-split",
       "blocks": {
@@ -640,7 +611,7 @@
         "text_m6nXtL": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Story, Our Inspiration, Our Commitment.</p>",
+            "text": "<p>Our Story, Our Heritage, Our Inspiration, Our Commitment.</p>",
             "text_font_class": "fs-body-100",
             "set_to_italic": false
           }
@@ -659,6 +630,35 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-bottom-only",
         "content_width": "custom"
+      }
+    },
+    "image_hero_qQM6C3": {
+      "type": "image-hero",
+      "custom_css": [
+        "section {padding-top: 0; padding-bottom: 0;}"
+      ],
+      "name": "t:sections.image_hero.presets.name",
+      "settings": {
+        "image_aspect": "custom",
+        "include_header_height": false,
+        "desktop_height": 80,
+        "mobile_height": 70,
+        "image": "shopify://shop_images/ORIGIN_6e16d60d-f0bd-467f-94a2-4c926f1d179e.jpg",
+        "image_mobile": "shopify://shop_images/ORIGIN1.jpg",
+        "focal_point": "center",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "shopify://pages/a-design-story",
+        "text_position": "center_flex-end",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-bottom-only"
       }
     },
     "multi_column_z4EQKz": {
