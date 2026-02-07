@@ -859,6 +859,13 @@ header nav a.active {
     flex-direction: column;
 }
 
+.usp-cart-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--spacing-3);
+}
+
 @media (min-width: 960px) {
     .large-up-hide {
         display: none !important;

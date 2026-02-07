@@ -153,6 +153,7 @@
       "custom_css": [
         ".product-item__price {display: none;}",
         ".product-item__product-title {margin: 0;}",
+        " {--max-width: 100% !important;}",
         ".featured-collection-grid {padding-block: 0;}",
         "@media ) {.featured-collection-grid__product {width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); max-width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); } h4 {font-family: helvetica; font-size: 16px; }}"
       ],
@@ -188,6 +189,7 @@
       "custom_css": [
         ".product-item__price {display: none;}",
         ".product-item__product-title {margin: 0;}",
+        "{--max-width: 100% !important;}",
         ".featured-collection-grid {padding-block: 0;}",
         "@media ) {.featured-collection-grid__product {width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); max-width: calc(33.33% - calc(var(--spacing-4) + 1px) * 2 / 3); } h4 {font-family: helvetica; font-size: 16px; }}"
       ],
@@ -300,7 +302,6 @@
         },
         "button_zchq3B": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "link": "shopify://collections/designersunglasses",
             "link_text": "Shop the Collection",
@@ -314,7 +315,7 @@
       ],
       "custom_css": [
         "h2 {display: block; font-size: 32px;}",
-        ".image-with-text-split {padding-top: 0; padding-bottom: 0;}",
+        ".image-with-text-split {padding-top: 0; padding-bottom: 0; padding-right: var(--space-outer); padding-left: var(--space-outer); max-width: 100%;}",
         "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
@@ -355,7 +356,6 @@
         },
         "button_mUjAth": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "link": "shopify://collections/designerprescriptionglasses",
             "link_text": "Shop the Collection",
@@ -369,6 +369,7 @@
       ],
       "custom_css": [
         "h2 {display: block; font-size: 32px;}",
+        ".image-with-text-split {padding-right: var(--space-outer); padding-left: var(--space-outer); max-width: 100%;}",
         "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
@@ -551,7 +552,6 @@
         },
         "button_JMKzkX": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "link": "shopify://pages/lp-campaign-2025",
             "link_text": "See more",
@@ -565,7 +565,7 @@
       ],
       "custom_css": [
         "h2 {display: block; font-size: 32px;}",
-        ".image-with-text-split {padding-top: 0; padding-bottom: 0;}",
+        ".image-with-text-split {padding-top: 0; padding-bottom: 0; padding-right: var(--space-outer); padding-left: var(--space-outer); max-width: 100%;}",
         "@media (max-width: 959px) {h2 {display: block; font-size: 24px; }}"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
@@ -638,7 +638,7 @@
     "image_hero_qQM6C3": {
       "type": "image-hero",
       "custom_css": [
-        "section {padding-top: 0; padding-bottom: 0;}"
+        ".section--full-width {padding-right: var(--space-outer); padding-left: var(--space-outer);}"
       ],
       "name": "t:sections.image_hero.presets.name",
       "settings": {
@@ -660,7 +660,7 @@
         "color_overlay_gradient": "",
         "overlay_opacity": 0,
         "enable_animation": false,
-        "full_width": false,
+        "full_width": true,
         "section_padding": "section--vertical-padding-bottom-only"
       }
     },
@@ -743,7 +743,7 @@
         "image_column_TGViDj"
       ],
       "custom_css": [
-        ".multi-column__inner {padding-top: 0; padding-bottom: var(--spacing-10);}"
+        ".multi-column__inner {padding-top: 0; padding-bottom: var(--spacing-10); max-width: 100%;}"
       ],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
@@ -840,9 +840,7 @@
         "column_AHFdj8",
         "column_aVxMnN"
       ],
-      "custom_css": [
-        "{--max-width: 70rem;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.multi_column.presets.name",
       "settings": {
         "title": "",
